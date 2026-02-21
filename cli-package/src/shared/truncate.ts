@@ -1,19 +1,19 @@
 import type { DecodeResponse, EncodeResponse } from './types';
 
-const JOIN39_CHAR_LIMIT = 2000;
+const RESPONSE_CHAR_LIMIT = 2000;
 
 type TruncatableResponse = DecodeResponse | EncodeResponse;
 
 /**
- * Progressive truncation for Join39 2000-char compliance:
+ * Progressive response truncation to stay under 2000 chars:
  * 1. Shorten descriptions to first sentence
  * 2. Drop descriptions entirely
  * 3. Trim results array
  */
-export function truncateForJoin39<T extends TruncatableResponse>(response: T): T {
+export function truncateResponse<T extends TruncatableResponse>(response: T): T {
   let json = JSON.stringify(response);
 
-  if (json.length <= JOIN39_CHAR_LIMIT) {
+  if (json.length <= RESPONSE_CHAR_LIMIT) {
     return response;
   }
 
@@ -28,7 +28,7 @@ export function truncateForJoin39<T extends TruncatableResponse>(response: T): T
   };
 
   json = JSON.stringify(shortened);
-  if (json.length <= JOIN39_CHAR_LIMIT) {
+  if (json.length <= RESPONSE_CHAR_LIMIT) {
     return shortened;
   }
 
@@ -42,7 +42,7 @@ export function truncateForJoin39<T extends TruncatableResponse>(response: T): T
   };
 
   json = JSON.stringify(noDesc);
-  if (json.length <= JOIN39_CHAR_LIMIT) {
+  if (json.length <= RESPONSE_CHAR_LIMIT) {
     return noDesc;
   }
 
@@ -50,7 +50,7 @@ export function truncateForJoin39<T extends TruncatableResponse>(response: T): T
   const trimmed = { ...noDesc };
   while (
     trimmed.results.length > 0 &&
-    JSON.stringify(trimmed).length > JOIN39_CHAR_LIMIT
+    JSON.stringify(trimmed).length > RESPONSE_CHAR_LIMIT
   ) {
     trimmed.results = trimmed.results.slice(0, -1);
   }

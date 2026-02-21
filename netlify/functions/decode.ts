@@ -1,5 +1,5 @@
 import { decode } from '../../src/shared/decoder';
-import { truncateForJoin39 } from '../../src/shared/truncate';
+import { truncateResponse } from '../../src/shared/truncate';
 import type { DecodeRequest } from '../../src/shared/types';
 
 const CORS_HEADERS = {
@@ -68,7 +68,7 @@ export default async function handler(
     }
 
     const result = decode(params);
-    const truncated = truncateForJoin39(result);
+    const truncated = truncateResponse(result);
 
     return jsonResponse(truncated);
   } catch {

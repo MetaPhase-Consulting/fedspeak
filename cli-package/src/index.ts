@@ -3,7 +3,7 @@
 
 export { lookupAcronym, scanText, decode, getAllAcronyms, getAcronymCount } from './shared/decoder';
 export { lookupName, scanTextForNames, encode } from './shared/encoder';
-export { truncateForJoin39 } from './shared/truncate';
+export { truncateResponse } from './shared/truncate';
 export type {
   AcronymCategory,
   AcronymEntry,
