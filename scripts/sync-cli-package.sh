@@ -15,7 +15,8 @@ cp "$ROOT_DIR/src/shared/encoder.ts" "$ROOT_DIR/cli-package/src/shared/"
 cp "$ROOT_DIR/src/shared/truncate.ts" "$ROOT_DIR/cli-package/src/shared/"
 cp "$ROOT_DIR/src/shared/data/acronyms.json" "$ROOT_DIR/cli-package/src/shared/data/"
 
-# Copy license
+# Copy license and README
 cp "$ROOT_DIR/LICENSE" "$ROOT_DIR/cli-package/"
+cp "$ROOT_DIR/README.md" "$ROOT_DIR/cli-package/"
 
 echo "Sync complete. Run 'cd cli-package && npx tsc' to build."
