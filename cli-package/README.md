@@ -9,7 +9,7 @@
 
 **Federal Acronym Decoder** — Decode and encode U.S. government acronyms from text or single lookups.
 
-FedSpeak is a REST API, interactive website, and npm package that expands **1,069 federal government acronyms** with full names, descriptions, agency context, and category classifications.
+FedSpeak is a REST API, interactive website, and npm package that expands **1,119 federal government acronyms** with full names, descriptions, agency context, and category classifications.
 
 **Website:** [fedspeak.dev](https://fedspeak.dev)
 
@@ -18,10 +18,9 @@ FedSpeak is a REST API, interactive website, and npm package that expands **1,06
 - **Decode** — Send any acronym, get the full expansion with description, agency, and category
 - **Encode** — Send a full name, get the acronym back
 - **Text Scanning** — Paste a block of text, FedSpeak finds and decodes every recognized acronym
-- **1,069 Acronyms** — Departments, agencies, cybersecurity, NIST, CMMC, procurement, contract vehicles, legislation, and more
+- **1,119 Acronyms** — Departments, agencies, cybersecurity, NIST, CMMC, procurement, contract vehicles, legislation, and more
 - **REST API** — GET and POST support, JSON responses, CORS enabled
 - **npm Package** — Use the decoder directly in your Node.js projects
-- **Join39 Ready** — Built for the Join39 Agent Store with automatic 2000-char response truncation
 - **Interactive Demo** — Try it live at [fedspeak.dev](https://fedspeak.dev)
 
 ## Quick Start
@@ -152,7 +151,7 @@ GET  /api/encode?text=The+Department+of+Defense+is+working+with...
 | `encode(request)` | Full encode with response envelope (`{ name }` or `{ text }`) |
 | `getAllAcronyms()` | Get sorted array of all acronym keys |
 | `getAcronymCount()` | Get total number of acronyms in the database |
-| `truncateForJoin39(response)` | Truncate response to fit Join39 2000-char limit |
+| `truncateResponse(response)` | Truncate response to fit 2000-char limit |
 
 ### TypeScript Types
 
@@ -172,7 +171,7 @@ import type {
 
 ## Acronym Coverage
 
-1,069 entries across these categories:
+1,119 entries across these categories:
 
 | Category | Examples |
 |----------|----------|
@@ -186,16 +185,6 @@ import type {
 | **IT & systems** | FedRAMP, ATO, HSPD-12, eMASS, Login.gov, ... |
 | **Budget & finance** | OMB, CBO, GAO, PPBE, CR, ... |
 | **HR & personnel** | OPM, GS, SES, USERRA, ... |
-
-## Join39 Integration
-
-FedSpeak is registered on the [Join39 Agent Store](https://join39.com) and can be installed on any Join39 bot (e.g., AGENT-M).
-
-- **Endpoint:** `https://fedspeak.netlify.app/api/decode`
-- **Method:** POST
-- **Schema:** `{ "text": "string" }` or `{ "acronym": "string" }`
-
-Response truncation is automatic — if the JSON response exceeds 2,000 characters, FedSpeak progressively shortens descriptions, then drops them, then trims the results array.
 
 ## Development
 
@@ -236,7 +225,7 @@ fedspeak/
 │   ├── shared/              Core logic (shared by API, website, npm package)
 │   │   ├── decoder.ts       lookupAcronym(), scanText(), decode()
 │   │   ├── encoder.ts       lookupName(), scanTextForNames(), encode()
-│   │   ├── truncate.ts      Join39 2000-char truncation
+│   │   ├── truncate.ts      Response truncation
 │   │   ├── types.ts         TypeScript interfaces
 │   │   └── data/
 │   │       └── acronyms.json
@@ -292,4 +281,4 @@ Add entries to `src/shared/data/acronyms.json` in alphabetical order:
 
 ## License
 
-[MIT](LICENSE) &copy; [MetaPhase Consulting](https://metaphase.tech)
+[MIT](LICENSE) &copy; [MetaPhase](https://metaphase.tech)

@@ -2,7 +2,7 @@
 
 ## Context
 
-FedSpeak is a Federal Acronym Decoder maintained by MetaPhase Consulting. The core data lives in `src/shared/data/acronyms.json`. The API runs as Netlify Functions, the website is Vite + React.
+FedSpeak is a Federal Acronym Decoder maintained by MetaPhase. The core data lives in `src/shared/data/acronyms.json`. The API runs as Netlify Functions, the website is Vite + React.
 
 ## When Adding Acronyms
 
@@ -43,7 +43,7 @@ FedSpeak is a Federal Acronym Decoder maintained by MetaPhase Consulting. The co
 - Functions are in `netlify/functions/` using Netlify Functions v2 format.
 - Both decode and encode support GET (query params) and POST (JSON body).
 - Always include CORS headers in responses.
-- Responses must stay under 2000 chars for Join39 compatibility (handled by truncate).
+- Responses are progressively truncated to stay under 2000 chars (handled by truncate).
 
 ## When Working on the Website
 

@@ -2,7 +2,7 @@
 
 ## About This Repo
 
-**FedSpeak** is a Federal Acronym Decoder API and website built by MetaPhase Consulting. It decodes (and encodes) U.S. government acronyms from text or single lookups. Registered as a skill on the Join39 Agent Store.
+**FedSpeak** is a Federal Acronym Decoder API and website built by MetaPhase. It decodes (and encodes) U.S. government acronyms from text or single lookups.
 
 ## Project Structure
 
@@ -16,7 +16,7 @@ fedspeak/
 │   │   ├── types.ts         — TypeScript interfaces
 │   │   ├── decoder.ts       — lookupAcronym(), scanText(), decode()
 │   │   ├── encoder.ts       — lookupName(), scanTextForNames(), encode()
-│   │   ├── truncate.ts      — Join39 2000-char response truncation
+│   │   ├── truncate.ts      — Response truncation (2000-char limit)
 │   │   └── data/
 │   │       └── acronyms.json — Acronym database (sorted alphabetically)
 │   ├── components/          — React UI components
@@ -83,7 +83,7 @@ Both endpoints support GET (query params) and POST (JSON body):
 - **Decode:** `POST /api/decode` — `{ "acronym": "GSA" }` or `{ "text": "The GSA and OMB..." }`
 - **Encode:** `POST /api/encode` — `{ "name": "General Services Administration" }` or `{ "text": "..." }`
 
-Responses are progressively truncated to stay under 2000 chars (Join39 compliance).
+Responses are progressively truncated to stay under 2000 chars.
 
 ## Branching & Deployment
 

@@ -89,7 +89,7 @@ console.log(getAcronymCount()); // 1069`}</CodeBlock>
                   ['encode(request)', 'Full encode: { name } or { text }'],
                   ['getAllAcronyms()', 'Get sorted array of all acronym keys'],
                   ['getAcronymCount()', 'Get total number of acronyms'],
-                  ['truncateForJoin39(response)', 'Truncate to 2000-char limit'],
+                  ['truncateResponse(response)', 'Truncate response to fit 2000-char limit'],
                 ].map(([fn, desc]) => (
                   <tr key={fn} className='hover:bg-slate-50'>
                     <td className='px-4 py-3 font-mono text-blue-700 text-xs whitespace-nowrap'>{fn}</td>

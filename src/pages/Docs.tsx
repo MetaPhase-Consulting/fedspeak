@@ -57,8 +57,8 @@ export default function Docs() {
         </div>
         <p className='text-center text-slate-600 mb-10 max-w-2xl mx-auto'>
           FedSpeak is an open-source federal acronym decoder built by{' '}
-          <a href='https://metaphaseconsulting.com' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:underline'>
-            MetaPhase Consulting
+          <a href='https://metaphase.tech' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:underline'>
+            MetaPhase
           </a>. Decode thousands of U.S. government acronyms via website, REST API, npm package, or CLI.
         </p>
 

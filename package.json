@@ -1,7 +1,7 @@
 {
   "name": "fedspeak",
   "private": true,
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Federal Acronym Decoder — decode U.S. government acronyms from text or single lookups",
   "keywords": [
     "federal",
@@ -9,8 +9,8 @@
     "acronyms",
     "decoder",
     "api",
-    "join39",
-    "agent-m"
+    "npm",
+    "cli"
   ],
   "author": "Brian Funk",
   "license": "MIT",

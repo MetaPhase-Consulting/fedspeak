@@ -66,13 +66,6 @@
     "agency": "General",
     "category": "general"
   },
-  "AbilityOne": {
-    "full": "AbilityOne Program",
-    "description": "Federal program providing employment opportunities for people who are blind or have significant disabilities.",
-    "agency": "General",
-    "category": "program",
-    "url": "https://www.abilityone.gov"
-  },
   "ACA": {
     "full": "Affordable Care Act",
     "description": "Comprehensive health care reform law (P.L. 111-148) expanding insurance coverage, establishing health insurance marketplaces, and reforming the health care delivery system.",
@@ -207,6 +200,13 @@
     "agency": "DOW",
     "category": "agency"
   },
+  "AFSOC": {
+    "full": "Air Force Special Operations Command",
+    "description": "Air Force component command providing special operations forces for global missions including unconventional warfare, direct action, and personnel recovery.",
+    "agency": "DOD",
+    "category": "agency",
+    "url": "https://www.afsoc.af.mil"
+  },
   "AFWERX": {
     "full": "Air Force Warfighting Integration Capability",
     "description": "Air Force innovation program connecting startups and small businesses with Air Force problems using SBIR, challenges, and other transactions.",
@@ -256,12 +256,12 @@
     "agency": "DOD",
     "category": "agency"
   },
-  "Amtrak": {
-    "full": "National Railroad Passenger Corporation",
-    "description": "Government-supported corporation providing intercity passenger rail service.",
-    "agency": "General",
+  "AMS": {
+    "full": "Agricultural Marketing Service",
+    "description": "USDA agency administering programs facilitating the efficient marketing of agricultural products, including commodity grading, inspection, and organic certification.",
+    "agency": "USDA",
     "category": "agency",
-    "url": "https://www.amtrak.com"
+    "url": "https://www.ams.usda.gov"
   },
   "ANE": {
     "full": "Alaskan Native Entity",
@@ -281,12 +281,6 @@
     "agency": "General",
     "category": "process"
   },
-  "Antideficiency Act": {
-    "full": "Antideficiency Act",
-    "description": "Federal law (31 U.S.C. 1341-1342, 1511-1519) prohibiting federal agencies from making expenditures or obligations exceeding an appropriation, apportionment, or allotment.",
-    "agency": "General",
-    "category": "regulation"
-  },
   "APA": {
     "full": "Administrative Procedure Act",
     "description": "Federal law governing the process by which agencies develop and issue regulations.",
@@ -298,6 +292,13 @@
     "description": "The notice-and-comment rulemaking process under the APA (5 U.S.C. 553) requiring agencies to publish proposed rules, accept public comments, and issue final rules with a basis and purpose statement.",
     "agency": "General",
     "category": "process"
+  },
+  "APHIS": {
+    "full": "Animal and Plant Health Inspection Service",
+    "description": "USDA agency protecting animal and plant health from pests and diseases to safeguard U.S. agriculture and natural resources.",
+    "agency": "USDA",
+    "category": "agency",
+    "url": "https://www.aphis.usda.gov"
   },
   "API": {
     "full": "Application Programming Interface",
@@ -347,6 +348,13 @@
     "agency": "DOW",
     "category": "agency"
   },
+  "ASPR": {
+    "full": "Administration for Strategic Preparedness and Response",
+    "description": "HHS agency leading the nation's medical and public health preparedness for, response to, and recovery from disasters and public health emergencies.",
+    "agency": "HHS",
+    "category": "agency",
+    "url": "https://aspr.hhs.gov"
+  },
   "ASSIST": {
     "full": "Acquisition Streamlining and Standardization Information System",
     "description": "DOD online repository for military and federal specifications, standards, and related standardization documents.",
@@ -390,6 +398,26 @@
     "agency": "OPM",
     "category": "general"
   },
+  "AbilityOne": {
+    "full": "AbilityOne Program",
+    "description": "Federal program providing employment opportunities for people who are blind or have significant disabilities.",
+    "agency": "General",
+    "category": "program",
+    "url": "https://www.abilityone.gov"
+  },
+  "Amtrak": {
+    "full": "National Railroad Passenger Corporation",
+    "description": "Government-supported corporation providing intercity passenger rail service.",
+    "agency": "General",
+    "category": "agency",
+    "url": "https://www.amtrak.com"
+  },
+  "Antideficiency Act": {
+    "full": "Antideficiency Act",
+    "description": "Federal law (31 U.S.C. 1341-1342, 1511-1519) prohibiting federal agencies from making expenditures or obligations exceeding an appropriation, apportionment, or allotment.",
+    "agency": "General",
+    "category": "regulation"
+  },
   "BAA": {
     "full": "Buy American Act",
     "description": "Federal law (41 U.S.C. 8301-8305) requiring the federal government to prefer domestically produced goods in its procurement, with certain exceptions and waivers.",
@@ -407,6 +435,13 @@
     "description": "Final revision to a proposal requested during competitive negotiations.",
     "agency": "General",
     "category": "process"
+  },
+  "BARDA": {
+    "full": "Biomedical Advanced Research and Development Authority",
+    "description": "HHS office within ASPR responsible for development and procurement of medical countermeasures against chemical, biological, radiological, and nuclear threats.",
+    "agency": "HHS",
+    "category": "office",
+    "url": "https://aspr.hhs.gov/AboutASPR/ProgramOffices/BARDA"
   },
   "BCA": {
     "full": "Business Case Analysis",
@@ -426,11 +461,12 @@
     "agency": "General",
     "category": "process"
   },
-  "Berry Amendment": {
-    "full": "Berry Amendment",
-    "description": "Provision (10 U.S.C. 4862) requiring DOD to purchase domestically produced food, clothing, textiles, and specialty metals, with limited exceptions.",
-    "agency": "DOW",
-    "category": "regulation"
+  "BEP": {
+    "full": "Bureau of Engraving and Printing",
+    "description": "Treasury bureau responsible for designing, engraving, and printing U.S. paper currency, security documents, and other government instruments.",
+    "agency": "TREAS",
+    "category": "bureau",
+    "url": "https://www.bep.gov"
   },
   "BIA": {
     "full": "Bureau of Indian Affairs",
@@ -450,6 +486,13 @@
     "description": "Original name of ICE when created under the Homeland Security Act of 2002, now known simply as Immigration and Customs Enforcement.",
     "agency": "DHS",
     "category": "agency"
+  },
+  "BIE": {
+    "full": "Bureau of Indian Education",
+    "description": "DOI bureau providing education services to American Indian and Alaska Native students at elementary and secondary schools on reservations.",
+    "agency": "DOI",
+    "category": "bureau",
+    "url": "https://www.bie.edu"
   },
   "BIS": {
     "full": "Bureau of Industry and Security",
@@ -546,6 +589,12 @@
     "agency": "General",
     "category": "process"
   },
+  "Berry Amendment": {
+    "full": "Berry Amendment",
+    "description": "Provision (10 U.S.C. 4862) requiring DOD to purchase domestically produced food, clothing, textiles, and specialty metals, with limited exceptions.",
+    "agency": "DOW",
+    "category": "regulation"
+  },
   "C2": {
     "full": "Command and Control",
     "description": "Exercise of authority and direction by a commander over assigned forces.",
@@ -623,12 +672,6 @@
     "description": "Board establishing cost accounting standards for defense and other government contracts.",
     "agency": "General",
     "category": "agency"
-  },
-  "Category Mgmt": {
-    "full": "Category Management",
-    "description": "OMB initiative applying private-sector best practices to manage spending by common categories across agencies to reduce duplication and improve value.",
-    "agency": "EOP",
-    "category": "program"
   },
   "CATEX": {
     "full": "Categorical Exclusion",
@@ -834,6 +877,13 @@
     "category": "regulation",
     "url": "https://www.ecfr.gov"
   },
+  "CFTC": {
+    "full": "Commodity Futures Trading Commission",
+    "description": "Independent agency regulating U.S. derivatives markets including futures, swaps, and certain options to promote market integrity and protect participants from fraud.",
+    "agency": "CFTC",
+    "category": "agency",
+    "url": "https://www.cftc.gov"
+  },
   "CHCO": {
     "full": "Chief Human Capital Officer",
     "description": "Senior executive responsible for workforce planning and human resources management.",
@@ -950,12 +1000,6 @@
     "description": "Identifier for a specific item or service within a contract.",
     "agency": "General",
     "category": "general"
-  },
-  "Clinger-Cohen": {
-    "full": "Clinger-Cohen Act",
-    "description": "Federal law (P.L. 104-106, Division E) reforming IT management in the federal government, establishing CIO positions and capital planning requirements. Also known as the Information Technology Management Reform Act.",
-    "agency": "General",
-    "category": "regulation"
   },
   "CLOUD Act": {
     "full": "Clarifying Lawful Overseas Use of Data Act",
@@ -1308,6 +1352,18 @@
     "agency": "DOD",
     "category": "agency"
   },
+  "Category Mgmt": {
+    "full": "Category Management",
+    "description": "OMB initiative applying private-sector best practices to manage spending by common categories across agencies to reduce duplication and improve value.",
+    "agency": "EOP",
+    "category": "program"
+  },
+  "Clinger-Cohen": {
+    "full": "Clinger-Cohen Act",
+    "description": "Federal law (P.L. 104-106, Division E) reforming IT management in the federal government, establishing CIO positions and capital planning requirements. Also known as the Information Technology Management Reform Act.",
+    "agency": "General",
+    "category": "regulation"
+  },
   "D&F": {
     "full": "Determination and Findings",
     "description": "Written approval by an authorized official required as a prerequisite to certain contract actions, containing findings of fact supporting a determination.",
@@ -1506,12 +1562,6 @@
     "agency": "DOW",
     "category": "agency"
   },
-  "DevSecOps": {
-    "full": "Development, Security, and Operations",
-    "description": "Approach integrating security practices into the DevOps software development lifecycle.",
-    "agency": "General",
-    "category": "general"
-  },
   "DFAR": {
     "full": "Defense Federal Acquisition Regulation",
     "description": "Alternative abbreviation for DFARS, the DOD supplement to the Federal Acquisition Regulation containing defense-specific procurement policies.",
@@ -1692,42 +1742,6 @@
       "DoD"
     ]
   },
-  "DoDD": {
-    "full": "Department of Defense Directive",
-    "description": "DOD issuance establishing policy and assigning responsibilities.",
-    "agency": "DOW",
-    "category": "regulation"
-  },
-  "Dodd-Frank": {
-    "full": "Dodd-Frank Wall Street Reform and Consumer Protection Act",
-    "description": "Comprehensive financial reform law (P.L. 111-203) enacted after the 2008 financial crisis, creating the CFPB, imposing new bank regulations, and establishing the Volcker Rule.",
-    "agency": "TREAS",
-    "category": "regulation"
-  },
-  "DoDI": {
-    "full": "Department of Defense Instruction",
-    "description": "DOD issuance providing specific procedures and implementing guidance.",
-    "agency": "DOW",
-    "category": "regulation"
-  },
-  "DoDIIS": {
-    "full": "Department of Defense Intelligence Information System",
-    "description": "DOD enterprise system supporting intelligence processing, exploitation, and dissemination across defense intelligence organizations.",
-    "agency": "DOD",
-    "category": "system"
-  },
-  "DoDIN": {
-    "full": "Department of Defense Information Network",
-    "description": "DOD globally interconnected information capability for collecting, processing, storing, and disseminating information to warfighters and decision makers.",
-    "agency": "DOD",
-    "category": "system"
-  },
-  "DoDM": {
-    "full": "Department of Defense Manual",
-    "description": "DOD issuance providing detailed procedures implementing DOD policy.",
-    "agency": "DOW",
-    "category": "regulation"
-  },
   "DOE": {
     "full": "Department of Energy",
     "description": "Federal department responsible for energy policy, nuclear safety, and scientific research.",
@@ -1869,11 +1883,60 @@
     "category": "agency",
     "url": "https://www.dsca.mil"
   },
+  "DTRA": {
+    "full": "Defense Threat Reduction Agency",
+    "description": "DOD agency providing capabilities to reduce, eliminate, and counter threats from weapons of mass destruction.",
+    "agency": "DOD",
+    "category": "agency",
+    "url": "https://www.dtra.mil"
+  },
   "DUNS": {
     "full": "Data Universal Numbering System",
     "description": "Unique nine-digit identifier for businesses, previously required for federal registration.",
     "agency": "General",
     "category": "system"
+  },
+  "DevSecOps": {
+    "full": "Development, Security, and Operations",
+    "description": "Approach integrating security practices into the DevOps software development lifecycle.",
+    "agency": "General",
+    "category": "general"
+  },
+  "DoDD": {
+    "full": "Department of Defense Directive",
+    "description": "DOD issuance establishing policy and assigning responsibilities.",
+    "agency": "DOW",
+    "category": "regulation"
+  },
+  "DoDI": {
+    "full": "Department of Defense Instruction",
+    "description": "DOD issuance providing specific procedures and implementing guidance.",
+    "agency": "DOW",
+    "category": "regulation"
+  },
+  "DoDIIS": {
+    "full": "Department of Defense Intelligence Information System",
+    "description": "DOD enterprise system supporting intelligence processing, exploitation, and dissemination across defense intelligence organizations.",
+    "agency": "DOD",
+    "category": "system"
+  },
+  "DoDIN": {
+    "full": "Department of Defense Information Network",
+    "description": "DOD globally interconnected information capability for collecting, processing, storing, and disseminating information to warfighters and decision makers.",
+    "agency": "DOD",
+    "category": "system"
+  },
+  "DoDM": {
+    "full": "Department of Defense Manual",
+    "description": "DOD issuance providing detailed procedures implementing DOD policy.",
+    "agency": "DOW",
+    "category": "regulation"
+  },
+  "Dodd-Frank": {
+    "full": "Dodd-Frank Wall Street Reform and Consumer Protection Act",
+    "description": "Comprehensive financial reform law (P.L. 111-203) enacted after the 2008 financial crisis, creating the CFPB, imposing new bank regulations, and establishing the Volcker Rule.",
+    "agency": "TREAS",
+    "category": "regulation"
   },
   "E-Gov Act": {
     "full": "E-Government Act",
@@ -1910,6 +1973,13 @@
     "description": "Practice of continuously discovering and monitoring an organization's internet-facing assets for vulnerabilities.",
     "agency": "General",
     "category": "general"
+  },
+  "EBSA": {
+    "full": "Employee Benefits Security Administration",
+    "description": "DOL agency responsible for administering and enforcing the fiduciary, reporting, and disclosure provisions of ERISA covering private-sector employee benefit plans.",
+    "agency": "DOL",
+    "category": "agency",
+    "url": "https://www.dol.gov/agencies/ebsa"
   },
   "ECMRA": {
     "full": "Evidence-Based Policymaking Commission Recommendations Act",
@@ -2009,12 +2079,6 @@
     "description": "Detailed document analyzing the environmental effects of a proposed federal action.",
     "agency": "General",
     "category": "process"
-  },
-  "eMASS": {
-    "full": "Enterprise Mission Assurance Support Service",
-    "description": "DOD web application automating the Risk Management Framework process for system authorization.",
-    "agency": "DOD",
-    "category": "system"
   },
   "EMD": {
     "full": "Engineering and Manufacturing Development",
@@ -2120,6 +2184,13 @@
     "agency": "DOL",
     "category": "regulation"
   },
+  "ERS": {
+    "full": "Economic Research Service",
+    "description": "USDA agency providing economic research and analysis on agriculture, food, the environment, and rural development to inform public policy.",
+    "agency": "USDA",
+    "category": "agency",
+    "url": "https://www.ers.usda.gov"
+  },
   "ESA": {
     "full": "Endangered Species Act",
     "description": "Federal law (16 U.S.C. 1531 et seq.) protecting threatened and endangered species and their habitats, administered jointly by FWS and NOAA Fisheries.",
@@ -2138,12 +2209,6 @@
     "agency": "DOE",
     "category": "process"
   },
-  "eSRS": {
-    "full": "Electronic Subcontracting Reporting System",
-    "description": "System for reporting subcontracting plans and achievements on federal contracts.",
-    "agency": "GSA",
-    "category": "system"
-  },
   "ESSA": {
     "full": "Every Student Succeeds Act",
     "description": "Federal law governing K-12 public education, successor to No Child Left Behind.",
@@ -2155,12 +2220,6 @@
     "description": "DOD unified combatant command responsible for Europe and parts of Asia and Africa.",
     "agency": "DOD",
     "category": "agency"
-  },
-  "Evidence Act": {
-    "full": "Foundations for Evidence-Based Policymaking Act",
-    "description": "Federal law (P.L. 115-435) requiring agencies to develop evidence-building plans, designate evaluation officers and chief data officers, and improve data governance.",
-    "agency": "General",
-    "category": "regulation"
   },
   "EVM": {
     "full": "Earned Value Management",
@@ -2180,6 +2239,12 @@
     "agency": "EXIM",
     "category": "agency",
     "url": "https://www.exim.gov"
+  },
+  "Evidence Act": {
+    "full": "Foundations for Evidence-Based Policymaking Act",
+    "description": "Federal law (P.L. 115-435) requiring agencies to develop evidence-building plans, designate evaluation officers and chief data officers, and improve data governance.",
+    "agency": "General",
+    "category": "regulation"
   },
   "FAA": {
     "full": "Federal Aviation Administration",
@@ -2217,6 +2282,13 @@
     "description": "Federal law (18 U.S.C. 248) prohibiting the use of force, threat of force, or physical obstruction to interfere with individuals obtaining or providing reproductive health care services.",
     "agency": "DOJ",
     "category": "regulation"
+  },
+  "FAFSA": {
+    "full": "Free Application for Federal Student Aid",
+    "description": "Form used by students to apply for federal financial aid for college, including grants, loans, and work-study, administered by the Department of Education.",
+    "agency": "ED",
+    "category": "program",
+    "url": "https://studentaid.gov/h/apply-for-aid/fafsa"
   },
   "FAIR Act": {
     "full": "Federal Activities Inventory Reform Act",
@@ -2374,43 +2446,6 @@
     "agency": "General",
     "category": "regulation"
   },
-  "FedBid": {
-    "full": "FedBid Reverse Auction",
-    "description": "Online reverse auction platform formerly used by federal agencies to purchase commercial goods, where vendors compete by lowering prices in real time.",
-    "agency": "General",
-    "category": "system"
-  },
-  "FedBizOpps": {
-    "full": "Federal Business Opportunities",
-    "description": "Former website for posting federal contract opportunities, now merged into SAM.gov.",
-    "agency": "GSA",
-    "category": "system"
-  },
-  "FedRAMP": {
-    "full": "Federal Risk and Authorization Management Program",
-    "description": "Government-wide program providing a standardized approach to cloud security assessment.",
-    "agency": "GSA",
-    "category": "program",
-    "url": "https://www.fedramp.gov"
-  },
-  "FedRAMP Auth Act": {
-    "full": "Federal Risk and Authorization Management Program Authorization Act",
-    "description": "Federal law (P.L. 117-263, Title XXXV) codifying FedRAMP into law, establishing it as the authoritative standardized approach to cloud security assessment for federal agencies.",
-    "agency": "GSA",
-    "category": "regulation"
-  },
-  "FedSIM": {
-    "full": "Federal Systems Integration and Management Center",
-    "description": "GSA organization assisting agencies with IT acquisition planning and project management.",
-    "agency": "GSA",
-    "category": "office"
-  },
-  "FedSIM-assist": {
-    "full": "Federal Systems Integration and Management Assisted Acquisition",
-    "description": "GSA assisted acquisition service providing end-to-end procurement support for IT and professional services on behalf of client agencies.",
-    "agency": "GSA",
-    "category": "program"
-  },
   "FEGLI": {
     "full": "Federal Employees Group Life Insurance",
     "description": "Life insurance program for federal employees and their eligible family members.",
@@ -2498,6 +2533,19 @@
     "agency": "General",
     "category": "general"
   },
+  "FIFRA": {
+    "full": "Federal Insecticide, Fungicide, and Rodenticide Act",
+    "description": "Federal law governing the registration, distribution, sale, and use of pesticides in the United States, administered by EPA.",
+    "agency": "EPA",
+    "category": "regulation"
+  },
+  "FINCEN": {
+    "full": "Financial Crimes Enforcement Network",
+    "description": "Treasury bureau combating money laundering, terrorist financing, and other financial crimes by collecting and analyzing financial transaction data under the Bank Secrecy Act.",
+    "agency": "TREAS",
+    "category": "bureau",
+    "url": "https://www.fincen.gov"
+  },
   "FIPS": {
     "full": "Federal Information Processing Standards",
     "description": "Standards issued by NIST for use in non-military government computer systems.",
@@ -2533,12 +2581,6 @@
     "description": "Federal law (P.L. 115-232, Title XVII) expanding CFIUS jurisdiction to review foreign investments in critical technology, infrastructure, and sensitive personal data.",
     "agency": "TREAS",
     "category": "regulation"
-  },
-  "FirstSource": {
-    "full": "First Source Information Technology Commodity Solutions",
-    "description": "DHS small business set-aside IDIQ for commercially available IT commodities, solutions, and value-added reseller services.",
-    "agency": "DHS",
-    "category": "program"
   },
   "FISA": {
     "full": "Foreign Intelligence Surveillance Act",
@@ -2619,6 +2661,13 @@
     "agency": "DOL",
     "category": "regulation"
   },
+  "FMC": {
+    "full": "Federal Maritime Commission",
+    "description": "Independent agency regulating the U.S. international ocean transportation system to ensure a competitive and reliable supply chain.",
+    "agency": "FMC",
+    "category": "agency",
+    "url": "https://www.fmc.gov"
+  },
   "FMLA": {
     "full": "Family and Medical Leave Act",
     "description": "Federal law entitling eligible employees to unpaid, job-protected leave.",
@@ -2630,6 +2679,13 @@
     "description": "U.S. program for selling defense articles and services to foreign governments.",
     "agency": "DOW",
     "category": "program"
+  },
+  "FNS": {
+    "full": "Food and Nutrition Service",
+    "description": "USDA agency administering federal nutrition assistance programs including SNAP, WIC, and the National School Lunch Program.",
+    "agency": "USDA",
+    "category": "agency",
+    "url": "https://www.fns.usda.gov"
   },
   "FOC": {
     "full": "Full Operational Capability",
@@ -2710,6 +2766,13 @@
     "agency": "General",
     "category": "process"
   },
+  "FPS": {
+    "full": "Federal Protective Service",
+    "description": "DHS law enforcement agency responsible for the security and protection of federal facilities, their occupants, and visitors.",
+    "agency": "DHS",
+    "category": "agency",
+    "url": "https://www.dhs.gov/fps"
+  },
   "FR": {
     "full": "Federal Register",
     "description": "Official daily publication for rules, proposed rules, and notices from federal agencies.",
@@ -2746,6 +2809,13 @@
     "description": "Production phase following successful testing and Milestone C approval.",
     "agency": "DOW",
     "category": "process"
+  },
+  "FSIS": {
+    "full": "Food Safety and Inspection Service",
+    "description": "USDA agency responsible for ensuring the safety of meat, poultry, and processed egg products through inspection and regulatory oversight.",
+    "agency": "USDA",
+    "category": "agency",
+    "url": "https://www.fsis.usda.gov"
   },
   "FSS": {
     "full": "Federal Supply Schedule",
@@ -2797,6 +2867,49 @@
     "description": "DOD document projecting forces, resources, and programs over a five-year period.",
     "agency": "DOD",
     "category": "process"
+  },
+  "FedBid": {
+    "full": "FedBid Reverse Auction",
+    "description": "Online reverse auction platform formerly used by federal agencies to purchase commercial goods, where vendors compete by lowering prices in real time.",
+    "agency": "General",
+    "category": "system"
+  },
+  "FedBizOpps": {
+    "full": "Federal Business Opportunities",
+    "description": "Former website for posting federal contract opportunities, now merged into SAM.gov.",
+    "agency": "GSA",
+    "category": "system"
+  },
+  "FedRAMP": {
+    "full": "Federal Risk and Authorization Management Program",
+    "description": "Government-wide program providing a standardized approach to cloud security assessment.",
+    "agency": "GSA",
+    "category": "program",
+    "url": "https://www.fedramp.gov"
+  },
+  "FedRAMP Auth Act": {
+    "full": "Federal Risk and Authorization Management Program Authorization Act",
+    "description": "Federal law (P.L. 117-263, Title XXXV) codifying FedRAMP into law, establishing it as the authoritative standardized approach to cloud security assessment for federal agencies.",
+    "agency": "GSA",
+    "category": "regulation"
+  },
+  "FedSIM": {
+    "full": "Federal Systems Integration and Management Center",
+    "description": "GSA organization assisting agencies with IT acquisition planning and project management.",
+    "agency": "GSA",
+    "category": "office"
+  },
+  "FedSIM-assist": {
+    "full": "Federal Systems Integration and Management Assisted Acquisition",
+    "description": "GSA assisted acquisition service providing end-to-end procurement support for IT and professional services on behalf of client agencies.",
+    "agency": "GSA",
+    "category": "program"
+  },
+  "FirstSource": {
+    "full": "First Source Information Technology Commodity Solutions",
+    "description": "DHS small business set-aside IDIQ for commercially available IT commodities, solutions, and value-added reseller services.",
+    "agency": "DHS",
+    "category": "program"
   },
   "G&A": {
     "full": "General and Administrative",
@@ -2877,23 +2990,11 @@
     "agency": "General",
     "category": "regulation"
   },
-  "Goldwater-Nichols": {
-    "full": "Goldwater-Nichols Department of Defense Reorganization Act",
-    "description": "Federal law (P.L. 99-433) restructuring DOD, strengthening the Chairman of the Joint Chiefs of Staff, establishing joint combatant commands, and streamlining the military chain of command.",
-    "agency": "DOW",
-    "category": "regulation"
-  },
   "GOTS": {
     "full": "Government Off-the-Shelf",
     "description": "Software or technology developed by or for the government, available for reuse.",
     "agency": "General",
     "category": "process"
-  },
-  "GovCloud": {
-    "full": "Government Cloud",
-    "description": "Isolated cloud computing regions operated by commercial providers meeting specific federal compliance requirements such as FedRAMP, ITAR, and DOD IL.",
-    "agency": "General",
-    "category": "general"
   },
   "GPC": {
     "full": "Government Purchase Card",
@@ -2958,12 +3059,6 @@
     "category": "system",
     "url": "https://www.gsaadvantage.gov"
   },
-  "GSA-eBuy": {
-    "full": "GSA eBuy",
-    "description": "Online RFQ system for ordering products and services from GSA schedules.",
-    "agency": "GSA",
-    "category": "system"
-  },
   "GSA-FAS": {
     "full": "GSA Federal Acquisition Service",
     "description": "GSA service arm responsible for procurement solutions including Multiple Award Schedules, GWACs, fleet management, and travel services for federal agencies.",
@@ -2981,6 +3076,12 @@
     "description": "GSA service providing workspace solutions to federal agencies.",
     "agency": "GSA",
     "category": "office"
+  },
+  "GSA-eBuy": {
+    "full": "GSA eBuy",
+    "description": "Online RFQ system for ordering products and services from GSA schedules.",
+    "agency": "GSA",
+    "category": "system"
   },
   "GSAR": {
     "full": "General Services Administration Acquisition Regulation",
@@ -3000,17 +3101,36 @@
     "agency": "General",
     "category": "process"
   },
-  "Hatch Act": {
-    "full": "Hatch Act",
-    "description": "Federal law (5 U.S.C. 7321-7326) restricting the political activity of federal employees to ensure government operations are conducted in a nonpartisan manner.",
-    "agency": "OPM",
+  "Goldwater-Nichols": {
+    "full": "Goldwater-Nichols Department of Defense Reorganization Act",
+    "description": "Federal law (P.L. 99-433) restructuring DOD, strengthening the Chairman of the Joint Chiefs of Staff, establishing joint combatant commands, and streamlining the military chain of command.",
+    "agency": "DOW",
     "category": "regulation"
+  },
+  "GovCloud": {
+    "full": "Government Cloud",
+    "description": "Isolated cloud computing regions operated by commercial providers meeting specific federal compliance requirements such as FedRAMP, ITAR, and DOD IL.",
+    "agency": "General",
+    "category": "general"
+  },
+  "HASC": {
+    "full": "House Armed Services Committee",
+    "description": "Standing committee of the U.S. House of Representatives with jurisdiction over defense policy, military operations, and the annual National Defense Authorization Act.",
+    "agency": "General",
+    "category": "general",
+    "url": "https://armedservices.house.gov"
   },
   "HAVA": {
     "full": "Help America Vote Act",
     "description": "Federal law (P.L. 107-252) establishing minimum election administration standards, creating the Election Assistance Commission, and providing funding for voting system modernization.",
     "agency": "General",
     "category": "regulation"
+  },
+  "HBCU": {
+    "full": "Historically Black College or University",
+    "description": "Accredited institution of higher education established before 1964 with a principal mission of educating Black Americans, as defined by the Higher Education Act.",
+    "agency": "ED",
+    "category": "general"
   },
   "HBSS": {
     "full": "Host Based Security System",
@@ -3054,6 +3174,13 @@
     "description": "Joint resolution introduced in the U.S. House requiring passage by both chambers.",
     "agency": "General",
     "category": "general"
+  },
+  "HPSCI": {
+    "full": "House Permanent Select Committee on Intelligence",
+    "description": "Standing committee of the U.S. House of Representatives responsible for oversight of the Intelligence Community and intelligence-related activities.",
+    "agency": "General",
+    "category": "general",
+    "url": "https://intelligence.house.gov"
   },
   "HR": {
     "full": "House Resolution",
@@ -3129,6 +3256,12 @@
     "agency": "DOW",
     "category": "general"
   },
+  "Hatch Act": {
+    "full": "Hatch Act",
+    "description": "Federal law (5 U.S.C. 7321-7326) restricting the political activity of federal employees to ensure government operations are conducted in a nonpartisan manner.",
+    "agency": "OPM",
+    "category": "regulation"
+  },
   "IA": {
     "full": "Information Assurance",
     "description": "Measures protecting information systems by ensuring confidentiality, integrity, authentication, availability, and non-repudiation.",
@@ -3140,12 +3273,6 @@
     "description": "Agreement between federal agencies for the provision of goods or services.",
     "agency": "General",
     "category": "process"
-  },
-  "IaaS": {
-    "full": "Infrastructure as a Service",
-    "description": "Cloud computing model providing virtualized computing resources over the internet.",
-    "agency": "General",
-    "category": "general"
   },
   "IAL": {
     "full": "Identity Assurance Level",
@@ -3225,12 +3352,6 @@
     "description": "Contract type providing for an indefinite quantity of supplies or services over a fixed period.",
     "agency": "General",
     "category": "process"
-  },
-  "IdP": {
-    "full": "Identity Provider",
-    "description": "System that creates, maintains, and manages identity information and provides authentication services.",
-    "agency": "General",
-    "category": "general"
   },
   "IDS": {
     "full": "Intrusion Detection System",
@@ -3352,12 +3473,6 @@
     "description": "Comprehensive schedule linking all tasks and milestones in a program.",
     "agency": "General",
     "category": "process"
-  },
-  "In-Q-Tel": {
-    "full": "In-Q-Tel",
-    "description": "CIA-founded nonprofit strategic investment firm identifying and adapting cutting-edge commercial technology for intelligence community use.",
-    "agency": "CIA",
-    "category": "agency"
   },
   "INDOPACOM": {
     "full": "United States Indo-Pacific Command",
@@ -3498,6 +3613,13 @@
     "agency": "General",
     "category": "general"
   },
+  "ITA": {
+    "full": "International Trade Administration",
+    "description": "DOC agency promoting trade and investment, strengthening U.S. industry competitiveness, and enforcing trade laws to ensure fair trade practices.",
+    "agency": "DOC",
+    "category": "agency",
+    "url": "https://www.trade.gov"
+  },
   "ITAR": {
     "full": "International Traffic in Arms Regulations",
     "description": "Regulations controlling the export and import of defense-related articles and services.",
@@ -3522,6 +3644,24 @@
     "agency": "General",
     "category": "general"
   },
+  "IaaS": {
+    "full": "Infrastructure as a Service",
+    "description": "Cloud computing model providing virtualized computing resources over the internet.",
+    "agency": "General",
+    "category": "general"
+  },
+  "IdP": {
+    "full": "Identity Provider",
+    "description": "System that creates, maintains, and manages identity information and provides authentication services.",
+    "agency": "General",
+    "category": "general"
+  },
+  "In-Q-Tel": {
+    "full": "In-Q-Tel",
+    "description": "CIA-founded nonprofit strategic investment firm identifying and adapting cutting-edge commercial technology for intelligence community use.",
+    "agency": "CIA",
+    "category": "agency"
+  },
   "J&A": {
     "full": "Justification and Approval",
     "description": "Document justifying the use of other than full and open competition in contracting.",
@@ -3545,6 +3685,13 @@
     "description": "Body of senior military leaders advising the President and Secretary of Defense on military matters.",
     "agency": "DOW",
     "category": "general"
+  },
+  "JCT": {
+    "full": "Joint Committee on Taxation",
+    "description": "Bipartisan congressional committee providing revenue estimates, distributional analyses, and technical expertise on tax legislation.",
+    "agency": "General",
+    "category": "general",
+    "url": "https://www.jct.gov"
   },
   "JEDI": {
     "full": "Joint Enterprise Defense Infrastructure",
@@ -3675,11 +3822,12 @@
     "agency": "DOW",
     "category": "process"
   },
-  "Login.gov": {
-    "full": "Login.gov",
-    "description": "GSA-operated shared service providing secure single sign-on authentication for public-facing government websites and applications.",
-    "agency": "GSA",
-    "category": "system"
+  "LOC": {
+    "full": "Library of Congress",
+    "description": "Legislative branch institution serving as the research library of Congress and the de facto national library of the United States.",
+    "agency": "General",
+    "category": "agency",
+    "url": "https://www.loc.gov"
   },
   "LOI": {
     "full": "Letter of Intent",
@@ -3711,6 +3859,12 @@
     "agency": "OPM",
     "category": "general"
   },
+  "Login.gov": {
+    "full": "Login.gov",
+    "description": "GSA-operated shared service providing secure single sign-on authentication for public-facing government websites and applications.",
+    "agency": "GSA",
+    "category": "system"
+  },
   "MAC": {
     "full": "Multiple Award Contract",
     "description": "Contract awarded to two or more vendors for the same or similar supplies or services.",
@@ -3735,6 +3889,13 @@
     "agency": "DOT",
     "category": "agency",
     "url": "https://www.maritime.dot.gov"
+  },
+  "MARSOC": {
+    "full": "Marine Forces Special Operations Command",
+    "description": "Marine Corps component of U.S. Special Operations Command providing special operations forces capable of direct action, special reconnaissance, and foreign internal defense.",
+    "agency": "DOD",
+    "category": "agency",
+    "url": "https://www.marsoc.marines.mil"
   },
   "MAS": {
     "full": "Multiple Award Schedule",
@@ -3797,6 +3958,12 @@
     "agency": "General",
     "category": "process"
   },
+  "MEDCOM": {
+    "full": "Army Medical Command",
+    "description": "Army command responsible for medical research, training, and health care delivery for soldiers, retirees, and their families across military treatment facilities.",
+    "agency": "DOD",
+    "category": "agency"
+  },
   "MFA": {
     "full": "Multi-Factor Authentication",
     "description": "Authentication requiring two or more verification factors, mandated for federal systems under EO 14028.",
@@ -3820,12 +3987,6 @@
     "description": "Status of military personnel whose whereabouts are unknown after a military operation.",
     "agency": "DOW",
     "category": "general"
-  },
-  "milCloud": {
-    "full": "milCloud",
-    "description": "DISA cloud computing service providing DOD-approved commercial cloud infrastructure at various impact levels for defense workloads.",
-    "agency": "DOD",
-    "category": "system"
   },
   "MILCON": {
     "full": "Military Construction",
@@ -3875,6 +4036,13 @@
     "agency": "DOW",
     "category": "process"
   },
+  "MSHA": {
+    "full": "Mine Safety and Health Administration",
+    "description": "DOL agency enforcing compliance with mine safety and health standards at all mining operations in the United States.",
+    "agency": "DOL",
+    "category": "agency",
+    "url": "https://www.msha.gov"
+  },
   "MSPB": {
     "full": "Merit Systems Protection Board",
     "description": "Independent agency protecting federal merit system principles and employee rights.",
@@ -3906,12 +4074,6 @@
     "agency": "GSA",
     "category": "program"
   },
-  "mTLS": {
-    "full": "Mutual Transport Layer Security",
-    "description": "TLS variant requiring both client and server authentication, used in zero trust architectures.",
-    "agency": "General",
-    "category": "general"
-  },
   "NAC": {
     "full": "Network Access Control",
     "description": "Security approach restricting network access to compliant and authenticated devices and users.",
@@ -3923,6 +4085,12 @@
     "description": "Background investigation required for federal positions of public trust.",
     "agency": "General",
     "category": "process"
+  },
+  "NAGPRA": {
+    "full": "Native American Graves Protection and Repatriation Act",
+    "description": "Federal law requiring federal agencies and institutions receiving federal funds to return Native American cultural items and human remains to affiliated tribes.",
+    "agency": "DOI",
+    "category": "regulation"
   },
   "NAICS": {
     "full": "North American Industry Classification System",
@@ -4010,6 +4178,20 @@
     "agency": "ODNI",
     "category": "office"
   },
+  "NCTC": {
+    "full": "National Counterterrorism Center",
+    "description": "ODNI center serving as the primary organization for integrating and analyzing all intelligence pertaining to counterterrorism and strategic operational planning.",
+    "agency": "ODNI",
+    "category": "agency",
+    "url": "https://www.dni.gov/index.php/nctc-home"
+  },
+  "NCUA": {
+    "full": "National Credit Union Administration",
+    "description": "Independent agency chartering, regulating, and insuring federal credit unions and administering the National Credit Union Share Insurance Fund.",
+    "agency": "NCUA",
+    "category": "agency",
+    "url": "https://www.ncua.gov"
+  },
   "NDA": {
     "full": "Non-Disclosure Agreement",
     "description": "Agreement to protect confidential information shared between parties.",
@@ -4051,12 +4233,6 @@
     "description": "Federal law requiring environmental impact assessments for major federal actions.",
     "agency": "General",
     "category": "regulation"
-  },
-  "Networx": {
-    "full": "Networx Universal and Enterprise",
-    "description": "Former GSA governmentwide telecommunications contract replaced by Enterprise Infrastructure Solutions (EIS).",
-    "agency": "GSA",
-    "category": "program"
   },
   "NFA": {
     "full": "National Firearms Act",
@@ -4119,6 +4295,13 @@
     "description": "Framework for sharing information across government, enabling data interoperability.",
     "agency": "General",
     "category": "system"
+  },
+  "NIFA": {
+    "full": "National Institute of Food and Agriculture",
+    "description": "USDA agency providing extramural funding for agricultural research, education, and extension programs at land-grant universities and other institutions.",
+    "agency": "USDA",
+    "category": "agency",
+    "url": "https://www.nifa.usda.gov"
   },
   "NIH": {
     "full": "National Institutes of Health",
@@ -4246,6 +4429,13 @@
     "category": "agency",
     "url": "https://www.nrc.gov"
   },
+  "NRCS": {
+    "full": "Natural Resources Conservation Service",
+    "description": "USDA agency providing technical and financial assistance to farmers, ranchers, and landowners for conservation of soil, water, and other natural resources.",
+    "agency": "USDA",
+    "category": "agency",
+    "url": "https://www.nrcs.usda.gov"
+  },
   "NRDA": {
     "full": "Natural Resource Damage Assessment",
     "description": "Process under CERCLA and the Oil Pollution Act for assessing injuries to natural resources caused by hazardous substance releases or oil spills and determining restoration requirements.",
@@ -4329,6 +4519,13 @@
     "agency": "DOW",
     "category": "agency"
   },
+  "NTIA": {
+    "full": "National Telecommunications and Information Administration",
+    "description": "DOC agency advising the President on telecommunications and information policy and managing federal use of the radio frequency spectrum.",
+    "agency": "DOC",
+    "category": "agency",
+    "url": "https://www.ntia.gov"
+  },
   "NTP": {
     "full": "Notice to Proceed",
     "description": "Written notification authorizing a contractor to begin work on a contract.",
@@ -4347,6 +4544,19 @@
     "description": "NIST-maintained repository of vulnerability management data providing CVSS scores and remediation guidance.",
     "agency": "DOC",
     "category": "system"
+  },
+  "NWS": {
+    "full": "National Weather Service",
+    "description": "NOAA agency providing weather forecasts, warnings, and meteorological data to protect life and property and enhance the national economy.",
+    "agency": "DOC",
+    "category": "agency",
+    "url": "https://www.weather.gov"
+  },
+  "Networx": {
+    "full": "Networx Universal and Enterprise",
+    "description": "Former GSA governmentwide telecommunications contract replaced by Enterprise Infrastructure Solutions (EIS).",
+    "agency": "GSA",
+    "category": "program"
   },
   "OASIS": {
     "full": "One Acquisition Solution for Integrated Services",
@@ -4426,6 +4636,13 @@
     "description": "Government forms available for optional use by federal agencies.",
     "agency": "GSA",
     "category": "general"
+  },
+  "OFAC": {
+    "full": "Office of Foreign Assets Control",
+    "description": "Treasury office administering and enforcing economic sanctions against targeted foreign countries, terrorists, narcotics traffickers, and proliferators of weapons of mass destruction.",
+    "agency": "TREAS",
+    "category": "office",
+    "url": "https://ofac.treasury.gov"
   },
   "OFCCP": {
     "full": "Office of Federal Contract Compliance Programs",
@@ -4562,6 +4779,13 @@
     "category": "office",
     "url": "https://www.onr.navy.mil"
   },
+  "ONRR": {
+    "full": "Office of Natural Resources Revenue",
+    "description": "DOI office collecting, accounting for, and disbursing revenues from mineral and energy leases on federal and Indian lands.",
+    "agency": "DOI",
+    "category": "office",
+    "url": "https://www.onrr.gov"
+  },
   "OPA": {
     "full": "Oil Pollution Act",
     "description": "Federal law (33 U.S.C. 2701 et seq.) establishing liability and compensation for oil spill cleanup, requiring oil storage facility and vessel response plans.",
@@ -4654,6 +4878,13 @@
     "agency": "General",
     "category": "general"
   },
+  "OSMRE": {
+    "full": "Office of Surface Mining Reclamation and Enforcement",
+    "description": "DOI office ensuring that coal mining is conducted in a manner that protects citizens and the environment and that the land is reclaimed after mining.",
+    "agency": "DOI",
+    "category": "office",
+    "url": "https://www.osmre.gov"
+  },
   "OSTP": {
     "full": "Office of Science and Technology Policy",
     "description": "EOP office advising the President on science, engineering, and technology policy.",
@@ -4708,12 +4939,6 @@
     "description": "FedRAMP authorization granted by the Joint Authorization Board allowing a cloud service provider to offer services to federal agencies at a specific impact level.",
     "agency": "GSA",
     "category": "process"
-  },
-  "PaaS": {
-    "full": "Platform as a Service",
-    "description": "Cloud computing model providing a platform for developing and deploying applications.",
-    "agency": "General",
-    "category": "general"
   },
   "PACT Act": {
     "full": "Promise to Address Comprehensive Toxics Act",
@@ -5032,12 +5257,6 @@
     "agency": "General",
     "category": "system"
   },
-  "Privacy Act": {
-    "full": "Privacy Act of 1974",
-    "description": "Federal law (5 U.S.C. 552a) establishing a code of fair information practices governing federal agency collection, maintenance, use, and dissemination of personal information.",
-    "agency": "General",
-    "category": "regulation"
-  },
   "PSC": {
     "full": "Product and Service Code",
     "description": "Codes used to classify products and services purchased by federal agencies.",
@@ -5061,6 +5280,18 @@
     "description": "Contract document describing required results rather than specific methods.",
     "agency": "General",
     "category": "process"
+  },
+  "PaaS": {
+    "full": "Platform as a Service",
+    "description": "Cloud computing model providing a platform for developing and deploying applications.",
+    "agency": "General",
+    "category": "general"
+  },
+  "Privacy Act": {
+    "full": "Privacy Act of 1974",
+    "description": "Federal law (5 U.S.C. 552a) establishing a code of fair information practices governing federal agency collection, maintenance, use, and dissemination of personal information.",
+    "agency": "General",
+    "category": "regulation"
   },
   "QASP": {
     "full": "Quality Assurance Surveillance Plan",
@@ -5126,18 +5357,6 @@
     "full": "REAL ID Act",
     "description": "Federal law setting minimum security standards for state-issued driver's licenses and IDs.",
     "agency": "DHS",
-    "category": "regulation"
-  },
-  "Rehab Act": {
-    "full": "Rehabilitation Act of 1973",
-    "description": "Federal law (29 U.S.C. 701 et seq.) prohibiting disability discrimination in federal programs, including Section 503 (contractors), Section 504 (federal assistance), and Section 508 (IT accessibility).",
-    "agency": "General",
-    "category": "regulation"
-  },
-  "Rehab Act 503": {
-    "full": "Section 503 of the Rehabilitation Act",
-    "description": "Provision requiring federal contractors and subcontractors to take affirmative action to employ and advance individuals with disabilities, enforced by OFCCP.",
-    "agency": "DOL",
     "category": "regulation"
   },
   "RFA": {
@@ -5242,17 +5461,23 @@
     "agency": "General",
     "category": "general"
   },
+  "Rehab Act": {
+    "full": "Rehabilitation Act of 1973",
+    "description": "Federal law (29 U.S.C. 701 et seq.) prohibiting disability discrimination in federal programs, including Section 503 (contractors), Section 504 (federal assistance), and Section 508 (IT accessibility).",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "Rehab Act 503": {
+    "full": "Section 503 of the Rehabilitation Act",
+    "description": "Provision requiring federal contractors and subcontractors to take affirmative action to employ and advance individuals with disabilities, enforced by OFCCP.",
+    "agency": "DOL",
+    "category": "regulation"
+  },
   "SAA": {
     "full": "Single Audit Act",
     "description": "Federal law (31 U.S.C. 7501-7507) requiring non-federal entities spending $750,000 or more in federal awards per year to undergo a single or program-specific audit.",
     "agency": "General",
     "category": "regulation"
-  },
-  "SaaS": {
-    "full": "Software as a Service",
-    "description": "Cloud computing model delivering software applications over the internet.",
-    "agency": "General",
-    "category": "general"
   },
   "SAE": {
     "full": "Senior Accountable Executive",
@@ -5322,6 +5547,13 @@
     "description": "Law improving the acquisition of services by the federal government.",
     "agency": "General",
     "category": "regulation"
+  },
+  "SASC": {
+    "full": "Senate Armed Services Committee",
+    "description": "Standing committee of the U.S. Senate with jurisdiction over defense policy, military operations, and the annual National Defense Authorization Act.",
+    "agency": "General",
+    "category": "general",
+    "url": "https://www.armed-services.senate.gov"
   },
   "SASE": {
     "full": "Secure Access Service Edge",
@@ -5498,12 +5730,6 @@
     "description": "Head of the Department of State and chief foreign affairs adviser to the President.",
     "agency": "DOS",
     "category": "general"
-  },
-  "Section 508": {
-    "full": "Section 508 of the Rehabilitation Act",
-    "description": "Federal law (29 U.S.C. 794d) requiring federal agencies to make electronic and information technology accessible to people with disabilities.",
-    "agency": "General",
-    "category": "regulation"
   },
   "SECURE 2.0": {
     "full": "SECURE 2.0 Act",
@@ -5848,6 +6074,13 @@
     "agency": "General",
     "category": "process"
   },
+  "SSCI": {
+    "full": "Senate Select Committee on Intelligence",
+    "description": "Standing committee of the U.S. Senate responsible for oversight of the Intelligence Community, including the authorization of intelligence activities and budgets.",
+    "agency": "General",
+    "category": "general",
+    "url": "https://www.intelligence.senate.gov"
+  },
   "SSDF": {
     "full": "Secure Software Development Framework",
     "description": "NIST SP 800-218 framework defining secure software development practices to reduce vulnerabilities.",
@@ -5884,11 +6117,12 @@
     "agency": "General",
     "category": "process"
   },
-  "Stafford Act": {
-    "full": "Robert T. Stafford Disaster Relief and Emergency Assistance Act",
-    "description": "Federal law (42 U.S.C. 5121 et seq.) establishing the system for federal disaster assistance, authorizing presidential disaster declarations and FEMA response and recovery programs.",
-    "agency": "DHS",
-    "category": "regulation"
+  "STB": {
+    "full": "Surface Transportation Board",
+    "description": "Independent agency with jurisdiction over railroad rate and service disputes, rail restructuring transactions, and certain intercity bus company structures.",
+    "agency": "STB",
+    "category": "agency",
+    "url": "https://www.stb.gov"
   },
   "STIG": {
     "full": "Security Technical Implementation Guide",
@@ -5920,17 +6154,35 @@
     "agency": "SBA",
     "category": "program"
   },
-  "Sunshine Act": {
-    "full": "Government in the Sunshine Act",
-    "description": "Federal law (5 U.S.C. 552b) requiring meetings of multi-member federal agencies to be open to public observation, with specific exemptions.",
-    "agency": "General",
-    "category": "regulation"
-  },
   "SWG": {
     "full": "Secure Web Gateway",
     "description": "Security solution filtering malware from web traffic and enforcing acceptable use policies.",
     "agency": "General",
     "category": "general"
+  },
+  "SaaS": {
+    "full": "Software as a Service",
+    "description": "Cloud computing model delivering software applications over the internet.",
+    "agency": "General",
+    "category": "general"
+  },
+  "Section 508": {
+    "full": "Section 508 of the Rehabilitation Act",
+    "description": "Federal law (29 U.S.C. 794d) requiring federal agencies to make electronic and information technology accessible to people with disabilities.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "Stafford Act": {
+    "full": "Robert T. Stafford Disaster Relief and Emergency Assistance Act",
+    "description": "Federal law (42 U.S.C. 5121 et seq.) establishing the system for federal disaster assistance, authorizing presidential disaster declarations and FEMA response and recovery programs.",
+    "agency": "DHS",
+    "category": "regulation"
+  },
+  "Sunshine Act": {
+    "full": "Government in the Sunshine Act",
+    "description": "Federal law (5 U.S.C. 552b) requiring meetings of multi-member federal agencies to be open to public observation, with specific exemptions.",
+    "agency": "General",
+    "category": "regulation"
   },
   "T&M": {
     "full": "Time and Materials",
@@ -6020,6 +6272,13 @@
     "agency": "DHS",
     "category": "program"
   },
+  "TIGTA": {
+    "full": "Treasury Inspector General for Tax Administration",
+    "description": "Independent office providing oversight of IRS activities through audits, investigations, and inspections to promote economy, efficiency, and integrity in tax administration.",
+    "agency": "TREAS",
+    "category": "office",
+    "url": "https://www.tigta.gov"
+  },
   "TILA": {
     "full": "Truth in Lending Act",
     "description": "Federal law (15 U.S.C. 1601 et seq.) requiring lenders to provide clear and conspicuous disclosure of key lending terms and costs to consumers.",
@@ -6030,12 +6289,6 @@
     "full": "Truth in Negotiations Act",
     "description": "Federal law requiring contractors to submit certified cost or pricing data for large contracts.",
     "agency": "General",
-    "category": "regulation"
-  },
-  "Title VII": {
-    "full": "Title VII of the Civil Rights Act of 1964",
-    "description": "Federal law (42 U.S.C. 2000e et seq.) prohibiting employment discrimination based on race, color, religion, sex, or national origin, enforced by the EEOC.",
-    "agency": "EEOC",
     "category": "regulation"
   },
   "TLS": {
@@ -6097,6 +6350,13 @@
     "category": "program",
     "url": "https://www.tricare.mil"
   },
+  "TRIO": {
+    "full": "Federal TRIO Programs",
+    "description": "Department of Education outreach and student services programs designed to identify and assist individuals from disadvantaged backgrounds to progress through the academic pipeline.",
+    "agency": "ED",
+    "category": "program",
+    "url": "https://www2.ed.gov/about/offices/list/ope/trio/index.html"
+  },
   "TRL": {
     "full": "Technology Readiness Level",
     "description": "Scale from 1 to 9 used in defense and federal acquisition to assess the maturity of a technology from basic research through operational deployment.",
@@ -6129,17 +6389,18 @@
     "category": "program",
     "url": "https://www.tsp.gov"
   },
+  "TTB": {
+    "full": "Alcohol and Tobacco Tax and Trade Bureau",
+    "description": "Treasury bureau regulating the alcohol and tobacco industries, collecting federal excise taxes, and ensuring compliance with federal laws governing these commodities.",
+    "agency": "TREAS",
+    "category": "bureau",
+    "url": "https://www.ttb.gov"
+  },
   "TTP": {
     "full": "Tactics, Techniques, and Procedures",
     "description": "Description of adversary behavior patterns used in threat intelligence and MITRE ATT&CK.",
     "agency": "General",
     "category": "general"
-  },
-  "Tucker Act": {
-    "full": "Tucker Act",
-    "description": "Federal law (28 U.S.C. 1491) granting the U.S. Court of Federal Claims jurisdiction over monetary claims against the federal government, including contract disputes and bid protests.",
-    "agency": "General",
-    "category": "regulation"
   },
   "TVA": {
     "full": "Tennessee Valley Authority",
@@ -6147,6 +6408,18 @@
     "agency": "TVA",
     "category": "agency",
     "url": "https://www.tva.gov"
+  },
+  "Title VII": {
+    "full": "Title VII of the Civil Rights Act of 1964",
+    "description": "Federal law (42 U.S.C. 2000e et seq.) prohibiting employment discrimination based on race, color, religion, sex, or national origin, enforced by the EEOC.",
+    "agency": "EEOC",
+    "category": "regulation"
+  },
+  "Tucker Act": {
+    "full": "Tucker Act",
+    "description": "Federal law (28 U.S.C. 1491) granting the U.S. Court of Federal Claims jurisdiction over monetary claims against the federal government, including contract disputes and bid protests.",
+    "agency": "General",
+    "category": "regulation"
   },
   "UARC": {
     "full": "University Affiliated Research Center",
@@ -6212,12 +6485,6 @@
     "agency": "DOJ",
     "category": "program"
   },
-  "Uniform Guidance": {
-    "full": "Uniform Administrative Requirements, Cost Principles, and Audit Requirements for Federal Awards",
-    "description": "Consolidated guidance (2 CFR Part 200) establishing government-wide requirements for federal grants and cooperative agreements, replacing OMB Circulars A-87, A-110, A-122, and A-133.",
-    "agency": "EOP",
-    "category": "regulation"
-  },
   "US-CERT": {
     "full": "United States Computer Emergency Readiness Team",
     "description": "DHS component providing cybersecurity incident response for federal networks, now part of CISA.",
@@ -6254,6 +6521,13 @@
     "description": "Military service branch responsible for air and space operations.",
     "agency": "DOD",
     "category": "agency"
+  },
+  "USAGM": {
+    "full": "U.S. Agency for Global Media",
+    "description": "Independent agency overseeing U.S. international media outlets including Voice of America, Radio Free Europe/Radio Liberty, and the Office of Cuba Broadcasting.",
+    "agency": "USAGM",
+    "category": "agency",
+    "url": "https://www.usagm.gov"
   },
   "USAID": {
     "full": "United States Agency for International Development",
@@ -6339,6 +6613,20 @@
     "agency": "General",
     "category": "agency"
   },
+  "USIP": {
+    "full": "United States Institute of Peace",
+    "description": "Independent federal institution providing conflict analysis, training, and tools to prevent and resolve violent conflicts around the world.",
+    "agency": "USIP",
+    "category": "agency",
+    "url": "https://www.usip.org"
+  },
+  "USITC": {
+    "full": "United States International Trade Commission",
+    "description": "Independent quasi-judicial agency providing trade expertise to Congress and the President, determining the impact of imports on U.S. industries.",
+    "agency": "USITC",
+    "category": "agency",
+    "url": "https://www.usitc.gov"
+  },
   "USMC": {
     "full": "United States Marine Corps",
     "description": "Military service branch providing expeditionary and amphibious capabilities.",
@@ -6377,12 +6665,32 @@
     "agency": "DOD",
     "category": "agency"
   },
+  "USSS": {
+    "full": "United States Secret Service",
+    "description": "DHS agency responsible for protecting the President, Vice President, and other designated individuals, as well as investigating financial crimes and cybercrimes.",
+    "agency": "DHS",
+    "category": "agency",
+    "url": "https://www.secretservice.gov"
+  },
+  "USTDA": {
+    "full": "U.S. Trade and Development Agency",
+    "description": "Independent agency connecting U.S. businesses to export opportunities by funding project preparation and partnership-building activities in developing countries.",
+    "agency": "USTDA",
+    "category": "agency",
+    "url": "https://ustda.gov"
+  },
   "USTR": {
     "full": "Office of the United States Trade Representative",
     "description": "EOP office responsible for developing and coordinating U.S. trade policy.",
     "agency": "EOP",
     "category": "office",
     "url": "https://ustr.gov"
+  },
+  "Uniform Guidance": {
+    "full": "Uniform Administrative Requirements, Cost Principles, and Audit Requirements for Federal Awards",
+    "description": "Consolidated guidance (2 CFR Part 200) establishing government-wide requirements for federal grants and cooperative agreements, replacing OMB Circulars A-87, A-110, A-122, and A-133.",
+    "agency": "EOP",
+    "category": "regulation"
   },
   "VA": {
     "full": "Department of Veterans Affairs",
@@ -6445,12 +6753,6 @@
     "agency": "General",
     "category": "general"
   },
-  "VistA": {
-    "full": "Veterans Health Information Systems and Technology Architecture",
-    "description": "VA integrated electronic health record system supporting clinical, administrative, and financial functions across VA medical centers.",
-    "agency": "VA",
-    "category": "system"
-  },
   "VOSB": {
     "full": "Veteran-Owned Small Business",
     "description": "Small business designation for firms owned and controlled by veterans.",
@@ -6480,6 +6782,12 @@
     "description": "Authority allowing agencies to offer lump-sum payments up to $25,000 to incentivize employees to voluntarily separate during downsizing.",
     "agency": "OPM",
     "category": "process"
+  },
+  "VistA": {
+    "full": "Veterans Health Information Systems and Technology Architecture",
+    "description": "VA integrated electronic health record system supporting clinical, administrative, and financial functions across VA medical centers.",
+    "agency": "VA",
+    "category": "system"
   },
   "WAF": {
     "full": "Web Application Firewall",
@@ -6511,6 +6819,20 @@
     "agency": "DOL",
     "category": "system",
     "url": "https://sam.gov/content/wage-determinations"
+  },
+  "WHD": {
+    "full": "Wage and Hour Division",
+    "description": "DOL agency enforcing federal labor laws including minimum wage, overtime, child labor, and family and medical leave provisions under FLSA and FMLA.",
+    "agency": "DOL",
+    "category": "agency",
+    "url": "https://www.dol.gov/agencies/whd"
+  },
+  "WHS": {
+    "full": "Washington Headquarters Services",
+    "description": "DOD agency providing essential administrative and operational support services to the Office of the Secretary of Defense, Joint Staff, and other Pentagon-based organizations.",
+    "agency": "DOD",
+    "category": "agency",
+    "url": "https://www.whs.mil"
   },
   "WIC": {
     "full": "Women, Infants, and Children Program",
@@ -6595,5 +6917,29 @@
     "description": "Security approach verifying users and devices before granting access to specific applications.",
     "agency": "General",
     "category": "general"
+  },
+  "eMASS": {
+    "full": "Enterprise Mission Assurance Support Service",
+    "description": "DOD web application automating the Risk Management Framework process for system authorization.",
+    "agency": "DOD",
+    "category": "system"
+  },
+  "eSRS": {
+    "full": "Electronic Subcontracting Reporting System",
+    "description": "System for reporting subcontracting plans and achievements on federal contracts.",
+    "agency": "GSA",
+    "category": "system"
+  },
+  "mTLS": {
+    "full": "Mutual Transport Layer Security",
+    "description": "TLS variant requiring both client and server authentication, used in zero trust architectures.",
+    "agency": "General",
+    "category": "general"
+  },
+  "milCloud": {
+    "full": "milCloud",
+    "description": "DISA cloud computing service providing DOD-approved commercial cloud infrastructure at various impact levels for defense workloads.",
+    "agency": "DOD",
+    "category": "system"
   }
 }

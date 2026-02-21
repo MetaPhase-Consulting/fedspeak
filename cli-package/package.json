@@ -1,6 +1,6 @@
 {
   "name": "@metaphase-tech/fedspeak",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Federal Acronym Decoder — decode U.S. government acronyms from text or single lookups",
   "keywords": [
     "federal",
@@ -9,7 +9,7 @@
     "decoder",
     "api"
   ],
-  "author": "MetaPhase Consulting",
+  "author": "MetaPhase",
   "license": "MIT",
   "repository": {
     "type": "git",
