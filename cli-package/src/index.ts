@@ -1,8 +1,9 @@
 // FedSpeak npm package entry point
-// Re-exports from shared core
+// Re-exports from shared core (files synced via scripts/sync-cli-package.sh)
 
-export { lookupAcronym, scanText, decode, getAllAcronyms, getAcronymCount } from '../../src/shared/decoder';
-export { truncateForJoin39 } from '../../src/shared/truncate';
+export { lookupAcronym, scanText, decode, getAllAcronyms, getAcronymCount } from './shared/decoder';
+export { lookupName, scanTextForNames, encode } from './shared/encoder';
+export { truncateForJoin39 } from './shared/truncate';
 export type {
   AcronymCategory,
   AcronymEntry,
@@ -10,4 +11,7 @@ export type {
   DecodedResult,
   DecodeResponse,
   DecodeRequest,
-} from '../../src/shared/types';
+  EncodedResult,
+  EncodeResponse,
+  EncodeRequest,
+} from './shared/types';
