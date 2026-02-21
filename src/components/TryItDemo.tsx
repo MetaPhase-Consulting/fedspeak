@@ -62,14 +62,14 @@ export default function TryItDemo() {
               type='text'
               value={input}
               onChange={e => setInput(e.target.value)}
-              placeholder='Enter an acronym (e.g., DOD, GSA, OMB)'
+              placeholder='Enter an acronym (e.g., GSA, DOW, OMB)'
               className='w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none text-lg'
             />
           ) : (
             <textarea
               value={input}
               onChange={e => setInput(e.target.value)}
-              placeholder='Paste text with acronyms (e.g., "The DOD and GSA are working with OMB on the new RFP")'
+              placeholder='Paste text with acronyms (e.g., "The DOW and GSA are working with OMB on the new RFP")'
               rows={4}
               className='w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none'
             />

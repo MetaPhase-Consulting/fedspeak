@@ -3,17 +3,31 @@ import { lookupAcronym, scanText, decode, getAllAcronyms, getAcronymCount } from
 
 describe('lookupAcronym', () => {
   it('finds an exact match', () => {
-    const result = lookupAcronym('DOD');
+    const result = lookupAcronym('GSA');
     expect(result).not.toBeNull();
-    expect(result!.full).toBe('Department of Defense');
-    expect(result!.agency).toBe('DOD');
+    expect(result!.full).toBe('General Services Administration');
+    expect(result!.agency).toBe('GSA');
+    expect(result!.category).toBe('agency');
+  });
+
+  it('finds DOW (Department of War)', () => {
+    const result = lookupAcronym('DOW');
+    expect(result).not.toBeNull();
+    expect(result!.full).toBe('Department of War');
     expect(result!.category).toBe('department');
   });
 
-  it('is case-insensitive', () => {
-    const result = lookupAcronym('dod');
+  it('still resolves legacy DOD', () => {
+    const result = lookupAcronym('DOD');
     expect(result).not.toBeNull();
     expect(result!.full).toBe('Department of Defense');
+    expect(result!.agency).toBe('DOW');
+  });
+
+  it('is case-insensitive', () => {
+    const result = lookupAcronym('gsa');
+    expect(result).not.toBeNull();
+    expect(result!.full).toBe('General Services Administration');
   });
 
   it('trims whitespace', () => {
@@ -41,9 +55,9 @@ describe('lookupAcronym', () => {
 
 describe('scanText', () => {
   it('finds multiple acronyms in text', () => {
-    const results = scanText('The DOD and GSA are working with OMB on the new RFP');
+    const results = scanText('The DOW and GSA are working with OMB on the new RFP');
     const acronyms = results.map(r => r.acronym);
-    expect(acronyms).toContain('DOD');
+    expect(acronyms).toContain('DOW');
     expect(acronyms).toContain('GSA');
     expect(acronyms).toContain('OMB');
     expect(acronyms).toContain('RFP');
@@ -63,9 +77,9 @@ describe('scanText', () => {
   });
 
   it('does not return duplicates', () => {
-    const results = scanText('The DOD works with DOD on DOD projects');
-    const dodResults = results.filter(r => r.acronym === 'DOD');
-    expect(dodResults).toHaveLength(1);
+    const results = scanText('The GSA works with GSA on GSA projects');
+    const gsaResults = results.filter(r => r.acronym === 'GSA');
+    expect(gsaResults).toHaveLength(1);
   });
 
   it('handles empty text', () => {
@@ -76,15 +90,15 @@ describe('scanText', () => {
 
 describe('decode', () => {
   it('handles single acronym mode', () => {
-    const response = decode({ acronym: 'DOD' });
+    const response = decode({ acronym: 'GSA' });
     expect(response.success).toBe(true);
     expect(response.mode).toBe('single');
     expect(response.count).toBe(1);
-    expect(response.results[0].full).toBe('Department of Defense');
+    expect(response.results[0].full).toBe('General Services Administration');
   });
 
   it('handles text scan mode', () => {
-    const response = decode({ text: 'The DOD and GSA work with OMB' });
+    const response = decode({ text: 'The DOW and GSA work with OMB' });
     expect(response.success).toBe(true);
     expect(response.mode).toBe('scan');
     expect(response.count).toBeGreaterThanOrEqual(3);

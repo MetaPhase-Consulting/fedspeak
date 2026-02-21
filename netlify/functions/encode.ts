@@ -1,6 +1,6 @@
-import { decode } from '../../src/shared/decoder';
+import { encode } from '../../src/shared/encoder';
 import { truncateForJoin39 } from '../../src/shared/truncate';
-import type { DecodeRequest } from '../../src/shared/types';
+import type { EncodeRequest } from '../../src/shared/types';
 
 const CORS_HEADERS = {
   'Access-Control-Allow-Origin': '*',
@@ -16,13 +16,13 @@ function jsonResponse(body: object, status = 200): Response {
   });
 }
 
-async function parseRequest(request: Request): Promise<DecodeRequest> {
+async function parseRequest(request: Request): Promise<EncodeRequest> {
   if (request.method === 'GET') {
     const url = new URL(request.url);
-    const acronym = url.searchParams.get('acronym');
+    const name = url.searchParams.get('name');
     const text = url.searchParams.get('text');
     return {
-      ...(acronym && { acronym }),
+      ...(name && { name }),
       ...(text && { text }),
     };
   }
@@ -30,7 +30,7 @@ async function parseRequest(request: Request): Promise<DecodeRequest> {
   if (request.method === 'POST') {
     const body = await request.json();
     return {
-      ...(body.acronym && { acronym: body.acronym }),
+      ...(body.name && { name: body.name }),
       ...(body.text && { text: body.text }),
     };
   }
@@ -41,7 +41,6 @@ async function parseRequest(request: Request): Promise<DecodeRequest> {
 export default async function handler(
   request: Request
 ): Promise<Response> {
-  // Handle CORS preflight
   if (request.method === 'OPTIONS') {
     return new Response(null, { status: 204, headers: CORS_HEADERS });
   }
@@ -53,21 +52,21 @@ export default async function handler(
 
     const params = await parseRequest(request);
 
-    if (!params.acronym && !params.text) {
+    if (!params.name && !params.text) {
       return jsonResponse(
         {
           error:
-            'Missing required parameter. Provide "acronym" for single lookup or "text" for scanning.',
+            'Missing required parameter. Provide "name" for single lookup or "text" for scanning.',
           usage: {
-            single: { acronym: 'GSA' },
-            scan: { text: 'The DOW and GSA are working with OMB' },
+            single: { name: 'General Services Administration' },
+            scan: { text: 'The General Services Administration works with the Office of Management and Budget' },
           },
         },
         400
       );
     }
 
-    const result = decode(params);
+    const result = encode(params);
     const truncated = truncateForJoin39(result);
 
     return jsonResponse(truncated);

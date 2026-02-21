@@ -1,6 +1,15 @@
-import type { DecodeResponse } from './types';
+import type { DecodeResponse, EncodeResponse } from './types';
 
 const JOIN39_CHAR_LIMIT = 2000;
+
+interface TruncatableResponse {
+  success: boolean;
+  query: string;
+  mode: 'single' | 'scan';
+  results: { description: string; [key: string]: unknown }[];
+  count: number;
+  truncated: boolean;
+}
 
 /**
  * Progressive truncation for Join39 2000-char compliance:
@@ -8,7 +17,9 @@ const JOIN39_CHAR_LIMIT = 2000;
  * 2. Drop descriptions entirely
  * 3. Trim results array
  */
-export function truncateForJoin39(response: DecodeResponse): DecodeResponse {
+export function truncateForJoin39(response: DecodeResponse): DecodeResponse;
+export function truncateForJoin39(response: EncodeResponse): EncodeResponse;
+export function truncateForJoin39(response: TruncatableResponse): TruncatableResponse {
   let json = JSON.stringify(response);
 
   if (json.length <= JOIN39_CHAR_LIMIT) {

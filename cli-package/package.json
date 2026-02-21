@@ -1,0 +1,36 @@
+{
+  "name": "fedspeak",
+  "version": "0.1.0",
+  "description": "Federal Acronym Decoder — decode U.S. government acronyms from text or single lookups",
+  "keywords": [
+    "federal",
+    "government",
+    "acronyms",
+    "decoder",
+    "api"
+  ],
+  "author": "MetaPhase Consulting",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MetaPhase-Consulting/fedspeak.git"
+  },
+  "homepage": "https://fedspeak.dev",
+  "bugs": {
+    "url": "https://github.com/MetaPhase-Consulting/fedspeak/issues"
+  },
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
+}

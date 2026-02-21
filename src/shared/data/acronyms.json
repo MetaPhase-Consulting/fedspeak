@@ -1,10 +1,19 @@
 {
+  "DOW": {
+    "full": "Department of War",
+    "description": "Executive branch department responsible for national security and the armed forces. Renamed from Department of Defense (DOD) by executive order in September 2025.",
+    "agency": "DOW",
+    "category": "department",
+    "url": "https://www.war.gov",
+    "aliases": ["DoW"]
+  },
   "DOD": {
     "full": "Department of Defense",
-    "description": "Executive branch department responsible for national security and the armed forces.",
-    "agency": "DOD",
+    "description": "Former name of the Department of War. Renamed to DOW by executive order in September 2025. Originally established as the Department of War in 1789, renamed to Department of Defense in 1947.",
+    "agency": "DOW",
     "category": "department",
-    "url": "https://www.defense.gov"
+    "url": "https://www.war.gov",
+    "aliases": ["DoD"]
   },
   "DOJ": {
     "full": "Department of Justice",
