@@ -1,5 +1,5 @@
 {
-  "name": "fedspeak",
+  "name": "@metaphase-tech/fedspeak",
   "version": "0.1.0",
   "description": "Federal Acronym Decoder — decode U.S. government acronyms from text or single lookups",
   "keywords": [
