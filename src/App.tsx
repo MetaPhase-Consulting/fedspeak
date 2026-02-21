@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Docs from './pages/Docs';
+import ApiReference from './pages/ApiReference';
 import NotFound from './pages/NotFound';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/docs' element={<Docs />} />
+            <Route path='/api-docs' element={<ApiReference />} />
             <Route path='*' element={<NotFound />} />
           </Routes>
         </main>

@@ -1,0 +1,309 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "FedSpeak API",
+    "description": "Federal Acronym Decoder — Decode and encode U.S. government acronyms from text or single lookups.",
+    "version": "0.1.0",
+    "contact": {
+      "name": "MetaPhase Consulting",
+      "url": "https://metaphase.tech"
+    },
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://fedspeak.dev",
+      "description": "Production"
+    },
+    {
+      "url": "http://localhost:8888",
+      "description": "Local development"
+    }
+  ],
+  "paths": {
+    "/api/decode": {
+      "post": {
+        "operationId": "decodePost",
+        "summary": "Decode acronyms",
+        "description": "Decode a single acronym or scan text for all recognized federal acronyms.",
+        "tags": ["Decode"],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DecodeRequest"
+              },
+              "examples": {
+                "single": {
+                  "summary": "Single acronym lookup",
+                  "value": { "acronym": "GSA" }
+                },
+                "scan": {
+                  "summary": "Text scan",
+                  "value": { "text": "The DOW and GSA are working with OMB on the new RFP" }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful decode",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DecodeResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Missing required parameter",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        }
+      },
+      "get": {
+        "operationId": "decodeGet",
+        "summary": "Decode acronyms (GET)",
+        "description": "Decode a single acronym or scan text using query parameters.",
+        "tags": ["Decode"],
+        "parameters": [
+          {
+            "name": "acronym",
+            "in": "query",
+            "description": "Single acronym to decode",
+            "schema": { "type": "string" },
+            "example": "GSA"
+          },
+          {
+            "name": "text",
+            "in": "query",
+            "description": "Text to scan for acronyms",
+            "schema": { "type": "string" },
+            "example": "The DOW and GSA work with OMB"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful decode",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DecodeResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Missing required parameter"
+          }
+        }
+      }
+    },
+    "/api/encode": {
+      "post": {
+        "operationId": "encodePost",
+        "summary": "Encode full names to acronyms",
+        "description": "Look up the acronym for a full agency/term name, or scan text for full names and return their acronyms.",
+        "tags": ["Encode"],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EncodeRequest"
+              },
+              "examples": {
+                "single": {
+                  "summary": "Single name lookup",
+                  "value": { "name": "General Services Administration" }
+                },
+                "scan": {
+                  "summary": "Text scan for full names",
+                  "value": { "text": "The General Services Administration and the Office of Management and Budget are collaborating." }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful encode",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EncodeResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Missing required parameter"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        }
+      },
+      "get": {
+        "operationId": "encodeGet",
+        "summary": "Encode full names to acronyms (GET)",
+        "description": "Look up acronyms using query parameters.",
+        "tags": ["Encode"],
+        "parameters": [
+          {
+            "name": "name",
+            "in": "query",
+            "description": "Full name to encode",
+            "schema": { "type": "string" },
+            "example": "General Services Administration"
+          },
+          {
+            "name": "text",
+            "in": "query",
+            "description": "Text to scan for full names",
+            "schema": { "type": "string" },
+            "example": "The General Services Administration works with the Office of Management and Budget"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful encode",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EncodeResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Missing required parameter"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "DecodeRequest": {
+        "type": "object",
+        "properties": {
+          "acronym": {
+            "type": "string",
+            "description": "Single acronym to decode",
+            "example": "GSA"
+          },
+          "text": {
+            "type": "string",
+            "description": "Text to scan for acronyms",
+            "example": "The DOW and GSA are working with OMB on the new RFP"
+          }
+        }
+      },
+      "EncodeRequest": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Full name to encode as acronym",
+            "example": "General Services Administration"
+          },
+          "text": {
+            "type": "string",
+            "description": "Text to scan for full agency/term names",
+            "example": "The General Services Administration and the Office of Management and Budget"
+          }
+        }
+      },
+      "AcronymResult": {
+        "type": "object",
+        "required": ["acronym", "full", "description", "agency", "category"],
+        "properties": {
+          "acronym": {
+            "type": "string",
+            "example": "GSA"
+          },
+          "full": {
+            "type": "string",
+            "example": "General Services Administration"
+          },
+          "description": {
+            "type": "string",
+            "example": "Federal agency managing government buildings, procurement, and technology solutions."
+          },
+          "agency": {
+            "type": "string",
+            "example": "GSA"
+          },
+          "category": {
+            "type": "string",
+            "enum": ["department", "agency", "office", "bureau", "program", "process", "regulation", "system", "general"]
+          },
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "example": "https://www.gsa.gov"
+          }
+        }
+      },
+      "DecodeResponse": {
+        "type": "object",
+        "required": ["success", "query", "mode", "results", "count", "truncated"],
+        "properties": {
+          "success": { "type": "boolean" },
+          "query": { "type": "string" },
+          "mode": {
+            "type": "string",
+            "enum": ["single", "scan"]
+          },
+          "results": {
+            "type": "array",
+            "items": { "$ref": "#/components/schemas/AcronymResult" }
+          },
+          "count": { "type": "integer" },
+          "truncated": { "type": "boolean" }
+        }
+      },
+      "EncodeResponse": {
+        "type": "object",
+        "required": ["success", "query", "mode", "results", "count", "truncated"],
+        "properties": {
+          "success": { "type": "boolean" },
+          "query": { "type": "string" },
+          "mode": {
+            "type": "string",
+            "enum": ["single", "scan"]
+          },
+          "results": {
+            "type": "array",
+            "items": { "$ref": "#/components/schemas/AcronymResult" }
+          },
+          "count": { "type": "integer" },
+          "truncated": { "type": "boolean" }
+        }
+      },
+      "ErrorResponse": {
+        "type": "object",
+        "properties": {
+          "error": { "type": "string" },
+          "usage": { "type": "object" }
+        }
+      }
+    }
+  }
+}
