@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { BookOpen, FileCode, FileText, Home, Menu, Package, X } from 'lucide-react';
+import { BookOpen, Code, FileText, FolderGit2, Home, Menu, Package, Search, Terminal, X } from 'lucide-react';
 
 export default function Header() {
   const location = useLocation();
@@ -12,10 +12,12 @@ export default function Header() {
 
   const navLinks = [
     { to: '/', label: 'Home', icon: Home },
-    { to: '/docs', label: 'Docs', icon: BookOpen },
+    { to: '/search', label: 'Search', icon: Search },
     { to: '/scan', label: 'Text Scan', icon: FileText },
-    { to: '/cli', label: 'CLI & npm', icon: Package },
-    { to: '/api-docs', label: 'Swagger', icon: FileCode },
+    { to: '/docs', label: 'Docs', icon: BookOpen },
+    { to: '/api', label: 'API', icon: Code },
+    { to: '/package', label: 'Package', icon: Package },
+    { to: '/cli', label: 'CLI', icon: Terminal },
   ];
 
   return (
@@ -30,7 +32,7 @@ export default function Header() {
           </Link>
 
           {/* Desktop nav */}
-          <nav className='hidden md:flex items-center space-x-6'>
+          <nav className='hidden md:flex items-center space-x-5'>
             {navLinks.map(({ to, label, icon: Icon }) => (
               <Link
                 key={to}
@@ -49,9 +51,10 @@ export default function Header() {
               href='https://github.com/MetaPhase-Consulting/fedspeak'
               target='_blank'
               rel='noopener noreferrer'
-              className='text-sm font-medium text-slate-600 hover:text-blue-700 transition-colors'
+              className='flex items-center space-x-1 text-sm font-medium text-slate-600 hover:text-blue-700 transition-colors'
             >
-              GitHub
+              <FolderGit2 className='w-4 h-4' />
+              <span>Repo</span>
             </a>
           </nav>
 
@@ -90,7 +93,8 @@ export default function Header() {
               rel='noopener noreferrer'
               className='flex items-center space-x-3 py-2 text-base font-medium text-slate-600 hover:text-blue-700 transition-colors'
             >
-              <span>GitHub</span>
+              <FolderGit2 className='w-5 h-5' />
+              <span>Repo</span>
             </a>
           </nav>
         </div>
