@@ -1,4 +1,5 @@
-import { Search, FileText, Zap, Globe } from 'lucide-react';
+import { Search, FileText, Package, Terminal } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const features = [
   {
@@ -11,19 +12,25 @@ const features = [
     icon: FileText,
     title: 'Text Scanning',
     description:
-      'Paste a block of text and FedSpeak finds and decodes every government acronym.',
+      'Paste a block of text and FedSpeak finds every government acronym.',
+    link: '/scan',
+    linkLabel: 'Try Text Scan',
   },
   {
-    icon: Zap,
-    title: 'Instant API',
+    icon: Package,
+    title: 'npm Package',
     description:
-      'REST API with GET and POST support. JSON responses, CORS enabled, ready for integration.',
+      'Install via npm install fedspeak. Decode acronyms in your Node.js and TypeScript projects.',
+    link: '/cli',
+    linkLabel: 'View Package',
   },
   {
-    icon: Globe,
-    title: 'Join39 Ready',
+    icon: Terminal,
+    title: 'REST API',
     description:
-      'Built for the Join39 Agent Store. Automatic response truncation for 2000-char compliance.',
+      'GET and POST support with JSON responses, CORS enabled. Ready for any integration.',
+    link: '/docs',
+    linkLabel: 'API Docs',
   },
 ];
 
@@ -35,7 +42,7 @@ export default function FeatureCards() {
           Features
         </h2>
         <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-6'>
-          {features.map(({ icon: Icon, title, description }) => (
+          {features.map(({ icon: Icon, title, description, link, linkLabel }) => (
             <div
               key={title}
               className='bg-white p-6 rounded-lg border border-slate-200 hover:shadow-md transition-shadow'
@@ -45,6 +52,14 @@ export default function FeatureCards() {
               </div>
               <h3 className='font-semibold text-slate-900 mb-2'>{title}</h3>
               <p className='text-sm text-slate-600'>{description}</p>
+              {link && (
+                <Link
+                  to={link}
+                  className='text-sm text-blue-600 hover:text-blue-800 hover:underline mt-3 inline-block font-medium'
+                >
+                  {linkLabel} &rarr;
+                </Link>
+              )}
             </div>
           ))}
         </div>
