@@ -1,10 +1,9 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
 import { Search } from 'lucide-react';
-import { getAcronymCount, getAllAcronyms, lookupAcronym } from '../shared/decoder';
+import { getAllAcronyms, lookupAcronym } from '../shared/decoder';
 import type { DecodedResult } from '../shared/types';
 
 export default function Hero() {
-  const count = getAcronymCount();
   const allAcronyms = useRef(getAllAcronyms());
 
   const [query, setQuery] = useState('');
@@ -88,7 +87,7 @@ export default function Hero() {
         <h1 className='text-4xl md:text-5xl font-bold mb-4'>FedSpeak</h1>
         <p className='text-lg md:text-xl text-blue-100 mb-2'>Federal Acronym Decoder</p>
         <p className='text-blue-200 mb-8 max-w-2xl mx-auto'>
-          Decode {count.toLocaleString()}+ U.S. government acronyms instantly.
+          Decode thousands of U.S. government acronyms instantly.
         </p>
 
         {/* Search with autocomplete */}
@@ -102,7 +101,7 @@ export default function Hero() {
               onChange={e => handleChange(e.target.value)}
               onKeyDown={handleKeyDown}
               onFocus={() => { if (suggestions.length > 0) setShowDropdown(true); }}
-              placeholder={`Search ${count.toLocaleString()} acronyms...`}
+              placeholder='Search acronyms...'
               className='w-full pl-12 pr-4 py-4 rounded-xl text-lg text-slate-900 bg-white shadow-lg focus:ring-2 focus:ring-blue-300 outline-none'
               autoComplete='off'
             />

@@ -1,12 +1,14 @@
-import { Search, FileText, Package, Terminal } from 'lucide-react';
+import { Code, FileText, Package, Search } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const features = [
   {
     icon: Search,
-    title: 'Single Lookup',
+    title: 'Advanced Search',
     description:
-      'Send any acronym and get the full expansion, description, agency, and category.',
+      'Browse, filter by category or agency, and sort all acronyms in the database.',
+    link: '/search',
+    linkLabel: 'Search',
   },
   {
     icon: FileText,
@@ -18,14 +20,14 @@ const features = [
   },
   {
     icon: Package,
-    title: 'npm Package',
+    title: 'Package',
     description:
-      'Install via npm install fedspeak. Decode acronyms in your Node.js and TypeScript projects.',
-    link: '/cli',
+      'Install via npm for use in your Node.js and TypeScript projects.',
+    link: '/package',
     linkLabel: 'View Package',
   },
   {
-    icon: Terminal,
+    icon: Code,
     title: 'REST API',
     description:
       'GET and POST support with JSON responses, CORS enabled. Ready for any integration.',

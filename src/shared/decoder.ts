@@ -99,6 +99,26 @@ export function getAllAcronyms(): string[] {
   return Object.keys(acronyms).sort();
 }
 
+export function getAllEntries(): DecodedResult[] {
+  return Object.keys(acronyms).sort().map(key => toResult(key));
+}
+
+export function getCategories(): string[] {
+  const cats = new Set<string>();
+  for (const entry of Object.values(acronyms)) {
+    cats.add(entry.category);
+  }
+  return Array.from(cats).sort();
+}
+
+export function getAgencies(): string[] {
+  const agencies = new Set<string>();
+  for (const entry of Object.values(acronyms)) {
+    agencies.add(entry.agency);
+  }
+  return Array.from(agencies).sort();
+}
+
 export function getAcronymCount(): number {
   return Object.keys(acronyms).length;
 }
