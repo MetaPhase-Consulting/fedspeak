@@ -3,6 +3,8 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Docs from './pages/Docs';
+import TextScan from './pages/TextScan';
+import CliPage from './pages/CliPage';
 import ApiReference from './pages/ApiReference';
 import NotFound from './pages/NotFound';
 
@@ -15,6 +17,8 @@ function App() {
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/docs' element={<Docs />} />
+            <Route path='/scan' element={<TextScan />} />
+            <Route path='/cli' element={<CliPage />} />
             <Route path='/api-docs' element={<ApiReference />} />
             <Route path='*' element={<NotFound />} />
           </Routes>

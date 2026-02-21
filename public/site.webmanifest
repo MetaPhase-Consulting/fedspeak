@@ -1,0 +1,16 @@
+{
+  "name": "FedSpeak",
+  "short_name": "FedSpeak",
+  "description": "Federal Acronym Decoder — decode U.S. government acronyms",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#1d4ed8",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    }
+  ]
+}
