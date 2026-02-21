@@ -44,3 +44,26 @@ export interface DecodeRequest {
   acronym?: string;
   text?: string;
 }
+
+export interface EncodedResult {
+  acronym: string;
+  full: string;
+  description: string;
+  agency: string;
+  category: AcronymCategory;
+  url?: string;
+}
+
+export interface EncodeResponse {
+  success: boolean;
+  query: string;
+  mode: 'single' | 'scan';
+  results: EncodedResult[];
+  count: number;
+  truncated: boolean;
+}
+
+export interface EncodeRequest {
+  name?: string;
+  text?: string;
+}

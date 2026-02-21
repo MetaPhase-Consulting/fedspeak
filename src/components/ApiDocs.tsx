@@ -27,7 +27,7 @@ export default function ApiDocs() {
                 </p>
                 <pre className='bg-slate-800 text-slate-100 p-4 rounded-lg text-sm overflow-x-auto'>
 {`{
-  "acronym": "DOD"
+  "acronym": "GSA"
 }`}
                 </pre>
               </div>
@@ -38,15 +38,15 @@ export default function ApiDocs() {
                 <pre className='bg-slate-800 text-slate-100 p-4 rounded-lg text-sm overflow-x-auto'>
 {`{
   "success": true,
-  "query": "DOD",
+  "query": "GSA",
   "mode": "single",
   "results": [{
-    "acronym": "DOD",
-    "full": "Department of Defense",
+    "acronym": "GSA",
+    "full": "General Services Administration",
     "description": "...",
-    "agency": "DOD",
-    "category": "department",
-    "url": "https://www.defense.gov"
+    "agency": "GSA",
+    "category": "agency",
+    "url": "https://www.gsa.gov"
   }],
   "count": 1,
   "truncated": false
@@ -67,7 +67,7 @@ export default function ApiDocs() {
                 </p>
                 <pre className='bg-slate-800 text-slate-100 p-4 rounded-lg text-sm overflow-x-auto'>
 {`{
-  "text": "The DOD and GSA are
+  "text": "The DOW and GSA are
   working with OMB on
   the new RFP"
 }`}
@@ -82,7 +82,7 @@ export default function ApiDocs() {
   "success": true,
   "mode": "scan",
   "results": [
-    { "acronym": "DOD", ... },
+    { "acronym": "DOW", ... },
     { "acronym": "GSA", ... },
     { "acronym": "OMB", ... },
     { "acronym": "RFP", ... }
@@ -100,7 +100,7 @@ export default function ApiDocs() {
               GET Support
             </h3>
             <code className='block bg-slate-800 text-green-400 p-4 rounded-lg text-sm'>
-              GET https://fedspeak.dev/api/decode?acronym=DOD
+              GET https://fedspeak.dev/api/decode?acronym=GSA
             </code>
             <p className='text-sm text-slate-600 mt-2'>
               Also supports <code className='text-blue-700'>?text=...</code> for
@@ -116,15 +116,15 @@ export default function ApiDocs() {
 {`# Single lookup
 curl -X POST https://fedspeak.dev/api/decode \\
   -H "Content-Type: application/json" \\
-  -d '{"acronym": "DOD"}'
+  -d '{"acronym": "GSA"}'
 
 # Text scan
 curl -X POST https://fedspeak.dev/api/decode \\
   -H "Content-Type: application/json" \\
-  -d '{"text": "The DOD and GSA work with OMB"}'
+  -d '{"text": "The DOW and GSA work with OMB"}'
 
 # GET request
-curl "https://fedspeak.dev/api/decode?acronym=DOD"`}
+curl "https://fedspeak.dev/api/decode?acronym=GSA"`}
             </pre>
           </div>
         </div>

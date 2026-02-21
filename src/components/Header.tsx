@@ -1,12 +1,13 @@
 import { Link, useLocation } from 'react-router-dom';
-import { BookOpen, Home } from 'lucide-react';
+import { BookOpen, Home, FileCode } from 'lucide-react';
 
 export default function Header() {
   const location = useLocation();
 
   const navLinks = [
     { to: '/', label: 'Home', icon: Home },
-    { to: '/docs', label: 'API Docs', icon: BookOpen },
+    { to: '/docs', label: 'Docs', icon: BookOpen },
+    { to: '/api-docs', label: 'Swagger', icon: FileCode },
   ];
 
   return (
