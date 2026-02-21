@@ -1,0 +1,1784 @@
+{
+  "DOD": {
+    "full": "Department of Defense",
+    "description": "Executive branch department responsible for national security and the armed forces.",
+    "agency": "DOD",
+    "category": "department",
+    "url": "https://www.defense.gov"
+  },
+  "DOJ": {
+    "full": "Department of Justice",
+    "description": "Federal executive department responsible for enforcement of federal law and administration of justice.",
+    "agency": "DOJ",
+    "category": "department",
+    "url": "https://www.justice.gov"
+  },
+  "DOS": {
+    "full": "Department of State",
+    "description": "Executive branch department responsible for foreign affairs and diplomacy.",
+    "agency": "DOS",
+    "category": "department",
+    "url": "https://www.state.gov"
+  },
+  "DOT": {
+    "full": "Department of Transportation",
+    "description": "Federal department responsible for the national transportation system.",
+    "agency": "DOT",
+    "category": "department",
+    "url": "https://www.transportation.gov"
+  },
+  "DOE": {
+    "full": "Department of Energy",
+    "description": "Federal department responsible for energy policy, nuclear safety, and scientific research.",
+    "agency": "DOE",
+    "category": "department",
+    "url": "https://www.energy.gov"
+  },
+  "DOL": {
+    "full": "Department of Labor",
+    "description": "Federal department responsible for occupational safety, labor standards, and employment services.",
+    "agency": "DOL",
+    "category": "department",
+    "url": "https://www.dol.gov"
+  },
+  "DOI": {
+    "full": "Department of the Interior",
+    "description": "Federal department responsible for managing federal lands and natural resources.",
+    "agency": "DOI",
+    "category": "department",
+    "url": "https://www.doi.gov"
+  },
+  "DOC": {
+    "full": "Department of Commerce",
+    "description": "Federal department promoting economic growth, job creation, and trade.",
+    "agency": "DOC",
+    "category": "department",
+    "url": "https://www.commerce.gov"
+  },
+  "USDA": {
+    "full": "United States Department of Agriculture",
+    "description": "Federal department responsible for food, agriculture, and rural development policy.",
+    "agency": "USDA",
+    "category": "department",
+    "url": "https://www.usda.gov"
+  },
+  "HHS": {
+    "full": "Department of Health and Human Services",
+    "description": "Federal department responsible for protecting the health of Americans and providing essential human services.",
+    "agency": "HHS",
+    "category": "department",
+    "url": "https://www.hhs.gov"
+  },
+  "HUD": {
+    "full": "Department of Housing and Urban Development",
+    "description": "Federal department responsible for housing policy and community development.",
+    "agency": "HUD",
+    "category": "department",
+    "url": "https://www.hud.gov"
+  },
+  "DHS": {
+    "full": "Department of Homeland Security",
+    "description": "Federal department responsible for public security, including border control, cybersecurity, and disaster response.",
+    "agency": "DHS",
+    "category": "department",
+    "url": "https://www.dhs.gov"
+  },
+  "VA": {
+    "full": "Department of Veterans Affairs",
+    "description": "Federal department providing benefits, healthcare, and services to military veterans.",
+    "agency": "VA",
+    "category": "department",
+    "url": "https://www.va.gov"
+  },
+  "ED": {
+    "full": "Department of Education",
+    "description": "Federal department responsible for education policy and federal financial aid.",
+    "agency": "ED",
+    "category": "department",
+    "url": "https://www.ed.gov"
+  },
+  "TREAS": {
+    "full": "Department of the Treasury",
+    "description": "Federal department responsible for fiscal policy, tax collection, and currency production.",
+    "agency": "TREAS",
+    "category": "department",
+    "url": "https://home.treasury.gov",
+    "aliases": ["Treasury"]
+  },
+  "GSA": {
+    "full": "General Services Administration",
+    "description": "Federal agency managing government buildings, procurement, and technology solutions.",
+    "agency": "GSA",
+    "category": "agency",
+    "url": "https://www.gsa.gov"
+  },
+  "OMB": {
+    "full": "Office of Management and Budget",
+    "description": "EOP office responsible for the federal budget, regulatory oversight, and management of executive agencies.",
+    "agency": "EOP",
+    "category": "office",
+    "url": "https://www.whitehouse.gov/omb"
+  },
+  "OPM": {
+    "full": "Office of Personnel Management",
+    "description": "Federal agency managing the civil service and federal workforce policies.",
+    "agency": "OPM",
+    "category": "agency",
+    "url": "https://www.opm.gov"
+  },
+  "GAO": {
+    "full": "Government Accountability Office",
+    "description": "Legislative branch agency providing auditing, evaluation, and investigative services for Congress.",
+    "agency": "GAO",
+    "category": "agency",
+    "url": "https://www.gao.gov"
+  },
+  "CBO": {
+    "full": "Congressional Budget Office",
+    "description": "Legislative branch agency providing nonpartisan budget and economic analysis to Congress.",
+    "agency": "CBO",
+    "category": "agency",
+    "url": "https://www.cbo.gov"
+  },
+  "EPA": {
+    "full": "Environmental Protection Agency",
+    "description": "Independent agency responsible for environmental protection and public health.",
+    "agency": "EPA",
+    "category": "agency",
+    "url": "https://www.epa.gov"
+  },
+  "NASA": {
+    "full": "National Aeronautics and Space Administration",
+    "description": "Independent agency responsible for the civilian space program and aeronautics research.",
+    "agency": "NASA",
+    "category": "agency",
+    "url": "https://www.nasa.gov"
+  },
+  "NSF": {
+    "full": "National Science Foundation",
+    "description": "Independent agency supporting fundamental research and education in science and engineering.",
+    "agency": "NSF",
+    "category": "agency",
+    "url": "https://www.nsf.gov"
+  },
+  "SBA": {
+    "full": "Small Business Administration",
+    "description": "Federal agency supporting small businesses through loans, counseling, and contracting assistance.",
+    "agency": "SBA",
+    "category": "agency",
+    "url": "https://www.sba.gov"
+  },
+  "SSA": {
+    "full": "Social Security Administration",
+    "description": "Independent agency administering Social Security retirement, disability, and survivor benefits.",
+    "agency": "SSA",
+    "category": "agency",
+    "url": "https://www.ssa.gov"
+  },
+  "FEMA": {
+    "full": "Federal Emergency Management Agency",
+    "description": "DHS agency coordinating disaster preparedness, response, and recovery.",
+    "agency": "DHS",
+    "category": "agency",
+    "url": "https://www.fema.gov"
+  },
+  "FBI": {
+    "full": "Federal Bureau of Investigation",
+    "description": "DOJ agency responsible for domestic intelligence and federal criminal investigations.",
+    "agency": "DOJ",
+    "category": "bureau",
+    "url": "https://www.fbi.gov"
+  },
+  "CIA": {
+    "full": "Central Intelligence Agency",
+    "description": "Independent agency responsible for foreign intelligence collection and analysis.",
+    "agency": "CIA",
+    "category": "agency",
+    "url": "https://www.cia.gov"
+  },
+  "NSA": {
+    "full": "National Security Agency",
+    "description": "DOD agency responsible for signals intelligence and information assurance.",
+    "agency": "DOD",
+    "category": "agency",
+    "url": "https://www.nsa.gov"
+  },
+  "NIH": {
+    "full": "National Institutes of Health",
+    "description": "HHS agency and the primary federal agency for biomedical and public health research.",
+    "agency": "HHS",
+    "category": "agency",
+    "url": "https://www.nih.gov"
+  },
+  "CDC": {
+    "full": "Centers for Disease Control and Prevention",
+    "description": "HHS agency responsible for public health and disease prevention.",
+    "agency": "HHS",
+    "category": "agency",
+    "url": "https://www.cdc.gov"
+  },
+  "FDA": {
+    "full": "Food and Drug Administration",
+    "description": "HHS agency responsible for regulating food, drugs, medical devices, and cosmetics.",
+    "agency": "HHS",
+    "category": "agency",
+    "url": "https://www.fda.gov"
+  },
+  "CMS": {
+    "full": "Centers for Medicare and Medicaid Services",
+    "description": "HHS agency administering Medicare, Medicaid, and the Health Insurance Marketplace.",
+    "agency": "HHS",
+    "category": "agency",
+    "url": "https://www.cms.gov"
+  },
+  "FAA": {
+    "full": "Federal Aviation Administration",
+    "description": "DOT agency regulating civil aviation and managing U.S. airspace.",
+    "agency": "DOT",
+    "category": "agency",
+    "url": "https://www.faa.gov"
+  },
+  "FCC": {
+    "full": "Federal Communications Commission",
+    "description": "Independent agency regulating interstate and international communications.",
+    "agency": "FCC",
+    "category": "agency",
+    "url": "https://www.fcc.gov"
+  },
+  "FTC": {
+    "full": "Federal Trade Commission",
+    "description": "Independent agency protecting consumers and promoting competition.",
+    "agency": "FTC",
+    "category": "agency",
+    "url": "https://www.ftc.gov"
+  },
+  "SEC": {
+    "full": "Securities and Exchange Commission",
+    "description": "Independent agency regulating securities markets and protecting investors.",
+    "agency": "SEC",
+    "category": "agency",
+    "url": "https://www.sec.gov"
+  },
+  "IRS": {
+    "full": "Internal Revenue Service",
+    "description": "Treasury bureau responsible for federal tax collection and tax law enforcement.",
+    "agency": "TREAS",
+    "category": "bureau",
+    "url": "https://www.irs.gov"
+  },
+  "CBP": {
+    "full": "Customs and Border Protection",
+    "description": "DHS agency responsible for border security, immigration enforcement, and customs regulation.",
+    "agency": "DHS",
+    "category": "agency",
+    "url": "https://www.cbp.gov"
+  },
+  "ICE": {
+    "full": "Immigration and Customs Enforcement",
+    "description": "DHS agency responsible for immigration enforcement and criminal investigations.",
+    "agency": "DHS",
+    "category": "agency",
+    "url": "https://www.ice.gov"
+  },
+  "TSA": {
+    "full": "Transportation Security Administration",
+    "description": "DHS agency responsible for security of U.S. transportation systems, especially airports.",
+    "agency": "DHS",
+    "category": "agency",
+    "url": "https://www.tsa.gov"
+  },
+  "USCIS": {
+    "full": "United States Citizenship and Immigration Services",
+    "description": "DHS agency administering immigration and naturalization services.",
+    "agency": "DHS",
+    "category": "agency",
+    "url": "https://www.uscis.gov"
+  },
+  "USPS": {
+    "full": "United States Postal Service",
+    "description": "Independent agency operating the national postal service.",
+    "agency": "USPS",
+    "category": "agency",
+    "url": "https://www.usps.com"
+  },
+  "NIST": {
+    "full": "National Institute of Standards and Technology",
+    "description": "DOC agency promoting measurement science, standards, and technology.",
+    "agency": "DOC",
+    "category": "agency",
+    "url": "https://www.nist.gov"
+  },
+  "NOAA": {
+    "full": "National Oceanic and Atmospheric Administration",
+    "description": "DOC agency responsible for weather, oceans, and atmospheric science.",
+    "agency": "DOC",
+    "category": "agency",
+    "url": "https://www.noaa.gov"
+  },
+  "NRC": {
+    "full": "Nuclear Regulatory Commission",
+    "description": "Independent agency regulating civilian use of nuclear materials.",
+    "agency": "NRC",
+    "category": "agency",
+    "url": "https://www.nrc.gov"
+  },
+  "USAID": {
+    "full": "United States Agency for International Development",
+    "description": "Independent agency administering civilian foreign aid and development assistance.",
+    "agency": "USAID",
+    "category": "agency",
+    "url": "https://www.usaid.gov"
+  },
+  "DARPA": {
+    "full": "Defense Advanced Research Projects Agency",
+    "description": "DOD agency responsible for development of emerging technologies for military use.",
+    "agency": "DOD",
+    "category": "agency",
+    "url": "https://www.darpa.mil"
+  },
+  "DISA": {
+    "full": "Defense Information Systems Agency",
+    "description": "DOD agency providing IT and communications support to the military.",
+    "agency": "DOD",
+    "category": "agency",
+    "url": "https://www.disa.mil"
+  },
+  "DLA": {
+    "full": "Defense Logistics Agency",
+    "description": "DOD agency providing supply chain and logistics support to the military.",
+    "agency": "DOD",
+    "category": "agency",
+    "url": "https://www.dla.mil"
+  },
+  "DCSA": {
+    "full": "Defense Counterintelligence and Security Agency",
+    "description": "DOD agency responsible for security clearance investigations and industrial security.",
+    "agency": "DOD",
+    "category": "agency",
+    "url": "https://www.dcsa.mil"
+  },
+  "CISA": {
+    "full": "Cybersecurity and Infrastructure Security Agency",
+    "description": "DHS agency responsible for protecting critical infrastructure and cybersecurity.",
+    "agency": "DHS",
+    "category": "agency",
+    "url": "https://www.cisa.gov"
+  },
+  "EOP": {
+    "full": "Executive Office of the President",
+    "description": "Group of agencies that support the work of the President of the United States.",
+    "agency": "EOP",
+    "category": "office",
+    "url": "https://www.whitehouse.gov"
+  },
+  "NSC": {
+    "full": "National Security Council",
+    "description": "EOP forum for advising the President on national security and foreign policy.",
+    "agency": "EOP",
+    "category": "office",
+    "url": "https://www.whitehouse.gov/nsc"
+  },
+  "NEC": {
+    "full": "National Economic Council",
+    "description": "EOP body coordinating domestic and international economic policy.",
+    "agency": "EOP",
+    "category": "office"
+  },
+  "OSTP": {
+    "full": "Office of Science and Technology Policy",
+    "description": "EOP office advising the President on science, engineering, and technology policy.",
+    "agency": "EOP",
+    "category": "office",
+    "url": "https://www.whitehouse.gov/ostp"
+  },
+  "USTR": {
+    "full": "Office of the United States Trade Representative",
+    "description": "EOP office responsible for developing and coordinating U.S. trade policy.",
+    "agency": "EOP",
+    "category": "office",
+    "url": "https://ustr.gov"
+  },
+  "CEQ": {
+    "full": "Council on Environmental Quality",
+    "description": "EOP office coordinating federal environmental efforts and NEPA implementation.",
+    "agency": "EOP",
+    "category": "office",
+    "url": "https://www.whitehouse.gov/ceq"
+  },
+  "RFP": {
+    "full": "Request for Proposal",
+    "description": "Formal solicitation document inviting vendors to submit proposals for a contract.",
+    "agency": "General",
+    "category": "process"
+  },
+  "RFI": {
+    "full": "Request for Information",
+    "description": "Pre-solicitation document gathering market intelligence from potential vendors.",
+    "agency": "General",
+    "category": "process"
+  },
+  "RFQ": {
+    "full": "Request for Quotation",
+    "description": "Solicitation document requesting price quotes for specific goods or services.",
+    "agency": "General",
+    "category": "process"
+  },
+  "SOW": {
+    "full": "Statement of Work",
+    "description": "Document defining the specific tasks, deliverables, and timeline for a contract.",
+    "agency": "General",
+    "category": "process"
+  },
+  "PWS": {
+    "full": "Performance Work Statement",
+    "description": "Contract document describing required results rather than specific methods.",
+    "agency": "General",
+    "category": "process"
+  },
+  "SOO": {
+    "full": "Statement of Objectives",
+    "description": "High-level document outlining the overall objectives and desired outcomes of a contract.",
+    "agency": "General",
+    "category": "process"
+  },
+  "IDIQ": {
+    "full": "Indefinite Delivery/Indefinite Quantity",
+    "description": "Contract type providing for an indefinite quantity of supplies or services over a fixed period.",
+    "agency": "General",
+    "category": "process"
+  },
+  "BPA": {
+    "full": "Blanket Purchase Agreement",
+    "description": "Simplified acquisition method for recurring purchases of supplies or services.",
+    "agency": "General",
+    "category": "process"
+  },
+  "GWA": {
+    "full": "Government-Wide Acquisition",
+    "description": "Acquisition vehicles available for use by all federal agencies.",
+    "agency": "General",
+    "category": "process"
+  },
+  "GWAC": {
+    "full": "Government-Wide Acquisition Contract",
+    "description": "Pre-competed, multiple-award IDIQ contract for IT solutions available to all agencies.",
+    "agency": "General",
+    "category": "process"
+  },
+  "FAR": {
+    "full": "Federal Acquisition Regulation",
+    "description": "Primary regulation governing federal procurement of goods and services.",
+    "agency": "General",
+    "category": "regulation",
+    "url": "https://www.acquisition.gov/far"
+  },
+  "DFARS": {
+    "full": "Defense Federal Acquisition Regulation Supplement",
+    "description": "DOD supplement to the FAR with additional defense-specific procurement rules.",
+    "agency": "DOD",
+    "category": "regulation"
+  },
+  "COTS": {
+    "full": "Commercial Off-the-Shelf",
+    "description": "Commercially available products that can be purchased without modification.",
+    "agency": "General",
+    "category": "process"
+  },
+  "GOTS": {
+    "full": "Government Off-the-Shelf",
+    "description": "Software or technology developed by or for the government, available for reuse.",
+    "agency": "General",
+    "category": "process"
+  },
+  "CO": {
+    "full": "Contracting Officer",
+    "description": "Government official with authority to enter into, administer, and terminate contracts.",
+    "agency": "General",
+    "category": "general"
+  },
+  "COR": {
+    "full": "Contracting Officer's Representative",
+    "description": "Individual designated to assist the CO in managing contract performance.",
+    "agency": "General",
+    "category": "general"
+  },
+  "COTR": {
+    "full": "Contracting Officer's Technical Representative",
+    "description": "Technical expert designated to monitor contractor performance on behalf of the CO.",
+    "agency": "General",
+    "category": "general",
+    "aliases": ["COTR"]
+  },
+  "KO": {
+    "full": "Contracting Officer",
+    "description": "Alternate abbreviation for Contracting Officer, commonly used in DOD.",
+    "agency": "General",
+    "category": "general"
+  },
+  "PM": {
+    "full": "Program Manager",
+    "description": "Individual responsible for planning, executing, and closing a government program.",
+    "agency": "General",
+    "category": "general"
+  },
+  "PO": {
+    "full": "Project Officer",
+    "description": "Government official overseeing a specific project within a program.",
+    "agency": "General",
+    "category": "general"
+  },
+  "GS": {
+    "full": "General Schedule",
+    "description": "Pay scale for the majority of federal civilian employees, ranging from GS-1 to GS-15.",
+    "agency": "OPM",
+    "category": "system"
+  },
+  "SES": {
+    "full": "Senior Executive Service",
+    "description": "Corps of senior federal leaders serving just below presidential appointees.",
+    "agency": "OPM",
+    "category": "system"
+  },
+  "FTE": {
+    "full": "Full-Time Equivalent",
+    "description": "Unit of measure representing a full-time employee's workload (2,080 hours/year).",
+    "agency": "General",
+    "category": "general"
+  },
+  "PII": {
+    "full": "Personally Identifiable Information",
+    "description": "Information that can be used to identify an individual, requiring protection under federal law.",
+    "agency": "General",
+    "category": "general"
+  },
+  "PHI": {
+    "full": "Protected Health Information",
+    "description": "Health information protected under HIPAA that identifies an individual.",
+    "agency": "HHS",
+    "category": "general"
+  },
+  "HIPAA": {
+    "full": "Health Insurance Portability and Accountability Act",
+    "description": "Federal law establishing standards for protecting sensitive patient health information.",
+    "agency": "HHS",
+    "category": "regulation"
+  },
+  "FISMA": {
+    "full": "Federal Information Security Modernization Act",
+    "description": "Federal law requiring agencies to develop, document, and implement information security programs.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "FOIA": {
+    "full": "Freedom of Information Act",
+    "description": "Federal law granting the public right to request access to federal agency records.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "NEPA": {
+    "full": "National Environmental Policy Act",
+    "description": "Federal law requiring environmental impact assessments for major federal actions.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "FITARA": {
+    "full": "Federal Information Technology Acquisition Reform Act",
+    "description": "Law giving federal CIOs authority over IT spending and acquisition decisions.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "ATO": {
+    "full": "Authority to Operate",
+    "description": "Official authorization for an IT system to process information based on a security assessment.",
+    "agency": "General",
+    "category": "process"
+  },
+  "FedRAMP": {
+    "full": "Federal Risk and Authorization Management Program",
+    "description": "Government-wide program providing a standardized approach to cloud security assessment.",
+    "agency": "GSA",
+    "category": "program",
+    "url": "https://www.fedramp.gov"
+  },
+  "NIST SP": {
+    "full": "NIST Special Publication",
+    "description": "Series of publications providing technical guidelines and standards for federal IT systems.",
+    "agency": "DOC",
+    "category": "general"
+  },
+  "RMF": {
+    "full": "Risk Management Framework",
+    "description": "NIST framework for integrating security and risk management into the system development lifecycle.",
+    "agency": "DOC",
+    "category": "process"
+  },
+  "STIG": {
+    "full": "Security Technical Implementation Guide",
+    "description": "DOD configuration standard for securing information systems and software.",
+    "agency": "DOD",
+    "category": "general"
+  },
+  "POA&M": {
+    "full": "Plan of Action and Milestones",
+    "description": "Document identifying tasks needed to remediate security weaknesses in an IT system.",
+    "agency": "General",
+    "category": "process",
+    "aliases": ["POAM"]
+  },
+  "ISSO": {
+    "full": "Information System Security Officer",
+    "description": "Individual responsible for ensuring the security of an information system.",
+    "agency": "General",
+    "category": "general"
+  },
+  "ISSM": {
+    "full": "Information System Security Manager",
+    "description": "Individual responsible for managing the security program for one or more information systems.",
+    "agency": "General",
+    "category": "general"
+  },
+  "CIO": {
+    "full": "Chief Information Officer",
+    "description": "Senior executive responsible for IT strategy, systems, and information management.",
+    "agency": "General",
+    "category": "general"
+  },
+  "CISO": {
+    "full": "Chief Information Security Officer",
+    "description": "Senior executive responsible for information security strategy and program.",
+    "agency": "General",
+    "category": "general"
+  },
+  "CTO": {
+    "full": "Chief Technology Officer",
+    "description": "Senior executive responsible for technology strategy and innovation.",
+    "agency": "General",
+    "category": "general"
+  },
+  "CFO": {
+    "full": "Chief Financial Officer",
+    "description": "Senior executive responsible for financial planning, reporting, and management.",
+    "agency": "General",
+    "category": "general"
+  },
+  "CAO": {
+    "full": "Chief Acquisition Officer",
+    "description": "Senior executive responsible for an agency's acquisition and procurement activities.",
+    "agency": "General",
+    "category": "general"
+  },
+  "CHCO": {
+    "full": "Chief Human Capital Officer",
+    "description": "Senior executive responsible for workforce planning and human resources management.",
+    "agency": "General",
+    "category": "general"
+  },
+  "CDO": {
+    "full": "Chief Data Officer",
+    "description": "Senior executive responsible for data governance, analytics, and data-driven decision making.",
+    "agency": "General",
+    "category": "general"
+  },
+  "SAM": {
+    "full": "System for Award Management",
+    "description": "Official government system for entity registration, contract data, and exclusions.",
+    "agency": "GSA",
+    "category": "system",
+    "url": "https://sam.gov"
+  },
+  "FPDS": {
+    "full": "Federal Procurement Data System",
+    "description": "Central repository of federal contracting data and procurement statistics.",
+    "agency": "GSA",
+    "category": "system",
+    "url": "https://www.fpds.gov"
+  },
+  "USASpending": {
+    "full": "USASpending.gov",
+    "description": "Official source for federal spending data, tracking awards and agency budgets.",
+    "agency": "TREAS",
+    "category": "system",
+    "url": "https://www.usaspending.gov"
+  },
+  "MAX": {
+    "full": "MAX Information System",
+    "description": "OMB system for budget formulation, data collection, and collaboration across agencies.",
+    "agency": "EOP",
+    "category": "system"
+  },
+  "CPARS": {
+    "full": "Contractor Performance Assessment Reporting System",
+    "description": "Government system for recording contractor past performance evaluations.",
+    "agency": "General",
+    "category": "system"
+  },
+  "eSRS": {
+    "full": "Electronic Subcontracting Reporting System",
+    "description": "System for reporting subcontracting plans and achievements on federal contracts.",
+    "agency": "GSA",
+    "category": "system"
+  },
+  "DUNS": {
+    "full": "Data Universal Numbering System",
+    "description": "Unique nine-digit identifier for businesses, previously required for federal registration.",
+    "agency": "General",
+    "category": "system"
+  },
+  "UEI": {
+    "full": "Unique Entity Identifier",
+    "description": "SAM-generated identifier replacing the DUNS number for federal entity registration.",
+    "agency": "GSA",
+    "category": "system"
+  },
+  "NAICS": {
+    "full": "North American Industry Classification System",
+    "description": "Standard system for classifying business establishments by type of economic activity.",
+    "agency": "General",
+    "category": "system"
+  },
+  "PSC": {
+    "full": "Product and Service Code",
+    "description": "Codes used to classify products and services purchased by federal agencies.",
+    "agency": "General",
+    "category": "system"
+  },
+  "CAGE": {
+    "full": "Commercial and Government Entity Code",
+    "description": "Five-character identifier for entities doing business with the federal government.",
+    "agency": "DOD",
+    "category": "system"
+  },
+  "DCAA": {
+    "full": "Defense Contract Audit Agency",
+    "description": "DOD agency providing audit and financial advisory services for defense contracts.",
+    "agency": "DOD",
+    "category": "agency",
+    "url": "https://www.dcaa.mil"
+  },
+  "DCMA": {
+    "full": "Defense Contract Management Agency",
+    "description": "DOD agency providing contract administration services for defense acquisitions.",
+    "agency": "DOD",
+    "category": "agency",
+    "url": "https://www.dcma.mil"
+  },
+  "SCA": {
+    "full": "Service Contract Act",
+    "description": "Federal law requiring payment of prevailing wages on government service contracts.",
+    "agency": "DOL",
+    "category": "regulation"
+  },
+  "DBA": {
+    "full": "Davis-Bacon Act",
+    "description": "Federal law requiring payment of prevailing wages on federally funded construction projects.",
+    "agency": "DOL",
+    "category": "regulation"
+  },
+  "EO": {
+    "full": "Executive Order",
+    "description": "Official directive from the President managing operations of the federal government.",
+    "agency": "EOP",
+    "category": "general"
+  },
+  "FR": {
+    "full": "Federal Register",
+    "description": "Official daily publication for rules, proposed rules, and notices from federal agencies.",
+    "agency": "General",
+    "category": "general",
+    "url": "https://www.federalregister.gov"
+  },
+  "CFR": {
+    "full": "Code of Federal Regulations",
+    "description": "Codification of all general and permanent rules published by federal agencies.",
+    "agency": "General",
+    "category": "regulation",
+    "url": "https://www.ecfr.gov"
+  },
+  "USC": {
+    "full": "United States Code",
+    "description": "Codification of federal statutory law organized by subject matter.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "NDAA": {
+    "full": "National Defense Authorization Act",
+    "description": "Annual legislation authorizing defense spending and setting military policy.",
+    "agency": "DOD",
+    "category": "regulation"
+  },
+  "FARA": {
+    "full": "Federal Activities Reform Act",
+    "description": "Federal law requiring registration of agents representing foreign interests.",
+    "agency": "DOJ",
+    "category": "regulation"
+  },
+  "IG": {
+    "full": "Inspector General",
+    "description": "Independent official responsible for auditing, investigating, and preventing waste and fraud.",
+    "agency": "General",
+    "category": "general"
+  },
+  "OIG": {
+    "full": "Office of Inspector General",
+    "description": "Independent office within agencies responsible for oversight, audits, and investigations.",
+    "agency": "General",
+    "category": "office"
+  },
+  "SDVOSB": {
+    "full": "Service-Disabled Veteran-Owned Small Business",
+    "description": "Small business designation for firms owned by service-disabled veterans.",
+    "agency": "SBA",
+    "category": "program"
+  },
+  "WOSB": {
+    "full": "Women-Owned Small Business",
+    "description": "Small business designation for firms owned and controlled by women.",
+    "agency": "SBA",
+    "category": "program"
+  },
+  "HUBZone": {
+    "full": "Historically Underutilized Business Zone",
+    "description": "SBA program for small businesses in economically distressed areas.",
+    "agency": "SBA",
+    "category": "program"
+  },
+  "8(a)": {
+    "full": "8(a) Business Development Program",
+    "description": "SBA program assisting small disadvantaged businesses compete in the marketplace.",
+    "agency": "SBA",
+    "category": "program"
+  },
+  "SBIR": {
+    "full": "Small Business Innovation Research",
+    "description": "Competitive program encouraging small businesses to engage in federal R&D.",
+    "agency": "SBA",
+    "category": "program"
+  },
+  "STTR": {
+    "full": "Small Business Technology Transfer",
+    "description": "Program facilitating cooperative R&D between small businesses and research institutions.",
+    "agency": "SBA",
+    "category": "program"
+  },
+  "LPTA": {
+    "full": "Lowest Price Technically Acceptable",
+    "description": "Source selection method awarding to the lowest-priced proposal meeting technical requirements.",
+    "agency": "General",
+    "category": "process"
+  },
+  "BAFO": {
+    "full": "Best and Final Offer",
+    "description": "Final revision to a proposal requested during competitive negotiations.",
+    "agency": "General",
+    "category": "process"
+  },
+  "CPAF": {
+    "full": "Cost-Plus-Award-Fee",
+    "description": "Contract type paying costs plus a fee based on periodic performance evaluations.",
+    "agency": "General",
+    "category": "process"
+  },
+  "CPFF": {
+    "full": "Cost-Plus-Fixed-Fee",
+    "description": "Contract type paying allowable costs plus a fixed fee regardless of performance.",
+    "agency": "General",
+    "category": "process"
+  },
+  "FFP": {
+    "full": "Firm-Fixed-Price",
+    "description": "Contract type with a set price not subject to adjustment based on costs.",
+    "agency": "General",
+    "category": "process"
+  },
+  "T&M": {
+    "full": "Time and Materials",
+    "description": "Contract type paying fixed hourly rates plus actual material costs.",
+    "agency": "General",
+    "category": "process",
+    "aliases": ["TM", "T&M"]
+  },
+  "OTA": {
+    "full": "Other Transaction Authority",
+    "description": "Flexible contracting mechanism not subject to standard FAR requirements.",
+    "agency": "General",
+    "category": "process"
+  },
+  "OCONUS": {
+    "full": "Outside the Continental United States",
+    "description": "Geographic designation for locations outside the 48 contiguous U.S. states.",
+    "agency": "DOD",
+    "category": "general"
+  },
+  "CONUS": {
+    "full": "Continental United States",
+    "description": "Geographic designation for the 48 contiguous U.S. states and the District of Columbia.",
+    "agency": "DOD",
+    "category": "general"
+  },
+  "PCS": {
+    "full": "Permanent Change of Station",
+    "description": "Official relocation of a military member or federal employee to a new duty station.",
+    "agency": "DOD",
+    "category": "process"
+  },
+  "TDY": {
+    "full": "Temporary Duty",
+    "description": "Travel assignment at a location other than the employee's permanent duty station.",
+    "agency": "DOD",
+    "category": "process"
+  },
+  "CAC": {
+    "full": "Common Access Card",
+    "description": "Standard identification and smart card for DOD personnel and contractors.",
+    "agency": "DOD",
+    "category": "system"
+  },
+  "PIV": {
+    "full": "Personal Identity Verification",
+    "description": "Federal smart card credential for physical and logical access to government systems.",
+    "agency": "General",
+    "category": "system"
+  },
+  "HSPD-12": {
+    "full": "Homeland Security Presidential Directive 12",
+    "description": "Policy requiring a common identification standard for federal employees and contractors.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "IL": {
+    "full": "Impact Level",
+    "description": "FedRAMP/DOD classification of cloud computing security requirements (IL2 through IL6).",
+    "agency": "General",
+    "category": "general"
+  },
+  "JWICS": {
+    "full": "Joint Worldwide Intelligence Communications System",
+    "description": "DOD's Top Secret/SCI network for intelligence community communications.",
+    "agency": "DOD",
+    "category": "system"
+  },
+  "SIPRNet": {
+    "full": "Secret Internet Protocol Router Network",
+    "description": "DOD network for transmitting classified information up to the Secret level.",
+    "agency": "DOD",
+    "category": "system"
+  },
+  "NIPRNet": {
+    "full": "Non-classified Internet Protocol Router Network",
+    "description": "DOD network for transmitting unclassified but sensitive information.",
+    "agency": "DOD",
+    "category": "system"
+  },
+  "SCIF": {
+    "full": "Sensitive Compartmented Information Facility",
+    "description": "Accredited room or building for processing classified intelligence information.",
+    "agency": "DOD",
+    "category": "general"
+  },
+  "SCI": {
+    "full": "Sensitive Compartmented Information",
+    "description": "Classified information concerning intelligence sources, methods, and analytical processes.",
+    "agency": "DOD",
+    "category": "general"
+  },
+  "TS": {
+    "full": "Top Secret",
+    "description": "Security classification for information whose disclosure would cause exceptionally grave damage.",
+    "agency": "General",
+    "category": "general"
+  },
+  "FOUO": {
+    "full": "For Official Use Only",
+    "description": "Legacy designation for unclassified information requiring protection, replaced by CUI.",
+    "agency": "General",
+    "category": "general"
+  },
+  "CUI": {
+    "full": "Controlled Unclassified Information",
+    "description": "Unclassified information requiring safeguarding or dissemination controls per law or policy.",
+    "agency": "General",
+    "category": "general"
+  },
+  "CMMC": {
+    "full": "Cybersecurity Maturity Model Certification",
+    "description": "DOD framework for assessing and certifying cybersecurity practices of defense contractors.",
+    "agency": "DOD",
+    "category": "program"
+  },
+  "NARA": {
+    "full": "National Archives and Records Administration",
+    "description": "Independent agency responsible for preserving government and historical records.",
+    "agency": "NARA",
+    "category": "agency",
+    "url": "https://www.archives.gov"
+  },
+  "GPO": {
+    "full": "Government Publishing Office",
+    "description": "Legislative branch agency producing and distributing official federal government publications.",
+    "agency": "GPO",
+    "category": "agency",
+    "url": "https://www.gpo.gov"
+  },
+  "CRS": {
+    "full": "Congressional Research Service",
+    "description": "Legislative branch agency providing nonpartisan policy analysis to Congress.",
+    "agency": "CRS",
+    "category": "agency"
+  },
+  "FLRA": {
+    "full": "Federal Labor Relations Authority",
+    "description": "Independent agency governing labor-management relations for federal employees.",
+    "agency": "FLRA",
+    "category": "agency",
+    "url": "https://www.flra.gov"
+  },
+  "MSPB": {
+    "full": "Merit Systems Protection Board",
+    "description": "Independent agency protecting federal merit system principles and employee rights.",
+    "agency": "MSPB",
+    "category": "agency",
+    "url": "https://www.mspb.gov"
+  },
+  "EEOC": {
+    "full": "Equal Employment Opportunity Commission",
+    "description": "Independent agency enforcing federal laws prohibiting employment discrimination.",
+    "agency": "EEOC",
+    "category": "agency",
+    "url": "https://www.eeoc.gov"
+  },
+  "OSHA": {
+    "full": "Occupational Safety and Health Administration",
+    "description": "DOL agency ensuring safe and healthful working conditions through standards and enforcement.",
+    "agency": "DOL",
+    "category": "agency",
+    "url": "https://www.osha.gov"
+  },
+  "BLS": {
+    "full": "Bureau of Labor Statistics",
+    "description": "DOL bureau providing economic and labor market data and statistics.",
+    "agency": "DOL",
+    "category": "bureau",
+    "url": "https://www.bls.gov"
+  },
+  "BLM": {
+    "full": "Bureau of Land Management",
+    "description": "DOI bureau managing federal public lands and mineral resources.",
+    "agency": "DOI",
+    "category": "bureau",
+    "url": "https://www.blm.gov"
+  },
+  "NPS": {
+    "full": "National Park Service",
+    "description": "DOI bureau managing national parks, monuments, and other conservation areas.",
+    "agency": "DOI",
+    "category": "bureau",
+    "url": "https://www.nps.gov"
+  },
+  "FWS": {
+    "full": "Fish and Wildlife Service",
+    "description": "DOI bureau managing fish, wildlife, and natural habitats.",
+    "agency": "DOI",
+    "category": "bureau",
+    "url": "https://www.fws.gov"
+  },
+  "USGS": {
+    "full": "United States Geological Survey",
+    "description": "DOI bureau providing scientific information about natural hazards, resources, and ecosystems.",
+    "agency": "DOI",
+    "category": "bureau",
+    "url": "https://www.usgs.gov"
+  },
+  "ATF": {
+    "full": "Bureau of Alcohol, Tobacco, Firearms and Explosives",
+    "description": "DOJ bureau regulating firearms, explosives, arson, and alcohol/tobacco trafficking.",
+    "agency": "DOJ",
+    "category": "bureau",
+    "url": "https://www.atf.gov"
+  },
+  "DEA": {
+    "full": "Drug Enforcement Administration",
+    "description": "DOJ agency enforcing controlled substances laws and regulations.",
+    "agency": "DOJ",
+    "category": "agency",
+    "url": "https://www.dea.gov"
+  },
+  "BOP": {
+    "full": "Bureau of Prisons",
+    "description": "DOJ agency responsible for the administration of the federal prison system.",
+    "agency": "DOJ",
+    "category": "bureau",
+    "url": "https://www.bop.gov"
+  },
+  "USMS": {
+    "full": "United States Marshals Service",
+    "description": "DOJ agency providing security for the federal judiciary and apprehending fugitives.",
+    "agency": "DOJ",
+    "category": "agency",
+    "url": "https://www.usmarshals.gov"
+  },
+  "ODNI": {
+    "full": "Office of the Director of National Intelligence",
+    "description": "Office overseeing and coordinating the U.S. Intelligence Community.",
+    "agency": "ODNI",
+    "category": "office",
+    "url": "https://www.dni.gov"
+  },
+  "DIA": {
+    "full": "Defense Intelligence Agency",
+    "description": "DOD agency providing military intelligence to warfighters and policymakers.",
+    "agency": "DOD",
+    "category": "agency",
+    "url": "https://www.dia.mil"
+  },
+  "NGA": {
+    "full": "National Geospatial-Intelligence Agency",
+    "description": "DOD agency providing geospatial intelligence and mapping support.",
+    "agency": "DOD",
+    "category": "agency",
+    "url": "https://www.nga.mil"
+  },
+  "NRO": {
+    "full": "National Reconnaissance Office",
+    "description": "DOD agency designing, building, and operating reconnaissance satellites.",
+    "agency": "DOD",
+    "category": "agency",
+    "url": "https://www.nro.gov"
+  },
+  "CYBERCOM": {
+    "full": "United States Cyber Command",
+    "description": "DOD unified combatant command directing cyberspace operations.",
+    "agency": "DOD",
+    "category": "agency"
+  },
+  "SOCOM": {
+    "full": "Special Operations Command",
+    "description": "DOD unified combatant command overseeing special operations forces.",
+    "agency": "DOD",
+    "category": "agency"
+  },
+  "CENTCOM": {
+    "full": "United States Central Command",
+    "description": "DOD unified combatant command responsible for the Middle East and Central/South Asia.",
+    "agency": "DOD",
+    "category": "agency"
+  },
+  "EUCOM": {
+    "full": "United States European Command",
+    "description": "DOD unified combatant command responsible for Europe and parts of Asia and Africa.",
+    "agency": "DOD",
+    "category": "agency"
+  },
+  "INDOPACOM": {
+    "full": "United States Indo-Pacific Command",
+    "description": "DOD unified combatant command responsible for the Indo-Pacific region.",
+    "agency": "DOD",
+    "category": "agency"
+  },
+  "TRANSCOM": {
+    "full": "United States Transportation Command",
+    "description": "DOD unified combatant command providing global deployment and distribution.",
+    "agency": "DOD",
+    "category": "agency"
+  },
+  "STRATCOM": {
+    "full": "United States Strategic Command",
+    "description": "DOD unified combatant command responsible for strategic deterrence and nuclear operations.",
+    "agency": "DOD",
+    "category": "agency"
+  },
+  "NORTHCOM": {
+    "full": "United States Northern Command",
+    "description": "DOD unified combatant command responsible for homeland defense of North America.",
+    "agency": "DOD",
+    "category": "agency"
+  },
+  "SOUTHCOM": {
+    "full": "United States Southern Command",
+    "description": "DOD unified combatant command responsible for Central and South America and the Caribbean.",
+    "agency": "DOD",
+    "category": "agency"
+  },
+  "AFRICOM": {
+    "full": "United States Africa Command",
+    "description": "DOD unified combatant command responsible for military operations in Africa.",
+    "agency": "DOD",
+    "category": "agency"
+  },
+  "SPACECOM": {
+    "full": "United States Space Command",
+    "description": "DOD unified combatant command responsible for space operations.",
+    "agency": "DOD",
+    "category": "agency"
+  },
+  "USSF": {
+    "full": "United States Space Force",
+    "description": "Military service branch responsible for space operations, under the Department of the Air Force.",
+    "agency": "DOD",
+    "category": "agency"
+  },
+  "USMC": {
+    "full": "United States Marine Corps",
+    "description": "Military service branch providing expeditionary and amphibious capabilities.",
+    "agency": "DOD",
+    "category": "agency"
+  },
+  "USN": {
+    "full": "United States Navy",
+    "description": "Military service branch responsible for naval operations and maritime defense.",
+    "agency": "DOD",
+    "category": "agency"
+  },
+  "USAF": {
+    "full": "United States Air Force",
+    "description": "Military service branch responsible for air and space operations.",
+    "agency": "DOD",
+    "category": "agency"
+  },
+  "USA": {
+    "full": "United States Army",
+    "description": "Military service branch responsible for land-based military operations.",
+    "agency": "DOD",
+    "category": "agency"
+  },
+  "USCG": {
+    "full": "United States Coast Guard",
+    "description": "Military service branch responsible for maritime law enforcement and safety under DHS.",
+    "agency": "DHS",
+    "category": "agency"
+  },
+  "ACAT": {
+    "full": "Acquisition Category",
+    "description": "DOD classification of acquisition programs based on cost and oversight requirements.",
+    "agency": "DOD",
+    "category": "process"
+  },
+  "MDA": {
+    "full": "Milestone Decision Authority",
+    "description": "Official responsible for approving a DOD acquisition program at key decision points.",
+    "agency": "DOD",
+    "category": "general"
+  },
+  "IOC": {
+    "full": "Initial Operational Capability",
+    "description": "First achievement of the ability to employ a system in its intended operational environment.",
+    "agency": "DOD",
+    "category": "process"
+  },
+  "FOC": {
+    "full": "Full Operational Capability",
+    "description": "Achievement of complete operational deployment of a system with all planned capabilities.",
+    "agency": "DOD",
+    "category": "process"
+  },
+  "CONOPS": {
+    "full": "Concept of Operations",
+    "description": "Document describing how a system or organization will operate in its intended environment.",
+    "agency": "General",
+    "category": "process"
+  },
+  "CDR": {
+    "full": "Critical Design Review",
+    "description": "Technical review evaluating the detailed design of a system before production.",
+    "agency": "General",
+    "category": "process"
+  },
+  "PDR": {
+    "full": "Preliminary Design Review",
+    "description": "Technical review evaluating the initial design approach of a system.",
+    "agency": "General",
+    "category": "process"
+  },
+  "SRR": {
+    "full": "System Requirements Review",
+    "description": "Technical review evaluating system requirements and their traceability.",
+    "agency": "General",
+    "category": "process"
+  },
+  "PPBE": {
+    "full": "Planning, Programming, Budgeting, and Execution",
+    "description": "DOD resource allocation process for aligning budgets with strategic priorities.",
+    "agency": "DOD",
+    "category": "process"
+  },
+  "POM": {
+    "full": "Program Objective Memorandum",
+    "description": "DOD document proposing total program resource requirements for the Future Years Defense Program.",
+    "agency": "DOD",
+    "category": "process"
+  },
+  "FYDP": {
+    "full": "Future Years Defense Program",
+    "description": "DOD document projecting forces, resources, and programs over a five-year period.",
+    "agency": "DOD",
+    "category": "process"
+  },
+  "CR": {
+    "full": "Continuing Resolution",
+    "description": "Legislation providing temporary funding for government operations at prior-year levels.",
+    "agency": "General",
+    "category": "general"
+  },
+  "DOGE": {
+    "full": "Department of Government Efficiency",
+    "description": "Government body focused on identifying and implementing efficiency improvements across federal agencies.",
+    "agency": "EOP",
+    "category": "office"
+  },
+  "OGE": {
+    "full": "Office of Government Ethics",
+    "description": "Independent agency providing ethics guidance and oversight for the executive branch.",
+    "agency": "OGE",
+    "category": "agency",
+    "url": "https://www.oge.gov"
+  },
+  "OFCCP": {
+    "full": "Office of Federal Contract Compliance Programs",
+    "description": "DOL office enforcing equal employment opportunity requirements for federal contractors.",
+    "agency": "DOL",
+    "category": "office"
+  },
+  "FEVS": {
+    "full": "Federal Employee Viewpoint Survey",
+    "description": "Annual OPM survey measuring federal employee satisfaction and engagement.",
+    "agency": "OPM",
+    "category": "program"
+  },
+  "TSP": {
+    "full": "Thrift Savings Plan",
+    "description": "Retirement savings and investment plan for federal employees and military members.",
+    "agency": "General",
+    "category": "program",
+    "url": "https://www.tsp.gov"
+  },
+  "FEHB": {
+    "full": "Federal Employees Health Benefits",
+    "description": "Health insurance program for federal employees, retirees, and their dependents.",
+    "agency": "OPM",
+    "category": "program"
+  },
+  "FEGLI": {
+    "full": "Federal Employees Group Life Insurance",
+    "description": "Life insurance program for federal employees and their eligible family members.",
+    "agency": "OPM",
+    "category": "program"
+  },
+  "FERS": {
+    "full": "Federal Employees Retirement System",
+    "description": "Retirement plan for federal employees hired after 1983, combining pension, TSP, and Social Security.",
+    "agency": "OPM",
+    "category": "program"
+  },
+  "CSRS": {
+    "full": "Civil Service Retirement System",
+    "description": "Legacy retirement system for federal employees hired before 1984.",
+    "agency": "OPM",
+    "category": "program"
+  },
+  "COLA": {
+    "full": "Cost of Living Adjustment",
+    "description": "Annual adjustment to federal pay and benefits based on changes in the cost of living.",
+    "agency": "General",
+    "category": "general"
+  },
+  "WIG": {
+    "full": "Within-Grade Increase",
+    "description": "Periodic pay increase within a GS grade based on acceptable performance and time in grade.",
+    "agency": "OPM",
+    "category": "general"
+  },
+  "SF": {
+    "full": "Standard Form",
+    "description": "Government-wide forms prescribed by GSA for use across federal agencies.",
+    "agency": "GSA",
+    "category": "general"
+  },
+  "DD": {
+    "full": "Department of Defense Form",
+    "description": "Official forms used within the Department of Defense.",
+    "agency": "DOD",
+    "category": "general"
+  },
+  "OF": {
+    "full": "Optional Form",
+    "description": "Government forms available for optional use by federal agencies.",
+    "agency": "GSA",
+    "category": "general"
+  },
+  "MOA": {
+    "full": "Memorandum of Agreement",
+    "description": "Document establishing a mutual understanding between two or more parties.",
+    "agency": "General",
+    "category": "process"
+  },
+  "MOU": {
+    "full": "Memorandum of Understanding",
+    "description": "Non-binding agreement describing the intentions and responsibilities of each party.",
+    "agency": "General",
+    "category": "process"
+  },
+  "IAA": {
+    "full": "Interagency Agreement",
+    "description": "Agreement between federal agencies for the provision of goods or services.",
+    "agency": "General",
+    "category": "process"
+  },
+  "ISA": {
+    "full": "Interconnection Security Agreement",
+    "description": "Agreement governing the security requirements for connecting two information systems.",
+    "agency": "General",
+    "category": "process"
+  },
+  "SLA": {
+    "full": "Service Level Agreement",
+    "description": "Agreement defining the expected level of service between a provider and customer.",
+    "agency": "General",
+    "category": "process"
+  },
+  "PMO": {
+    "full": "Program Management Office",
+    "description": "Organizational unit overseeing the management of specific programs or projects.",
+    "agency": "General",
+    "category": "general"
+  },
+  "IPT": {
+    "full": "Integrated Product Team",
+    "description": "Cross-functional team responsible for managing acquisition program development.",
+    "agency": "General",
+    "category": "general"
+  },
+  "SME": {
+    "full": "Subject Matter Expert",
+    "description": "Individual with deep knowledge or expertise in a specific topic or domain.",
+    "agency": "General",
+    "category": "general"
+  },
+  "POC": {
+    "full": "Point of Contact",
+    "description": "Designated individual responsible for communication on a specific matter.",
+    "agency": "General",
+    "category": "general"
+  },
+  "OPR": {
+    "full": "Office of Primary Responsibility",
+    "description": "Organization or office designated as the lead for a specific task or program.",
+    "agency": "General",
+    "category": "general"
+  },
+  "COCOM": {
+    "full": "Combatant Command",
+    "description": "Unified or specified military command with broad continuing missions.",
+    "agency": "DOD",
+    "category": "general"
+  },
+  "JIAG": {
+    "full": "Judge Advocate General",
+    "description": "Senior legal officer in a military branch responsible for military justice.",
+    "agency": "DOD",
+    "category": "general",
+    "aliases": ["JAG"]
+  },
+  "UCMJ": {
+    "full": "Uniform Code of Military Justice",
+    "description": "Federal law establishing the military justice system for the armed forces.",
+    "agency": "DOD",
+    "category": "regulation"
+  },
+  "SITREP": {
+    "full": "Situation Report",
+    "description": "Periodic report providing a summary of the current situation in a specific area.",
+    "agency": "DOD",
+    "category": "general"
+  },
+  "OPORD": {
+    "full": "Operations Order",
+    "description": "Directive issued by a military commander detailing a planned operation.",
+    "agency": "DOD",
+    "category": "general"
+  },
+  "FedBizOpps": {
+    "full": "Federal Business Opportunities",
+    "description": "Former website for posting federal contract opportunities, now merged into SAM.gov.",
+    "agency": "GSA",
+    "category": "system"
+  },
+  "SAP": {
+    "full": "Simplified Acquisition Procedure",
+    "description": "Streamlined procurement methods for purchases below the simplified acquisition threshold.",
+    "agency": "General",
+    "category": "process"
+  },
+  "SAT": {
+    "full": "Simplified Acquisition Threshold",
+    "description": "Dollar threshold below which simplified acquisition procedures may be used (currently $250K).",
+    "agency": "General",
+    "category": "general"
+  },
+  "MPT": {
+    "full": "Micro-Purchase Threshold",
+    "description": "Dollar threshold below which purchase card acquisitions may be made ($10K for most agencies).",
+    "agency": "General",
+    "category": "general"
+  },
+  "IGCE": {
+    "full": "Independent Government Cost Estimate",
+    "description": "Government's internal estimate of the cost for a planned acquisition.",
+    "agency": "General",
+    "category": "process"
+  },
+  "QASP": {
+    "full": "Quality Assurance Surveillance Plan",
+    "description": "Document describing how the government will evaluate contractor performance.",
+    "agency": "General",
+    "category": "process"
+  },
+  "CLIN": {
+    "full": "Contract Line Item Number",
+    "description": "Identifier for a specific item or service within a contract.",
+    "agency": "General",
+    "category": "general"
+  },
+  "TO": {
+    "full": "Task Order",
+    "description": "Order issued against an IDIQ or other indefinite contract for specific work.",
+    "agency": "General",
+    "category": "process"
+  },
+  "DO": {
+    "full": "Delivery Order",
+    "description": "Order for supplies placed against an existing contract or agreement.",
+    "agency": "General",
+    "category": "process"
+  },
+  "GPC": {
+    "full": "Government Purchase Card",
+    "description": "Charge card used for simplified government purchasing of supplies and services.",
+    "agency": "General",
+    "category": "system"
+  },
+  "OASIS": {
+    "full": "One Acquisition Solution for Integrated Services",
+    "description": "GSA GWAC providing complex professional services across multiple disciplines.",
+    "agency": "GSA",
+    "category": "program"
+  },
+  "SEWP": {
+    "full": "Solutions for Enterprise-Wide Procurement",
+    "description": "NASA GWAC for commercial IT products, services, and solutions.",
+    "agency": "NASA",
+    "category": "program",
+    "aliases": ["SEWP"]
+  },
+  "EIS": {
+    "full": "Enterprise Infrastructure Solutions",
+    "description": "GSA contract vehicle for telecommunications and IT infrastructure services.",
+    "agency": "GSA",
+    "category": "program"
+  },
+  "MAS": {
+    "full": "Multiple Award Schedule",
+    "description": "GSA long-term government-wide contracts providing commercial products and services.",
+    "agency": "GSA",
+    "category": "program"
+  },
+  "BIC": {
+    "full": "Best-in-Class",
+    "description": "OMB designation for government-wide contract solutions that meet criteria for value and management.",
+    "agency": "OMB",
+    "category": "program"
+  },
+  "DCOI": {
+    "full": "Data Center Optimization Initiative",
+    "description": "OMB policy requiring agencies to optimize and consolidate federal data centers.",
+    "agency": "EOP",
+    "category": "program"
+  },
+  "EIS2": {
+    "full": "Environmental Impact Statement",
+    "description": "Detailed document analyzing the environmental effects of a proposed federal action.",
+    "agency": "General",
+    "category": "process"
+  },
+  "FONSI": {
+    "full": "Finding of No Significant Impact",
+    "description": "Document stating that a proposed federal action will not significantly affect the environment.",
+    "agency": "General",
+    "category": "process"
+  },
+  "EA": {
+    "full": "Environmental Assessment",
+    "description": "Brief analysis to determine whether a federal action requires a full environmental impact statement.",
+    "agency": "General",
+    "category": "process"
+  },
+  "SBOM": {
+    "full": "Software Bill of Materials",
+    "description": "Formal record of components and dependencies in a software application.",
+    "agency": "General",
+    "category": "general"
+  },
+  "ZTA": {
+    "full": "Zero Trust Architecture",
+    "description": "Security model requiring verification for every user and device accessing resources.",
+    "agency": "General",
+    "category": "general"
+  },
+  "CDM": {
+    "full": "Continuous Diagnostics and Mitigation",
+    "description": "CISA program providing tools and services for continuous monitoring of federal networks.",
+    "agency": "DHS",
+    "category": "program"
+  },
+  "SOC": {
+    "full": "Security Operations Center",
+    "description": "Centralized facility monitoring and responding to cybersecurity incidents.",
+    "agency": "General",
+    "category": "general"
+  },
+  "CSIRT": {
+    "full": "Computer Security Incident Response Team",
+    "description": "Team responsible for responding to and managing cybersecurity incidents.",
+    "agency": "General",
+    "category": "general"
+  },
+  "CONOPS2": {
+    "full": "Continuity of Operations",
+    "description": "Planning to ensure essential functions continue during and after a disruption.",
+    "agency": "General",
+    "category": "process",
+    "aliases": ["COOP"]
+  },
+  "BCA": {
+    "full": "Business Case Analysis",
+    "description": "Structured analysis justifying a proposed investment or project.",
+    "agency": "General",
+    "category": "process"
+  },
+  "CBA": {
+    "full": "Cost-Benefit Analysis",
+    "description": "Systematic approach to evaluating the strengths and weaknesses of alternatives.",
+    "agency": "General",
+    "category": "process"
+  },
+  "ROI": {
+    "full": "Return on Investment",
+    "description": "Financial metric measuring the profitability or efficiency of an investment.",
+    "agency": "General",
+    "category": "general"
+  },
+  "KPI": {
+    "full": "Key Performance Indicator",
+    "description": "Measurable value demonstrating how effectively objectives are being achieved.",
+    "agency": "General",
+    "category": "general"
+  },
+  "OKR": {
+    "full": "Objectives and Key Results",
+    "description": "Goal-setting framework linking objectives to measurable outcomes.",
+    "agency": "General",
+    "category": "general"
+  },
+  "NACI": {
+    "full": "National Agency Check with Inquiries",
+    "description": "Background investigation required for federal positions of public trust.",
+    "agency": "General",
+    "category": "process"
+  },
+  "SSBI": {
+    "full": "Single Scope Background Investigation",
+    "description": "Comprehensive background investigation required for Top Secret security clearances.",
+    "agency": "General",
+    "category": "process"
+  },
+  "SF-86": {
+    "full": "Questionnaire for National Security Positions",
+    "description": "Standard form used to collect information for security clearance investigations.",
+    "agency": "General",
+    "category": "general"
+  },
+  "SF-312": {
+    "full": "Classified Information Nondisclosure Agreement",
+    "description": "Agreement signed by individuals granted access to classified information.",
+    "agency": "General",
+    "category": "general"
+  },
+  "DPAS": {
+    "full": "Defense Priorities and Allocations System",
+    "description": "System ensuring timely availability of industrial resources for national defense.",
+    "agency": "DOD",
+    "category": "system"
+  },
+  "ITAR": {
+    "full": "International Traffic in Arms Regulations",
+    "description": "Regulations controlling the export and import of defense-related articles and services.",
+    "agency": "DOS",
+    "category": "regulation"
+  },
+  "EAR": {
+    "full": "Export Administration Regulations",
+    "description": "Regulations governing the export of dual-use and commercial items.",
+    "agency": "DOC",
+    "category": "regulation"
+  },
+  "FedSIM": {
+    "full": "Federal Systems Integration and Management Center",
+    "description": "GSA organization assisting agencies with IT acquisition planning and project management.",
+    "agency": "GSA",
+    "category": "office"
+  },
+  "18F": {
+    "full": "18F",
+    "description": "GSA digital services consultancy helping agencies build user-centered technology.",
+    "agency": "GSA",
+    "category": "office",
+    "url": "https://18f.gsa.gov"
+  },
+  "USDS": {
+    "full": "United States Digital Service",
+    "description": "EOP team using technology and design to improve government services.",
+    "agency": "EOP",
+    "category": "office",
+    "url": "https://usds.gov"
+  },
+  "TMF": {
+    "full": "Technology Modernization Fund",
+    "description": "GSA-managed fund providing agencies with financial resources for IT modernization.",
+    "agency": "GSA",
+    "category": "program"
+  },
+  "DATA Act": {
+    "full": "Digital Accountability and Transparency Act",
+    "description": "Law requiring standardized federal spending data for public transparency.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "OPEN Data Act": {
+    "full": "OPEN Government Data Act",
+    "description": "Law requiring federal agencies to publish data in machine-readable formats.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "OMB A-11": {
+    "full": "OMB Circular A-11",
+    "description": "OMB guidance on preparation and submission of federal budget estimates.",
+    "agency": "EOP",
+    "category": "regulation"
+  },
+  "OMB A-76": {
+    "full": "OMB Circular A-76",
+    "description": "OMB guidance on performance of commercial activities by federal agencies.",
+    "agency": "EOP",
+    "category": "regulation"
+  },
+  "OMB A-123": {
+    "full": "OMB Circular A-123",
+    "description": "OMB guidance on management's responsibility for internal controls.",
+    "agency": "EOP",
+    "category": "regulation"
+  },
+  "OMB A-130": {
+    "full": "OMB Circular A-130",
+    "description": "OMB guidance on managing information as a strategic resource.",
+    "agency": "EOP",
+    "category": "regulation"
+  }
+}
