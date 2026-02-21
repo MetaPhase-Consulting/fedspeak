@@ -6,6 +6,12 @@
     "category": "office",
     "url": "https://18f.gsa.gov"
   },
+  "2FA": {
+    "full": "Two-Factor Authentication",
+    "description": "Authentication method requiring exactly two different verification factors, a subset of multi-factor authentication.",
+    "agency": "General",
+    "category": "general"
+  },
   "2GIT": {
     "full": "Second Generation Information Technology",
     "description": "GSA Best-in-Class blanket purchase agreement for IT commodity hardware, software, and related services.",
@@ -42,11 +48,23 @@
     "agency": "DOW",
     "category": "process"
   },
+  "AAL": {
+    "full": "Authenticator Assurance Level",
+    "description": "NIST SP 800-63 measure of the strength of an authentication process, ranging from AAL1 to AAL3.",
+    "agency": "DOC",
+    "category": "general"
+  },
   "AAS": {
     "full": "Assisted Acquisition Services",
     "description": "GSA fee-for-service offering where GSA contracting officers manage the full acquisition lifecycle on behalf of client agencies.",
     "agency": "GSA",
     "category": "office"
+  },
+  "ABAC": {
+    "full": "Attribute-Based Access Control",
+    "description": "Access control paradigm granting access based on attributes of users, resources, and environment rather than static roles.",
+    "agency": "General",
+    "category": "general"
   },
   "AbilityOne": {
     "full": "AbilityOne Program",
@@ -135,6 +153,12 @@
     "agency": "DOD",
     "category": "system"
   },
+  "AES": {
+    "full": "Advanced Encryption Standard",
+    "description": "NIST-approved symmetric block cipher (FIPS 197) used as the standard encryption algorithm for protecting federal data.",
+    "agency": "DOC",
+    "category": "general"
+  },
   "AETC": {
     "full": "Air Education and Training Command",
     "description": "Air Force command responsible for education and training of airmen.",
@@ -201,6 +225,12 @@
     "description": "Computer systems performing tasks that typically require human intelligence.",
     "agency": "General",
     "category": "general"
+  },
+  "AIS": {
+    "full": "Automated Indicator Sharing",
+    "description": "CISA program enabling real-time exchange of machine-readable cyber threat indicators between federal and private sector entities.",
+    "agency": "DHS",
+    "category": "program"
   },
   "ALLIANT": {
     "full": "Alliant GWAC",
@@ -287,6 +317,12 @@
     "agency": "General",
     "category": "regulation"
   },
+  "APT": {
+    "full": "Advanced Persistent Threat",
+    "description": "Sophisticated, sustained cyberattack in which an adversary gains and maintains unauthorized access, typically attributed to nation-state actors.",
+    "agency": "General",
+    "category": "general"
+  },
   "ARL": {
     "full": "Army Research Laboratory",
     "description": "Army laboratory conducting fundamental and applied research for the Army.",
@@ -336,6 +372,12 @@
     "agency": "General",
     "category": "process"
   },
+  "ATT&CK": {
+    "full": "Adversarial Tactics, Techniques, and Common Knowledge",
+    "description": "MITRE knowledge base of adversary tactics and techniques based on real-world observations, widely used for threat modeling.",
+    "agency": "General",
+    "category": "system"
+  },
   "AUMF": {
     "full": "Authorization for Use of Military Force",
     "description": "Joint resolution of Congress authorizing the President to use military force against those responsible for the September 11 attacks (P.L. 107-40) or against Iraq (P.L. 107-243).",
@@ -377,6 +419,12 @@
     "description": "Federal law (P.L. 112-25) establishing discretionary spending caps, creating the Joint Select Committee on Deficit Reduction, and triggering sequestration.",
     "agency": "General",
     "category": "regulation"
+  },
+  "BCP": {
+    "full": "Business Continuity Plan",
+    "description": "Documented procedures ensuring essential business functions continue during and after a disaster or disruption.",
+    "agency": "General",
+    "category": "process"
   },
   "Berry Amendment": {
     "full": "Berry Amendment",
@@ -516,10 +564,22 @@
     "agency": "CIA",
     "category": "program"
   },
+  "C3PAO": {
+    "full": "CMMC Third-Party Assessor Organization",
+    "description": "Accredited organization authorized to conduct CMMC assessments of defense contractors seeking certification.",
+    "agency": "DOD",
+    "category": "general"
+  },
   "C4ISR": {
     "full": "Command, Control, Communications, Computers, Intelligence, Surveillance, and Reconnaissance",
     "description": "Integrated system of systems supporting military command and decision-making.",
     "agency": "DOW",
+    "category": "general"
+  },
+  "CA": {
+    "full": "Certificate Authority",
+    "description": "Trusted entity that issues, manages, and revokes digital certificates used in PKI for authenticating identities.",
+    "agency": "General",
     "category": "general"
   },
   "CAA": {
@@ -576,6 +636,12 @@
     "agency": "General",
     "category": "process"
   },
+  "CATO": {
+    "full": "Continuous Authority to Operate",
+    "description": "Emerging authorization approach providing ongoing real-time assessment rather than periodic reauthorization.",
+    "agency": "General",
+    "category": "process"
+  },
   "CBA": {
     "full": "Cost-Benefit Analysis",
     "description": "Systematic approach to evaluating the strengths and weaknesses of alternatives.",
@@ -619,6 +685,12 @@
     "description": "DISA document defining security requirements for cloud service providers hosting DOD workloads at various impact levels.",
     "agency": "DOD",
     "category": "regulation"
+  },
+  "CCE": {
+    "full": "Common Configuration Enumeration",
+    "description": "Scheme providing unique identifiers for system configuration issues to facilitate correlation across tools.",
+    "agency": "DOC",
+    "category": "system"
   },
   "CDA": {
     "full": "Contract Disputes Act",
@@ -928,6 +1000,12 @@
     "category": "agency",
     "url": "https://www.cms.gov"
   },
+  "CMVP": {
+    "full": "Cryptographic Module Validation Program",
+    "description": "Joint NIST/CSE program validating cryptographic modules against FIPS 140 standards.",
+    "agency": "DOC",
+    "category": "program"
+  },
   "CNA": {
     "full": "CNA Corporation",
     "description": "Research organization serving as the Navy's FFRDC.",
@@ -951,6 +1029,18 @@
     "description": "Interagency body setting policies for national security systems.",
     "agency": "General",
     "category": "general"
+  },
+  "CNSSI": {
+    "full": "Committee on National Security Systems Instruction",
+    "description": "Policy document issued by CNSS providing implementation guidance for securing national security systems.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "CNSSP": {
+    "full": "Committee on National Security Systems Policy",
+    "description": "Policy document issued by CNSS establishing cybersecurity requirements for national security systems.",
+    "agency": "General",
+    "category": "regulation"
   },
   "CO": {
     "full": "Contracting Officer",
@@ -1066,6 +1156,12 @@
     "agency": "DOW",
     "category": "process"
   },
+  "CPE": {
+    "full": "Common Platform Enumeration",
+    "description": "Structured naming scheme for IT systems, software, and packages used to correlate vulnerability data.",
+    "agency": "DOC",
+    "category": "system"
+  },
   "CPFF": {
     "full": "Cost-Plus-Fixed-Fee",
     "description": "Contract type paying allowable costs plus a fixed fee regardless of performance.",
@@ -1122,6 +1218,12 @@
     "category": "agency",
     "url": "https://www.csb.gov"
   },
+  "CSF": {
+    "full": "Cybersecurity Framework",
+    "description": "NIST voluntary framework providing standards and best practices to manage cybersecurity risk, currently at version 2.0.",
+    "agency": "DOC",
+    "category": "general"
+  },
   "CSIRT": {
     "full": "Computer Security Incident Response Team",
     "description": "Team responsible for responding to and managing cybersecurity incidents.",
@@ -1133,6 +1235,12 @@
     "description": "Competitive procurement method using other transaction authority to acquire innovative commercial solutions, similar to a broad agency announcement.",
     "agency": "General",
     "category": "process"
+  },
+  "CSP": {
+    "full": "Cloud Service Provider",
+    "description": "Company offering cloud computing services to federal agencies, subject to FedRAMP authorization.",
+    "agency": "General",
+    "category": "general"
   },
   "CSRA": {
     "full": "Civil Service Reform Act",
@@ -1151,6 +1259,12 @@
     "description": "Agreement between two or more contractors to work together as a team to submit an offer or perform a government contract under FAR 9.6.",
     "agency": "General",
     "category": "process"
+  },
+  "CTI": {
+    "full": "Cyber Threat Intelligence",
+    "description": "Evidence-based knowledge about existing or emerging cyber threats used to inform defensive measures.",
+    "agency": "General",
+    "category": "general"
   },
   "CTO": {
     "full": "Chief Technology Officer",
@@ -1182,6 +1296,12 @@
     "agency": "EPA",
     "category": "regulation"
   },
+  "CWE": {
+    "full": "Common Weakness Enumeration",
+    "description": "Community-developed catalog of software and hardware weakness types maintained by MITRE.",
+    "agency": "General",
+    "category": "system"
+  },
   "CYBERCOM": {
     "full": "United States Cyber Command",
     "description": "DOD unified combatant command directing cyberspace operations.",
@@ -1194,6 +1314,12 @@
     "agency": "General",
     "category": "process"
   },
+  "D3FEND": {
+    "full": "Detection, Denial, and Disruption Framework Empowering Network Defense",
+    "description": "MITRE knowledge graph of countermeasure techniques aligned to adversary TTPs in ATT&CK.",
+    "agency": "General",
+    "category": "system"
+  },
   "DACM": {
     "full": "Director of Acquisition Career Management",
     "description": "Official responsible for managing the acquisition workforce development and certification programs within a DOD component.",
@@ -1205,6 +1331,12 @@
     "description": "DOD financial management system providing standardized accounting and business processes for defense agencies.",
     "agency": "DOD",
     "category": "system"
+  },
+  "DAR": {
+    "full": "Data at Rest",
+    "description": "Data stored on a device or medium not actively being transmitted, requiring encryption under federal security policies.",
+    "agency": "General",
+    "category": "general"
   },
   "DARPA": {
     "full": "Defense Advanced Research Projects Agency",
@@ -1219,6 +1351,12 @@
     "agency": "DOD",
     "category": "regulation"
   },
+  "DAST": {
+    "full": "Dynamic Application Security Testing",
+    "description": "Automated security testing that analyzes running applications to find exploitable vulnerabilities.",
+    "agency": "General",
+    "category": "general"
+  },
   "DATA Act": {
     "full": "Digital Accountability and Transparency Act",
     "description": "Law requiring standardized federal spending data for public transparency.",
@@ -1230,6 +1368,12 @@
     "description": "Law requiring standardized reporting of federal spending data.",
     "agency": "General",
     "category": "regulation"
+  },
+  "DATO": {
+    "full": "Denial of Authority to Operate",
+    "description": "Decision by an authorizing official to deny or revoke a system's authorization due to unacceptable security risk.",
+    "agency": "General",
+    "category": "process"
   },
   "DAU": {
     "full": "Defense Acquisition University",
@@ -1305,6 +1449,12 @@
     "full": "Department of Defense Form",
     "description": "Official forms used within the Department of Defense.",
     "agency": "DOD",
+    "category": "general"
+  },
+  "DDoS": {
+    "full": "Distributed Denial of Service",
+    "description": "Cyberattack that overwhelms a target system with traffic from multiple sources, rendering it unavailable.",
+    "agency": "General",
     "category": "general"
   },
   "DEA": {
@@ -1388,6 +1538,12 @@
     "category": "agency",
     "url": "https://www.dfc.gov"
   },
+  "DFIR": {
+    "full": "Digital Forensics and Incident Response",
+    "description": "Combined discipline of collecting digital evidence and managing cybersecurity incident response.",
+    "agency": "General",
+    "category": "general"
+  },
   "DHA": {
     "full": "Defense Health Agency",
     "description": "DOD agency managing the Military Health System and TRICARE.",
@@ -1446,6 +1602,12 @@
     "category": "agency",
     "url": "https://www.disa.mil"
   },
+  "DIT": {
+    "full": "Data in Transit",
+    "description": "Data actively being transferred between systems, requiring encryption under federal policies such as FIPS 140.",
+    "agency": "General",
+    "category": "general"
+  },
   "DITCO": {
     "full": "Defense Information Technology Contracting Organization",
     "description": "DISA's contracting arm managing over $32 billion in contracts, the premier DOD cyber procurement workforce.",
@@ -1458,6 +1620,12 @@
     "agency": "DOD",
     "category": "agency"
   },
+  "DKIM": {
+    "full": "DomainKeys Identified Mail",
+    "description": "Email authentication method using digital signatures to verify messages have not been altered in transit.",
+    "agency": "General",
+    "category": "general"
+  },
   "DLA": {
     "full": "Defense Logistics Agency",
     "description": "DOD agency providing supply chain and logistics support to the military.",
@@ -1465,10 +1633,40 @@
     "category": "agency",
     "url": "https://www.dla.mil"
   },
+  "DLP": {
+    "full": "Data Loss Prevention",
+    "description": "Security technology designed to detect and prevent unauthorized transmission of sensitive data.",
+    "agency": "General",
+    "category": "general"
+  },
+  "DMARC": {
+    "full": "Domain-based Message Authentication, Reporting, and Conformance",
+    "description": "Email authentication protocol required by CISA BOD 18-01 for federal domains to prevent spoofing.",
+    "agency": "General",
+    "category": "general"
+  },
+  "DMZ": {
+    "full": "Demilitarized Zone",
+    "description": "Network security perimeter separating an organization's internal network from external untrusted networks.",
+    "agency": "General",
+    "category": "general"
+  },
   "DNI": {
     "full": "Director of National Intelligence",
     "description": "Head of the U.S. Intelligence Community and principal intelligence adviser to the President.",
     "agency": "ODNI",
+    "category": "general"
+  },
+  "DNS": {
+    "full": "Domain Name System",
+    "description": "Hierarchical naming system translating domain names to IP addresses, secured via DNSSEC in federal environments.",
+    "agency": "General",
+    "category": "system"
+  },
+  "DNSSEC": {
+    "full": "Domain Name System Security Extensions",
+    "description": "Extensions adding authentication to DNS responses to protect against cache poisoning attacks.",
+    "agency": "General",
     "category": "general"
   },
   "DO": {
@@ -1652,6 +1850,12 @@
     "agency": "DOJ",
     "category": "regulation"
   },
+  "DRP": {
+    "full": "Disaster Recovery Plan",
+    "description": "Documented plan for recovering IT systems after a disaster, required for federal systems under FISMA.",
+    "agency": "General",
+    "category": "process"
+  },
   "DSBS": {
     "full": "Dynamic Small Business Search",
     "description": "SBA web-based tool enabling federal buyers and prime contractors to identify qualified small businesses for contracting opportunities.",
@@ -1700,6 +1904,12 @@
     "description": "Regulations governing the export of dual-use and commercial items.",
     "agency": "DOC",
     "category": "regulation"
+  },
+  "EASM": {
+    "full": "External Attack Surface Management",
+    "description": "Practice of continuously discovering and monitoring an organization's internet-facing assets for vulnerabilities.",
+    "agency": "General",
+    "category": "general"
   },
   "ECMRA": {
     "full": "Evidence-Based Policymaking Commission Recommendations Act",
@@ -1800,6 +2010,12 @@
     "agency": "General",
     "category": "process"
   },
+  "eMASS": {
+    "full": "Enterprise Mission Assurance Support Service",
+    "description": "DOD web application automating the Risk Management Framework process for system authorization.",
+    "agency": "DOD",
+    "category": "system"
+  },
   "EMD": {
     "full": "Engineering and Manufacturing Development",
     "description": "Acquisition phase developing and testing a system before production.",
@@ -1891,6 +2107,12 @@
     "description": "Federal law (42 U.S.C. 11001 et seq.) requiring facilities to report toxic chemical releases and providing communities with information about chemical hazards.",
     "agency": "EPA",
     "category": "regulation"
+  },
+  "EPSS": {
+    "full": "Exploit Prediction Scoring System",
+    "description": "Data-driven model estimating the probability a vulnerability will be exploited in the wild.",
+    "agency": "General",
+    "category": "system"
   },
   "ERISA": {
     "full": "Employee Retirement Income Security Act",
@@ -2002,6 +2224,12 @@
     "agency": "General",
     "category": "regulation"
   },
+  "FAL": {
+    "full": "Federation Assurance Level",
+    "description": "NIST SP 800-63 measure of assertion protocol strength in federated identity, from FAL1 to FAL3.",
+    "agency": "DOC",
+    "category": "general"
+  },
   "FAPIIS": {
     "full": "Federal Awardee Performance and Integrity Information System",
     "description": "Database within CPARS reporting contractor integrity data including terminations for cause, defective pricing, and non-responsibility determinations.",
@@ -2089,6 +2317,12 @@
     "agency": "DHS",
     "category": "regulation"
   },
+  "FCI": {
+    "full": "Federal Contract Information",
+    "description": "Non-public information provided by or generated for the government under a contract, protected under CMMC Level 1.",
+    "agency": "General",
+    "category": "general"
+  },
   "FCPA": {
     "full": "Foreign Corrupt Practices Act",
     "description": "Federal law (15 U.S.C. 78dd-1 et seq.) prohibiting bribery of foreign officials and requiring public companies to maintain accurate books and records.",
@@ -2107,6 +2341,12 @@
     "agency": "HHS",
     "category": "agency",
     "url": "https://www.fda.gov"
+  },
+  "FDE": {
+    "full": "Full Disk Encryption",
+    "description": "Security technology encrypting all data on a storage device, required for federal mobile devices.",
+    "agency": "General",
+    "category": "general"
   },
   "FDIC": {
     "full": "Federal Deposit Insurance Corporation",
@@ -2252,9 +2492,33 @@
     "category": "agency",
     "url": "https://www.fhwa.dot.gov"
   },
+  "FIDO": {
+    "full": "Fast Identity Online",
+    "description": "Open authentication standard enabling passwordless, phishing-resistant authentication using public key cryptography.",
+    "agency": "General",
+    "category": "general"
+  },
   "FIPS": {
     "full": "Federal Information Processing Standards",
     "description": "Standards issued by NIST for use in non-military government computer systems.",
+    "agency": "DOC",
+    "category": "regulation"
+  },
+  "FIPS 140": {
+    "full": "Federal Information Processing Standard 140",
+    "description": "NIST standard specifying security requirements for cryptographic modules, currently at revision 3.",
+    "agency": "DOC",
+    "category": "regulation"
+  },
+  "FIPS 199": {
+    "full": "Federal Information Processing Standard 199",
+    "description": "NIST standard for categorizing federal information systems based on potential impact to confidentiality, integrity, and availability.",
+    "agency": "DOC",
+    "category": "regulation"
+  },
+  "FIPS 200": {
+    "full": "Federal Information Processing Standard 200",
+    "description": "NIST standard specifying minimum security requirements for federal information systems across seventeen areas.",
     "agency": "DOC",
     "category": "regulation"
   },
@@ -2662,6 +2926,12 @@
     "agency": "General",
     "category": "regulation"
   },
+  "GRC": {
+    "full": "Governance, Risk, and Compliance",
+    "description": "Integrated approach to managing governance, risk management, and regulatory compliance across cybersecurity programs.",
+    "agency": "General",
+    "category": "general"
+  },
   "GREAT Act": {
     "full": "Grant Reporting Efficiency and Agreements Transparency Act",
     "description": "Federal law (P.L. 116-103) requiring standardized data reporting for federal grants and cooperative agreements to improve transparency and reduce recipient burden.",
@@ -2742,6 +3012,12 @@
     "agency": "General",
     "category": "regulation"
   },
+  "HBSS": {
+    "full": "Host Based Security System",
+    "description": "DOD endpoint security suite providing intrusion prevention, firewall, and application control capabilities.",
+    "agency": "DOD",
+    "category": "system"
+  },
   "HCA": {
     "full": "Head of Contracting Activity",
     "description": "Official with overall responsibility for managing the contracting activity within an agency or major organizational element.",
@@ -2804,6 +3080,12 @@
     "agency": "DHS",
     "category": "system"
   },
+  "HSM": {
+    "full": "Hardware Security Module",
+    "description": "Physical device that safeguards cryptographic keys and provides hardware-based encryption for federal systems.",
+    "agency": "General",
+    "category": "system"
+  },
   "HSPD": {
     "full": "Homeland Security Presidential Directive",
     "description": "Presidential directive issued after September 11, 2001 to establish homeland security policy.",
@@ -2815,6 +3097,12 @@
     "description": "Policy requiring a common identification standard for federal employees and contractors.",
     "agency": "General",
     "category": "regulation"
+  },
+  "HTTPS": {
+    "full": "Hypertext Transfer Protocol Secure",
+    "description": "Encrypted HTTP using TLS, mandated for all federal web services per OMB M-15-13.",
+    "agency": "General",
+    "category": "general"
   },
   "HUBZone": {
     "full": "Historically Underutilized Business Zone",
@@ -2841,6 +3129,12 @@
     "agency": "DOW",
     "category": "general"
   },
+  "IA": {
+    "full": "Information Assurance",
+    "description": "Measures protecting information systems by ensuring confidentiality, integrity, authentication, availability, and non-repudiation.",
+    "agency": "General",
+    "category": "general"
+  },
   "IAA": {
     "full": "Interagency Agreement",
     "description": "Agreement between federal agencies for the provision of goods or services.",
@@ -2853,11 +3147,23 @@
     "agency": "General",
     "category": "general"
   },
+  "IAL": {
+    "full": "Identity Assurance Level",
+    "description": "NIST SP 800-63 measure of confidence in identity proofing, from IAL1 (self-asserted) to IAL3 (in-person verified).",
+    "agency": "DOC",
+    "category": "general"
+  },
   "IARPA": {
     "full": "Intelligence Advanced Research Projects Activity",
     "description": "ODNI organization investing in high-risk, high-payoff research programs to overcome intelligence community challenges.",
     "agency": "ODNI",
     "category": "agency"
+  },
+  "IATT": {
+    "full": "Interim Authority to Test",
+    "description": "Temporary authorization allowing a system to operate in a test environment before receiving a full ATO.",
+    "agency": "General",
+    "category": "process"
   },
   "IAVA": {
     "full": "Information Assurance Vulnerability Alert",
@@ -2890,6 +3196,12 @@
     "agency": "ODNI",
     "category": "program"
   },
+  "ICS": {
+    "full": "Industrial Control System",
+    "description": "Computer systems managing industrial processes and critical infrastructure such as power grids and water treatment.",
+    "agency": "General",
+    "category": "general"
+  },
   "IDA": {
     "full": "Institute for Defense Analyses",
     "description": "FFRDC providing analyses of national security issues for the DOD.",
@@ -2913,6 +3225,18 @@
     "description": "Contract type providing for an indefinite quantity of supplies or services over a fixed period.",
     "agency": "General",
     "category": "process"
+  },
+  "IdP": {
+    "full": "Identity Provider",
+    "description": "System that creates, maintains, and manages identity information and provides authentication services.",
+    "agency": "General",
+    "category": "general"
+  },
+  "IDS": {
+    "full": "Intrusion Detection System",
+    "description": "Security system monitoring network or system activities for malicious behavior and generating alerts.",
+    "agency": "General",
+    "category": "system"
   },
   "IED": {
     "full": "Improvised Explosive Device",
@@ -3053,6 +3377,12 @@
     "agency": "DOW",
     "category": "agency"
   },
+  "IOA": {
+    "full": "Indicator of Attack",
+    "description": "Evidence of an active cyberattack in progress, focusing on attacker behavior rather than specific artifacts.",
+    "agency": "General",
+    "category": "general"
+  },
   "IOC": {
     "full": "Initial Operational Capability",
     "description": "First achievement of the ability to employ a system in its intended operational environment.",
@@ -3076,6 +3406,12 @@
     "description": "Former law requiring agencies to identify and reduce improper payments, superseded by PIIA.",
     "agency": "General",
     "category": "regulation"
+  },
+  "IPS": {
+    "full": "Intrusion Prevention System",
+    "description": "Network security system that monitors traffic and actively blocks detected threats in real time.",
+    "agency": "General",
+    "category": "system"
   },
   "IPT": {
     "full": "Integrated Product Team",
@@ -3117,6 +3453,30 @@
   "ISA": {
     "full": "Interconnection Security Agreement",
     "description": "Agreement governing the security requirements for connecting two information systems.",
+    "agency": "General",
+    "category": "process"
+  },
+  "ISAC": {
+    "full": "Information Sharing and Analysis Center",
+    "description": "Sector-specific organization facilitating cyber threat intelligence sharing between government and critical infrastructure.",
+    "agency": "DHS",
+    "category": "general"
+  },
+  "ISAO": {
+    "full": "Information Sharing and Analysis Organization",
+    "description": "Voluntary organization gathering, analyzing, and disseminating cyber threat information among public and private entities.",
+    "agency": "DHS",
+    "category": "general"
+  },
+  "ISCM": {
+    "full": "Information Security Continuous Monitoring",
+    "description": "Ongoing awareness of information security, vulnerabilities, and threats to support risk management decisions.",
+    "agency": "General",
+    "category": "process"
+  },
+  "ISCP": {
+    "full": "Information System Contingency Plan",
+    "description": "Plan providing procedures for recovering an information system after a disruption, per NIST SP 800-34.",
     "agency": "General",
     "category": "process"
   },
@@ -3249,6 +3609,18 @@
     "agency": "General",
     "category": "program"
   },
+  "KEV": {
+    "full": "Known Exploited Vulnerabilities",
+    "description": "CISA catalog of actively exploited vulnerabilities with mandatory remediation deadlines under BOD 22-01.",
+    "agency": "DHS",
+    "category": "system"
+  },
+  "KMS": {
+    "full": "Key Management System",
+    "description": "System for generating, distributing, storing, rotating, and revoking cryptographic keys.",
+    "agency": "General",
+    "category": "system"
+  },
   "KO": {
     "full": "Contracting Officer",
     "description": "Alternate abbreviation for Contracting Officer, commonly used in DOD.",
@@ -3276,6 +3648,12 @@
   "LCAT": {
     "full": "Labor Category",
     "description": "Classification of labor types and skill levels used in service contracts.",
+    "agency": "General",
+    "category": "general"
+  },
+  "LDAP": {
+    "full": "Lightweight Directory Access Protocol",
+    "description": "Protocol for accessing and managing directory information services for authentication and authorization.",
     "agency": "General",
     "category": "general"
   },
@@ -3345,6 +3723,12 @@
     "agency": "DOW",
     "category": "system"
   },
+  "MAM": {
+    "full": "Mobile Application Management",
+    "description": "Technology for distributing, configuring, and securing mobile applications on agency devices.",
+    "agency": "General",
+    "category": "general"
+  },
   "MARAD": {
     "full": "Maritime Administration",
     "description": "DOT agency promoting the U.S. maritime industry and maintaining national defense ships.",
@@ -3401,11 +3785,23 @@
     "agency": "DOD",
     "category": "process"
   },
+  "MDM": {
+    "full": "Mobile Device Management",
+    "description": "Technology for administering, monitoring, and securing mobile devices used to access federal systems.",
+    "agency": "General",
+    "category": "general"
+  },
   "MDR": {
     "full": "Minimum Delivery Requirements",
     "description": "Minimum guaranteed quantities or values in an IDIQ contract that the government is obligated to order.",
     "agency": "General",
     "category": "process"
+  },
+  "MFA": {
+    "full": "Multi-Factor Authentication",
+    "description": "Authentication requiring two or more verification factors, mandated for federal systems under EO 14028.",
+    "agency": "General",
+    "category": "general"
   },
   "MGT Act": {
     "full": "Modernizing Government Technology Act",
@@ -3510,6 +3906,18 @@
     "agency": "GSA",
     "category": "program"
   },
+  "mTLS": {
+    "full": "Mutual Transport Layer Security",
+    "description": "TLS variant requiring both client and server authentication, used in zero trust architectures.",
+    "agency": "General",
+    "category": "general"
+  },
+  "NAC": {
+    "full": "Network Access Control",
+    "description": "Security approach restricting network access to compliant and authenticated devices and users.",
+    "agency": "General",
+    "category": "general"
+  },
   "NACI": {
     "full": "National Agency Check with Inquiries",
     "description": "Background investigation required for federal positions of public trust.",
@@ -3572,6 +3980,18 @@
     "agency": "DOD",
     "category": "agency"
   },
+  "NCCIC": {
+    "full": "National Cybersecurity and Communications Integration Center",
+    "description": "CISA operational center providing 24/7 cyber situational awareness and incident response.",
+    "agency": "DHS",
+    "category": "office"
+  },
+  "NCCoE": {
+    "full": "National Cybersecurity Center of Excellence",
+    "description": "NIST collaborative hub developing practical cybersecurity reference designs and best practices.",
+    "agency": "DOC",
+    "category": "office"
+  },
   "NCIS": {
     "full": "Naval Criminal Investigative Service",
     "description": "Navy civilian law enforcement agency investigating crimes affecting the Navy and Marine Corps.",
@@ -3583,6 +4003,12 @@
     "description": "CISA integrated system providing intrusion detection, analytics, information sharing, and intrusion prevention for federal networks, encompassing EINSTEIN.",
     "agency": "DHS",
     "category": "system"
+  },
+  "NCSC": {
+    "full": "National Counterintelligence and Security Center",
+    "description": "ODNI center leading counterintelligence and security activities across the U.S. government.",
+    "agency": "ODNI",
+    "category": "office"
   },
   "NDA": {
     "full": "Non-Disclosure Agreement",
@@ -3676,6 +4102,12 @@
     "category": "agency",
     "url": "https://www.nhtsa.gov"
   },
+  "NIAP": {
+    "full": "National Information Assurance Partnership",
+    "description": "NSA/NIST collaboration evaluating IT products for national security systems under Common Criteria.",
+    "agency": "DOD",
+    "category": "program"
+  },
   "NICE": {
     "full": "National Initiative for Cybersecurity Education",
     "description": "NIST-led partnership between government, academia, and industry focused on cybersecurity education, training, and workforce development.",
@@ -3694,6 +4126,12 @@
     "agency": "HHS",
     "category": "agency",
     "url": "https://www.nih.gov"
+  },
+  "NIPP": {
+    "full": "National Infrastructure Protection Plan",
+    "description": "DHS framework establishing the risk management approach for the nation's 16 critical infrastructure sectors.",
+    "agency": "DHS",
+    "category": "program"
   },
   "NIPRNet": {
     "full": "Non-classified Internet Protocol Router Network",
@@ -3723,6 +4161,12 @@
   "NIST SP": {
     "full": "NIST Special Publication",
     "description": "Series of publications providing technical guidelines and standards for federal IT systems.",
+    "agency": "DOC",
+    "category": "general"
+  },
+  "NISTIR": {
+    "full": "NIST Interagency or Internal Report",
+    "description": "NIST publication series providing technical research findings and test methods.",
     "agency": "DOC",
     "category": "general"
   },
@@ -3763,6 +4207,12 @@
     "agency": "DOC",
     "category": "agency",
     "url": "https://www.noaa.gov"
+  },
+  "NOC": {
+    "full": "Network Operations Center",
+    "description": "Centralized facility monitoring and managing network infrastructure, performance, and availability.",
+    "agency": "General",
+    "category": "general"
   },
   "NORTHCOM": {
     "full": "United States Northern Command",
@@ -3892,6 +4342,12 @@
     "category": "agency",
     "url": "https://www.ntsb.gov"
   },
+  "NVD": {
+    "full": "National Vulnerability Database",
+    "description": "NIST-maintained repository of vulnerability management data providing CVSS scores and remediation guidance.",
+    "agency": "DOC",
+    "category": "system"
+  },
   "OASIS": {
     "full": "One Acquisition Solution for Integrated Services",
     "description": "GSA GWAC providing complex professional services across multiple disciplines.",
@@ -3944,6 +4400,12 @@
     "full": "Outside the Continental United States",
     "description": "Geographic designation for locations outside the 48 contiguous U.S. states.",
     "agency": "DOD",
+    "category": "general"
+  },
+  "OCSP": {
+    "full": "Online Certificate Status Protocol",
+    "description": "Protocol for checking real-time revocation status of digital certificates in PKI systems.",
+    "agency": "General",
     "category": "general"
   },
   "ODC": {
@@ -4217,11 +4679,23 @@
     "agency": "SBA",
     "category": "general"
   },
+  "OVAL": {
+    "full": "Open Vulnerability and Assessment Language",
+    "description": "Standard for representing system configuration and vulnerability information, part of SCAP.",
+    "agency": "General",
+    "category": "general"
+  },
   "OVP": {
     "full": "Office of the Vice President",
     "description": "Executive office supporting the Vice President of the United States.",
     "agency": "EOP",
     "category": "office"
+  },
+  "OWASP": {
+    "full": "Open Web Application Security Project",
+    "description": "Nonprofit providing freely available web application security resources including the OWASP Top 10.",
+    "agency": "General",
+    "category": "general"
   },
   "OWCP": {
     "full": "Office of Workers Compensation Programs",
@@ -4252,6 +4726,12 @@
     "description": "Time from receipt of a procurement request to contract award.",
     "agency": "General",
     "category": "process"
+  },
+  "PAM": {
+    "full": "Privileged Access Management",
+    "description": "Security practice for controlling and monitoring access by accounts with elevated permissions.",
+    "agency": "General",
+    "category": "general"
   },
   "PATRIOT Act": {
     "full": "Uniting and Strengthening America by Providing Appropriate Tools Required to Intercept and Obstruct Terrorism Act",
@@ -4297,6 +4777,12 @@
     "category": "agency",
     "url": "https://www.peacecorps.gov"
   },
+  "PCII": {
+    "full": "Protected Critical Infrastructure Information",
+    "description": "Voluntarily submitted critical infrastructure information protected from public disclosure.",
+    "agency": "DHS",
+    "category": "general"
+  },
   "PCO": {
     "full": "Procuring Contracting Officer",
     "description": "Government official responsible for the solicitation and award of contracts.",
@@ -4327,6 +4813,12 @@
     "agency": "EOP",
     "category": "general"
   },
+  "PDP": {
+    "full": "Policy Decision Point",
+    "description": "Zero trust architecture component that evaluates access requests against security policies.",
+    "agency": "General",
+    "category": "general"
+  },
   "PDR": {
     "full": "Preliminary Design Review",
     "description": "Technical review evaluating the initial design approach of a system.",
@@ -4350,6 +4842,12 @@
     "description": "Army PEO managing simulation and training systems.",
     "agency": "DOW",
     "category": "office"
+  },
+  "PEP": {
+    "full": "Policy Enforcement Point",
+    "description": "Zero trust architecture component that enforces access control decisions.",
+    "agency": "General",
+    "category": "general"
   },
   "PFAS": {
     "full": "Per- and Polyfluoroalkyl Substances",
@@ -4516,6 +5014,12 @@
     "agency": "General",
     "category": "system"
   },
+  "PPSM": {
+    "full": "Ports, Protocols, and Services Management",
+    "description": "DOD program managing network ports, protocols, and services to reduce the attack surface.",
+    "agency": "DOD",
+    "category": "program"
+  },
   "PRA": {
     "full": "Paperwork Reduction Act",
     "description": "Law requiring OMB approval before agencies collect information from the public.",
@@ -4588,6 +5092,18 @@
     "agency": "General",
     "category": "general"
   },
+  "RAR": {
+    "full": "Risk Assessment Report",
+    "description": "FedRAMP document summarizing security risk assessment results and recommended remediation.",
+    "agency": "GSA",
+    "category": "process"
+  },
+  "RBAC": {
+    "full": "Role-Based Access Control",
+    "description": "Access control assigning permissions based on organizational role rather than individual identity.",
+    "agency": "General",
+    "category": "general"
+  },
   "RCFC": {
     "full": "Rules of the Court of Federal Claims",
     "description": "Procedural rules governing litigation before the U.S. Court of Federal Claims, including bid protest proceedings and government contract disputes.",
@@ -4599,6 +5115,12 @@
     "description": "Federal law (42 U.S.C. 6901 et seq.) governing the disposal of solid and hazardous waste, establishing cradle-to-grave tracking of hazardous materials.",
     "agency": "EPA",
     "category": "regulation"
+  },
+  "RDP": {
+    "full": "Remote Desktop Protocol",
+    "description": "Microsoft protocol enabling remote access to desktops, frequently targeted in cyberattacks.",
+    "agency": "General",
+    "category": "general"
   },
   "REAL ID": {
     "full": "REAL ID Act",
@@ -4702,6 +5224,24 @@
     "agency": "General",
     "category": "general"
   },
+  "RPO": {
+    "full": "Recovery Point Objective",
+    "description": "Maximum acceptable data loss measured in time, defining backup frequency for federal systems.",
+    "agency": "General",
+    "category": "general"
+  },
+  "RSA": {
+    "full": "Rivest-Shamir-Adleman",
+    "description": "Public-key cryptographic algorithm widely used for secure data transmission and digital signatures.",
+    "agency": "General",
+    "category": "general"
+  },
+  "RTO": {
+    "full": "Recovery Time Objective",
+    "description": "Maximum acceptable time to restore a system after a disruption, key in federal continuity planning.",
+    "agency": "General",
+    "category": "general"
+  },
   "SAA": {
     "full": "Single Audit Act",
     "description": "Federal law (31 U.S.C. 7501-7507) requiring non-federal entities spending $750,000 or more in federal awards per year to undergo a single or program-specific audit.",
@@ -4741,6 +5281,12 @@
     "category": "agency",
     "url": "https://www.samhsa.gov"
   },
+  "SAML": {
+    "full": "Security Assertion Markup Language",
+    "description": "XML-based standard for exchanging authentication and authorization data between identity providers.",
+    "agency": "General",
+    "category": "general"
+  },
   "SAOP": {
     "full": "Senior Agency Official for Privacy",
     "description": "Senior official responsible for privacy policy and compliance within a federal agency.",
@@ -4776,6 +5322,18 @@
     "description": "Law improving the acquisition of services by the federal government.",
     "agency": "General",
     "category": "regulation"
+  },
+  "SASE": {
+    "full": "Secure Access Service Edge",
+    "description": "Cloud architecture combining network security with WAN capabilities for distributed federal workforces.",
+    "agency": "General",
+    "category": "general"
+  },
+  "SAST": {
+    "full": "Static Application Security Testing",
+    "description": "Automated testing analyzing source code for vulnerabilities without executing the application.",
+    "agency": "General",
+    "category": "general"
   },
   "SAT": {
     "full": "Simplified Acquisition Threshold",
@@ -4826,6 +5384,18 @@
     "agency": "DOL",
     "category": "regulation"
   },
+  "SCADA": {
+    "full": "Supervisory Control and Data Acquisition",
+    "description": "Industrial control system for monitoring critical infrastructure such as power grids and water systems.",
+    "agency": "General",
+    "category": "system"
+  },
+  "SCAP": {
+    "full": "Security Content Automation Protocol",
+    "description": "NIST suite enabling automated vulnerability management, security measurement, and compliance checking.",
+    "agency": "DOC",
+    "category": "system"
+  },
   "SCD": {
     "full": "Service Computation Date",
     "description": "Date used to determine a federal employee length of service for retirement eligibility, leave accrual, and retention standing in RIF actions.",
@@ -4861,6 +5431,12 @@
     "description": "Federal law (50 U.S.C. 3901 et seq.) providing civil protections for active-duty military, including reduced interest rates, protection from eviction, and the ability to terminate leases.",
     "agency": "DOJ",
     "category": "regulation"
+  },
+  "SCRM": {
+    "full": "Supply Chain Risk Management",
+    "description": "Process for identifying and mitigating supply chain risks, addressed in NIST SP 800-161.",
+    "agency": "General",
+    "category": "process"
   },
   "SDB": {
     "full": "Small Disadvantaged Business",
@@ -5166,9 +5742,27 @@
     "agency": "DOC",
     "category": "regulation"
   },
+  "SP 800-207": {
+    "full": "NIST Special Publication 800-207",
+    "description": "Defines zero trust architecture concepts and provides a roadmap for federal ZTA implementation.",
+    "agency": "DOC",
+    "category": "regulation"
+  },
+  "SP 800-37": {
+    "full": "NIST Special Publication 800-37",
+    "description": "Guide for applying the Risk Management Framework to federal information systems.",
+    "agency": "DOC",
+    "category": "regulation"
+  },
   "SP 800-53": {
     "full": "NIST Special Publication 800-53",
     "description": "Catalog of security and privacy controls for federal information systems.",
+    "agency": "DOC",
+    "category": "regulation"
+  },
+  "SP 800-63": {
+    "full": "NIST Special Publication 800-63",
+    "description": "Digital identity guidelines defining requirements for identity proofing, authentication, and federation assurance levels.",
     "agency": "DOC",
     "category": "regulation"
   },
@@ -5202,6 +5796,12 @@
   "SPE": {
     "full": "Senior Procurement Executive",
     "description": "Agency official responsible for management direction of the acquisition system including implementation of unique procurement policies.",
+    "agency": "General",
+    "category": "general"
+  },
+  "SPF": {
+    "full": "Sender Policy Framework",
+    "description": "Email authentication protocol allowing domain owners to specify authorized mail servers.",
     "agency": "General",
     "category": "general"
   },
@@ -5248,6 +5848,12 @@
     "agency": "General",
     "category": "process"
   },
+  "SSDF": {
+    "full": "Secure Software Development Framework",
+    "description": "NIST SP 800-218 framework defining secure software development practices to reduce vulnerabilities.",
+    "agency": "DOC",
+    "category": "general"
+  },
   "SSEB": {
     "full": "Source Selection Evaluation Board",
     "description": "Board responsible for evaluating proposals against stated evaluation criteria.",
@@ -5259,6 +5865,18 @@
     "description": "Document describing the evaluation methodology for a competitive acquisition.",
     "agency": "General",
     "category": "process"
+  },
+  "SSH": {
+    "full": "Secure Shell",
+    "description": "Cryptographic protocol providing encrypted remote login, command execution, and file transfer.",
+    "agency": "General",
+    "category": "general"
+  },
+  "SSO": {
+    "full": "Single Sign-On",
+    "description": "Authentication allowing users to access multiple applications with one set of credentials.",
+    "agency": "General",
+    "category": "general"
   },
   "SSP": {
     "full": "System Security Plan",
@@ -5276,6 +5894,12 @@
     "full": "Security Technical Implementation Guide",
     "description": "DOD configuration standard for securing information systems and software.",
     "agency": "DOD",
+    "category": "general"
+  },
+  "STIX": {
+    "full": "Structured Threat Information Expression",
+    "description": "Standardized language for representing and sharing cyber threat intelligence.",
+    "agency": "General",
     "category": "general"
   },
   "STOCK Act": {
@@ -5301,6 +5925,12 @@
     "description": "Federal law (5 U.S.C. 552b) requiring meetings of multi-member federal agencies to be open to public observation, with specific exemptions.",
     "agency": "General",
     "category": "regulation"
+  },
+  "SWG": {
+    "full": "Secure Web Gateway",
+    "description": "Security solution filtering malware from web traffic and enforcing acceptable use policies.",
+    "agency": "General",
+    "category": "general"
   },
   "T&M": {
     "full": "Time and Materials",
@@ -5347,6 +5977,12 @@
     "description": "Emergency economic stabilization program (P.L. 110-343) authorized during the 2008 financial crisis, providing $700 billion to purchase distressed assets and inject capital into financial institutions.",
     "agency": "TREAS",
     "category": "program"
+  },
+  "TAXII": {
+    "full": "Trusted Automated Exchange of Intelligence Information",
+    "description": "Protocol for exchanging cyber threat intelligence in STIX format over HTTPS.",
+    "agency": "General",
+    "category": "general"
   },
   "TBM": {
     "full": "Technology Business Management",
@@ -5401,6 +6037,12 @@
     "description": "Federal law (42 U.S.C. 2000e et seq.) prohibiting employment discrimination based on race, color, religion, sex, or national origin, enforced by the EEOC.",
     "agency": "EEOC",
     "category": "regulation"
+  },
+  "TLS": {
+    "full": "Transport Layer Security",
+    "description": "Cryptographic protocol for secure communications, required at 1.2+ for federal systems per NIST SP 800-52.",
+    "agency": "General",
+    "category": "general"
   },
   "TMF": {
     "full": "Technology Modernization Fund",
@@ -5487,6 +6129,12 @@
     "category": "program",
     "url": "https://www.tsp.gov"
   },
+  "TTP": {
+    "full": "Tactics, Techniques, and Procedures",
+    "description": "Description of adversary behavior patterns used in threat intelligence and MITRE ATT&CK.",
+    "agency": "General",
+    "category": "general"
+  },
   "Tucker Act": {
     "full": "Tucker Act",
     "description": "Federal law (28 U.S.C. 1491) granting the U.S. Court of Federal Claims jurisdiction over monetary claims against the federal government, including contract disputes and bid protests.",
@@ -5534,6 +6182,12 @@
     "agency": "DOD",
     "category": "regulation"
   },
+  "UEBA": {
+    "full": "User and Entity Behavior Analytics",
+    "description": "Analytics technology detecting anomalous behavior by users and entities to identify cyber threats.",
+    "agency": "General",
+    "category": "general"
+  },
   "UEI": {
     "full": "Unique Entity Identifier",
     "description": "SAM-generated identifier replacing the DUNS number for federal entity registration.",
@@ -5563,6 +6217,12 @@
     "description": "Consolidated guidance (2 CFR Part 200) establishing government-wide requirements for federal grants and cooperative agreements, replacing OMB Circulars A-87, A-110, A-122, and A-133.",
     "agency": "EOP",
     "category": "regulation"
+  },
+  "US-CERT": {
+    "full": "United States Computer Emergency Readiness Team",
+    "description": "DHS component providing cybersecurity incident response for federal networks, now part of CISA.",
+    "agency": "DHS",
+    "category": "office"
   },
   "USA": {
     "full": "United States Army",
@@ -5749,6 +6409,12 @@
     "agency": "DOJ",
     "category": "regulation"
   },
+  "VDP": {
+    "full": "Vulnerability Disclosure Policy",
+    "description": "Policy required by CISA BOD 20-01 enabling public reporting of vulnerabilities in federal systems.",
+    "agency": "DHS",
+    "category": "process"
+  },
   "VECP": {
     "full": "Value Engineering Change Proposal",
     "description": "Contractor-submitted proposal under FAR Part 48 that proposes a contract change to reduce life-cycle costs while maintaining required performance.",
@@ -5773,6 +6439,12 @@
     "agency": "DOL",
     "category": "regulation"
   },
+  "VEX": {
+    "full": "Vulnerability Exploitability eXchange",
+    "description": "Standard for communicating whether a product is affected by a known vulnerability, complementing SBOM.",
+    "agency": "General",
+    "category": "general"
+  },
   "VistA": {
     "full": "Veterans Health Information Systems and Technology Architecture",
     "description": "VA integrated electronic health record system supporting clinical, administrative, and financial functions across VA medical centers.",
@@ -5785,17 +6457,35 @@
     "agency": "SBA",
     "category": "program"
   },
+  "VPN": {
+    "full": "Virtual Private Network",
+    "description": "Encrypted network connection enabling secure remote access to federal systems.",
+    "agency": "General",
+    "category": "general"
+  },
   "VPOTUS": {
     "full": "Vice President of the United States",
     "description": "Second-highest officer in the executive branch and president of the Senate.",
     "agency": "EOP",
     "category": "general"
   },
+  "VRM": {
+    "full": "Vendor Risk Management",
+    "description": "Process of assessing cybersecurity risks from third-party vendors in the federal supply chain.",
+    "agency": "General",
+    "category": "process"
+  },
   "VSIP": {
     "full": "Voluntary Separation Incentive Payment",
     "description": "Authority allowing agencies to offer lump-sum payments up to $25,000 to incentivize employees to voluntarily separate during downsizing.",
     "agency": "OPM",
     "category": "process"
+  },
+  "WAF": {
+    "full": "Web Application Firewall",
+    "description": "Security system filtering HTTP traffic to protect against SQL injection, XSS, and other attacks.",
+    "agency": "General",
+    "category": "general"
   },
   "WARN Act": {
     "full": "Worker Adjustment and Retraining Notification Act",
@@ -5882,6 +6572,12 @@
     "agency": "General",
     "category": "general"
   },
+  "XCCDF": {
+    "full": "Extensible Configuration Checklist Description Format",
+    "description": "NIST specification language for security checklists and benchmarks, part of SCAP.",
+    "agency": "DOC",
+    "category": "general"
+  },
   "XDR": {
     "full": "Extended Detection and Response",
     "description": "Cybersecurity approach extending EDR capabilities across network, cloud, and email security layers for unified threat detection.",
@@ -5891,6 +6587,12 @@
   "ZTA": {
     "full": "Zero Trust Architecture",
     "description": "Security model requiring verification for every user and device accessing resources.",
+    "agency": "General",
+    "category": "general"
+  },
+  "ZTNA": {
+    "full": "Zero Trust Network Access",
+    "description": "Security approach verifying users and devices before granting access to specific applications.",
     "agency": "General",
     "category": "general"
   }
