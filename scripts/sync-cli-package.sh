@@ -11,10 +11,11 @@ echo "Syncing shared files to cli-package..."
 mkdir -p "$ROOT_DIR/cli-package/src/shared/data"
 cp "$ROOT_DIR/src/shared/types.ts" "$ROOT_DIR/cli-package/src/shared/"
 cp "$ROOT_DIR/src/shared/decoder.ts" "$ROOT_DIR/cli-package/src/shared/"
+cp "$ROOT_DIR/src/shared/encoder.ts" "$ROOT_DIR/cli-package/src/shared/"
 cp "$ROOT_DIR/src/shared/truncate.ts" "$ROOT_DIR/cli-package/src/shared/"
 cp "$ROOT_DIR/src/shared/data/acronyms.json" "$ROOT_DIR/cli-package/src/shared/data/"
 
 # Copy license
 cp "$ROOT_DIR/LICENSE" "$ROOT_DIR/cli-package/"
 
-echo "Sync complete."
+echo "Sync complete. Run 'cd cli-package && npx tsc' to build."
