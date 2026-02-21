@@ -3987,5 +3987,1113 @@
     "description": "System for reporting subcontracting plans and achievements on federal contracts.",
     "agency": "GSA",
     "category": "system"
+  },
+  "ACA": {
+    "full": "Affordable Care Act",
+    "description": "Comprehensive health care reform law (P.L. 111-148) expanding insurance coverage, establishing health insurance marketplaces, and reforming the health care delivery system.",
+    "agency": "HHS",
+    "category": "regulation"
+  },
+  "ACFR": {
+    "full": "Agency Financial Report",
+    "description": "Annual report presenting an agency's audited financial statements, internal controls assessment, and performance information as required by OMB Circular A-136.",
+    "agency": "General",
+    "category": "process"
+  },
+  "AUMF": {
+    "full": "Authorization for Use of Military Force",
+    "description": "Joint resolution of Congress authorizing the President to use military force against those responsible for the September 11 attacks (P.L. 107-40) or against Iraq (P.L. 107-243).",
+    "agency": "DOW",
+    "category": "regulation"
+  },
+  "BAA": {
+    "full": "Buy American Act",
+    "description": "Federal law (41 U.S.C. 8301-8305) requiring the federal government to prefer domestically produced goods in its procurement, with certain exceptions and waivers.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "BAA-research": {
+    "full": "Broad Agency Announcement",
+    "description": "General solicitation for basic and applied research proposals used by federal agencies to fund scientific studies under FAR 35.016.",
+    "agency": "General",
+    "category": "process"
+  },
+  "BSA": {
+    "full": "Bank Secrecy Act",
+    "description": "Federal law (P.L. 91-508) requiring financial institutions to assist the government in detecting and preventing money laundering by maintaining records and filing reports.",
+    "agency": "TREAS",
+    "category": "regulation"
+  },
+  "CAA": {
+    "full": "Clean Air Act",
+    "description": "Federal law (42 U.S.C. 7401 et seq.) regulating air emissions from stationary and mobile sources, authorizing EPA to set National Ambient Air Quality Standards.",
+    "agency": "EPA",
+    "category": "regulation"
+  },
+  "CBDA": {
+    "full": "Community Development Block Grant",
+    "description": "HUD program providing annual grants to state and local governments for community development activities that benefit low- and moderate-income persons.",
+    "agency": "HUD",
+    "category": "program"
+  },
+  "CERCLA": {
+    "full": "Comprehensive Environmental Response, Compensation, and Liability Act",
+    "description": "Federal law (42 U.S.C. 9601 et seq.), also known as Superfund, authorizing EPA to clean up contaminated hazardous waste sites and compelling responsible parties to pay for cleanup.",
+    "agency": "EPA",
+    "category": "regulation"
+  },
+  "CFAA": {
+    "full": "Computer Fraud and Abuse Act",
+    "description": "Federal law (18 U.S.C. 1030) criminalizing unauthorized access to protected computers and computer networks, the primary federal anti-hacking statute.",
+    "agency": "DOJ",
+    "category": "regulation"
+  },
+  "CFIUS": {
+    "full": "Committee on Foreign Investment in the United States",
+    "description": "Interagency committee chaired by the Treasury Secretary that reviews foreign acquisitions of U.S. businesses for national security risks under the Defense Production Act and FIRRMA.",
+    "agency": "TREAS",
+    "category": "agency"
+  },
+  "CHIPS Act": {
+    "full": "Creating Helpful Incentives to Produce Semiconductors and Science Act",
+    "description": "Bipartisan law (P.L. 117-167) providing $52 billion in subsidies and incentives for domestic semiconductor manufacturing, research, and workforce development.",
+    "agency": "DOC",
+    "category": "regulation"
+  },
+  "COPPA": {
+    "full": "Children's Online Privacy Protection Act",
+    "description": "Federal law (15 U.S.C. 6501-6506) requiring websites and online services to obtain parental consent before collecting personal information from children under 13.",
+    "agency": "FTC",
+    "category": "regulation"
+  },
+  "CSRA": {
+    "full": "Civil Service Reform Act",
+    "description": "Federal law (P.L. 95-454) that reformed the federal civil service system, created OPM, MSPB, and FLRA, and established the Senior Executive Service.",
+    "agency": "OPM",
+    "category": "regulation"
+  },
+  "CWA": {
+    "full": "Clean Water Act",
+    "description": "Federal law (33 U.S.C. 1251 et seq.) regulating discharges of pollutants into U.S. waters through the National Pollutant Discharge Elimination System (NPDES) permit program.",
+    "agency": "EPA",
+    "category": "regulation"
+  },
+  "Clinger-Cohen": {
+    "full": "Clinger-Cohen Act",
+    "description": "Federal law (P.L. 104-106, Division E) reforming IT management in the federal government, establishing CIO positions and capital planning requirements. Also known as the Information Technology Management Reform Act.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "DPA": {
+    "full": "Defense Production Act",
+    "description": "Federal law (50 U.S.C. 4501 et seq.) authorizing the President to direct private industry to prioritize national defense contracts and expand productive capacity.",
+    "agency": "DOW",
+    "category": "regulation"
+  },
+  "Dodd-Frank": {
+    "full": "Dodd-Frank Wall Street Reform and Consumer Protection Act",
+    "description": "Comprehensive financial reform law (P.L. 111-203) enacted after the 2008 financial crisis, creating the CFPB, imposing new bank regulations, and establishing the Volcker Rule.",
+    "agency": "TREAS",
+    "category": "regulation"
+  },
+  "EAA": {
+    "full": "Export Administration Act",
+    "description": "Federal law governing export controls on dual-use goods and technology administered by the Bureau of Industry and Security, currently authorized through IEEPA.",
+    "agency": "DOC",
+    "category": "regulation"
+  },
+  "ECPA": {
+    "full": "Electronic Communications Privacy Act",
+    "description": "Federal law (18 U.S.C. 2510 et seq.) extending government restrictions on wiretaps to include electronic data transmissions, and establishing standards for law enforcement access to stored electronic communications.",
+    "agency": "DOJ",
+    "category": "regulation"
+  },
+  "EMTALA": {
+    "full": "Emergency Medical Treatment and Labor Act",
+    "description": "Federal law (42 U.S.C. 1395dd) requiring Medicare-participating hospital emergency departments to screen and stabilize anyone seeking treatment, regardless of ability to pay.",
+    "agency": "HHS",
+    "category": "regulation"
+  },
+  "ESA": {
+    "full": "Endangered Species Act",
+    "description": "Federal law (16 U.S.C. 1531 et seq.) protecting threatened and endangered species and their habitats, administered jointly by FWS and NOAA Fisheries.",
+    "agency": "DOI",
+    "category": "regulation"
+  },
+  "ESPC": {
+    "full": "Energy Savings Performance Contract",
+    "description": "Contract mechanism allowing federal agencies to procure energy savings and facility improvements with no up-front capital costs, paid from guaranteed energy savings.",
+    "agency": "DOE",
+    "category": "process"
+  },
+  "FAIR Act": {
+    "full": "Federal Activities Inventory Reform Act",
+    "description": "Federal law (P.L. 105-270) requiring agencies to annually inventory their commercial activities and make them available for potential competition with the private sector.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "FCPA": {
+    "full": "Foreign Corrupt Practices Act",
+    "description": "Federal law (15 U.S.C. 78dd-1 et seq.) prohibiting bribery of foreign officials and requiring public companies to maintain accurate books and records.",
+    "agency": "DOJ",
+    "category": "regulation"
+  },
+  "FCRA": {
+    "full": "Fair Credit Reporting Act",
+    "description": "Federal law (15 U.S.C. 1681 et seq.) regulating the collection, dissemination, and use of consumer credit information.",
+    "agency": "FTC",
+    "category": "regulation"
+  },
+  "FISA": {
+    "full": "Foreign Intelligence Surveillance Act",
+    "description": "Federal law (50 U.S.C. 1801 et seq.) establishing procedures for physical and electronic surveillance and collection of foreign intelligence information.",
+    "agency": "DOJ",
+    "category": "regulation"
+  },
+  "FISC": {
+    "full": "Foreign Intelligence Surveillance Court",
+    "description": "Specialized U.S. federal court established by FISA to oversee requests for surveillance warrants against foreign intelligence agents inside the United States.",
+    "agency": "DOJ",
+    "category": "general"
+  },
+  "FIRRMA": {
+    "full": "Foreign Investment Risk Review Modernization Act",
+    "description": "Federal law (P.L. 115-232, Title XVII) expanding CFIUS jurisdiction to review foreign investments in critical technology, infrastructure, and sensitive personal data.",
+    "agency": "TREAS",
+    "category": "regulation"
+  },
+  "FLPMA": {
+    "full": "Federal Land Policy and Management Act",
+    "description": "Federal law (43 U.S.C. 1701 et seq.) establishing BLM's mandate to manage public lands for multiple use and sustained yield.",
+    "agency": "DOI",
+    "category": "regulation"
+  },
+  "GLBA": {
+    "full": "Gramm-Leach-Bliley Act",
+    "description": "Federal law (P.L. 106-102) requiring financial institutions to protect consumer financial information and explain information-sharing practices.",
+    "agency": "TREAS",
+    "category": "regulation"
+  },
+  "Goldwater-Nichols": {
+    "full": "Goldwater-Nichols Department of Defense Reorganization Act",
+    "description": "Federal law (P.L. 99-433) restructuring DOD, strengthening the Chairman of the Joint Chiefs of Staff, establishing joint combatant commands, and streamlining the military chain of command.",
+    "agency": "DOW",
+    "category": "regulation"
+  },
+  "GREAT Act": {
+    "full": "Grant Reporting Efficiency and Agreements Transparency Act",
+    "description": "Federal law (P.L. 116-103) requiring standardized data reporting for federal grants and cooperative agreements to improve transparency and reduce recipient burden.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "Hatch Act": {
+    "full": "Hatch Act",
+    "description": "Federal law (5 U.S.C. 7321-7326) restricting the political activity of federal employees to ensure government operations are conducted in a nonpartisan manner.",
+    "agency": "OPM",
+    "category": "regulation"
+  },
+  "HITECH": {
+    "full": "Health Information Technology for Economic and Clinical Health Act",
+    "description": "Federal law (P.L. 111-5, Title XIII) promoting the adoption of health information technology and strengthening HIPAA enforcement with breach notification requirements.",
+    "agency": "HHS",
+    "category": "regulation"
+  },
+  "IDEA Act": {
+    "full": "21st Century Integrated Digital Experience Act",
+    "description": "Federal law (P.L. 115-336) requiring agencies to modernize websites, digitize forms, and accelerate use of e-signatures to improve digital government services.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "IEEPA": {
+    "full": "International Emergency Economic Powers Act",
+    "description": "Federal law (50 U.S.C. 1701 et seq.) authorizing the President to regulate commerce and freeze assets during declared national emergencies involving foreign threats.",
+    "agency": "TREAS",
+    "category": "regulation"
+  },
+  "IG Act": {
+    "full": "Inspector General Act",
+    "description": "Federal law (P.L. 95-452) establishing Offices of Inspector General in federal agencies to conduct independent audits, investigations, and inspections to prevent fraud, waste, and abuse.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "IIJA": {
+    "full": "Infrastructure Investment and Jobs Act",
+    "description": "Bipartisan federal law (P.L. 117-58), also known as the Bipartisan Infrastructure Law, providing $1.2 trillion for transportation, broadband, water, energy, and other infrastructure investments.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "IRA-law": {
+    "full": "Inflation Reduction Act",
+    "description": "Federal law (P.L. 117-169) investing in clean energy, extending ACA subsidies, authorizing Medicare drug price negotiation, and imposing a corporate minimum tax.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "JWOD-Act": {
+    "full": "Javits-Wagner-O'Day Program",
+    "description": "Federal mandatory source program operated under the AbilityOne Commission requiring government agencies to purchase products and services from participating nonprofit agencies employing people who are blind or have significant disabilities.",
+    "agency": "General",
+    "category": "program"
+  },
+  "NDAA-annual": {
+    "full": "National Defense Authorization Act (Annual)",
+    "description": "Legislation passed annually since 1961 that authorizes appropriations for the Department of Defense and sets defense policy, including military pay, force levels, and acquisition rules.",
+    "agency": "DOW",
+    "category": "regulation"
+  },
+  "NHPA": {
+    "full": "National Historic Preservation Act",
+    "description": "Federal law (54 U.S.C. 300101 et seq.) establishing a program for preserving historic properties, requiring Section 106 review of federally funded or licensed projects.",
+    "agency": "DOI",
+    "category": "regulation"
+  },
+  "OSH Act": {
+    "full": "Occupational Safety and Health Act",
+    "description": "Federal law (29 U.S.C. 651 et seq.) requiring employers to provide safe workplaces and establishing OSHA to set and enforce workplace safety standards.",
+    "agency": "DOL",
+    "category": "regulation"
+  },
+  "PACT Act": {
+    "full": "Promise to Address Comprehensive Toxics Act",
+    "description": "Federal law (P.L. 117-168) expanding VA health care and benefits for veterans exposed to burn pits, Agent Orange, and other toxic substances during military service.",
+    "agency": "VA",
+    "category": "regulation"
+  },
+  "PSQIA": {
+    "full": "Patient Safety and Quality Improvement Act",
+    "description": "Federal law (P.L. 109-41) establishing a voluntary reporting system for patient safety events and providing privilege and confidentiality protections for patient safety data.",
+    "agency": "HHS",
+    "category": "regulation"
+  },
+  "RCRA": {
+    "full": "Resource Conservation and Recovery Act",
+    "description": "Federal law (42 U.S.C. 6901 et seq.) governing the disposal of solid and hazardous waste, establishing cradle-to-grave tracking of hazardous materials.",
+    "agency": "EPA",
+    "category": "regulation"
+  },
+  "RFA": {
+    "full": "Regulatory Flexibility Act",
+    "description": "Federal law (5 U.S.C. 601 et seq.) requiring agencies to assess the impact of proposed regulations on small entities and consider less burdensome alternatives.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "ROD": {
+    "full": "Record of Decision",
+    "description": "Public document issued under NEPA recording an agency's final decision on a proposed action after completing an Environmental Impact Statement.",
+    "agency": "General",
+    "category": "process"
+  },
+  "SCA-McNamara": {
+    "full": "McNamara-O'Hara Service Contract Act",
+    "description": "Federal law (41 U.S.C. 6701 et seq.) requiring contractors performing services on federal contracts exceeding $2,500 to pay prevailing wages and fringe benefits.",
+    "agency": "DOL",
+    "category": "regulation"
+  },
+  "SECURE Act": {
+    "full": "Setting Every Community Up for Retirement Enhancement Act",
+    "description": "Federal law (P.L. 116-94, Division O) reforming retirement savings rules including changes to required minimum distributions, 401(k) eligibility, and TSP modernization.",
+    "agency": "TREAS",
+    "category": "regulation"
+  },
+  "SOX": {
+    "full": "Sarbanes-Oxley Act",
+    "description": "Federal law (P.L. 107-204) establishing enhanced corporate financial disclosure, accounting oversight, and fraud accountability requirements in response to corporate scandals.",
+    "agency": "SEC",
+    "category": "regulation"
+  },
+  "STOCK Act": {
+    "full": "Stop Trading on Congressional Knowledge Act",
+    "description": "Federal law (P.L. 112-105) prohibiting members of Congress and senior government officials from insider trading based on nonpublic information obtained through their positions.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "Section 508": {
+    "full": "Section 508 of the Rehabilitation Act",
+    "description": "Federal law (29 U.S.C. 794d) requiring federal agencies to make electronic and information technology accessible to people with disabilities.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "TAA": {
+    "full": "Trade Agreements Act",
+    "description": "Federal law (19 U.S.C. 2501 et seq.) implementing U.S. trade agreement obligations, requiring that products acquired by the federal government be manufactured or substantially transformed in designated countries.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "TSCA": {
+    "full": "Toxic Substances Control Act",
+    "description": "Federal law (15 U.S.C. 2601 et seq.) authorizing EPA to regulate the introduction and use of chemicals, including testing requirements and restrictions on hazardous substances.",
+    "agency": "EPA",
+    "category": "regulation"
+  },
+  "Title VII": {
+    "full": "Title VII of the Civil Rights Act of 1964",
+    "description": "Federal law (42 U.S.C. 2000e et seq.) prohibiting employment discrimination based on race, color, religion, sex, or national origin, enforced by the EEOC.",
+    "agency": "EEOC",
+    "category": "regulation"
+  },
+  "UMRA": {
+    "full": "Unfunded Mandates Reform Act",
+    "description": "Federal law (P.L. 104-4) requiring CBO to estimate the costs of unfunded mandates in proposed legislation and requiring agencies to assess the effects of regulations on state, local, and tribal governments.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "USERRA": {
+    "full": "Uniformed Services Employment and Reemployment Rights Act",
+    "description": "Federal law (38 U.S.C. 4301 et seq.) protecting the civilian employment rights of military service members, reservists, and veterans returning from active duty.",
+    "agency": "DOL",
+    "category": "regulation"
+  },
+  "VEVRAA": {
+    "full": "Vietnam Era Veterans' Readjustment Assistance Act",
+    "description": "Federal law (38 U.S.C. 4212) requiring federal contractors to take affirmative action to employ and advance covered veterans, enforced by OFCCP.",
+    "agency": "DOL",
+    "category": "regulation"
+  },
+  "WPA": {
+    "full": "Whistleblower Protection Act",
+    "description": "Federal law (5 U.S.C. 2302(b)(8)) protecting federal employees who disclose evidence of waste, fraud, abuse, or threats to public health or safety from retaliation.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "WPEA": {
+    "full": "Whistleblower Protection Enhancement Act",
+    "description": "Federal law (P.L. 112-199) strengthening protections for federal whistleblowers by clarifying protected disclosures and enhancing remedies, amending the Whistleblower Protection Act.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "ADEA": {
+    "full": "Age Discrimination in Employment Act",
+    "description": "Federal law (29 U.S.C. 621 et seq.) prohibiting employment discrimination against individuals age 40 or older.",
+    "agency": "EEOC",
+    "category": "regulation"
+  },
+  "ARPA": {
+    "full": "American Rescue Plan Act",
+    "description": "Federal law (P.L. 117-2) providing $1.9 trillion in COVID-19 economic stimulus including direct payments, unemployment benefits, and state/local government aid.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "Berry Amendment": {
+    "full": "Berry Amendment",
+    "description": "Provision (10 U.S.C. 4862) requiring DOD to purchase domestically produced food, clothing, textiles, and specialty metals, with limited exceptions.",
+    "agency": "DOW",
+    "category": "regulation"
+  },
+  "BIS": {
+    "full": "Bureau of Industry and Security",
+    "description": "DOC bureau administering export controls on dual-use goods and technologies through the Export Administration Regulations.",
+    "agency": "DOC",
+    "category": "bureau"
+  },
+  "CARES Act": {
+    "full": "Coronavirus Aid, Relief, and Economic Security Act",
+    "description": "Federal law (P.L. 116-136) providing $2.2 trillion in emergency economic relief during the COVID-19 pandemic, including PPP loans, stimulus payments, and enhanced unemployment.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "CDA": {
+    "full": "Contract Disputes Act",
+    "description": "Federal law (41 U.S.C. 7101-7109) establishing procedures for resolving claims and disputes arising under or relating to federal government contracts.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "CFOA": {
+    "full": "Chief Financial Officers Act",
+    "description": "Federal law (P.L. 101-576) establishing CFO positions in major federal agencies and requiring audited annual financial statements.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "CMRA": {
+    "full": "Congressional Review Act Major Rule",
+    "description": "A major rule under the CRA with an annual economic impact of $100 million or more, subject to a 60-day congressional review period before taking effect.",
+    "agency": "General",
+    "category": "process"
+  },
+  "DPPA": {
+    "full": "Driver's Privacy Protection Act",
+    "description": "Federal law (18 U.S.C. 2721 et seq.) restricting the disclosure of personal information from state motor vehicle records.",
+    "agency": "DOJ",
+    "category": "regulation"
+  },
+  "E-Gov Act": {
+    "full": "E-Government Act",
+    "description": "Federal law (P.L. 107-347) promoting electronic government services, establishing the Office of Electronic Government at OMB, and requiring privacy impact assessments.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "EIS-NEPA": {
+    "full": "Environmental Impact Statement (NEPA)",
+    "description": "Detailed analysis required under NEPA for major federal actions significantly affecting the quality of the human environment, including alternatives and mitigation measures.",
+    "agency": "General",
+    "category": "process"
+  },
+  "EPCA": {
+    "full": "Energy Policy and Conservation Act",
+    "description": "Federal law (42 U.S.C. 6201 et seq.) establishing the Strategic Petroleum Reserve, setting energy efficiency standards, and providing for energy conservation programs.",
+    "agency": "DOE",
+    "category": "regulation"
+  },
+  "EPCRA": {
+    "full": "Emergency Planning and Community Right-to-Know Act",
+    "description": "Federal law (42 U.S.C. 11001 et seq.) requiring facilities to report toxic chemical releases and providing communities with information about chemical hazards.",
+    "agency": "EPA",
+    "category": "regulation"
+  },
+  "EPACT": {
+    "full": "Energy Policy Act",
+    "description": "Comprehensive energy legislation (most recently P.L. 109-58 in 2005) addressing energy production, efficiency, and conservation including tax incentives for renewable energy.",
+    "agency": "DOE",
+    "category": "regulation"
+  },
+  "FACE Act": {
+    "full": "Freedom of Access to Clinic Entrances Act",
+    "description": "Federal law (18 U.S.C. 248) prohibiting the use of force, threat of force, or physical obstruction to interfere with individuals obtaining or providing reproductive health care services.",
+    "agency": "DOJ",
+    "category": "regulation"
+  },
+  "FCDA": {
+    "full": "Federal Civil Defense Act",
+    "description": "Former federal law establishing civil defense programs, largely superseded by the Stafford Act and FEMA authorities for emergency preparedness and disaster response.",
+    "agency": "DHS",
+    "category": "regulation"
+  },
+  "FCA": {
+    "full": "False Claims Act",
+    "description": "Federal law (31 U.S.C. 3729-3733) imposing civil liability on persons who defraud the federal government, including qui tam provisions allowing whistleblowers to file suits on behalf of the government.",
+    "agency": "DOJ",
+    "category": "regulation"
+  },
+  "FECA-labor": {
+    "full": "Federal Election Campaign Act",
+    "description": "Federal law (52 U.S.C. 30101 et seq.) regulating the financing of federal election campaigns, including contribution limits and disclosure requirements, enforced by the FEC.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "FEC": {
+    "full": "Federal Election Commission",
+    "description": "Independent agency enforcing federal campaign finance laws, including disclosure of campaign finance information and limits on contributions.",
+    "agency": "FEC",
+    "category": "agency",
+    "url": "https://www.fec.gov"
+  },
+  "FedSIM-assist": {
+    "full": "Federal Systems Integration and Management Assisted Acquisition",
+    "description": "GSA assisted acquisition service providing end-to-end procurement support for IT and professional services on behalf of client agencies.",
+    "agency": "GSA",
+    "category": "program"
+  },
+  "FIRMR": {
+    "full": "Federal Information Resources Management Regulation",
+    "description": "Former GSA regulation governing information technology procurement, now superseded by FITARA and current FAR/OMB guidance.",
+    "agency": "GSA",
+    "category": "regulation"
+  },
+  "GINA": {
+    "full": "Genetic Information Nondiscrimination Act",
+    "description": "Federal law (P.L. 110-233) prohibiting discrimination in health insurance and employment based on genetic information.",
+    "agency": "EEOC",
+    "category": "regulation"
+  },
+  "GMRA": {
+    "full": "Government Management Reform Act",
+    "description": "Federal law (P.L. 103-356) requiring audited financial statements for federal agencies and consolidation of financial management systems.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "IGRA": {
+    "full": "Indian Gaming Regulatory Act",
+    "description": "Federal law (25 U.S.C. 2701 et seq.) establishing the framework for regulating gaming activities on Indian lands, creating the National Indian Gaming Commission.",
+    "agency": "DOI",
+    "category": "regulation"
+  },
+  "IPERA": {
+    "full": "Improper Payments Elimination and Recovery Act",
+    "description": "Former federal law (P.L. 111-204) requiring agencies to periodically review programs susceptible to significant improper payments, superseded by PIIA.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "IPERIA": {
+    "full": "Improper Payments Elimination and Recovery Improvement Act",
+    "description": "Former federal law (P.L. 112-248) strengthening requirements for identifying and recovering improper payments, superseded by PIIA.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "LPTA-statute": {
+    "full": "Lowest Price Technically Acceptable Restrictions",
+    "description": "NDAA provisions restricting use of LPTA source selection in DOD acquisitions, particularly for knowledge-based services, cybersecurity, and major systems.",
+    "agency": "DOW",
+    "category": "regulation"
+  },
+  "MSPBA": {
+    "full": "Merit Systems Protection Board Act",
+    "description": "Provisions within the Civil Service Reform Act of 1978 establishing the MSPB as an independent adjudicatory agency to protect federal employees against prohibited personnel practices.",
+    "agency": "MSPB",
+    "category": "regulation"
+  },
+  "NFA": {
+    "full": "National Firearms Act",
+    "description": "Federal law (26 U.S.C. 5801 et seq.) imposing registration and tax requirements on the manufacture and transfer of certain firearms including machine guns and short-barreled rifles.",
+    "agency": "DOJ",
+    "category": "regulation"
+  },
+  "NGPA": {
+    "full": "Natural Gas Policy Act",
+    "description": "Federal law (15 U.S.C. 3301 et seq.) establishing a framework for natural gas pricing and regulation of interstate and intrastate natural gas markets.",
+    "agency": "DOE",
+    "category": "regulation"
+  },
+  "NRDA": {
+    "full": "Natural Resource Damage Assessment",
+    "description": "Process under CERCLA and the Oil Pollution Act for assessing injuries to natural resources caused by hazardous substance releases or oil spills and determining restoration requirements.",
+    "agency": "DOI",
+    "category": "process"
+  },
+  "OPA": {
+    "full": "Oil Pollution Act",
+    "description": "Federal law (33 U.S.C. 2701 et seq.) establishing liability and compensation for oil spill cleanup, requiring oil storage facility and vessel response plans.",
+    "agency": "EPA",
+    "category": "regulation"
+  },
+  "OBRA": {
+    "full": "Omnibus Budget Reconciliation Act",
+    "description": "Major budget legislation enacted periodically to implement spending and revenue changes, often containing significant policy reforms across multiple government programs.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "PBA-statute": {
+    "full": "Prompt Payment Act",
+    "description": "Federal law (31 U.S.C. 3901 et seq.) requiring the federal government to pay contractors within specified timeframes and pay interest penalties on late payments.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "Rehab Act": {
+    "full": "Rehabilitation Act of 1973",
+    "description": "Federal law (29 U.S.C. 701 et seq.) prohibiting disability discrimination in federal programs, including Section 503 (contractors), Section 504 (federal assistance), and Section 508 (IT accessibility).",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "RFRA": {
+    "full": "Religious Freedom Restoration Act",
+    "description": "Federal law (42 U.S.C. 2000bb et seq.) prohibiting the government from substantially burdening a person's exercise of religion unless it demonstrates a compelling governmental interest.",
+    "agency": "DOJ",
+    "category": "regulation"
+  },
+  "SDWA": {
+    "full": "Safe Drinking Water Act",
+    "description": "Federal law (42 U.S.C. 300f et seq.) authorizing EPA to set national health-based standards for drinking water and regulating public water systems.",
+    "agency": "EPA",
+    "category": "regulation"
+  },
+  "SGE": {
+    "full": "Special Government Employee",
+    "description": "Individual employed or appointed to serve in the federal government for not more than 130 days in any 365-day period, subject to specific ethics rules under 18 U.S.C. 202.",
+    "agency": "OGE",
+    "category": "general"
+  },
+  "Stafford Act": {
+    "full": "Robert T. Stafford Disaster Relief and Emergency Assistance Act",
+    "description": "Federal law (42 U.S.C. 5121 et seq.) establishing the system for federal disaster assistance, authorizing presidential disaster declarations and FEMA response and recovery programs.",
+    "agency": "DHS",
+    "category": "regulation"
+  },
+  "WARN Act": {
+    "full": "Worker Adjustment and Retraining Notification Act",
+    "description": "Federal law (29 U.S.C. 2101 et seq.) requiring employers with 100+ employees to provide 60 days advance notice of plant closings and mass layoffs.",
+    "agency": "DOL",
+    "category": "regulation"
+  },
+  "WIOA": {
+    "full": "Workforce Innovation and Opportunity Act",
+    "description": "Federal law (P.L. 113-128) authorizing job training and employment services through the public workforce system, replacing the Workforce Investment Act.",
+    "agency": "DOL",
+    "category": "regulation"
+  },
+  "AA": {
+    "full": "Affirmative Action",
+    "description": "Policies and practices designed to increase representation of underrepresented groups in areas such as federal employment and contracting.",
+    "agency": "General",
+    "category": "general"
+  },
+  "APPS": {
+    "full": "Anti-Deficiency Act",
+    "description": "Federal law (31 U.S.C. 1341-1342, 1511-1519) prohibiting federal agencies from obligating or expending funds in advance of or in excess of an appropriation.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "BCA-law": {
+    "full": "Budget Control Act",
+    "description": "Federal law (P.L. 112-25) establishing discretionary spending caps, creating the Joint Select Committee on Deficit Reduction, and triggering sequestration.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "BICE": {
+    "full": "Bureau of Immigration and Customs Enforcement",
+    "description": "Original name of ICE when created under the Homeland Security Act of 2002, now known simply as Immigration and Customs Enforcement.",
+    "agency": "DHS",
+    "category": "agency"
+  },
+  "BPA-energy": {
+    "full": "Bonneville Power Administration",
+    "description": "DOE power marketing administration providing wholesale electrical power from federal dams and one nuclear plant in the Pacific Northwest.",
+    "agency": "DOE",
+    "category": "agency",
+    "url": "https://www.bpa.gov"
+  },
+  "CATEX": {
+    "full": "Categorical Exclusion",
+    "description": "Category of actions under NEPA that have been determined to normally not have significant environmental effects and therefore do not require an EA or EIS.",
+    "agency": "General",
+    "category": "process"
+  },
+  "CDBG": {
+    "full": "Community Development Block Grant",
+    "description": "HUD formula grant program providing annual funding to states and localities for community development activities benefiting low- and moderate-income persons.",
+    "agency": "HUD",
+    "category": "program"
+  },
+  "CE": {
+    "full": "Categorical Exclusion",
+    "description": "Alternative abbreviation for categorical exclusion under NEPA; a class of actions that do not individually or cumulatively have a significant effect on the human environment.",
+    "agency": "General",
+    "category": "process"
+  },
+  "CEF": {
+    "full": "Continuing Education Fund",
+    "description": "Appropriations mechanism providing ongoing funding for federal employee training and professional development programs.",
+    "agency": "General",
+    "category": "general"
+  },
+  "COBRA": {
+    "full": "Consolidated Omnibus Budget Reconciliation Act",
+    "description": "Federal law (P.L. 99-272) best known for provisions allowing workers to temporarily continue employer-sponsored health insurance after job loss.",
+    "agency": "DOL",
+    "category": "regulation"
+  },
+  "CSB": {
+    "full": "Chemical Safety and Hazard Investigation Board",
+    "description": "Independent federal agency investigating industrial chemical accidents to determine root causes and issue safety recommendations.",
+    "agency": "General",
+    "category": "agency",
+    "url": "https://www.csb.gov"
+  },
+  "DFAR": {
+    "full": "Defense Federal Acquisition Regulation",
+    "description": "Alternative abbreviation for DFARS, the DOD supplement to the Federal Acquisition Regulation containing defense-specific procurement policies.",
+    "agency": "DOD",
+    "category": "regulation"
+  },
+  "DHS Act": {
+    "full": "Homeland Security Act of 2002",
+    "description": "Federal law (P.L. 107-296) establishing the Department of Homeland Security, consolidating 22 agencies into a unified department focused on protecting the homeland.",
+    "agency": "DHS",
+    "category": "regulation"
+  },
+  "DPA-title3": {
+    "full": "Defense Production Act Title III",
+    "description": "Provision of the DPA authorizing the President to create, maintain, and strengthen the domestic industrial base through purchases, purchase commitments, and loans.",
+    "agency": "DOW",
+    "category": "regulation"
+  },
+  "ECMRA": {
+    "full": "Evidence-Based Policymaking Commission Recommendations Act",
+    "description": "Federal law concepts arising from the Commission on Evidence-Based Policymaking, codified through the Foundations for Evidence-Based Policymaking Act (P.L. 115-435).",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "EO 12333": {
+    "full": "Executive Order 12333",
+    "description": "Presidential directive governing the activities of U.S. intelligence agencies, establishing the roles and responsibilities within the Intelligence Community.",
+    "agency": "EOP",
+    "category": "regulation"
+  },
+  "EO 12866": {
+    "full": "Executive Order 12866",
+    "description": "Presidential directive establishing the regulatory review process, requiring cost-benefit analysis of significant regulations and OIRA review before publication.",
+    "agency": "EOP",
+    "category": "regulation"
+  },
+  "EO 13526": {
+    "full": "Executive Order 13526",
+    "description": "Presidential directive governing the classified national security information system, establishing classification levels, declassification procedures, and safeguarding requirements.",
+    "agency": "EOP",
+    "category": "regulation"
+  },
+  "EO 14028": {
+    "full": "Executive Order 14028",
+    "description": "Presidential directive on Improving the Nation's Cybersecurity, requiring zero trust architecture, software supply chain security, and enhanced incident response across federal agencies.",
+    "agency": "EOP",
+    "category": "regulation"
+  },
+  "Evidence Act": {
+    "full": "Foundations for Evidence-Based Policymaking Act",
+    "description": "Federal law (P.L. 115-435) requiring agencies to develop evidence-building plans, designate evaluation officers and chief data officers, and improve data governance.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "FARA-foreign": {
+    "full": "Foreign Agents Registration Act",
+    "description": "Federal law (22 U.S.C. 611 et seq.) requiring persons acting as agents of foreign principals in a political or quasi-political capacity to register with DOJ and disclose their activities.",
+    "agency": "DOJ",
+    "category": "regulation"
+  },
+  "FBRA": {
+    "full": "Federal Buildings Repair Act",
+    "description": "Legislation authorizing GSA to manage the repair, alteration, and construction of federal buildings through the Federal Buildings Fund.",
+    "agency": "GSA",
+    "category": "regulation"
+  },
+  "FedBid": {
+    "full": "FedBid Reverse Auction",
+    "description": "Online reverse auction platform formerly used by federal agencies to purchase commercial goods, where vendors compete by lowering prices in real time.",
+    "agency": "General",
+    "category": "system"
+  },
+  "GCA": {
+    "full": "Government Corporation Control Act",
+    "description": "Federal law (31 U.S.C. 9101 et seq.) establishing financial controls and audit requirements for wholly owned and mixed-ownership government corporations.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "GPEA": {
+    "full": "Government Paperwork Elimination Act",
+    "description": "Federal law (P.L. 105-277, Title XVII) requiring agencies to provide for electronic submission, maintenance, and disclosure of information as a substitute for paper.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "IGEMA": {
+    "full": "Inspector General Empowerment Act",
+    "description": "Federal law (P.L. 114-317) strengthening IG independence, improving IG access to agency records, and enhancing whistleblower protections within OIG offices.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "IRTPA": {
+    "full": "Intelligence Reform and Terrorism Prevention Act",
+    "description": "Federal law (P.L. 108-458) creating the Director of National Intelligence, establishing the National Counterterrorism Center, and implementing 9/11 Commission recommendations.",
+    "agency": "ODNI",
+    "category": "regulation"
+  },
+  "MGT Act": {
+    "full": "Modernizing Government Technology Act",
+    "description": "Federal law (P.L. 115-91, Title X, Subtitle G) establishing agency IT working capital funds and the Technology Modernization Fund to support IT modernization across government.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "NARA-act": {
+    "full": "Federal Records Act",
+    "description": "Federal law (44 U.S.C. Chapters 21, 29, 31, 33) establishing requirements for creating, maintaining, and disposing of federal records, administered by NARA.",
+    "agency": "NARA",
+    "category": "regulation"
+  },
+  "NDA-law": {
+    "full": "National Defense Act",
+    "description": "Historical federal legislation establishing the framework for the organization and administration of the U.S. military, predecessor to modern NDAA legislation.",
+    "agency": "DOW",
+    "category": "regulation"
+  },
+  "NIST CSF": {
+    "full": "NIST Cybersecurity Framework",
+    "description": "Voluntary framework of standards, guidelines, and best practices for managing cybersecurity risk, organized around five functions: Identify, Protect, Detect, Respond, and Recover.",
+    "agency": "DOC",
+    "category": "regulation"
+  },
+  "NMFS": {
+    "full": "National Marine Fisheries Service",
+    "description": "NOAA office responsible for the stewardship of marine resources through science-based conservation and management, also known as NOAA Fisheries.",
+    "agency": "DOC",
+    "category": "agency"
+  },
+  "NPDES": {
+    "full": "National Pollutant Discharge Elimination System",
+    "description": "Clean Water Act permit program administered by EPA and authorized states regulating point source discharges of pollutants into waters of the United States.",
+    "agency": "EPA",
+    "category": "program"
+  },
+  "OLC": {
+    "full": "Office of Legal Counsel",
+    "description": "DOJ office providing authoritative legal advice to the President and executive branch agencies on constitutional and statutory questions.",
+    "agency": "DOJ",
+    "category": "office"
+  },
+  "OMB A-87": {
+    "full": "OMB Circular A-87",
+    "description": "Former OMB guidance establishing cost principles for state, local, and Indian tribal governments, now consolidated into 2 CFR Part 200 (Uniform Guidance).",
+    "agency": "EOP",
+    "category": "regulation"
+  },
+  "OMB A-110": {
+    "full": "OMB Circular A-110",
+    "description": "Former OMB guidance establishing uniform administrative requirements for grants to institutions of higher education, hospitals, and nonprofits, now in 2 CFR Part 200.",
+    "agency": "EOP",
+    "category": "regulation"
+  },
+  "OMB A-122": {
+    "full": "OMB Circular A-122",
+    "description": "Former OMB guidance establishing cost principles for nonprofit organizations receiving federal awards, now consolidated into 2 CFR Part 200.",
+    "agency": "EOP",
+    "category": "regulation"
+  },
+  "OMB A-133": {
+    "full": "OMB Circular A-133",
+    "description": "Former OMB guidance establishing audit requirements for entities expending federal awards, now consolidated into 2 CFR Part 200 Subpart F.",
+    "agency": "EOP",
+    "category": "regulation"
+  },
+  "PATRIOT Act": {
+    "full": "Uniting and Strengthening America by Providing Appropriate Tools Required to Intercept and Obstruct Terrorism Act",
+    "description": "Federal law (P.L. 107-56) enacted after 9/11 expanding law enforcement surveillance and intelligence-gathering powers, modifying FISA, and strengthening anti-money laundering provisions.",
+    "agency": "DOJ",
+    "category": "regulation"
+  },
+  "PMA": {
+    "full": "President's Management Agenda",
+    "description": "White House initiative establishing cross-agency priority goals for improving government management, performance, and accountability in each administration.",
+    "agency": "EOP",
+    "category": "program"
+  },
+  "Privacy Act": {
+    "full": "Privacy Act of 1974",
+    "description": "Federal law (5 U.S.C. 552a) establishing a code of fair information practices governing federal agency collection, maintenance, use, and dissemination of personal information.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "RCFC": {
+    "full": "Rules of the Court of Federal Claims",
+    "description": "Procedural rules governing litigation before the U.S. Court of Federal Claims, including bid protest proceedings and government contract disputes.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "Rehab Act 503": {
+    "full": "Section 503 of the Rehabilitation Act",
+    "description": "Provision requiring federal contractors and subcontractors to take affirmative action to employ and advance individuals with disabilities, enforced by OFCCP.",
+    "agency": "DOL",
+    "category": "regulation"
+  },
+  "SAA": {
+    "full": "Single Audit Act",
+    "description": "Federal law (31 U.S.C. 7501-7507) requiring non-federal entities spending $750,000 or more in federal awards per year to undergo a single or program-specific audit.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "SECURE 2.0": {
+    "full": "SECURE 2.0 Act",
+    "description": "Federal law (P.L. 117-328, Division T) building on the SECURE Act with further retirement savings reforms including automatic enrollment, expanded catch-up contributions, and student loan matching.",
+    "agency": "TREAS",
+    "category": "regulation"
+  },
+  "SPA": {
+    "full": "Superfund Amendments and Reauthorization Act",
+    "description": "Federal law (P.L. 99-499) amending CERCLA, establishing cleanup standards, community right-to-know provisions (EPCRA), and expanding the Superfund trust fund.",
+    "agency": "EPA",
+    "category": "regulation"
+  },
+  "TARP": {
+    "full": "Troubled Asset Relief Program",
+    "description": "Emergency economic stabilization program (P.L. 110-343) authorized during the 2008 financial crisis, providing $700 billion to purchase distressed assets and inject capital into financial institutions.",
+    "agency": "TREAS",
+    "category": "program"
+  },
+  "TBR": {
+    "full": "Technical Baseline Review",
+    "description": "Assessment conducted during defense acquisition to evaluate the technical maturity and risk posture of a system at key decision points.",
+    "agency": "DOW",
+    "category": "process"
+  },
+  "TILA": {
+    "full": "Truth in Lending Act",
+    "description": "Federal law (15 U.S.C. 1601 et seq.) requiring lenders to provide clear and conspicuous disclosure of key lending terms and costs to consumers.",
+    "agency": "CFPB",
+    "category": "regulation"
+  },
+  "UCC": {
+    "full": "Uniform Commercial Code",
+    "description": "Comprehensive set of laws governing commercial transactions in the United States, adopted in some form by all states; federal contracts are governed by FAR rather than UCC.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "Uniform Guidance": {
+    "full": "Uniform Administrative Requirements, Cost Principles, and Audit Requirements for Federal Awards",
+    "description": "Consolidated guidance (2 CFR Part 200) establishing government-wide requirements for federal grants and cooperative agreements, replacing OMB Circulars A-87, A-110, A-122, and A-133.",
+    "agency": "EOP",
+    "category": "regulation"
+  },
+  "USA FREEDOM Act": {
+    "full": "Uniting and Strengthening America by Fulfilling Rights and Ensuring Effective Discipline Over Monitoring Act",
+    "description": "Federal law (P.L. 114-23) reforming NSA bulk data collection programs, requiring more targeted surveillance under FISA, and increasing transparency of the FISC.",
+    "agency": "DOJ",
+    "category": "regulation"
+  },
+  "VAWA": {
+    "full": "Violence Against Women Act",
+    "description": "Federal law (P.L. 103-322, Title IV) providing federal resources for the investigation and prosecution of violent crimes against women and supporting victim services.",
+    "agency": "DOJ",
+    "category": "regulation"
+  },
+  "Antideficiency Act": {
+    "full": "Antideficiency Act",
+    "description": "Federal law (31 U.S.C. 1341-1342, 1511-1519) prohibiting federal agencies from making expenditures or obligations exceeding an appropriation, apportionment, or allotment.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "APA-reg": {
+    "full": "Administrative Procedure Act Rulemaking",
+    "description": "The notice-and-comment rulemaking process under the APA (5 U.S.C. 553) requiring agencies to publish proposed rules, accept public comments, and issue final rules with a basis and purpose statement.",
+    "agency": "General",
+    "category": "process"
+  },
+  "ATDA": {
+    "full": "Accountability of Tax Dollars Act",
+    "description": "Federal law (P.L. 107-289) requiring all federal agencies to prepare auditable financial statements and submit them for audit, regardless of whether covered by the CFO Act.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "CISA Act": {
+    "full": "Cybersecurity and Infrastructure Security Agency Act",
+    "description": "Federal law (P.L. 115-278) establishing CISA as a standalone agency within DHS, elevating the former National Protection and Programs Directorate.",
+    "agency": "DHS",
+    "category": "regulation"
+  },
+  "CLOUD Act": {
+    "full": "Clarifying Lawful Overseas Use of Data Act",
+    "description": "Federal law (P.L. 115-141, Division V) authorizing U.S. law enforcement to compel production of electronic data held by service providers regardless of where data is stored.",
+    "agency": "DOJ",
+    "category": "regulation"
+  },
+  "CNRA": {
+    "full": "Consolidated Natural Resources Act",
+    "description": "Federal law addressing the management and conservation of natural resources across federal lands and territories.",
+    "agency": "DOI",
+    "category": "regulation"
+  },
+  "DEIA-EO": {
+    "full": "Diversity, Equity, Inclusion, and Accessibility Executive Order",
+    "description": "Executive Order 14035 advancing DEIA across the federal workforce through recruitment, hiring, retention, and workplace culture initiatives.",
+    "agency": "EOP",
+    "category": "regulation"
+  },
+  "ECRA": {
+    "full": "Export Control Reform Act",
+    "description": "Federal law (P.L. 115-232, Title XVII, Subtitle B) providing a permanent statutory basis for dual-use export controls previously authorized under the Export Administration Act.",
+    "agency": "DOC",
+    "category": "regulation"
+  },
+  "FedRAMP Auth Act": {
+    "full": "Federal Risk and Authorization Management Program Authorization Act",
+    "description": "Federal law (P.L. 117-263, Title XXXV) codifying FedRAMP into law, establishing it as the authoritative standardized approach to cloud security assessment for federal agencies.",
+    "agency": "GSA",
+    "category": "regulation"
+  },
+  "FITARA Scorecard": {
+    "full": "FITARA Scorecard",
+    "description": "Congressional scorecard grading federal agencies on IT management practices including data center optimization, software licensing, CIO authority, and cybersecurity.",
+    "agency": "General",
+    "category": "process"
+  },
+  "FREEDOM Act": {
+    "full": "USA FREEDOM Reauthorization Act",
+    "description": "Legislation reauthorizing and reforming foreign intelligence surveillance authorities under FISA, including additional privacy protections and oversight requirements.",
+    "agency": "DOJ",
+    "category": "regulation"
+  },
+  "GSA-FAS": {
+    "full": "GSA Federal Acquisition Service",
+    "description": "GSA service arm responsible for procurement solutions including Multiple Award Schedules, GWACs, fleet management, and travel services for federal agencies.",
+    "agency": "GSA",
+    "category": "office"
+  },
+  "HAVA": {
+    "full": "Help America Vote Act",
+    "description": "Federal law (P.L. 107-252) establishing minimum election administration standards, creating the Election Assistance Commission, and providing funding for voting system modernization.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "JEDI": {
+    "full": "Joint Enterprise Defense Infrastructure",
+    "description": "Former DOD cloud computing contract (cancelled in 2021) intended to provide enterprise cloud services across the military, replaced by JWCC.",
+    "agency": "DOW",
+    "category": "program"
+  },
+  "JWCC": {
+    "full": "Joint Warfighting Cloud Capability",
+    "description": "DOD multi-vendor cloud computing contract providing enterprise cloud services across all classification levels, successor to the cancelled JEDI contract.",
+    "agency": "DOW",
+    "category": "program"
+  },
+  "LAUTENBERG": {
+    "full": "Lautenberg Chemical Safety Act",
+    "description": "Federal law (P.L. 114-182) amending TSCA to strengthen EPA's authority to evaluate and regulate chemicals, requiring safety reviews of existing and new chemicals.",
+    "agency": "EPA",
+    "category": "regulation"
+  },
+  "NIST AI RMF": {
+    "full": "NIST Artificial Intelligence Risk Management Framework",
+    "description": "NIST framework providing guidance for managing risks associated with AI systems across their lifecycle, organized around principles of trustworthy and responsible AI.",
+    "agency": "DOC",
+    "category": "regulation"
+  },
+  "OPEN Gov Act": {
+    "full": "OPEN FOIA Act",
+    "description": "Federal law (P.L. 110-175) amending the Freedom of Information Act to strengthen the definition of records, improve response timelines, and create the Office of Government Information Services.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "PFAS": {
+    "full": "Per- and Polyfluoroalkyl Substances",
+    "description": "Class of manufactured chemicals widely used in industrial and consumer products that persist in the environment, subject to increasing EPA regulation under CERCLA, CWA, and SDWA.",
+    "agency": "EPA",
+    "category": "general"
+  },
+  "PPA": {
+    "full": "Prompt Payment Act",
+    "description": "Federal law (31 U.S.C. 3901-3907) requiring the government to pay commercial obligations within specified timeframes (typically 30 days) and pay interest on late payments.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "RHA": {
+    "full": "Rivers and Harbors Act",
+    "description": "Federal law (33 U.S.C. 401 et seq.) prohibiting the obstruction or alteration of navigable waters without a permit from the Army Corps of Engineers under Section 10.",
+    "agency": "DOW",
+    "category": "regulation"
+  },
+  "SAM.gov": {
+    "full": "System for Award Management Website",
+    "description": "Official consolidated federal government website for entity registration, contract opportunities, wage determinations, exclusions, and assistance listings (formerly CFDA).",
+    "agency": "GSA",
+    "category": "system",
+    "url": "https://sam.gov"
+  },
+  "SCRA": {
+    "full": "Servicemembers Civil Relief Act",
+    "description": "Federal law (50 U.S.C. 3901 et seq.) providing civil protections for active-duty military, including reduced interest rates, protection from eviction, and the ability to terminate leases.",
+    "agency": "DOJ",
+    "category": "regulation"
+  },
+  "SITL": {
+    "full": "System Integration Test Laboratory",
+    "description": "Laboratory environment used to test integration of system components and interfaces before deployment to operational environments.",
+    "agency": "General",
+    "category": "general"
+  },
+  "Sunshine Act": {
+    "full": "Government in the Sunshine Act",
+    "description": "Federal law (5 U.S.C. 552b) requiring meetings of multi-member federal agencies to be open to public observation, with specific exemptions.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "Tucker Act": {
+    "full": "Tucker Act",
+    "description": "Federal law (28 U.S.C. 1491) granting the U.S. Court of Federal Claims jurisdiction over monetary claims against the federal government, including contract disputes and bid protests.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "UIPA": {
+    "full": "Uniform Information Practices Act",
+    "description": "Model state legislation governing the collection, maintenance, and dissemination of personal information by government agencies.",
+    "agency": "General",
+    "category": "regulation"
+  },
+  "USA PATRIOT": {
+    "full": "Uniting and Strengthening America by Providing Appropriate Tools Required to Intercept and Obstruct Terrorism",
+    "description": "Full title of the PATRIOT Act (P.L. 107-56), the comprehensive post-9/11 law expanding surveillance, information sharing, and anti-terrorism authorities.",
+    "agency": "DOJ",
+    "category": "regulation"
   }
 }
