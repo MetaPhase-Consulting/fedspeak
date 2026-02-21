@@ -1,10 +1,12 @@
 import { useState, useMemo } from 'react';
-import { Search, SlidersHorizontal, X } from 'lucide-react';
+import { ChevronLeft, ChevronRight, ChevronsLeft, ChevronsRight, Search, SlidersHorizontal, X } from 'lucide-react';
 import { getAllEntries, getCategories, getAgencies, getAcronymCount } from '../shared/decoder';
 import type { DecodedResult } from '../shared/types';
 
 type SortField = 'acronym' | 'full' | 'agency' | 'category';
 type SortDir = 'asc' | 'desc';
+
+const PAGE_SIZE_OPTIONS = [25, 50, 100] as const;
 
 export default function SearchPage() {
   const allEntries = useMemo(() => getAllEntries(), []);
@@ -18,11 +20,12 @@ export default function SearchPage() {
   const [sortField, setSortField] = useState<SortField>('acronym');
   const [sortDir, setSortDir] = useState<SortDir>('asc');
   const [showFilters, setShowFilters] = useState(false);
+  const [page, setPage] = useState(1);
+  const [pageSize, setPageSize] = useState<number>(25);
 
   const filtered = useMemo(() => {
     let results: DecodedResult[] = allEntries;
 
-    // Text filter
     if (query.trim()) {
       const q = query.trim().toLowerCase();
       results = results.filter(
@@ -33,17 +36,14 @@ export default function SearchPage() {
       );
     }
 
-    // Category filter
     if (selectedCategory) {
       results = results.filter(r => r.category === selectedCategory);
     }
 
-    // Agency filter
     if (selectedAgency) {
       results = results.filter(r => r.agency === selectedAgency);
     }
 
-    // Sort
     results = [...results].sort((a, b) => {
       const aVal = a[sortField].toLowerCase();
       const bVal = b[sortField].toLowerCase();
@@ -54,12 +54,38 @@ export default function SearchPage() {
     return results;
   }, [allEntries, query, selectedCategory, selectedAgency, sortField, sortDir]);
 
+  const totalPages = Math.max(1, Math.ceil(filtered.length / pageSize));
+  const safePage = Math.min(page, totalPages);
+  const startIndex = (safePage - 1) * pageSize;
+  const pageResults = filtered.slice(startIndex, startIndex + pageSize);
+
   const hasActiveFilters = selectedCategory || selectedAgency;
 
   function clearFilters() {
     setSelectedCategory('');
     setSelectedAgency('');
     setQuery('');
+    setPage(1);
+  }
+
+  function handleQueryChange(value: string) {
+    setQuery(value);
+    setPage(1);
+  }
+
+  function handleCategoryChange(value: string) {
+    setSelectedCategory(value);
+    setPage(1);
+  }
+
+  function handleAgencyChange(value: string) {
+    setSelectedAgency(value);
+    setPage(1);
+  }
+
+  function handlePageSizeChange(size: number) {
+    setPageSize(size);
+    setPage(1);
   }
 
   function toggleSort(field: SortField) {
@@ -69,6 +95,7 @@ export default function SearchPage() {
       setSortField(field);
       setSortDir('asc');
     }
+    setPage(1);
   }
 
   function SortButton({ field, label }: { field: SortField; label: string }) {
@@ -84,6 +111,105 @@ export default function SearchPage() {
       >
         {label} {active && (sortDir === 'asc' ? '\u2191' : '\u2193')}
       </button>
+    );
+  }
+
+  function Pagination() {
+    if (filtered.length <= pageSize) return null;
+
+    const endIndex = Math.min(startIndex + pageSize, filtered.length);
+
+    // Build page number buttons
+    const pages: (number | '...')[] = [];
+    if (totalPages <= 7) {
+      for (let i = 1; i <= totalPages; i++) pages.push(i);
+    } else {
+      pages.push(1);
+      if (safePage > 3) pages.push('...');
+      for (let i = Math.max(2, safePage - 1); i <= Math.min(totalPages - 1, safePage + 1); i++) {
+        pages.push(i);
+      }
+      if (safePage < totalPages - 2) pages.push('...');
+      pages.push(totalPages);
+    }
+
+    return (
+      <div className='flex flex-col sm:flex-row items-center justify-between gap-4 mt-6'>
+        <div className='text-sm text-slate-500'>
+          {startIndex + 1}&ndash;{endIndex} of {filtered.length.toLocaleString()}
+        </div>
+
+        <div className='flex items-center space-x-1'>
+          <button
+            onClick={() => setPage(1)}
+            disabled={safePage === 1}
+            className='p-1.5 rounded border border-slate-300 text-slate-600 hover:bg-slate-50 disabled:opacity-30 disabled:cursor-not-allowed'
+            aria-label='First page'
+          >
+            <ChevronsLeft className='w-4 h-4' />
+          </button>
+          <button
+            onClick={() => setPage(p => Math.max(1, p - 1))}
+            disabled={safePage === 1}
+            className='p-1.5 rounded border border-slate-300 text-slate-600 hover:bg-slate-50 disabled:opacity-30 disabled:cursor-not-allowed'
+            aria-label='Previous page'
+          >
+            <ChevronLeft className='w-4 h-4' />
+          </button>
+
+          {pages.map((p, i) =>
+            p === '...' ? (
+              <span key={`ellipsis-${i}`} className='px-2 text-slate-400 text-sm'>...</span>
+            ) : (
+              <button
+                key={p}
+                onClick={() => setPage(p)}
+                className={`min-w-[2rem] h-8 rounded border text-sm font-medium transition-colors ${
+                  p === safePage
+                    ? 'bg-blue-700 text-white border-blue-700'
+                    : 'border-slate-300 text-slate-600 hover:bg-slate-50'
+                }`}
+              >
+                {p}
+              </button>
+            )
+          )}
+
+          <button
+            onClick={() => setPage(p => Math.min(totalPages, p + 1))}
+            disabled={safePage === totalPages}
+            className='p-1.5 rounded border border-slate-300 text-slate-600 hover:bg-slate-50 disabled:opacity-30 disabled:cursor-not-allowed'
+            aria-label='Next page'
+          >
+            <ChevronRight className='w-4 h-4' />
+          </button>
+          <button
+            onClick={() => setPage(totalPages)}
+            disabled={safePage === totalPages}
+            className='p-1.5 rounded border border-slate-300 text-slate-600 hover:bg-slate-50 disabled:opacity-30 disabled:cursor-not-allowed'
+            aria-label='Last page'
+          >
+            <ChevronsRight className='w-4 h-4' />
+          </button>
+        </div>
+
+        <div className='flex items-center space-x-2 text-sm text-slate-500'>
+          <span>Per page:</span>
+          {PAGE_SIZE_OPTIONS.map(size => (
+            <button
+              key={size}
+              onClick={() => handlePageSizeChange(size)}
+              className={`px-2 py-0.5 rounded text-xs font-medium transition-colors ${
+                pageSize === size
+                  ? 'bg-blue-700 text-white'
+                  : 'text-slate-600 hover:text-blue-700'
+              }`}
+            >
+              {size}
+            </button>
+          ))}
+        </div>
+      </div>
     );
   }
 
@@ -104,14 +230,14 @@ export default function SearchPage() {
           <input
             type='text'
             value={query}
-            onChange={e => setQuery(e.target.value)}
+            onChange={e => handleQueryChange(e.target.value)}
             placeholder='Search by acronym, full name, or description...'
             className='w-full pl-12 pr-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none text-base'
             autoComplete='off'
           />
           {query && (
             <button
-              onClick={() => setQuery('')}
+              onClick={() => handleQueryChange('')}
               className='absolute right-4 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600'
             >
               <X className='w-4 h-4' />
@@ -148,7 +274,7 @@ export default function SearchPage() {
             )}
           </div>
 
-          <div className='flex items-center space-x-2'>
+          <div className='flex items-center space-x-2 flex-wrap gap-y-2'>
             <span className='text-xs text-slate-500'>Sort:</span>
             <SortButton field='acronym' label='Acronym' />
             <SortButton field='full' label='Name' />
@@ -164,7 +290,7 @@ export default function SearchPage() {
               <label className='block text-sm font-medium text-slate-700 mb-1'>Category</label>
               <select
                 value={selectedCategory}
-                onChange={e => setSelectedCategory(e.target.value)}
+                onChange={e => handleCategoryChange(e.target.value)}
                 className='w-full px-3 py-2 border border-slate-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none bg-white'
               >
                 <option value=''>All categories</option>
@@ -177,7 +303,7 @@ export default function SearchPage() {
               <label className='block text-sm font-medium text-slate-700 mb-1'>Agency</label>
               <select
                 value={selectedAgency}
-                onChange={e => setSelectedAgency(e.target.value)}
+                onChange={e => handleAgencyChange(e.target.value)}
                 className='w-full px-3 py-2 border border-slate-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none bg-white'
               >
                 <option value=''>All agencies</option>
@@ -201,7 +327,7 @@ export default function SearchPage() {
               No acronyms match your search. Try a different query or clear filters.
             </div>
           ) : (
-            filtered.slice(0, 100).map(r => (
+            pageResults.map(r => (
               <div key={r.acronym} className='p-4 hover:bg-slate-50 transition-colors'>
                 <div className='flex items-start justify-between gap-2'>
                   <div className='min-w-0'>
@@ -237,11 +363,8 @@ export default function SearchPage() {
           )}
         </div>
 
-        {filtered.length > 100 && (
-          <p className='text-center text-sm text-slate-500 mt-4'>
-            Showing first 100 results. Refine your search to see more specific results.
-          </p>
-        )}
+        {/* Pagination */}
+        <Pagination />
       </div>
     </section>
   );
