@@ -61,11 +61,14 @@ standards:
 
 gates:
   # .github/workflows/ci.yml, on push to main/dev and PR to main. No
-  # continue-on-error on any step, so every step here blocks a red run —
-  # but note this is the only gate: no accessibility check, no SAST/dependency
-  # scan, no E2E, and no branch-protection setting was found confirming any
-  # of this actually blocks a merge (see enforced_by_branch_protection below).
-  checks:
+  # continue-on-error on any step, so every step here fails its own workflow
+  # run on a red result — but "fails the run" and "blocks a merge" are
+  # different facts. No branch-protection setting was found confirming any
+  # of these are actually required to merge (see
+  # documented_but_unverified_branch_protection below), so this key records
+  # what the pipeline enforces on itself, not a confirmed merge gate. Don't
+  # read this list as "required checks" until that's verified.
+  workflow_checks_enforcement_unverified:
     - Lint
     - Type check
     - Test

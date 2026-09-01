@@ -47,15 +47,20 @@ the same static `src/shared/data/acronyms.json` the website and npm package
 read directly.
 
 - **Versioning:** none in the path — `/api/decode` and `/api/encode` carry no
-  version segment. `public/openapi.json`'s own `info.version` field says
-  `"0.1.0"`, while `package.json` and `cli-package/package.json` both say
-  `"1.0.0"` — a real drift between the published contract document's stated
-  version and the actual product version, confirmed by reading both files
-  directly.
+  version segment. The API contract's own version (`public/openapi.json`'s
+  `info.version`) and the product's npm version (`package.json`,
+  `cli-package/package.json`) are two independent numbers by design — a
+  package release doesn't have to imply a contract change, and vice versa —
+  so the two currently reading differently (`"0.1.0"` vs `"1.0.0"`) isn't
+  itself a defect. What's real is that `info.version` has never moved since
+  it was introduced: `git log -p -- public/openapi.json` shows only two
+  commits touching this file, one adding the spec at `0.1.0` and a later one
+  bumping the *product* to `v1.0.0` without touching the spec at all — so the
+  contract version isn't being tracked against contract changes either, which
+  is the actual gap.
 - **Published as a machine-readable document:** yes, genuinely —
   `public/openapi.json` is a real OpenAPI 3.1 spec with both routes, request
-  schemas, and examples, served as a static file. It just isn't kept in sync
-  on the version number above.
+  schemas, and examples, served as a static file.
 - **Validated at the edge:** partially. Both handlers correctly reject a
   missing `acronym`/`name`/`text` with a 400 and a usage example. Neither
   bounds the *length* of an incoming `text` parameter before it reaches
@@ -98,7 +103,9 @@ aren't covered by anything in the test suite as of this writing.
 - Does a change alter the shape of an existing response? That is a breaking
   change to a published contract, and it belongs behind a new version.
 - Is anything personal placed in a URL, where it reaches logs and history?
-- **FedSpeak-specific:** does `public/openapi.json`'s `info.version` get
-  bumped in the same PR as a `package.json` version bump? Nothing currently
-  enforces that the two stay in sync, and they're already out of sync as of
-  this writing.
+- **FedSpeak-specific:** does a PR that changes the actual API contract — a
+  route added, a parameter added or removed, a response shape changed —
+  bump `public/openapi.json`'s `info.version`? That's the trigger that
+  should move it, independent of any `package.json` version bump; as of
+  this writing nothing enforces it, and the spec's version has never moved
+  since it was introduced.

@@ -34,8 +34,14 @@ and that agreement is worth enforcing mechanically rather than by habit.
 FedSpeak has two agent entry points, not fully parallel: `CLAUDE.md` at the
 repo root (Claude Code) and `.claude/agents.md` (also Claude-specific, despite
 the generic name — it's a second, narrower file scoped to the acronym-adding
-workflow specifically, not a Codex entry point). There is no `AGENTS.md`, so
-Codex has no dedicated entry file in this repository as of this writing.
+workflow specifically, not a Codex entry point). **There is no `AGENTS.md`,
+so Codex has no dedicated entry file in this repository as of this
+writing** — a real gap against this tool's own "One source, two runtimes"
+principle: Codex started directly in this repo today would discover neither
+`CLAUDE.md` nor anything under `.challengeai/` on its own, since it reads
+`AGENTS.md` specifically. Closing it means adding a root `AGENTS.md`; that's
+a deliberate decision for a maintainer to make, not something this pass
+made unasked.
 `CLAUDE.md` and `.claude/agents.md` are not kept byte-identical below a shared
 heading the way some MetaPhase repos keep `AGENTS.md`/`CLAUDE.md` in sync —
 they cover different scopes (`CLAUDE.md` is the general repo guide;
