@@ -4,6 +4,8 @@
 
 **FedSpeak** is a Federal Acronym Decoder API and website built by MetaPhase. It decodes (and encodes) U.S. government acronyms from text or single lookups.
 
+Built with **ChallengeAI**, MetaPhase's accelerator suite for federal software delivery. The federal layer lives in [`.challengeai/`](.challengeai/); [`CHALLENGEAI.md`](CHALLENGEAI.md) is the index. FedSpeak is not itself a federal information system — `.challengeai/profile.yml` and `challenge-ato.md` say so directly, rather than restating federal-delivery standards this repo doesn't actually pursue.
+
 ## Project Structure
 
 ```
@@ -111,3 +113,4 @@ Responses are progressively truncated to stay under 2000 chars.
 - CORS headers set in Netlify functions
 - No secrets or env vars needed
 - Static JSON data, no database, no user input stored
+- Deeper posture (input validation, rate limiting, accessibility, ATO status) lives in `.challengeai/` — see `challenge-api.md`, `challenge-ui.md`, and `challenge-ato.md` rather than restating it here.

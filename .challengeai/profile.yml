@@ -1,0 +1,94 @@
+# Machine-readable declaration of what this system is held to.
+#
+# This is the one file in .challengeai/ that describes THIS system. The tool
+# files beside it are technology and repository agnostic on purpose; anything
+# specific belongs here, in a tool file's "In this repository" section, or in
+# the repository's own documentation.
+#
+# Read by tooling and by agents that need to branch on the profile rather than
+# parse prose.
+
+challengeai:
+  suite_version: "1.0"
+  built_with: true
+
+project:
+  name: "FedSpeak"
+  slug: "fedspeak"
+  tagline: "Federal Acronym Decoder — REST API, website, and npm package expanding 1,119 U.S. government acronyms"
+
+  # FedSpeak is a public reference tool MetaPhase builds and operates. It is
+  # not a federal information system and no agency has accepted operational
+  # risk for it. See federal-context.md, "Government data is not government
+  # endorsement."
+  operator: "MetaPhase"
+  # FedSpeak's acronym database is original compilation and curation, not a
+  # republished government dataset — no single source agency to name here.
+
+stack:
+  id: netlify-serverless-static-json
+  frontend: react-vite
+  api: netlify-functions-v2
+  database: none
+  # src/shared/data/acronyms.json, committed to the repo, no database.
+  data: static-json
+  hosting: netlify
+  # fedspeak.dev (Cloudflare DNS) -> fedspeak.netlify.app (CLAUDE.md).
+  dns: cloudflare
+  # Both live on the npm registry as of this writing: `fedspeak` and
+  # `@metaphase-tech/fedspeak`, both at 1.0.0 — confirmed against the
+  # registry directly, not just README's claim.
+  npm_packages:
+    - fedspeak
+    - "@metaphase-tech/fedspeak"
+
+standards:
+  # FedSpeak is not a federal information system — no agency operates it, no
+  # federal data is carried on an agency's behalf, and no categorization has
+  # been performed. `null` records "not pursued," not "unknown."
+  control_baseline: null
+  impact_level: null
+  # No accessibility target is declared anywhere in this repository — no CI
+  # scan, no stated WCAG level, nothing in CLAUDE.md or .claude/agents.md.
+  # `null` records that absence honestly rather than inventing a target this
+  # repo doesn't actually hold itself to. See ChallengeUI.
+  accessibility: null
+  accessibility_authority: null
+  # No accounts, no stored user input, no analytics, no cookies — confirmed
+  # via SECURITY.md, CLAUDE.md, and a direct search of the source for any
+  # tracking/analytics integration (found none, index.html included).
+  privacy_assessment_required: false
+
+gates:
+  # .github/workflows/ci.yml, on push to main/dev and PR to main. No
+  # continue-on-error on any step, so every step here blocks a red run —
+  # but note this is the only gate: no accessibility check, no SAST/dependency
+  # scan, no E2E, and no branch-protection setting was found confirming any
+  # of this actually blocks a merge (see enforced_by_branch_protection below).
+  checks:
+    - Lint
+    - Type check
+    - Test
+    - Build
+
+  # .github/workflows/dependency-hygiene.yml, weekly cron (Mondays 9am UTC) +
+  # manual dispatch only — never runs on a pull request. `npm audit` carries
+  # `continue-on-error: true`; `npm outdated` is piped through `|| true`. Pure
+  # report, not a gate, and not even a per-PR one.
+  advisory:
+    - Dependency Hygiene (weekly npm audit + npm outdated)
+
+  # A GET request to the GitHub branch-protection API for both `main` and
+  # `dev` returned 404 (not-protected or insufficient token scope — not
+  # distinguishable from the outside) as of this writing. Nothing here is
+  # confirmed; it's what CONTRIBUTING.md and CLAUDE.md describe as the
+  # intended workflow (PR review before merge to main), not a verified
+  # GitHub setting.
+  documented_but_unverified_branch_protection:
+    - PR review before merge to main (per CONTRIBUTING.md/CLAUDE.md, not
+      confirmed as an enforced GitHub branch-protection rule)
+
+branches:
+  default: dev
+  release: main
+  protected_unverified: [dev, main]
