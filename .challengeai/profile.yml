@@ -33,7 +33,7 @@ stack:
   # src/shared/data/acronyms.json, committed to the repo, no database.
   data: static-json
   hosting: netlify
-  # fedspeak.dev (Cloudflare DNS) -> fedspeak.netlify.app (CLAUDE.md).
+  # fedspeak.dev (Cloudflare DNS) -> fedspeak.netlify.app (README.md).
   dns: cloudflare
   # Both live on the npm registry as of this writing: `fedspeak` and
   # `@metaphase-tech/fedspeak`, both at 1.0.0 — confirmed against the
@@ -49,13 +49,13 @@ standards:
   control_baseline: null
   impact_level: null
   # No accessibility target is declared anywhere in this repository — no CI
-  # scan, no stated WCAG level, nothing in CLAUDE.md or .claude/agents.md.
+  # scan, no stated WCAG level, nothing in README.md or CONTRIBUTING.md.
   # `null` records that absence honestly rather than inventing a target this
   # repo doesn't actually hold itself to. See ChallengeUI.
   accessibility: null
   accessibility_authority: null
   # No accounts, no stored user input, no analytics, no cookies — confirmed
-  # via SECURITY.md, CLAUDE.md, and a direct search of the source for any
+  # via SECURITY.md, README.md, and a direct search of the source for any
   # tracking/analytics integration (found none, index.html included).
   privacy_assessment_required: false
 
@@ -84,11 +84,11 @@ gates:
   # A GET request to the GitHub branch-protection API for both `main` and
   # `dev` returned 404 (not-protected or insufficient token scope — not
   # distinguishable from the outside) as of this writing. Nothing here is
-  # confirmed; it's what CONTRIBUTING.md and CLAUDE.md describe as the
+  # confirmed; it's what CONTRIBUTING.md and README.md describe as the
   # intended workflow (PR review before merge to main), not a verified
   # GitHub setting.
   documented_but_unverified_branch_protection:
-    - PR review before merge to main (per CONTRIBUTING.md/CLAUDE.md, not
+    - PR review before merge to main (per CONTRIBUTING.md/README.md, not
       confirmed as an enforced GitHub branch-protection rule)
 
 branches:

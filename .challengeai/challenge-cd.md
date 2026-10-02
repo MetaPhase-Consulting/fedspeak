@@ -41,7 +41,7 @@ FedSpeak has two genuinely separate deployment paths that don't share the
 same rigor, and this section names both honestly.
 
 **The website + API** deploy via Netlify's own GitHub App integration — a
-push to `main` (production) or `dev` (per `CLAUDE.md`'s branching section,
+push to `main` (production) or `dev` (per `README.md`'s branching section,
 though `netlify.toml` doesn't distinguish branch contexts) triggers a
 Netlify build and deploy directly, entirely outside GitHub Actions. There is
 no health-gated rollout: Netlify's default deploy model replaces the live
@@ -59,7 +59,7 @@ token. Publishing is a manual, undocumented-in-repo process:
 `scripts/sync-cli-package.sh` copies `src/shared/*` into `cli-package/`, and
 someone presumably runs `npm publish` from there by hand afterward — this
 step, and who's authorized to run it, isn't written down anywhere in
-`CONTRIBUTING.md` or `CLAUDE.md`.
+`CONTRIBUTING.md` or `README.md`.
 
 ## Secrets
 
@@ -74,7 +74,7 @@ decision to make deliberately rather than discover.
 FedSpeak needs none of this machinery because it holds no secrets at all —
 confirmed directly: no `.env` file or `.env.example`, no environment
 variable referenced in `netlify/functions/`, `src/`, or `netlify.toml`, and
-`CLAUDE.md`/`SECURITY.md` both state this explicitly ("No secrets or env
+`README.md`/`SECURITY.md` both state this explicitly ("No secrets or env
 vars needed"). The npm publish step above would need an npm auth token
 somewhere on whoever's machine runs it, but that credential lives outside
 this repository entirely — not in CI, not in a GitHub secret.

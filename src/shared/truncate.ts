@@ -1,4 +1,4 @@
-import type { DecodeResponse, EncodeResponse } from './types';
+import type { DecodeResponse, EncodeResponse } from './types.js';
 
 const RESPONSE_CHAR_LIMIT = 2000;
 

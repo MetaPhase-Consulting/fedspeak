@@ -31,4 +31,7 @@ dist-ssr
 coverage/
 
 # Claude (keep agents.md tracked, ignore local settings)
-.claude/settings.local.json
+.claude/
+
+# Deno
+deno.lock

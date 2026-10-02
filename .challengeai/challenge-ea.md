@@ -34,7 +34,7 @@ encounter it.
 
 FedSpeak has no formal architecture documentation and no `docs/architecture/`
 — the closest thing is the "Project Structure" section in `README.md` and
-`CLAUDE.md`, which both describe the same real shape: `src/shared/` (decoder,
+`README.md`, which both describe the same real shape: `src/shared/` (decoder,
 encoder, truncation, types, and the acronym data itself) is the single source
 of logic reused by three separate consumers — the Netlify Functions API
 (`netlify/functions/decode.ts`, `encode.ts`), the React website

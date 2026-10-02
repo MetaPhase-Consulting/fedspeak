@@ -117,6 +117,25 @@ console.log(getAcronymCount()); // 1069`}</CodeBlock>
 } from 'fedspeak';`}</CodeBlock>
         </div>
 
+        {/* MCP */}
+        <div className='mb-10'>
+          <h2 className='text-xl font-bold text-slate-900 mb-4'>MCP Server</h2>
+          <p className='text-slate-600 mb-4'>
+            The package ships a <code>fedspeak-mcp</code> binary that serves the acronym database over the Model
+            Context Protocol (stdio), and exports <code>createFedSpeakServer()</code> so you can mount the same tools
+            in your own MCP host. A hosted Streamable HTTP endpoint is available at{' '}
+            <code>https://fedspeak.dev/mcp</code>.
+          </p>
+          <CodeBlock>{`# Run the stdio server
+npx -y -p @metaphase-tech/fedspeak fedspeak-mcp
+
+# Or embed it
+import { createFedSpeakServer } from '@metaphase-tech/fedspeak';
+import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
+
+await createFedSpeakServer().connect(new StdioServerTransport());`}</CodeBlock>
+        </div>
+
         {/* Links */}
         <div className='bg-slate-50 border border-slate-200 rounded-lg p-6'>
           <h2 className='text-lg font-bold text-slate-900 mb-3'>Links</h2>

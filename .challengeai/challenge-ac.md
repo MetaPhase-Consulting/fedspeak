@@ -55,7 +55,7 @@ tests' own names and structure.
 Whether one PR carries one concern, review approval is required, or
 conversation resolution is enforced before merge to `main` is not verified —
 see `profile.yml`'s `gates` section for what's actually confirmed versus what
-`CONTRIBUTING.md`/`CLAUDE.md` describe as the intended workflow.
+`CONTRIBUTING.md` describe as the intended workflow.
 
 ## Evidence
 
