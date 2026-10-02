@@ -1,10 +1,9 @@
 {
   "18F": {
     "full": "18F",
-    "description": "GSA digital services consultancy helping agencies build user-centered technology.",
+    "description": "GSA digital services consultancy that helped agencies build user-centered technology. Disbanded by GSA in March 2025.",
     "agency": "GSA",
-    "category": "office",
-    "url": "https://18f.gsa.gov"
+    "category": "office"
   },
   "2FA": {
     "full": "Two-Factor Authentication",
@@ -38,7 +37,7 @@
   },
   "AA": {
     "full": "Affirmative Action",
-    "description": "Policies and practices designed to increase representation of underrepresented groups in areas such as federal employment and contracting.",
+    "description": "Policies and practices designed to increase representation of underrepresented groups in areas such as federal employment and contracting. Executive Order 14173 (January 2025) revoked Executive Order 11246, ending affirmative action requirements for federal contractors.",
     "agency": "General",
     "category": "general"
   },
@@ -75,7 +74,7 @@
   "ACAT": {
     "full": "Acquisition Category",
     "description": "DOD classification of acquisition programs based on cost and oversight requirements.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "process"
   },
   "ACC": {
@@ -87,7 +86,7 @@
   "ACC-RI": {
     "full": "Army Contracting Command - Rock Island",
     "description": "Army contracting center at Rock Island Arsenal managing major IT contract vehicles including ITES-3S.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "office"
   },
   "ACE-acq": {
@@ -143,7 +142,7 @@
   "ADVANA": {
     "full": "Advancing Analytics",
     "description": "DOD enterprise data and analytics platform providing a common data environment and business intelligence tools across the department.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "system"
   },
   "AES": {
@@ -161,25 +160,25 @@
   "AFARS": {
     "full": "Army Federal Acquisition Regulation Supplement",
     "description": "Army supplement to DFARS containing additional procurement policies and procedures specific to Army acquisitions.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "regulation"
   },
   "AFFARS": {
     "full": "Air Force Federal Acquisition Regulation Supplement",
     "description": "Air Force supplement to DFARS containing additional procurement rules specific to Air Force acquisitions.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "regulation"
   },
   "AFLCMC": {
     "full": "Air Force Life Cycle Management Center",
     "description": "Air Force center responsible for total lifecycle management of weapon systems including development, production, and sustainment.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency"
   },
   "AFMC": {
     "full": "Air Force Materiel Command",
     "description": "Air Force command responsible for research, development, testing, acquisition, and sustainment of weapon systems.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency"
   },
   "AFOSI": {
@@ -191,7 +190,7 @@
   "AFRICOM": {
     "full": "United States Africa Command",
     "description": "DOD unified combatant command responsible for military operations in Africa.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency"
   },
   "AFRL": {
@@ -203,14 +202,14 @@
   "AFSOC": {
     "full": "Air Force Special Operations Command",
     "description": "Air Force component command providing special operations forces for global missions including unconventional warfare, direct action, and personnel recovery.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency",
     "url": "https://www.afsoc.af.mil"
   },
   "AFWERX": {
     "full": "Air Force Warfighting Integration Capability",
     "description": "Air Force innovation program connecting startups and small businesses with Air Force problems using SBIR, challenges, and other transactions.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "program"
   },
   "AHRQ": {
@@ -253,7 +252,7 @@
   "AMC-army": {
     "full": "Army Materiel Command",
     "description": "Army command responsible for materiel development, acquisition, and sustainment of weapons and equipment.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency"
   },
   "AMS": {
@@ -358,7 +357,7 @@
   "ASSIST": {
     "full": "Acquisition Streamlining and Standardization Information System",
     "description": "DOD online repository for military and federal specifications, standards, and related standardization documents.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "system"
   },
   "ATDA": {
@@ -404,6 +403,20 @@
     "agency": "General",
     "category": "program",
     "url": "https://www.abilityone.gov"
+  },
+  "AmeriCorps": {
+    "full": "AmeriCorps",
+    "description": "Federal agency for national service and volunteerism, operating AmeriCorps State and National, VISTA, NCCC, and Seniors programs. Operating name of the Corporation for National and Community Service since 2020.",
+    "agency": "CNCS",
+    "category": "agency",
+    "url": "https://americorps.gov"
+  },
+  "America.gov": {
+    "full": "America.gov",
+    "description": "GSA-operated, AI-powered portal established by executive order on September 29, 2026 as the unified digital front door to federal information and services. Run with the National Design Studio and OMB, with Login.gov as its authentication service.",
+    "agency": "GSA",
+    "category": "system",
+    "url": "https://america.gov"
   },
   "Amtrak": {
     "full": "National Railroad Passenger Corporation",
@@ -616,7 +629,7 @@
   "C3PAO": {
     "full": "CMMC Third-Party Assessor Organization",
     "description": "Accredited organization authorized to conduct CMMC assessments of defense contractors seeking certification.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "general"
   },
   "C4ISR": {
@@ -640,13 +653,13 @@
   "CAC": {
     "full": "Common Access Card",
     "description": "Standard identification and smart card for DOD personnel and contractors.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "system"
   },
   "CAGE": {
     "full": "Commercial and Government Entity Code",
     "description": "Five-character identifier for entities doing business with the federal government.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "system"
   },
   "CAO": {
@@ -726,7 +739,7 @@
   "CC SRG": {
     "full": "Cloud Computing Security Requirements Guide",
     "description": "DISA document defining security requirements for cloud service providers hosting DOD workloads at various impact levels.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "regulation"
   },
   "CCE": {
@@ -781,7 +794,7 @@
   "CDRL": {
     "full": "Contract Data Requirements List",
     "description": "List specifying data deliverables required under a DOD contract.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "process"
   },
   "CE": {
@@ -799,7 +812,7 @@
   "CECOM": {
     "full": "Communications-Electronics Command",
     "description": "Army command providing lifecycle management for C4ISR systems, networks, and communications equipment.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency"
   },
   "CEF": {
@@ -811,7 +824,7 @@
   "CENTCOM": {
     "full": "United States Central Command",
     "description": "DOD unified combatant command responsible for the Middle East and Central/South Asia.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency"
   },
   "CEQ": {
@@ -865,7 +878,7 @@
   },
   "CFPB": {
     "full": "Consumer Financial Protection Bureau",
-    "description": "Agency protecting consumers from unfair financial practices.",
+    "description": "Agency protecting consumers from unfair financial practices. Since 2025 the bureau has operated under a workforce reduction plan and a reduced statutory funding cap, with ongoing litigation over its restructuring.",
     "agency": "CFPB",
     "category": "agency",
     "url": "https://www.consumerfinance.gov"
@@ -893,7 +906,7 @@
   "CHESS": {
     "full": "Computer Hardware, Enterprise Software and Solutions",
     "description": "Army mandatory source for commercial IT hardware, software, and services, managing ITES and other enterprise IT contracts.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "program"
   },
   "CHIP": {
@@ -1010,7 +1023,7 @@
   "CMMC": {
     "full": "Cybersecurity Maturity Model Certification",
     "description": "DOD framework for assessing and certifying cybersecurity practices of defense contractors.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "program"
   },
   "CMMI": {
@@ -1101,7 +1114,7 @@
   "COCOM": {
     "full": "Combatant Command",
     "description": "Unified or specified military command with broad continuing missions.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "general"
   },
   "COFC": {
@@ -1140,7 +1153,7 @@
   "CONUS": {
     "full": "Continental United States",
     "description": "Geographic designation for the 48 contiguous U.S. states and the District of Columbia.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "general"
   },
   "COOP": {
@@ -1193,6 +1206,13 @@
     "description": "Government system for recording contractor past performance evaluations.",
     "agency": "General",
     "category": "system"
+  },
+  "CPB": {
+    "full": "Corporation for Public Broadcasting",
+    "description": "Private nonprofit corporation created by Congress in 1967 to fund public broadcasting. Its federal funding was rescinded in July 2025, and the corporation announced it would wind down operations.",
+    "agency": "General",
+    "category": "agency",
+    "url": "https://www.cpb.org"
   },
   "CPD": {
     "full": "Capability Production Document",
@@ -1349,7 +1369,7 @@
   "CYBERCOM": {
     "full": "United States Cyber Command",
     "description": "DOD unified combatant command directing cyberspace operations.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency"
   },
   "Category Mgmt": {
@@ -1358,11 +1378,31 @@
     "agency": "EOP",
     "category": "program"
   },
+  "Challenge.gov": {
+    "full": "Challenge.gov",
+    "description": "GSA-operated platform listing federal prize competitions and challenges authorized under the America COMPETES Act.",
+    "agency": "GSA",
+    "category": "system",
+    "url": "https://www.challenge.gov"
+  },
   "Clinger-Cohen": {
     "full": "Clinger-Cohen Act",
     "description": "Federal law (P.L. 104-106, Division E) reforming IT management in the federal government, establishing CIO positions and capital planning requirements. Also known as the Information Technology Management Reform Act.",
     "agency": "General",
     "category": "regulation"
+  },
+  "Cloud.gov": {
+    "full": "Cloud.gov",
+    "description": "GSA/TTS FedRAMP-authorized platform as a service for hosting federal web applications.",
+    "agency": "GSA",
+    "category": "system",
+    "url": "https://cloud.gov"
+  },
+  "Code.gov": {
+    "full": "Code.gov",
+    "description": "Federal open source code catalog created under the Federal Source Code Policy (OMB M-16-21) in 2016. The standalone site was retired in 2024, with its guidance moved to Digital.gov.",
+    "agency": "GSA",
+    "category": "system"
   },
   "D&F": {
     "full": "Determination and Findings",
@@ -1379,14 +1419,21 @@
   "DACM": {
     "full": "Director of Acquisition Career Management",
     "description": "Official responsible for managing the acquisition workforce development and certification programs within a DOD component.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "general"
   },
   "DAI": {
     "full": "Defense Agencies Initiative",
     "description": "DOD financial management system providing standardized accounting and business processes for defense agencies.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "system"
+  },
+  "DAP": {
+    "full": "Digital Analytics Program",
+    "description": "GSA/TTS program providing shared web analytics across federal websites, with public dashboards at analytics.usa.gov.",
+    "agency": "GSA",
+    "category": "program",
+    "url": "https://digital.gov/guides/dap"
   },
   "DAR": {
     "full": "Data at Rest",
@@ -1397,14 +1444,14 @@
   "DARPA": {
     "full": "Defense Advanced Research Projects Agency",
     "description": "DOD agency responsible for development of emerging technologies for military use.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency",
     "url": "https://www.darpa.mil"
   },
   "DARS": {
     "full": "Defense Acquisition Regulation System",
     "description": "DOD system maintaining and issuing DFARS and related procurement regulations and guidance.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "regulation"
   },
   "DAST": {
@@ -1453,20 +1500,20 @@
   "DCAA": {
     "full": "Defense Contract Audit Agency",
     "description": "DOD agency providing audit and financial advisory services for defense contracts.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency",
     "url": "https://www.dcaa.mil"
   },
   "DCAM": {
     "full": "Defense Contract Audit Manual",
     "description": "DCAA manual providing comprehensive audit guidance for examining contractor costs, systems, and financial practices.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "regulation"
   },
   "DCAS": {
     "full": "Defense Contract Administration Services",
     "description": "DOD function providing contract administration services for defense procurements.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "process"
   },
   "DCIS": {
@@ -1478,14 +1525,14 @@
   "DCMA": {
     "full": "Defense Contract Management Agency",
     "description": "DOD agency providing contract administration services for defense acquisitions.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency",
     "url": "https://www.dcma.mil"
   },
   "DCMC": {
     "full": "Defense Contract Management Command",
     "description": "Former DOD organization providing contract management services, now DCMA.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency"
   },
   "DCOI": {
@@ -1497,14 +1544,14 @@
   "DCSA": {
     "full": "Defense Counterintelligence and Security Agency",
     "description": "DOD agency responsible for security clearance investigations and industrial security.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency",
     "url": "https://www.dcsa.mil"
   },
   "DD": {
     "full": "Department of Defense Form",
     "description": "Official forms used within the Department of Defense.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "general"
   },
   "DDoS": {
@@ -1523,7 +1570,7 @@
   "DEAMS": {
     "full": "Defense Enterprise Accounting and Management System",
     "description": "Air Force enterprise resource planning system for financial management and accounting, built on Oracle software.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "system"
   },
   "DEAR": {
@@ -1540,20 +1587,23 @@
   },
   "DEIA": {
     "full": "Diversity, Equity, Inclusion, and Accessibility",
-    "description": "Federal workforce initiative promoting diverse and inclusive workplaces.",
+    "description": "Federal workforce initiative promoting diverse and inclusive workplaces. Executive Order 14035 establishing the government-wide DEIA initiative was revoked by Executive Order 14151 in January 2025, which directed agencies to end DEIA offices and programs.",
     "agency": "General",
-    "category": "general"
+    "category": "general",
+    "aliases": [
+      "DEI"
+    ]
   },
   "DEIA-EO": {
     "full": "Diversity, Equity, Inclusion, and Accessibility Executive Order",
-    "description": "Executive Order 14035 advancing DEIA across the federal workforce through recruitment, hiring, retention, and workplace culture initiatives.",
+    "description": "Executive Order 14035 advancing DEIA across the federal workforce through recruitment, hiring, retention, and workplace culture initiatives. Revoked by Executive Order 14151 on January 20, 2025.",
     "agency": "EOP",
     "category": "regulation"
   },
   "DEOS": {
     "full": "Defense Enterprise Office Solutions",
     "description": "DOD enterprise collaboration contract providing Microsoft 365 cloud-based productivity services across the department, managed by DISA.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "program"
   },
   "DEVGRU": {
@@ -1565,13 +1615,13 @@
   "DFAR": {
     "full": "Defense Federal Acquisition Regulation",
     "description": "Alternative abbreviation for DFARS, the DOD supplement to the Federal Acquisition Regulation containing defense-specific procurement policies.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "regulation"
   },
   "DFARS": {
     "full": "Defense Federal Acquisition Regulation Supplement",
     "description": "DOD supplement to the FAR with additional defense-specific procurement rules.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "regulation"
   },
   "DFAS": {
@@ -1617,7 +1667,7 @@
   "DIA": {
     "full": "Defense Intelligence Agency",
     "description": "DOD agency providing military intelligence to warfighters and policymakers.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency",
     "url": "https://www.dia.mil"
   },
@@ -1636,19 +1686,19 @@
   "DIBBS": {
     "full": "DLA Internet Bid Board System",
     "description": "DLA online platform for posting solicitations and receiving bids for defense logistics and supply chain requirements.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "system"
   },
   "DID": {
     "full": "Data Item Description",
     "description": "Document defining the format, content, and preparation instructions for a data deliverable.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "process"
   },
   "DISA": {
     "full": "Defense Information Systems Agency",
     "description": "DOD agency providing IT and communications support to the military.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency",
     "url": "https://www.disa.mil"
   },
@@ -1661,13 +1711,13 @@
   "DITCO": {
     "full": "Defense Information Technology Contracting Organization",
     "description": "DISA's contracting arm managing over $32 billion in contracts, the premier DOD cyber procurement workforce.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "office"
   },
   "DIU": {
     "full": "Defense Innovation Unit",
     "description": "DOD organization accelerating adoption of commercial technology through prototype projects using other transaction authority.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency"
   },
   "DKIM": {
@@ -1679,7 +1729,7 @@
   "DLA": {
     "full": "Defense Logistics Agency",
     "description": "DOD agency providing supply chain and logistics support to the military.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency",
     "url": "https://www.dla.mil"
   },
@@ -1761,7 +1811,7 @@
   },
   "DOGE": {
     "full": "Department of Government Efficiency",
-    "description": "Government body focused on identifying and implementing efficiency improvements across federal agencies.",
+    "description": "Temporary EOP organization established by executive order in January 2025 to modernize federal technology and reduce federal spending, with a scheduled termination date of July 4, 2026. OPM stated in November 2025 that it no longer existed as a centralized entity.",
     "agency": "EOP",
     "category": "office"
   },
@@ -1831,19 +1881,19 @@
   "DPAP": {
     "full": "Defense Procurement and Acquisition Policy",
     "description": "DOD office responsible for procurement and acquisition policy and oversight.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "office"
   },
   "DPAS": {
     "full": "Defense Priorities and Allocations System",
     "description": "System ensuring timely availability of industrial resources for national defense.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "system"
   },
   "DPAS-rating": {
     "full": "Defense Priorities and Allocations System Rating",
     "description": "Priority rating assigned to defense contracts to ensure timely delivery of materials.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "system"
   },
   "DPC": {
@@ -1886,7 +1936,7 @@
   "DTRA": {
     "full": "Defense Threat Reduction Agency",
     "description": "DOD agency providing capabilities to reduce, eliminate, and counter threats from weapons of mass destruction.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency",
     "url": "https://www.dtra.mil"
   },
@@ -1896,11 +1946,25 @@
     "agency": "General",
     "category": "system"
   },
+  "Data.gov": {
+    "full": "Data.gov",
+    "description": "GSA-managed catalog of federal open datasets established under the Open Government Directive and the OPEN Government Data Act.",
+    "agency": "GSA",
+    "category": "system",
+    "url": "https://data.gov"
+  },
   "DevSecOps": {
     "full": "Development, Security, and Operations",
     "description": "Approach integrating security practices into the DevOps software development lifecycle.",
     "agency": "General",
     "category": "general"
+  },
+  "Digital.gov": {
+    "full": "Digital.gov",
+    "description": "GSA/TTS resource hub with guidance, standards, and communities of practice for federal digital services.",
+    "agency": "GSA",
+    "category": "system",
+    "url": "https://digital.gov"
   },
   "DoDD": {
     "full": "Department of Defense Directive",
@@ -1917,13 +1981,13 @@
   "DoDIIS": {
     "full": "Department of Defense Intelligence Information System",
     "description": "DOD enterprise system supporting intelligence processing, exploitation, and dissemination across defense intelligence organizations.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "system"
   },
   "DoDIN": {
     "full": "Department of Defense Information Network",
     "description": "DOD globally interconnected information capability for collecting, processing, storing, and disseminating information to warfighters and decision makers.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "system"
   },
   "DoDM": {
@@ -1990,7 +2054,7 @@
   "ECP": {
     "full": "Engineering Change Proposal",
     "description": "Formal proposal to modify a system design, configuration, or documentation. Used in defense acquisition to manage changes to approved baselines.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "process"
   },
   "ECPA": {
@@ -2007,7 +2071,7 @@
   },
   "ED": {
     "full": "Department of Education",
-    "description": "Federal department responsible for education policy and federal financial aid.",
+    "description": "Federal department responsible for education policy and federal financial aid. Executive Order 14242 (March 2025) directed steps to close the department; since then it has transferred administration of many programs to other agencies through interagency agreements while retaining statutory responsibility.",
     "agency": "ED",
     "category": "department",
     "url": "https://www.ed.gov"
@@ -2015,7 +2079,7 @@
   "EDA": {
     "full": "Electronic Document Access",
     "description": "DOD web-based system providing secure online access to contract documents, modifications, and related procurement data.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "system"
   },
   "EDR": {
@@ -2095,7 +2159,7 @@
   "ENCORE III": {
     "full": "Enterprise Network Contracting Operations for Responsive Engineering III",
     "description": "DISA flagship $17.5 billion IDIQ contract vehicle providing full-range IT services and solutions to DOD, federal agencies, and the intelligence community.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "program"
   },
   "EO": {
@@ -2200,7 +2264,7 @@
   "ESI": {
     "full": "Enterprise Software Initiative",
     "description": "DOD program for enterprise-wide software license agreements to reduce IT costs.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "program"
   },
   "ESPC": {
@@ -2218,7 +2282,7 @@
   "EUCOM": {
     "full": "United States European Command",
     "description": "DOD unified combatant command responsible for Europe and parts of Asia and Africa.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency"
   },
   "EVM": {
@@ -2690,7 +2754,7 @@
   "FOC": {
     "full": "Full Operational Capability",
     "description": "Achievement of complete operational deployment of a system with all planned capabilities.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "process"
   },
   "FOIA": {
@@ -2804,6 +2868,12 @@
     "agency": "DOJ",
     "category": "regulation"
   },
+  "FRN": {
+    "full": "Federal Register Notice",
+    "description": "Official notice published in the Federal Register announcing rules, proposed rules, meetings, and information collections.",
+    "agency": "General",
+    "category": "process"
+  },
   "FRP": {
     "full": "Full Rate Production",
     "description": "Production phase following successful testing and Milestone C approval.",
@@ -2865,7 +2935,7 @@
   "FYDP": {
     "full": "Future Years Defense Program",
     "description": "DOD document projecting forces, resources, and programs over a five-year period.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "process"
   },
   "FedBid": {
@@ -2957,7 +3027,7 @@
   "GFEBS": {
     "full": "General Fund Enterprise Business System",
     "description": "Army enterprise resource planning system for financial management, accounting, and asset management using SAP software.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "system"
   },
   "GFI": {
@@ -3101,6 +3171,12 @@
     "agency": "General",
     "category": "process"
   },
+  "Genesis Mission": {
+    "full": "Genesis Mission",
+    "description": "DOE-led national initiative established by executive order in November 2025 to apply AI and federal scientific datasets to accelerate scientific discovery through the American Science and Security Platform.",
+    "agency": "DOE",
+    "category": "program"
+  },
   "Goldwater-Nichols": {
     "full": "Goldwater-Nichols Department of Defense Reorganization Act",
     "description": "Federal law (P.L. 99-433) restructuring DOD, strengthening the Chairman of the Joint Chiefs of Staff, establishing joint combatant commands, and streamlining the military chain of command.",
@@ -3112,6 +3188,13 @@
     "description": "Isolated cloud computing regions operated by commercial providers meeting specific federal compliance requirements such as FedRAMP, ITAR, and DOD IL.",
     "agency": "General",
     "category": "general"
+  },
+  "Grants.gov": {
+    "full": "Grants.gov",
+    "description": "HHS-managed central portal for finding and applying for federal discretionary grants.",
+    "agency": "HHS",
+    "category": "system",
+    "url": "https://www.grants.gov"
   },
   "HASC": {
     "full": "House Armed Services Committee",
@@ -3135,7 +3218,7 @@
   "HBSS": {
     "full": "Host Based Security System",
     "description": "DOD endpoint security suite providing intrusion prevention, firewall, and application control capabilities.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "system"
   },
   "HCA": {
@@ -3323,11 +3406,24 @@
     "agency": "ODNI",
     "category": "program"
   },
+  "ICR": {
+    "full": "Information Collection Request",
+    "description": "Agency submission to OMB/OIRA seeking approval under the Paperwork Reduction Act before collecting information from the public.",
+    "agency": "EOP",
+    "category": "process"
+  },
   "ICS": {
     "full": "Industrial Control System",
     "description": "Computer systems managing industrial processes and critical infrastructure such as power grids and water treatment.",
     "agency": "General",
     "category": "general"
+  },
+  "ID.me": {
+    "full": "ID.me",
+    "description": "Private identity verification provider used by several federal agencies, including the IRS, VA, and Social Security Administration, as a login and identity-proofing option.",
+    "agency": "General",
+    "category": "system",
+    "url": "https://www.id.me"
   },
   "IDA": {
     "full": "Institute for Defense Analyses",
@@ -3435,25 +3531,25 @@
   "IL2": {
     "full": "Impact Level 2",
     "description": "DOD cloud security classification for non-controlled unclassified information publicly releasable.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "general"
   },
   "IL4": {
     "full": "Impact Level 4",
     "description": "DOD cloud security classification for Controlled Unclassified Information requiring protection under NIST 800-171.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "general"
   },
   "IL5": {
     "full": "Impact Level 5",
     "description": "DOD cloud security classification for higher-sensitivity CUI and National Security Systems requiring dedicated infrastructure.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "general"
   },
   "IL6": {
     "full": "Impact Level 6",
     "description": "DOD cloud security classification for classified information up to Secret, requiring government-owned and operated infrastructure.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "general"
   },
   "IMINT": {
@@ -3462,10 +3558,17 @@
     "agency": "DOW",
     "category": "general"
   },
+  "IMLS": {
+    "full": "Institute of Museum and Library Services",
+    "description": "Independent agency providing federal support to libraries and museums. Directed to reduce to its statutory minimum by Executive Order 14238 in March 2025; subject of ongoing litigation.",
+    "agency": "IMLS",
+    "category": "agency",
+    "url": "https://www.imls.gov"
+  },
   "IMP": {
     "full": "Integrated Master Plan",
     "description": "Event-driven plan documenting program accomplishments and criteria for success.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "process"
   },
   "IMS": {
@@ -3477,7 +3580,7 @@
   "INDOPACOM": {
     "full": "United States Indo-Pacific Command",
     "description": "DOD unified combatant command responsible for the Indo-Pacific region.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency"
   },
   "INL": {
@@ -3501,7 +3604,7 @@
   "IOC": {
     "full": "Initial Operational Capability",
     "description": "First achievement of the ability to employ a system in its intended operational environment.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "process"
   },
   "IPERA": {
@@ -3549,7 +3652,7 @@
   "IRAP": {
     "full": "Invoice, Receipt, Acceptance and Property Transfer",
     "description": "DOD module within PIEE for processing invoices, receipts, and government property transfers on contracts.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "system"
   },
   "IRS": {
@@ -3629,7 +3732,7 @@
   "ITES-3S": {
     "full": "Information Technology Enterprise Solutions - 3 Services",
     "description": "Army $12.1 billion multiple-award IDIQ for enterprise IT services available to all federal agencies, managed by CHESS at ACC-Rock Island.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "program"
   },
   "ITIL": {
@@ -3702,7 +3805,7 @@
   "JIAG": {
     "full": "Judge Advocate General",
     "description": "Senior legal officer in a military branch responsible for military justice.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "general",
     "aliases": [
       "JAG"
@@ -3711,7 +3814,7 @@
   "JIE": {
     "full": "Joint Information Environment",
     "description": "DOD initiative to consolidate IT infrastructure, networks, and systems into a single shared computing environment.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "program"
   },
   "JPL": {
@@ -3741,7 +3844,7 @@
   "JWICS": {
     "full": "Joint Worldwide Intelligence Communications System",
     "description": "DOD's Top Secret/SCI network for intelligence community communications.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "system"
   },
   "JWOD": {
@@ -3871,6 +3974,15 @@
     "agency": "General",
     "category": "process"
   },
+  "MAHA": {
+    "full": "Make America Healthy Again",
+    "description": "Presidential commission established by Executive Order 14212 in February 2025 and chaired by the HHS Secretary to address chronic disease, with an initial focus on childhood health.",
+    "agency": "HHS",
+    "category": "program",
+    "aliases": [
+      "MAHA Commission"
+    ]
+  },
   "MAIS": {
     "full": "Major Automated Information System",
     "description": "DOD information system with development costs exceeding specified thresholds.",
@@ -3893,7 +4005,7 @@
   "MARSOC": {
     "full": "Marine Forces Special Operations Command",
     "description": "Marine Corps component of U.S. Special Operations Command providing special operations forces capable of direct action, special reconnaissance, and foreign internal defense.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency",
     "url": "https://www.marsoc.marines.mil"
   },
@@ -3931,7 +4043,7 @@
   "MDA": {
     "full": "Milestone Decision Authority",
     "description": "Official responsible for approving a DOD acquisition program at key decision points.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "general"
   },
   "MDAP": {
@@ -3943,7 +4055,7 @@
   "MDD": {
     "full": "Materiel Development Decision",
     "description": "DOD decision point validating the need for a materiel solution and authorizing entry into the acquisition process, typically preceding Milestone A.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "process"
   },
   "MDM": {
@@ -3961,7 +4073,7 @@
   "MEDCOM": {
     "full": "Army Medical Command",
     "description": "Army command responsible for medical research, training, and health care delivery for soldiers, retirees, and their families across military treatment facilities.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency"
   },
   "MFA": {
@@ -3979,7 +4091,7 @@
   "MHS GENESIS": {
     "full": "Military Health System GENESIS",
     "description": "DOD enterprise electronic health record system based on Oracle Cerner, replacing legacy systems across military treatment facilities.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "system"
   },
   "MIA": {
@@ -4127,7 +4239,7 @@
   "NAVAIR": {
     "full": "Naval Air Systems Command",
     "description": "Navy command providing acquisition, logistics, and sustainment support for naval aviation platforms and weapons systems.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency"
   },
   "NAVFAC": {
@@ -4139,13 +4251,13 @@
   "NAVSEA": {
     "full": "Naval Sea Systems Command",
     "description": "Navy command responsible for engineering, building, buying, and maintaining ships, submarines, and combat systems.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency"
   },
   "NAVSUP": {
     "full": "Naval Supply Systems Command",
     "description": "Navy command providing logistics, business, and support services including contracting for the Navy and Marine Corps.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency"
   },
   "NCCIC": {
@@ -4207,7 +4319,7 @@
   "NDAA": {
     "full": "National Defense Authorization Act",
     "description": "Annual legislation authorizing defense spending and setting military policy.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "regulation"
   },
   "NDAA-annual": {
@@ -4219,14 +4331,37 @@
   "NDIS": {
     "full": "National Defense Industrial Strategy",
     "description": "DOD strategy to modernize and strengthen the defense industrial base through workforce development, supply chain resilience, and acquisition reform.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "program"
+  },
+  "NDS": {
+    "full": "National Design Studio",
+    "description": "White House office established by executive order in August 2025 and led by the Chief Design Officer of the United States to redesign federal websites and digital services.",
+    "agency": "EOP",
+    "category": "office",
+    "aliases": [
+      "National Design Studio"
+    ]
+  },
+  "NEA": {
+    "full": "National Endowment for the Arts",
+    "description": "Independent agency providing federal grants for the arts and arts education.",
+    "agency": "NEA",
+    "category": "agency",
+    "url": "https://www.arts.gov"
   },
   "NEC": {
     "full": "National Economic Council",
     "description": "EOP body coordinating domestic and international economic policy.",
     "agency": "EOP",
     "category": "office"
+  },
+  "NEH": {
+    "full": "National Endowment for the Humanities",
+    "description": "Independent agency providing federal grants for humanities research, education, and preservation.",
+    "agency": "NEH",
+    "category": "agency",
+    "url": "https://www.neh.gov"
   },
   "NEPA": {
     "full": "National Environmental Policy Act",
@@ -4249,7 +4384,7 @@
   "NGA": {
     "full": "National Geospatial-Intelligence Agency",
     "description": "DOD agency providing geospatial intelligence and mapping support.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency",
     "url": "https://www.nga.mil"
   },
@@ -4281,7 +4416,7 @@
   "NIAP": {
     "full": "National Information Assurance Partnership",
     "description": "NSA/NIST collaboration evaluating IT products for national security systems under Common Criteria.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "program"
   },
   "NICE": {
@@ -4319,7 +4454,7 @@
   "NIPRNet": {
     "full": "Non-classified Internet Protocol Router Network",
     "description": "DOD network for transmitting unclassified but sensitive information.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "system"
   },
   "NIST": {
@@ -4362,7 +4497,7 @@
   "NIWC": {
     "full": "Naval Information Warfare Center",
     "description": "Navy systems center performing research, development, and engineering for information warfare and C4ISR capabilities.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency"
   },
   "NLRB": {
@@ -4375,7 +4510,7 @@
   "NMCARS": {
     "full": "Navy Marine Corps Acquisition Regulation Supplement",
     "description": "Navy and Marine Corps supplement to DFARS with service-specific acquisition policies and procedures.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "regulation"
   },
   "NMFS": {
@@ -4400,7 +4535,7 @@
   "NORTHCOM": {
     "full": "United States Northern Command",
     "description": "DOD unified combatant command responsible for homeland defense of North America.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency"
   },
   "NPDES": {
@@ -4464,14 +4599,14 @@
   "NRO": {
     "full": "National Reconnaissance Office",
     "description": "DOD agency designing, building, and operating reconnaissance satellites.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency",
     "url": "https://www.nro.gov"
   },
   "NSA": {
     "full": "National Security Agency",
     "description": "DOD agency responsible for signals intelligence and information assurance.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency",
     "url": "https://www.nsa.gov"
   },
@@ -4498,7 +4633,7 @@
   "NSIN": {
     "full": "National Security Innovation Network",
     "description": "DOD program office connecting innovators from universities, startups, and communities with national security challenges.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "program"
   },
   "NSM": {
@@ -4510,6 +4645,12 @@
   "NSPD": {
     "full": "National Security Presidential Directive",
     "description": "Presidential directive issued during the George W. Bush administration for national security policy decisions.",
+    "agency": "EOP",
+    "category": "general"
+  },
+  "NSPM": {
+    "full": "National Security Presidential Memorandum",
+    "description": "Presidential directive on national security policy, used in the first Trump administration (2017-2021) and again from 2025.",
     "agency": "EOP",
     "category": "general"
   },
@@ -4597,7 +4738,7 @@
   "OCO": {
     "full": "Overseas Contingency Operations",
     "description": "Budget category for war-related military funding that was exempt from Budget Control Act spending caps.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "general"
   },
   "OCO-ordering": {
@@ -4609,7 +4750,7 @@
   "OCONUS": {
     "full": "Outside the Continental United States",
     "description": "Geographic designation for locations outside the 48 contiguous U.S. states.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "general"
   },
   "OCSP": {
@@ -4648,6 +4789,12 @@
     "full": "Office of Federal Contract Compliance Programs",
     "description": "DOL office enforcing equal employment opportunity requirements for federal contractors.",
     "agency": "DOL",
+    "category": "office"
+  },
+  "OFCIO": {
+    "full": "Office of the Federal Chief Information Officer",
+    "description": "OMB office leading government-wide IT policy, including FISMA, FITARA, and federal cybersecurity oversight.",
+    "agency": "EOP",
     "category": "office"
   },
   "OFPP": {
@@ -4766,6 +4913,13 @@
     "agency": "EOP",
     "category": "regulation"
   },
+  "ONCD": {
+    "full": "Office of the National Cyber Director",
+    "description": "EOP office established by the FY2021 NDAA to advise the President on cybersecurity policy and coordinate national cyber strategy.",
+    "agency": "EOP",
+    "category": "office",
+    "url": "https://www.whitehouse.gov/oncd"
+  },
   "ONDCP": {
     "full": "Office of National Drug Control Policy",
     "description": "EOP office coordinating national drug control policy.",
@@ -4826,7 +4980,7 @@
   "OPORD": {
     "full": "Operations Order",
     "description": "Directive issued by a military commander detailing a planned operation.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "general"
   },
   "OPR": {
@@ -4846,6 +5000,13 @@
     "description": "DOE national laboratory focused on energy, science, and national security.",
     "agency": "DOE",
     "category": "agency"
+  },
+  "OSC": {
+    "full": "Office of Special Counsel",
+    "description": "Independent agency investigating prohibited personnel practices, Hatch Act violations, and whistleblower disclosures by federal employees.",
+    "agency": "OSC",
+    "category": "agency",
+    "url": "https://osc.gov"
   },
   "OSCAL": {
     "full": "Open Security Controls Assessment Language",
@@ -5023,13 +5184,13 @@
   "PCS": {
     "full": "Permanent Change of Station",
     "description": "Official relocation of a military member or federal employee to a new duty station.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "process"
   },
   "PD2": {
     "full": "Procurement Desktop Defense",
     "description": "DOD standard contract writing system used to create, manage, and track procurement actions and contract documents.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "system"
   },
   "PDD": {
@@ -5059,7 +5220,7 @@
   "PEO-EIS": {
     "full": "Program Executive Office Enterprise Information Systems",
     "description": "Army PEO managing enterprise IT systems and services including Army network modernization and ITES contracts.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "office"
   },
   "PEO-STRI": {
@@ -5101,7 +5262,7 @@
   "PIEE": {
     "full": "Procurement Integrated Enterprise Environment",
     "description": "DOD web-based system integrating procurement, contract administration, payment, and receipt functions including WAWF and IRAP.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "system"
   },
   "PII": {
@@ -5152,6 +5313,12 @@
     "agency": "General",
     "category": "general"
   },
+  "PMF": {
+    "full": "Presidential Management Fellows",
+    "description": "OPM-run leadership development program for advanced-degree graduates entering federal service. Terminated by Executive Order 14217 in February 2025.",
+    "agency": "OPM",
+    "category": "program"
+  },
   "PMO": {
     "full": "Program Management Office",
     "description": "Organizational unit overseeing the management of specific programs or projects.",
@@ -5200,7 +5367,7 @@
   "POM": {
     "full": "Program Objective Memorandum",
     "description": "DOD document proposing total program resource requirements for the Future Years Defense Program.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "process"
   },
   "POTUS": {
@@ -5224,7 +5391,7 @@
   "PPBE": {
     "full": "Planning, Programming, Budgeting, and Execution",
     "description": "DOD resource allocation process for aligning budgets with strategic priorities.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "process"
   },
   "PPD": {
@@ -5242,7 +5409,7 @@
   "PPSM": {
     "full": "Ports, Protocols, and Services Management",
     "description": "DOD program managing network ports, protocols, and services to reduce the attack surface.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "program"
   },
   "PRA": {
@@ -5250,6 +5417,13 @@
     "description": "Law requiring OMB approval before agencies collect information from the public.",
     "agency": "General",
     "category": "regulation"
+  },
+  "PRAC": {
+    "full": "Pandemic Response Accountability Committee",
+    "description": "Committee of inspectors general within CIGIE created by the CARES Act in 2020 to oversee pandemic relief spending. Its statutory authorization was scheduled to expire September 30, 2025.",
+    "agency": "General",
+    "category": "office",
+    "url": "https://www.pandemicoversight.gov"
   },
   "PRISM": {
     "full": "Procurement Information System for Management",
@@ -5286,6 +5460,20 @@
     "description": "Cloud computing model providing a platform for developing and deploying applications.",
     "agency": "General",
     "category": "general"
+  },
+  "Pay.gov": {
+    "full": "Pay.gov",
+    "description": "Treasury Bureau of the Fiscal Service platform for making payments to federal agencies online.",
+    "agency": "TREAS",
+    "category": "system",
+    "url": "https://www.pay.gov"
+  },
+  "Performance.gov": {
+    "full": "Performance.gov",
+    "description": "OMB site, operated with GSA, publishing agency strategic goals and performance results required by the GPRA Modernization Act.",
+    "agency": "EOP",
+    "category": "system",
+    "url": "https://www.performance.gov"
   },
   "Privacy Act": {
     "full": "Privacy Act of 1974",
@@ -5460,6 +5648,13 @@
     "description": "Maximum acceptable time to restore a system after a disruption, key in federal continuity planning.",
     "agency": "General",
     "category": "general"
+  },
+  "Regulations.gov": {
+    "full": "Regulations.gov",
+    "description": "eRulemaking Program portal, managed by GSA, for finding and commenting on federal proposed rules, notices, and supporting documents.",
+    "agency": "GSA",
+    "category": "system",
+    "url": "https://www.regulations.gov"
   },
   "Rehab Act": {
     "full": "Rehabilitation Act of 1973",
@@ -5637,19 +5832,19 @@
   "SCI": {
     "full": "Sensitive Compartmented Information",
     "description": "Classified information concerning intelligence sources, methods, and analytical processes.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "general"
   },
   "SCIF": {
     "full": "Sensitive Compartmented Information Facility",
     "description": "Accredited room or building for processing classified intelligence information.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "general"
   },
   "SCO": {
     "full": "Strategic Capabilities Office",
     "description": "DOD office repurposing existing military systems and commercial technology to create new asymmetric capabilities.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "office"
   },
   "SCOTUS": {
@@ -5758,13 +5953,13 @@
   "SETA": {
     "full": "Systems Engineering and Technical Assistance",
     "description": "Contract support providing engineering, technical, and analytical services to government program offices managing acquisition programs.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "general"
   },
   "SETI": {
     "full": "Systems Engineering, Technology, and Innovation",
     "description": "DISA contract vehicle providing systems engineering, technical support, and innovation services for defense IT programs.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "program"
   },
   "SEWP": {
@@ -5851,7 +6046,7 @@
   "SIPRNet": {
     "full": "Secret Internet Protocol Router Network",
     "description": "DOD network for transmitting classified information up to the Secret level.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "system"
   },
   "SITL": {
@@ -5863,7 +6058,7 @@
   "SITREP": {
     "full": "Situation Report",
     "description": "Periodic report providing a summary of the current situation in a specific area.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "general"
   },
   "SJ": {
@@ -5917,7 +6112,7 @@
   "SOCOM": {
     "full": "Special Operations Command",
     "description": "DOD unified combatant command overseeing special operations forces.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency"
   },
   "SOFA": {
@@ -5929,7 +6124,7 @@
   "SOFWERX": {
     "full": "Special Operations Forces Warfighting Enabler via Rapid eXperimentation",
     "description": "SOCOM innovation organization connecting special operations requirements with commercial and non-traditional defense solutions.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "program"
   },
   "SOO": {
@@ -5947,7 +6142,7 @@
   "SOUTHCOM": {
     "full": "United States Southern Command",
     "description": "DOD unified combatant command responsible for Central and South America and the Caribbean.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency"
   },
   "SOW": {
@@ -6001,13 +6196,13 @@
   "SPACECOM": {
     "full": "United States Space Command",
     "description": "DOD unified combatant command responsible for space operations.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency"
   },
   "SPARC": {
     "full": "Systems, Prototyping, Agile and Research for Commercial",
     "description": "USSF acquisition vehicle for rapid prototyping and agile development of space-related IT and mission systems.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "program"
   },
   "SPAWAR": {
@@ -6127,7 +6322,7 @@
   "STIG": {
     "full": "Security Technical Implementation Guide",
     "description": "DOD configuration standard for securing information systems and software.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "general"
   },
   "STIX": {
@@ -6145,7 +6340,7 @@
   "STRATCOM": {
     "full": "United States Strategic Command",
     "description": "DOD unified combatant command responsible for strategic deterrence and nuclear operations.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency"
   },
   "STTR": {
@@ -6165,6 +6360,28 @@
     "description": "Cloud computing model delivering software applications over the internet.",
     "agency": "General",
     "category": "general"
+  },
+  "Schedule F": {
+    "full": "Schedule F",
+    "description": "Excepted service schedule created by Executive Order 13957 in October 2020 for career positions of a confidential, policy-determining, policy-making, or policy-advocating character. Rescinded in January 2021 and reinstated as Schedule Policy/Career by Executive Order 14171 in January 2025.",
+    "agency": "OPM",
+    "category": "system"
+  },
+  "Schedule Policy/Career": {
+    "full": "Schedule Policy/Career",
+    "description": "Excepted service schedule for policy-influencing positions established by Executive Order 14171 in January 2025 as the successor to Schedule F. OPM’s final rule took effect in March 2026; covered positions are excluded from statutory adverse-action and performance-removal appeal protections.",
+    "agency": "OPM",
+    "category": "system",
+    "aliases": [
+      "Schedule P/C"
+    ]
+  },
+  "Search.gov": {
+    "full": "Search.gov",
+    "description": "GSA/TTS shared site-search service used by federal websites.",
+    "agency": "GSA",
+    "category": "system",
+    "url": "https://search.gov"
   },
   "Section 508": {
     "full": "Section 508 of the Rehabilitation Act",
@@ -6257,7 +6474,7 @@
   "TDY": {
     "full": "Temporary Duty",
     "description": "Travel assignment at a location other than the employee's permanent duty station.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "process"
   },
   "TIC": {
@@ -6330,7 +6547,7 @@
   "TRANSCOM": {
     "full": "United States Transportation Command",
     "description": "DOD unified combatant command providing global deployment and distribution.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency"
   },
   "TREAS": {
@@ -6360,7 +6577,7 @@
   "TRL": {
     "full": "Technology Readiness Level",
     "description": "Scale from 1 to 9 used in defense and federal acquisition to assess the maturity of a technology from basic research through operational deployment.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "general"
   },
   "TS": {
@@ -6402,6 +6619,13 @@
     "agency": "General",
     "category": "general"
   },
+  "TTS": {
+    "full": "Technology Transformation Services",
+    "description": "GSA organization operating government-wide digital shared services including Login.gov, Cloud.gov, Search.gov, the U.S. Web Design System, and the Digital Analytics Program.",
+    "agency": "GSA",
+    "category": "office",
+    "url": "https://tts.gsa.gov"
+  },
   "TVA": {
     "full": "Tennessee Valley Authority",
     "description": "Government-owned corporation providing electricity generation and economic development.",
@@ -6440,7 +6664,7 @@
   "UC APL": {
     "full": "Unified Capabilities Approved Products List",
     "description": "DISA list of IT and telecommunications products certified for interoperability and security on DOD unified communications networks.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "system"
   },
   "UCC": {
@@ -6452,7 +6676,7 @@
   "UCMJ": {
     "full": "Uniform Code of Military Justice",
     "description": "Federal law establishing the military justice system for the armed forces.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "regulation"
   },
   "UEBA": {
@@ -6494,7 +6718,7 @@
   "USA": {
     "full": "United States Army",
     "description": "Military service branch responsible for land-based military operations.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency"
   },
   "USA FREEDOM Act": {
@@ -6509,6 +6733,16 @@
     "agency": "DOJ",
     "category": "regulation"
   },
+  "USA.gov": {
+    "full": "USA.gov",
+    "description": "GSA-operated official web portal of the federal government providing information and links to government services in English and Spanish.",
+    "agency": "GSA",
+    "category": "system",
+    "url": "https://www.usa.gov",
+    "aliases": [
+      "USAGov"
+    ]
+  },
   "USACE": {
     "full": "United States Army Corps of Engineers",
     "description": "Army command providing engineering services for public and military construction.",
@@ -6519,22 +6753,29 @@
   "USAF": {
     "full": "United States Air Force",
     "description": "Military service branch responsible for air and space operations.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency"
   },
   "USAGM": {
     "full": "U.S. Agency for Global Media",
-    "description": "Independent agency overseeing U.S. international media outlets including Voice of America, Radio Free Europe/Radio Liberty, and the Office of Cuba Broadcasting.",
+    "description": "Independent agency overseeing U.S. international media outlets including Voice of America, Radio Free Europe/Radio Liberty, and the Office of Cuba Broadcasting. Directed to reduce to its statutory minimum by Executive Order 14238 in March 2025; subject of ongoing litigation.",
     "agency": "USAGM",
     "category": "agency",
     "url": "https://www.usagm.gov"
   },
   "USAID": {
     "full": "United States Agency for International Development",
-    "description": "Independent agency administering civilian foreign aid and development assistance.",
+    "description": "Independent agency administering civilian foreign aid and development assistance. Most programs were terminated or transferred to the Department of State in 2025, and remaining operations merged into State on July 1, 2025.",
     "agency": "USAID",
     "category": "agency",
     "url": "https://www.usaid.gov"
+  },
+  "USAJOBS": {
+    "full": "USAJOBS",
+    "description": "OPM-operated official federal job listing and application site.",
+    "agency": "OPM",
+    "category": "system",
+    "url": "https://www.usajobs.gov"
   },
   "USASpending": {
     "full": "USASpending.gov",
@@ -6542,6 +6783,13 @@
     "agency": "TREAS",
     "category": "system",
     "url": "https://www.usaspending.gov"
+  },
+  "USAi": {
+    "full": "USAi",
+    "description": "GSA-operated secure generative AI evaluation platform launched in August 2025 that gives federal agencies access to commercial AI models and tools.",
+    "agency": "GSA",
+    "category": "system",
+    "url": "https://usai.gov"
   },
   "USC": {
     "full": "United States Code",
@@ -6589,10 +6837,14 @@
   },
   "USDS": {
     "full": "United States Digital Service",
-    "description": "EOP team using technology and design to improve government services.",
+    "description": "EOP team using technology and design to improve government services. Renamed the United States DOGE Service by executive order in January 2025.",
     "agency": "EOP",
     "category": "office",
-    "url": "https://usds.gov"
+    "url": "https://usds.gov",
+    "aliases": [
+      "U.S. DOGE Service",
+      "United States DOGE Service"
+    ]
   },
   "USERRA": {
     "full": "Uniformed Services Employment and Reemployment Rights Act",
@@ -6615,7 +6867,7 @@
   },
   "USIP": {
     "full": "United States Institute of Peace",
-    "description": "Independent federal institution providing conflict analysis, training, and tools to prevent and resolve violent conflicts around the world.",
+    "description": "Independent federal institution providing conflict analysis, training, and tools to prevent and resolve violent conflicts around the world. Executive Order 14217 (February 2025) directed its reduction to the minimum required by law; subject of ongoing litigation.",
     "agency": "USIP",
     "category": "agency",
     "url": "https://www.usip.org"
@@ -6630,7 +6882,7 @@
   "USMC": {
     "full": "United States Marine Corps",
     "description": "Military service branch providing expeditionary and amphibious capabilities.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency"
   },
   "USMLE": {
@@ -6649,7 +6901,7 @@
   "USN": {
     "full": "United States Navy",
     "description": "Military service branch responsible for naval operations and maritime defense.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency"
   },
   "USPS": {
@@ -6662,7 +6914,7 @@
   "USSF": {
     "full": "United States Space Force",
     "description": "Military service branch responsible for space operations, under the Department of the Air Force.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency"
   },
   "USSS": {
@@ -6685,6 +6937,13 @@
     "agency": "EOP",
     "category": "office",
     "url": "https://ustr.gov"
+  },
+  "USWDS": {
+    "full": "U.S. Web Design System",
+    "description": "GSA/TTS design system of accessible, reusable components and guidance for federal websites, required for agency sites under the 21st Century IDEA.",
+    "agency": "GSA",
+    "category": "system",
+    "url": "https://designsystem.digital.gov"
   },
   "Uniform Guidance": {
     "full": "Uniform Administrative Requirements, Cost Principles, and Audit Requirements for Federal Awards",
@@ -6789,6 +7048,13 @@
     "agency": "VA",
     "category": "system"
   },
+  "Vote.gov": {
+    "full": "Vote.gov",
+    "description": "GSA-operated official site with voter registration information and links to state election offices.",
+    "agency": "GSA",
+    "category": "system",
+    "url": "https://vote.gov"
+  },
   "WAF": {
     "full": "Web Application Firewall",
     "description": "Security system filtering HTTP traffic to protect against SQL injection, XSS, and other attacks.",
@@ -6804,7 +7070,7 @@
   "WAWF": {
     "full": "Wide Area Workflow",
     "description": "DOD electronic invoicing and receipt system enabling contractors to submit invoices and government personnel to process payments.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "system"
   },
   "WBS": {
@@ -6830,7 +7096,7 @@
   "WHS": {
     "full": "Washington Headquarters Services",
     "description": "DOD agency providing essential administrative and operational support services to the Office of the Secretary of Defense, Joint Staff, and other Pentagon-based organizations.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "agency",
     "url": "https://www.whs.mil"
   },
@@ -6921,7 +7187,7 @@
   "eMASS": {
     "full": "Enterprise Mission Assurance Support Service",
     "description": "DOD web application automating the Risk Management Framework process for system authorization.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "system"
   },
   "eSRS": {
@@ -6939,7 +7205,7 @@
   "milCloud": {
     "full": "milCloud",
     "description": "DISA cloud computing service providing DOD-approved commercial cloud infrastructure at various impact levels for defense workloads.",
-    "agency": "DOD",
+    "agency": "DOW",
     "category": "system"
   }
 }
