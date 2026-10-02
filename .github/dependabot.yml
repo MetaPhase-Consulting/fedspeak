@@ -17,22 +17,8 @@ updates:
         dependency-type: development
         update-types: [minor, patch]
     ignore:
-      # Majors handled deliberately, not by bot
-      - dependency-name: react
-        update-types: [version-update:semver-major]
-      - dependency-name: react-dom
-        update-types: [version-update:semver-major]
-      - dependency-name: vite
-        update-types: [version-update:semver-major]
-      - dependency-name: vitest
-        update-types: [version-update:semver-major]
-      - dependency-name: "@vitest/*"
-        update-types: [version-update:semver-major]
-      - dependency-name: tailwindcss
-        update-types: [version-update:semver-major]
-      - dependency-name: eslint
-        update-types: [version-update:semver-major]
-      - dependency-name: typescript
+      # Majors are handled deliberately, not by bot
+      - dependency-name: "*"
         update-types: [version-update:semver-major]
 
   - package-ecosystem: npm
@@ -43,6 +29,9 @@ updates:
     target-branch: dev
     commit-message:
       prefix: "chore(deps)"
+    ignore:
+      - dependency-name: "*"
+        update-types: [version-update:semver-major]
 
   - package-ecosystem: github-actions
     directory: /

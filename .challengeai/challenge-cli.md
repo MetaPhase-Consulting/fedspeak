@@ -31,17 +31,15 @@ and that agreement is worth enforcing mechanically rather than by habit.
 
 ## In this repository
 
-FedSpeak has two agent entry points, not fully parallel: `README.md` at the
-repo root (Claude Code) and `CONTRIBUTING.md` (also Claude-specific, despite
-the generic name — it's a second, narrower file scoped to the acronym-adding
-workflow specifically, not a Codex entry point). **There is no `AGENTS.md`,
-so Codex has no dedicated entry file in this repository as of this
-writing** — a real gap against this tool's own "One source, two runtimes"
-principle: Codex started directly in this repo today would discover neither
-`README.md` nor anything under `.challengeai/` on its own, since it reads
-`AGENTS.md` specifically. Closing it means adding a root `AGENTS.md`; that's
-a deliberate decision for a maintainer to make, not something this pass
-made unasked.
+FedSpeak has one agent entry point: `AGENTS.md` at the repo root. It is
+runtime-neutral, points at this folder and `CHALLENGEAI.md` for federal
+delivery standards, and carries the repo-specific rules (data policy,
+module format, release gates). There are no parallel per-tool agent files
+to keep in sync, which is the cleanest way to satisfy "One source, two
+runtimes": any agent that reads `AGENTS.md` lands on the same guidance.
+`README.md` is the human-facing repo guide and `CONTRIBUTING.md` is the
+acronym-adding workflow; `AGENTS.md` defers to both rather than restating
+them.
 `README.md` and `CONTRIBUTING.md` are not kept byte-identical below a shared
 heading the way some MetaPhase repos keep `AGENTS.md`/`README.md` in sync —
 they cover different scopes (`README.md` is the general repo guide;
