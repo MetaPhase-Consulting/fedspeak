@@ -2,6 +2,14 @@
 
 All notable changes to FedSpeak are documented here. Versions follow [Semantic Versioning](https://semver.org/).
 
+## [Unreleased]
+
+### Changed
+- Toolchain moved to Node 22 (`.nvmrc`, `engines`, Netlify `NODE_VERSION`, CI). The published npm package still supports Node 20.
+- Major upgrades from the first monthly Dependabot batch: React 19, React Router 8 (`react-router-dom` removed; imports come from `react-router`), Vite 8, Tailwind CSS 4 (CSS-first config, `@tailwindcss/postcss`, `tailwind.config.js` removed, v3 border-color default preserved), Vitest 5, ESLint 10 with `eslint-plugin-react-hooks` 7, `@netlify/functions` 6, zod 4, lucide-react 1.x, `@types/node` 26.
+- TypeScript stays on 5.9: `typescript-eslint` 8 does not yet support TypeScript 6/7.
+- Header mobile menu closes on navigation without a state-setting effect; Search page sort buttons and pagination are render helpers rather than components defined inside render (new react-hooks rules).
+
 ## [1.1.0] - 2026-10-02
 
 ### Added

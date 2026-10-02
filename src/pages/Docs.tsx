@@ -1,5 +1,5 @@
 import { BookOpen, Code, Terminal, Package, Search, FileText, Globe, FolderGit2, ExternalLink, Bot } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 
 function CodeBlock({ children }: { children: string }) {
   return (

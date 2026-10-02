@@ -51,7 +51,7 @@ Read this before starting work; update it whenever the user gives new standing g
 - `public/` — `openapi.json`, `llms.txt`, `llms-full.txt`, `robots.txt`, `sitemap.xml`, manifest, favicon.
 - `tests/` — Vitest: `decoder`, `encoder`, `truncate`, `mcp`, `data`.
 - `scripts/sync-cli-package.sh` — copies shared sources, data, README, LICENSE into `cli-package/`.
-- `.github/workflows/ci.yml` — lint → typecheck → test → build on Node 20. `dependabot.yml` — one consolidated version-update PR per month (all npm deps in both manifests, patch through major) plus one monthly PR for GitHub Actions. Security advisories are the only exception: those arrive as individual, immediate PRs and should be merged promptly. Do not change this cadence without the user.
+- `.github/workflows/ci.yml` — lint → typecheck → test → build on Node 22. `dependabot.yml` — one consolidated version-update PR per month (all npm deps in both manifests, patch through major) plus one monthly PR for GitHub Actions. Security advisories are the only exception: those arrive as individual, immediate PRs and should be merged promptly. Do not change this cadence without the user.
 
 ## Module Format
 
@@ -66,10 +66,10 @@ Files under `src/shared/` use `.js` extensions on relative imports and `with { t
 
 ## Tech Stack
 
-- Node 20 in CI (`.github/workflows/ci.yml`); `cli-package` declares `engines.node >= 20`. Check `engines` of any new dependency against Node 20 before installing.
-- TypeScript 5.9 strict, no `any`. 2-space indent, single quotes, trailing commas.
-- Vite 7 + React 18 + Tailwind 3.4 + React Router 7. Vitest 4. ESLint 9 flat config. lucide-react icons.
-- `@modelcontextprotocol/sdk` + `zod` 3 for MCP.
+- Node 22 for development and CI (`.nvmrc`, `package.json#engines`, `netlify.toml` `NODE_VERSION`, `.github/workflows/ci.yml`). The published `cli-package` still declares `engines.node >= 20` and must keep working there. Check `engines` of any new dependency before installing.
+- TypeScript 5.9 strict, no `any`. 2-space indent, single quotes, trailing commas. TypeScript is pinned to 5.x until `typescript-eslint` supports 6+; do not accept a Dependabot bump past that without checking its peer range.
+- Vite 8 + React 19 + Tailwind 4 (`@tailwindcss/postcss`, CSS-first config in `src/index.css`, no `tailwind.config.js`) + React Router 8 (import from `react-router`; `react-router-dom` no longer exists). Vitest 5. ESLint 10 flat config with `eslint-plugin-react-hooks` 7 (React Compiler rules: no setState in effects, no components defined inside render). lucide-react 1.x (brand icons removed; GitHub uses `FolderGit2`).
+- `@modelcontextprotocol/sdk` + `zod` 4 for MCP.
 - `package-lock.json` is the single lockfile.
 
 ## Branching and Releases
