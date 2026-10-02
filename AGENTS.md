@@ -51,7 +51,7 @@ Read this before starting work; update it whenever the user gives new standing g
 - `public/` — `openapi.json`, `llms.txt`, `llms-full.txt`, `robots.txt`, `sitemap.xml`, manifest, favicon.
 - `tests/` — Vitest: `decoder`, `encoder`, `truncate`, `mcp`, `data`.
 - `scripts/sync-cli-package.sh` — copies shared sources, data, README, LICENSE into `cli-package/`.
-- `.github/workflows/ci.yml` — lint → typecheck → test → build on Node 20. `dependabot.yml` — weekly grouped minor/patch bumps to `dev`; majors for the framework stack are ignored on purpose.
+- `.github/workflows/ci.yml` — lint → typecheck → test → build on Node 20. `dependabot.yml` — one consolidated version-update PR per month (all npm deps in both manifests, patch through major) plus one monthly PR for GitHub Actions. Security advisories are the only exception: those arrive as individual, immediate PRs and should be merged promptly. Do not change this cadence without the user.
 
 ## Module Format
 
@@ -101,7 +101,7 @@ Every PR must pass locally and in CI:
 
 - Merge PRs, deploy to `main`, tag releases, or publish to npm.
 - Delete acronym entries or rewrite descriptions in a way that adds opinion.
-- Close Dependabot PRs before the superseding change has merged.
+- Close Dependabot PRs before the superseding change has merged, or change the monthly consolidated-PR cadence.
 - Add authentication, telemetry, or any form of user data collection.
 
 ## Maintenance Rule

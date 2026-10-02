@@ -1,42 +1,35 @@
+# Policy: one consolidated version-update PR per month covering every npm
+# dependency in both manifests (patch, minor, and major). Security updates
+# are the only exception: Dependabot opens those individually and immediately
+# when an advisory is published, regardless of this schedule.
 version: 2
 updates:
   - package-ecosystem: npm
-    directory: /
+    directories:
+      - /
+      - /cli-package
     schedule:
-      interval: weekly
-      day: monday
-    open-pull-requests-limit: 5
+      interval: monthly
+    open-pull-requests-limit: 1
     target-branch: dev
     commit-message:
       prefix: "chore(deps)"
     groups:
-      prod-deps:
-        dependency-type: production
-        update-types: [minor, patch]
-      dev-deps:
-        dependency-type: development
-        update-types: [minor, patch]
-    ignore:
-      # Majors are handled deliberately, not by bot
-      - dependency-name: "*"
-        update-types: [version-update:semver-major]
-
-  - package-ecosystem: npm
-    directory: /cli-package
-    schedule:
-      interval: weekly
-      day: monday
-    target-branch: dev
-    commit-message:
-      prefix: "chore(deps)"
-    ignore:
-      - dependency-name: "*"
-        update-types: [version-update:semver-major]
+      monthly-updates:
+        applies-to: version-updates
+        patterns: ["*"]
+        update-types: [patch, minor, major]
 
   - package-ecosystem: github-actions
     directory: /
     schedule:
       interval: monthly
+    open-pull-requests-limit: 1
     target-branch: dev
     commit-message:
       prefix: "chore(ci)"
+    groups:
+      monthly-actions:
+        applies-to: version-updates
+        patterns: ["*"]
+        update-types: [patch, minor, major]
