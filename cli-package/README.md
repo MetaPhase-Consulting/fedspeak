@@ -5,7 +5,7 @@
 [![CI](https://github.com/MetaPhase-Consulting/fedspeak/actions/workflows/ci.yml/badge.svg)](https://github.com/MetaPhase-Consulting/fedspeak/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Built by MetaPhase](https://img.shields.io/badge/Built%20by-MetaPhase-fb641f)](https://metaphase.tech)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.5-blue)](https://www.typescriptlang.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.9-blue)](https://www.typescriptlang.org/)
 
 **Federal Acronym Decoder** — Decode and encode U.S. government acronyms from text or single lookups.
 
