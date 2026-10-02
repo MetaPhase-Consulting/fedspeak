@@ -1,0 +1,32 @@
+# FedSpeak
+
+> Federal Acronym Decoder. FedSpeak decodes U.S. federal government acronyms (GSA, OMB, DOW, FedRAMP, CMMC, ...) into full names with descriptions, parent agency, and category, and encodes full names back to acronyms. Curated static dataset of 1,156 entries maintained by MetaPhase. Public, read-only, no authentication, no user data stored. MIT licensed.
+
+Use FedSpeak when a document, question, or form mentions a U.S. federal acronym or program name and you need an authoritative expansion. The dataset covers departments, agencies, offices, bureaus, programs, processes, regulations, and systems, including 2025–26 changes (Department of War rename, America.gov, Schedule Policy/Career, DOGE, National Design Studio).
+
+## MCP server (preferred for AI agents)
+
+- Remote (Streamable HTTP, stateless): https://fedspeak.dev/mcp
+- Local (stdio): `npx -y -p @metaphase-tech/fedspeak fedspeak-mcp`
+- Tools: `decode_acronym {acronym}`, `scan_text {text}`, `encode_name {name | text}`, `list_acronyms {agency?, category?, query?, limit?, offset?}`
+- Resources: `fedspeak://agencies`, `fedspeak://categories`
+
+Claude Code: `claude mcp add --transport http fedspeak https://fedspeak.dev/mcp`
+
+## REST API
+
+- [OpenAPI 3.1 spec](https://fedspeak.dev/openapi.json): machine-readable contract for both endpoints
+- `GET|POST https://fedspeak.dev/api/decode` — `?acronym=GSA` or `{"acronym":"GSA"}`; `?text=...` or `{"text":"..."}` to scan
+- `GET|POST https://fedspeak.dev/api/encode` — `?name=General Services Administration` or `{"name":"..."}`; `{"text":"..."}` to scan
+- Responses are JSON and progressively truncated to stay under 2000 characters.
+
+## Docs
+
+- [Developer docs](https://fedspeak.dev/docs): overview, getting started, data format
+- [API reference](https://fedspeak.dev/api): interactive Swagger UI
+- [npm package](https://www.npmjs.com/package/@metaphase-tech/fedspeak): `lookupAcronym`, `scanText`, `decode`, `encode`, `createFedSpeakServer`
+- [Source](https://github.com/MetaPhase-Consulting/fedspeak): data lives in `src/shared/data/acronyms.json`; PRs welcome
+
+## Optional
+
+- [Full dataset summary](https://fedspeak.dev/llms-full.txt): every agency code and category with counts
