@@ -231,9 +231,9 @@ npx -y -p @metaphase-tech/fedspeak fedspeak-mcp
           <h2 className='text-xl font-bold text-slate-900 mb-4'>Tech Stack</h2>
           <div className='grid sm:grid-cols-2 gap-3'>
             {[
-              { label: 'Frontend', value: 'React 18 + Vite + Tailwind CSS' },
-              { label: 'API', value: 'Netlify Functions v2 (serverless)' },
-              { label: 'Language', value: 'TypeScript 5.5 (strict mode)' },
+              { label: 'Frontend', value: 'React 19 + Vite 8 + Tailwind CSS 4' },
+              { label: 'API', value: 'Netlify Functions (serverless) + MCP' },
+              { label: 'Language', value: 'TypeScript 5.9 (strict mode)' },
               { label: 'Testing', value: 'Vitest with v8 coverage' },
               { label: 'Hosting', value: 'Netlify (fedspeak.dev)' },
               { label: 'CI/CD', value: 'GitHub Actions' },
