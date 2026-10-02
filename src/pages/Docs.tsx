@@ -1,5 +1,5 @@
-import { BookOpen, Code, Terminal, Package, Search, FileText, Globe, FolderGit2, ExternalLink } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { BookOpen, Code, Terminal, Package, Search, FileText, Globe, FolderGit2, ExternalLink, Bot } from 'lucide-react';
+import { Link } from 'react-router';
 
 function CodeBlock({ children }: { children: string }) {
   return (
@@ -71,6 +71,7 @@ export default function Docs() {
             <QuickLink to='/api' icon={Code} label='API Reference' description='Interactive Swagger UI documentation' />
             <QuickLink to='/package' icon={Package} label='npm Package' description='Install and use in Node.js/TypeScript' />
             <QuickLink to='/cli' icon={Terminal} label='CLI' description='Command-line lookups with npx or global install' />
+            <QuickLink to='/llms.txt' icon={Bot} label='AI agents (MCP)' description='MCP server at /mcp plus llms.txt for assistants' external />
             <QuickLink to='https://github.com/MetaPhase-Consulting/fedspeak' icon={FolderGit2} label='GitHub' description='Source code, issues, and contributions' external />
           </div>
         </div>
@@ -156,6 +157,27 @@ npx fedspeak DOD OMB CISA`}</CodeBlock>
                 See the <Link to='/cli' className='text-blue-600 hover:underline'>CLI</Link> page for more examples.
               </p>
             </div>
+
+            <div>
+              <h3 className='text-base font-semibold text-slate-800 mb-2'>MCP Server (AI agents)</h3>
+              <p className='text-sm text-slate-600 mb-3'>
+                FedSpeak is a Model Context Protocol server. Point Claude, ChatGPT, Cursor, or any MCP client at the remote
+                endpoint, or run it locally over stdio. Tools: <code>decode_acronym</code>, <code>scan_text</code>,{' '}
+                <code>encode_name</code>, <code>list_acronyms</code>.
+              </p>
+              <CodeBlock>{`# Remote (Streamable HTTP, no auth)
+claude mcp add --transport http fedspeak https://fedspeak.dev/mcp
+
+# Local over stdio
+npx -y -p @metaphase-tech/fedspeak fedspeak-mcp
+
+# .mcp.json / claude_desktop_config.json
+{ "mcpServers": { "fedspeak": { "url": "https://fedspeak.dev/mcp" } } }`}</CodeBlock>
+              <p className='text-sm text-slate-500 mt-2'>
+                Agent-oriented overview at{' '}
+                <a href='/llms.txt' className='text-blue-600 hover:underline'>/llms.txt</a>.
+              </p>
+            </div>
           </div>
         </div>
 
@@ -209,9 +231,9 @@ npx fedspeak DOD OMB CISA`}</CodeBlock>
           <h2 className='text-xl font-bold text-slate-900 mb-4'>Tech Stack</h2>
           <div className='grid sm:grid-cols-2 gap-3'>
             {[
-              { label: 'Frontend', value: 'React 18 + Vite + Tailwind CSS' },
-              { label: 'API', value: 'Netlify Functions v2 (serverless)' },
-              { label: 'Language', value: 'TypeScript 5.5 (strict mode)' },
+              { label: 'Frontend', value: 'React 19 + Vite 8 + Tailwind CSS 4' },
+              { label: 'API', value: 'Netlify Functions (serverless) + MCP' },
+              { label: 'Language', value: 'TypeScript 5.9 (strict mode)' },
               { label: 'Testing', value: 'Vitest with v8 coverage' },
               { label: 'Hosting', value: 'Netlify (fedspeak.dev)' },
               { label: 'CI/CD', value: 'GitHub Actions' },

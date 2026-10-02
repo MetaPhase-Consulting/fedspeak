@@ -1,13 +1,17 @@
 {
   "name": "@metaphase-tech/fedspeak",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Federal Acronym Decoder — decode U.S. government acronyms from text or single lookups",
   "keywords": [
     "federal",
     "government",
     "acronyms",
     "decoder",
-    "api"
+    "api",
+    "mcp",
+    "model-context-protocol",
+    "ai",
+    "cli"
   ],
   "author": "MetaPhase",
   "license": "MIT",
@@ -26,11 +30,30 @@
     ".": {
       "import": "./dist/index.js",
       "types": "./dist/index.d.ts"
+    },
+    "./mcp": {
+      "import": "./dist/shared/mcp-server.js",
+      "types": "./dist/shared/mcp-server.d.ts"
     }
   },
   "files": [
     "dist",
     "README.md",
     "LICENSE"
-  ]
+  ],
+  "bin": {
+    "fedspeak": "dist/cli.js",
+    "fedspeak-mcp": "dist/mcp.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.31.0",
+    "zod": "^4.6.5"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  }
 }

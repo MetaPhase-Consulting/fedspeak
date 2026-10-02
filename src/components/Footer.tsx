@@ -1,4 +1,4 @@
-import { Github } from 'lucide-react';
+import { FolderGit2 } from 'lucide-react';
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -13,7 +13,7 @@ export default function Footer() {
 
           <div className='flex items-center space-x-4 text-sm text-slate-500'>
             <div className='flex items-center space-x-2'>
-              <Github className='w-4 h-4' />
+              <FolderGit2 className='w-4 h-4' />
               <a
                 href='https://github.com/MetaPhase-Consulting/fedspeak'
                 target='_blank'

@@ -1,5 +1,5 @@
-import acronymsData from './data/acronyms.json';
-import type { AcronymData, DecodedResult, DecodeResponse } from './types';
+import acronymsData from './data/acronyms.json' with { type: 'json' };
+import type { AcronymData, DecodedResult, DecodeResponse } from './types.js';
 
 const acronyms: AcronymData = acronymsData as AcronymData;
 

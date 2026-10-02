@@ -2,6 +2,19 @@
   command = "npm run build"
   publish = "dist"
 
+[build.environment]
+  NODE_VERSION = "22"
+
+# Deploy Previews build every PR against dev/main with the same command and
+# Node version. Enable "Deploy Previews: any pull request" in the Netlify UI
+# (Site configuration -> Build & deploy -> Continuous deployment) so the
+# preview URL and status check appear on the PR.
+[context.deploy-preview]
+  command = "npm run build"
+
+[context.branch-deploy]
+  command = "npm run build"
+
 [functions]
   directory = "netlify/functions"
   node_bundler = "esbuild"
@@ -9,6 +22,11 @@
 [[redirects]]
   from = "/api/*"
   to = "/.netlify/functions/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/mcp"
+  to = "/.netlify/functions/mcp"
   status = 200
 
 [[redirects]]

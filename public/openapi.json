@@ -3,7 +3,7 @@
   "info": {
     "title": "FedSpeak API",
     "description": "Federal Acronym Decoder — Decode and encode U.S. government acronyms from text or single lookups.",
-    "version": "0.1.0",
+    "version": "1.2.0",
     "contact": {
       "name": "MetaPhase",
       "url": "https://metaphase.tech"
@@ -12,6 +12,15 @@
       "name": "MIT",
       "url": "https://opensource.org/licenses/MIT"
     }
+  },
+  "externalDocs": {
+    "description": "llms.txt — agent-oriented overview including the MCP server at /mcp",
+    "url": "https://fedspeak.dev/llms.txt"
+  },
+  "x-mcp": {
+    "transport": "streamable-http",
+    "url": "https://fedspeak.dev/mcp",
+    "stdio": "npx -y -p @metaphase-tech/fedspeak fedspeak-mcp"
   },
   "servers": [
     {

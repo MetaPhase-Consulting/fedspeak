@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.metaphase-consulting/fedspeak",
+  "title": "FedSpeak",
+  "description": "Decode and encode U.S. federal government acronyms from a curated dataset of 1,150+ entries.",
+  "version": "1.2.0",
+  "websiteUrl": "https://fedspeak.dev",
+  "repository": {
+    "url": "https://github.com/MetaPhase-Consulting/fedspeak",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@metaphase-tech/fedspeak",
+      "version": "1.2.0",
+      "runtimeHint": "npx",
+      "transport": { "type": "stdio" }
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://fedspeak.dev/mcp"
+    }
+  ]
+}

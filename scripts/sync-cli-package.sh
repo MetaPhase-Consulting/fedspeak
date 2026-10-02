@@ -13,6 +13,7 @@ cp "$ROOT_DIR/src/shared/types.ts" "$ROOT_DIR/cli-package/src/shared/"
 cp "$ROOT_DIR/src/shared/decoder.ts" "$ROOT_DIR/cli-package/src/shared/"
 cp "$ROOT_DIR/src/shared/encoder.ts" "$ROOT_DIR/cli-package/src/shared/"
 cp "$ROOT_DIR/src/shared/truncate.ts" "$ROOT_DIR/cli-package/src/shared/"
+cp "$ROOT_DIR/src/shared/mcp-server.ts" "$ROOT_DIR/cli-package/src/shared/"
 cp "$ROOT_DIR/src/shared/data/acronyms.json" "$ROOT_DIR/cli-package/src/shared/data/"
 
 # Copy license and README

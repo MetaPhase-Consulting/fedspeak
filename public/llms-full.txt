@@ -1,0 +1,128 @@
+# FedSpeak
+
+> Federal Acronym Decoder. FedSpeak decodes U.S. federal government acronyms (GSA, OMB, DOW, FedRAMP, CMMC, ...) into full names with descriptions, parent agency, and category, and encodes full names back to acronyms. Curated static dataset of 1,157 entries maintained by MetaPhase. Public, read-only, no authentication, no user data stored. MIT licensed.
+
+Use FedSpeak when a document, question, or form mentions a U.S. federal acronym or program name and you need an authoritative expansion. The dataset covers departments, agencies, offices, bureaus, programs, processes, regulations, and systems, including 2025–26 changes (Department of War rename, America.gov, Schedule Policy/Career, DOGE, National Design Studio).
+
+## MCP server (preferred for AI agents)
+
+- Remote (Streamable HTTP, stateless): https://fedspeak.dev/mcp
+- Local (stdio): `npx -y -p @metaphase-tech/fedspeak fedspeak-mcp`
+- Tools: `decode_acronym {acronym}`, `scan_text {text}`, `encode_name {name | text}`, `list_acronyms {agency?, category?, query?, limit?, offset?}`
+- Resources: `fedspeak://agencies`, `fedspeak://categories`
+
+Claude Code: `claude mcp add --transport http fedspeak https://fedspeak.dev/mcp`
+
+## CLI
+
+- `npx fedspeak GSA`, `npx fedspeak --text "..."`, `npx fedspeak --encode "..."`, `--json` for the API response shape.
+
+## REST API
+
+- [OpenAPI 3.1 spec](https://fedspeak.dev/openapi.json): machine-readable contract for both endpoints
+- `GET|POST https://fedspeak.dev/api/decode` — `?acronym=GSA` or `{"acronym":"GSA"}`; `?text=...` or `{"text":"..."}` to scan
+- `GET|POST https://fedspeak.dev/api/encode` — `?name=General Services Administration` or `{"name":"..."}`; `{"text":"..."}` to scan
+- Responses are JSON and progressively truncated to stay under 2000 characters.
+
+## Docs
+
+- [Developer docs](https://fedspeak.dev/docs): overview, getting started, data format
+- [API reference](https://fedspeak.dev/api): interactive Swagger UI
+- [npm package](https://www.npmjs.com/package/@metaphase-tech/fedspeak): `lookupAcronym`, `scanText`, `decode`, `encode`, `createFedSpeakServer`
+- [Source](https://github.com/MetaPhase-Consulting/fedspeak): data lives in `src/shared/data/acronyms.json`; PRs welcome
+
+## Categories (9)
+
+- general: 261
+- regulation: 231
+- agency: 187
+- process: 166
+- program: 104
+- system: 83
+- office: 52
+- bureau: 19
+- department: 16
+
+## Parent agency codes (65)
+
+Each code is itself decodable with decode_acronym.
+
+- General: 417
+- DOD: 130
+- DOW: 98
+- GSA: 49
+- EOP: 46
+- DOC: 41
+- DHS: 39
+- DOJ: 27
+- HHS: 27
+- DOL: 23
+- DOE: 20
+- OPM: 20
+- DOI: 19
+- TREAS: 18
+- SBA: 17
+- EPA: 15
+- VA: 12
+- USDA: 10
+- DOT: 8
+- ED: 7
+- ODNI: 7
+- NASA: 6
+- CIA: 4
+- DOS: 4
+- EEOC: 4
+- FTC: 3
+- HUD: 3
+- NARA: 3
+- CFPB: 2
+- GAO: 2
+- MSPB: 2
+- OGE: 2
+- SEC: 2
+- CBO: 1
+- CFTC: 1
+- CNCS: 1
+- CPSC: 1
+- CRS: 1
+- DFC: 1
+- EXIM: 1
+- FCC: 1
+- FDIC: 1
+- FEC: 1
+- FERC: 1
+- FLRA: 1
+- FMC: 1
+- FRB: 1
+- GPO: 1
+- MCC: 1
+- NCUA: 1
+- NLRB: 1
+- NRC: 1
+- NSF: 1
+- NTSB: 1
+- OMB: 1
+- PBGC: 1
+- PC: 1
+- STB: 1
+- TVA: 1
+- USAGM: 1
+- USAID: 1
+- USIP: 1
+- USITC: 1
+- USPS: 1
+- USTDA: 1
+
+## Entry schema
+
+```json
+{
+  "GSA": {
+    "full": "General Services Administration",
+    "description": "Federal agency managing government buildings, procurement, and technology solutions.",
+    "agency": "GSA",
+    "category": "agency",
+    "url": "https://www.gsa.gov"
+  }
+}
+```
