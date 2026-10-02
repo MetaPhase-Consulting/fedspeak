@@ -12,21 +12,23 @@ Built with **ChallengeAI**, MetaPhase's accelerator suite for federal software d
 fedspeak/
 ├── netlify/functions/       — Serverless API endpoints (Netlify Functions v2)
 │   ├── decode.ts            — POST /api/decode (acronym → full name)
-│   └── encode.ts            — POST /api/encode (full name → acronym)
+│   ├── encode.ts            — POST /api/encode (full name → acronym)
+│   └── mcp.ts               — POST /mcp (MCP Streamable HTTP, stateless)
 ├── src/
 │   ├── shared/              — Core logic shared by API, website, and npm package
 │   │   ├── types.ts         — TypeScript interfaces
 │   │   ├── decoder.ts       — lookupAcronym(), scanText(), decode()
 │   │   ├── encoder.ts       — lookupName(), scanTextForNames(), encode()
+│   │   ├── mcp-server.ts    — createFedSpeakServer(): MCP tools + resources
 │   │   ├── truncate.ts      — Response truncation (2000-char limit)
 │   │   └── data/
 │   │       └── acronyms.json — Acronym database (sorted alphabetically)
 │   ├── components/          — React UI components
 │   ├── pages/               — React Router pages
 │   └── cli/                 — CLI scaffold (deferred)
-├── cli-package/             — npm package scaffold for publishing
+├── cli-package/             — npm package (fedspeak, @metaphase-tech/fedspeak); src/shared synced via scripts/sync-cli-package.sh
 ├── tests/                   — Vitest test suites
-├── public/openapi.json      — OpenAPI 3.1 specification
+├── public/                  — openapi.json, llms.txt, llms-full.txt, robots.txt, sitemap.xml
 └── .github/workflows/       — CI/CD (lint → typecheck → test → build)
 ```
 
@@ -87,6 +89,10 @@ Both endpoints support GET (query params) and POST (JSON body):
 
 Responses are progressively truncated to stay under 2000 chars.
 
+**MCP:** `src/shared/mcp-server.ts` exposes the same logic as MCP tools (`decode_acronym`, `scan_text`, `encode_name`, `list_acronyms`) and resources (`fedspeak://agencies`, `fedspeak://categories`). Served remotely at `/mcp` (Netlify function, stateless Streamable HTTP) and locally by the `fedspeak-mcp` stdio binary in `cli-package`. Keep tools read-only.
+
+**Module format:** files under `src/shared/` use `.js` extensions on relative imports and `with { type: 'json' }` on JSON imports so the npm package compiles to Node-loadable ESM (`module: NodeNext`). Vite and Vitest accept both. After any change in `src/shared/` or the data, run `scripts/sync-cli-package.sh`.
+
 ## Branching & Deployment
 
 - **`dev`** — Default working branch. All development happens here.
@@ -105,6 +111,8 @@ Responses are progressively truncated to stay under 2000 chars.
 - `decoder.test.ts` — lookup, scan, alias, edge cases
 - `encoder.test.ts` — reverse lookup, name scan
 - `truncate.test.ts` — progressive truncation logic
+- `mcp.test.ts` — MCP tools/resources via in-memory client; Netlify `/mcp` handler
+- `data.test.ts` — acronyms.json invariants (sorted keys, valid categories, resolvable agencies, no alias/key collisions)
 - All tests must pass before committing
 
 ## Security

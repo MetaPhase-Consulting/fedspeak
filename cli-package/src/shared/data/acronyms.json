@@ -1145,10 +1145,7 @@
     "full": "Continuity of Operations",
     "description": "Planning to ensure essential functions continue during and after a disruption.",
     "agency": "General",
-    "category": "process",
-    "aliases": [
-      "COOP"
-    ]
+    "category": "process"
   },
   "CONUS": {
     "full": "Continental United States",
@@ -6243,10 +6240,7 @@
     "description": "DHS agency protecting national leaders and investigating financial crimes.",
     "agency": "DHS",
     "category": "agency",
-    "url": "https://www.secretservice.gov",
-    "aliases": [
-      "USSS"
-    ]
+    "url": "https://www.secretservice.gov"
   },
   "SSA": {
     "full": "Source Selection Authority",

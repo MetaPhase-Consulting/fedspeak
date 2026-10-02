@@ -21,6 +21,7 @@ FedSpeak is a REST API, interactive website, and npm package that expands **1,15
 - **1,156 Acronyms** — Departments, agencies, cybersecurity, NIST, CMMC, procurement, contract vehicles, legislation, and more
 - **REST API** — GET and POST support, JSON responses, CORS enabled
 - **npm Package** — Use the decoder directly in your Node.js projects
+- **MCP Server** — Remote endpoint at `fedspeak.dev/mcp` plus a `fedspeak-mcp` stdio binary, so Claude, ChatGPT, Cursor, and other agents can call it
 - **Interactive Demo** — Try it live at [fedspeak.dev](https://fedspeak.dev)
 
 ## Quick Start
@@ -72,8 +73,26 @@ const encoded = encode({ name: 'General Services Administration' });
 console.log(encoded.results[0].acronym); // "GSA"
 
 // Total count
-console.log(getAcronymCount()); // 1069
+console.log(getAcronymCount()); // 1156
 ```
+
+### MCP Server (AI agents)
+
+FedSpeak is a [Model Context Protocol](https://modelcontextprotocol.io) server. Tools: `decode_acronym`, `scan_text`, `encode_name`, `list_acronyms`. Resources: `fedspeak://agencies`, `fedspeak://categories`.
+
+```bash
+# Remote (Streamable HTTP, stateless, no auth)
+claude mcp add --transport http fedspeak https://fedspeak.dev/mcp
+
+# Local over stdio
+npx -y -p @metaphase-tech/fedspeak fedspeak-mcp
+```
+
+```json
+{ "mcpServers": { "fedspeak": { "url": "https://fedspeak.dev/mcp" } } }
+```
+
+Agent-oriented overview at [fedspeak.dev/llms.txt](https://fedspeak.dev/llms.txt).
 
 ## API Reference
 
@@ -220,11 +239,13 @@ npm install
 fedspeak/
 ├── netlify/functions/       Serverless API endpoints
 │   ├── decode.ts            POST /api/decode
-│   └── encode.ts            POST /api/encode
+│   ├── encode.ts            POST /api/encode
+│   └── mcp.ts               POST /mcp (MCP Streamable HTTP)
 ├── src/
 │   ├── shared/              Core logic (shared by API, website, npm package)
 │   │   ├── decoder.ts       lookupAcronym(), scanText(), decode()
 │   │   ├── encoder.ts       lookupName(), scanTextForNames(), encode()
+│   │   ├── mcp-server.ts    createFedSpeakServer() — MCP tools and resources
 │   │   ├── truncate.ts      Response truncation
 │   │   ├── types.ts         TypeScript interfaces
 │   │   └── data/
@@ -233,7 +254,7 @@ fedspeak/
 │   └── pages/               React Router pages
 ├── cli-package/             npm package for publishing
 ├── tests/                   Vitest test suites
-├── public/openapi.json      OpenAPI 3.1 specification
+├── public/                  openapi.json, llms.txt, robots.txt, sitemap.xml
 └── .github/workflows/       CI/CD pipelines
 ```
 

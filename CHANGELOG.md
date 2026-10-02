@@ -18,6 +18,7 @@ All notable changes to FedSpeak are documented here. Versions follow [Semantic V
 - Dependencies: react-router 7.18, vitest 4.1, vite 7.3.6, eslint 9.39.5, and friends. `npm audit` reports 0 vulnerabilities.
 
 ### Fixed
+- Redundant aliases `COOP` (on CONOPS2) and `USSS` (on SS) removed; both shadowed entries that exist as their own keys. New `tests/data.test.ts` guards sorted keys, valid categories, resolvable agency codes, https URLs, and alias/key collisions.
 - **npm package could not be loaded by Node directly.** Compiled ESM used extensionless relative imports and a bare JSON import. Shared sources now use `.js` specifiers and `with { type: 'json' }`; the package compiles with `module: NodeNext`.
 
 ## [1.0.0] - 2026-02-21
