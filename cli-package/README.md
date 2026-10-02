@@ -9,7 +9,7 @@
 
 **Federal Acronym Decoder** — Decode and encode U.S. government acronyms from text or single lookups.
 
-FedSpeak is a REST API, interactive website, and npm package that expands **1,119 federal government acronyms** with full names, descriptions, agency context, and category classifications.
+FedSpeak is a REST API, interactive website, and npm package that expands **1,156 federal government acronyms** with full names, descriptions, agency context, and category classifications.
 
 **Website:** [fedspeak.dev](https://fedspeak.dev)
 
@@ -18,7 +18,7 @@ FedSpeak is a REST API, interactive website, and npm package that expands **1,11
 - **Decode** — Send any acronym, get the full expansion with description, agency, and category
 - **Encode** — Send a full name, get the acronym back
 - **Text Scanning** — Paste a block of text, FedSpeak finds and decodes every recognized acronym
-- **1,119 Acronyms** — Departments, agencies, cybersecurity, NIST, CMMC, procurement, contract vehicles, legislation, and more
+- **1,156 Acronyms** — Departments, agencies, cybersecurity, NIST, CMMC, procurement, contract vehicles, legislation, and more
 - **REST API** — GET and POST support, JSON responses, CORS enabled
 - **npm Package** — Use the decoder directly in your Node.js projects
 - **Interactive Demo** — Try it live at [fedspeak.dev](https://fedspeak.dev)
@@ -171,7 +171,7 @@ import type {
 
 ## Acronym Coverage
 
-1,119 entries across these categories:
+1,156 entries across these categories:
 
 | Category | Examples |
 |----------|----------|

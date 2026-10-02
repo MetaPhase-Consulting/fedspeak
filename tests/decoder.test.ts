@@ -63,6 +63,21 @@ describe('scanText', () => {
     expect(acronyms).toContain('RFP');
   });
 
+  it('finds dotted .gov keys and multi-word keys in text', () => {
+    const results = scanText('Agencies must integrate with America.gov and Login.gov, host on Cloud.gov, and review Schedule Policy/Career.');
+    const acronyms = results.map(r => r.acronym);
+    expect(acronyms).toContain('America.gov');
+    expect(acronyms).toContain('Login.gov');
+    expect(acronyms).toContain('Cloud.gov');
+    expect(acronyms).toContain('Schedule Policy/Career');
+  });
+
+  it('resolves 2025-26 aliases', () => {
+    expect(lookupAcronym('DEI')!.acronym).toBe('DEIA');
+    expect(lookupAcronym('Schedule P/C')!.acronym).toBe('Schedule Policy/Career');
+    expect(lookupAcronym('National Design Studio')!.acronym).toBe('NDS');
+  });
+
   it('returns empty array for text with no acronyms', () => {
     const results = scanText('Hello world, this is a normal sentence');
     expect(results).toHaveLength(0);
