@@ -1,9 +1,19 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
 
 @layer base {
   body {
     @apply antialiased;
+  }
+}
+
+/* Tailwind v4 compatibility: keep v3 defaults for border/divide color so
+   bare `border` utilities stay gray-200 instead of currentColor. */
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
   }
 }

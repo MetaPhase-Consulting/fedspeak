@@ -209,7 +209,7 @@ import type {
 
 ### Prerequisites
 
-- Node.js 20+
+- Node.js 22+ (`.nvmrc`)
 - npm 10+
 
 ### Setup
@@ -262,10 +262,10 @@ fedspeak/
 
 | Layer | Choice |
 |-------|--------|
-| Runtime | Node.js 20, TypeScript 5.5 |
+| Runtime | Node.js 22, TypeScript 5.9 |
 | API | Netlify Functions v2 (serverless) |
 | Data | Static JSON (no database) |
-| Website | Vite + React 18 + Tailwind CSS + React Router |
+| Website | Vite 8 + React 19 + Tailwind CSS 4 + React Router 8 |
 | Testing | Vitest + @vitest/coverage-v8 |
 | CI/CD | GitHub Actions |
 | Deploy | Netlify |

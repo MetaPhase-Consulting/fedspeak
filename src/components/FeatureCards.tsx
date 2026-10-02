@@ -1,5 +1,5 @@
 import { Code, FileText, Package, Search } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 
 const features = [
   {

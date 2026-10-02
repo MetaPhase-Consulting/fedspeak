@@ -98,10 +98,11 @@ export default function SearchPage() {
     setPage(1);
   }
 
-  function SortButton({ field, label }: { field: SortField; label: string }) {
+  function renderSortButton(field: SortField, label: string) {
     const active = sortField === field;
     return (
       <button
+        key={field}
         onClick={() => toggleSort(field)}
         className={`text-xs px-3 py-1.5 rounded-full border transition-colors ${
           active
@@ -114,7 +115,7 @@ export default function SearchPage() {
     );
   }
 
-  function Pagination() {
+  function renderPagination() {
     if (filtered.length <= pageSize) return null;
 
     const endIndex = Math.min(startIndex + pageSize, filtered.length);
@@ -276,10 +277,10 @@ export default function SearchPage() {
 
           <div className='flex items-center space-x-2 flex-wrap gap-y-2'>
             <span className='text-xs text-slate-500'>Sort:</span>
-            <SortButton field='acronym' label='Acronym' />
-            <SortButton field='full' label='Name' />
-            <SortButton field='category' label='Category' />
-            <SortButton field='agency' label='Agency' />
+            {renderSortButton('acronym', 'Acronym')}
+            {renderSortButton('full', 'Name')}
+            {renderSortButton('category', 'Category')}
+            {renderSortButton('agency', 'Agency')}
           </div>
         </div>
 
@@ -364,7 +365,7 @@ export default function SearchPage() {
         </div>
 
         {/* Pagination */}
-        <Pagination />
+        {renderPagination()}
       </div>
     </section>
   );

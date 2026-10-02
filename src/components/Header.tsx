@@ -1,14 +1,13 @@
-import { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { useState } from 'react';
+import { Link, useLocation } from 'react-router';
 import { BookOpen, Code, FileText, FolderGit2, Home, Menu, Package, Search, Terminal, X } from 'lucide-react';
 
 export default function Header() {
   const location = useLocation();
-  const [menuOpen, setMenuOpen] = useState(false);
-
-  useEffect(() => {
-    setMenuOpen(false);
-  }, [location.pathname]);
+  // Track the path the menu was opened on; navigating away closes it without an effect.
+  const [menuOpenPath, setMenuOpenPath] = useState<string | null>(null);
+  const menuOpen = menuOpenPath === location.pathname;
+  const setMenuOpen = (open: boolean) => setMenuOpenPath(open ? location.pathname : null);
 
   const navLinks = [
     { to: '/', label: 'Home', icon: Home },

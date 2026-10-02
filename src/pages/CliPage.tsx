@@ -1,5 +1,5 @@
 import { Terminal } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 
 function CodeBlock({ children }: { children: string }) {
   return (
