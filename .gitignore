@@ -30,8 +30,9 @@ dist-ssr
 # Test output directories
 coverage/
 
-# Claude (keep agents.md tracked, ignore local settings)
+# Agent tool local settings (AGENTS.md is the only tracked agent file)
 .claude/
+.cursor/
 
 # Deno
 deno.lock

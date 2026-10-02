@@ -16,14 +16,15 @@ Read this before starting work; update it whenever the user gives new standing g
 
 1. `README.md` — overview, quick start, API and package reference, project structure.
 2. This file.
-3. `CONTRIBUTING.md` — how to add acronyms, commit style, git workflow.
-4. `CHANGELOG.md` — what shipped in each version.
-5. `public/llms.txt` — the agent-facing description of the service (keep it accurate when endpoints or counts change).
+3. [`CHALLENGEAI.md`](CHALLENGEAI.md) and the [`.challengeai/`](.challengeai/) folder — federal delivery standards and how this repo measures against them.
+4. `CONTRIBUTING.md` — how to add acronyms, commit style, git workflow.
+5. `CHANGELOG.md` — what shipped in each version.
+6. `public/llms.txt` — the agent-facing description of the service (keep it accurate when endpoints or counts change).
 
 ## Standing Preferences
 
 - **No AI attribution anywhere.** No `Co-Authored-By` trailers naming a model or vendor, no "Generated with" lines, no model names in commit messages, PR titles, PR bodies, branch names, or code comments. Commits and PRs are authored by humans only. If a tool injects such a trailer, strip it before pushing.
-- **No agent-specific instruction files other than this one.** Do not add `CLAUDE.md`, `.claude/`, `.cursor/`, or similar. Conventions belong in `README.md`, `CONTRIBUTING.md`, or here.
+- **This file and the ChallengeAI layer are the only agent guidance.** Do not add vendor- or tool-specific instruction files or dot-folders. Conventions belong in `README.md`, `CONTRIBUTING.md`, or here; federal delivery standards belong in [`.challengeai/`](.challengeai/) with [`CHALLENGEAI.md`](CHALLENGEAI.md) as the index.
 - Branch names: short, descriptive, professional (`feat/data-2026-refresh`, `chore/security-deps-batch`).
 - Commit messages: imperative mood, prefixed (`feat:`, `fix:`, `docs:`, `chore:`, `ci:`, `release:`).
 - Refer to the company as **"MetaPhase"** in user-facing copy. Full legal name only in `LICENSE`.
@@ -50,7 +51,7 @@ Read this before starting work; update it whenever the user gives new standing g
 - `public/` — `openapi.json`, `llms.txt`, `llms-full.txt`, `robots.txt`, `sitemap.xml`, manifest, favicon.
 - `tests/` — Vitest: `decoder`, `encoder`, `truncate`, `mcp`, `data`.
 - `scripts/sync-cli-package.sh` — copies shared sources, data, README, LICENSE into `cli-package/`.
-- `.github/workflows/ci.yml` — lint → typecheck → test → build on Node 20. `dependabot.yml` — weekly grouped minor/patch bumps to `dev`; majors for the framework stack are ignored on purpose.
+- `.github/workflows/ci.yml` — lint → typecheck → test → build on Node 20. `dependabot.yml` — one consolidated version-update PR per month (all npm deps in both manifests, patch through major) plus one monthly PR for GitHub Actions. Security advisories are the only exception: those arrive as individual, immediate PRs and should be merged promptly. Do not change this cadence without the user.
 
 ## Module Format
 
@@ -100,9 +101,9 @@ Every PR must pass locally and in CI:
 
 - Merge PRs, deploy to `main`, tag releases, or publish to npm.
 - Delete acronym entries or rewrite descriptions in a way that adds opinion.
-- Close Dependabot PRs before the superseding change has merged.
+- Close Dependabot PRs before the superseding change has merged, or change the monthly consolidated-PR cadence.
 - Add authentication, telemetry, or any form of user data collection.
 
 ## Maintenance Rule
 
-When the user gives process feedback, record it here so every future session picks it up. Keep this file the single source of agent guidance for the repo.
+When the user gives process feedback, record it here so every future session picks it up. Keep this file the single source of repo-specific agent guidance; federal standards stay in `.challengeai/`. Do not create parallel agent files that would need syncing.
