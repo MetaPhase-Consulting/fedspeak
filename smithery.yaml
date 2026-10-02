@@ -1,0 +1,10 @@
+# Smithery (smithery.ai) listing for the hosted FedSpeak MCP server.
+# The server is read-only and takes no configuration.
+runtime: "http"
+target: "remote"
+startCommand:
+  type: "http"
+  url: "https://fedspeak.dev/mcp"
+  configSchema:
+    type: "object"
+    properties: {}

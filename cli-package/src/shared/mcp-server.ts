@@ -7,7 +7,7 @@ import { encode } from './encoder.js';
 
 export const MCP_SERVER_INFO = {
   name: 'fedspeak',
-  version: '1.1.0',
+  version: '1.2.0',
 } as const;
 
 function text(payload: unknown) {
