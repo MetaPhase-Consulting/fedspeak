@@ -40,16 +40,17 @@ Read this before starting work; update it whenever the user gives new standing g
 - `agency` for Department of War components is `DOW`, not `DOD`.
 - Hardcoded counts live in `README.md`, `cli-package/README.md`, `index.html`, and `public/llms.txt`. Update them when the total changes.
 - After any change under `src/shared/` or to the data, run `scripts/sync-cli-package.sh` and commit the synced copies in `cli-package/`.
-- Known open question: `SSA` is Source Selection Authority; Social Security Administration has no entry. Do not resolve this without the user.
+- `SSA` is Social Security Administration; Source Selection Authority lives at `SSA (Acquisition)`. Resolved by the user on 2026-10-02.
 
 ## Repository Map
 
 - `netlify/functions/` — `decode.ts`, `encode.ts` (REST), `mcp.ts` (MCP Streamable HTTP, stateless, CORS). Routed in `netlify.toml`; the `/mcp` redirect must stay ahead of the SPA catch-all.
 - `src/shared/` — core logic shared by API, website, and npm package: `types.ts`, `decoder.ts`, `encoder.ts`, `truncate.ts` (2000-char progressive truncation), `mcp-server.ts` (`createFedSpeakServer()`), `data/acronyms.json`.
 - `src/components/`, `src/pages/` — React UI. Routes: `/`, `/search`, `/scan`, `/docs`, `/api`, `/package`, `/cli`.
-- `cli-package/` — published npm package. `src/shared/` here is a synced copy, never edited directly. `src/mcp.ts` is the `fedspeak-mcp` stdio binary.
+- `cli-package/` — published npm package. `src/shared/` here is a synced copy, never edited directly. `src/cli.ts` + `src/cli-core.ts` are the `fedspeak` CLI (core is pure and tested from `tests/cli.test.ts`); `src/mcp.ts` is the `fedspeak-mcp` stdio binary.
 - `public/` — `openapi.json`, `llms.txt`, `llms-full.txt`, `robots.txt`, `sitemap.xml`, manifest, favicon.
-- `tests/` — Vitest: `decoder`, `encoder`, `truncate`, `mcp`, `data`.
+- `server.json` (official MCP Registry) and `smithery.yaml` (Smithery) describe the MCP server. Bump `server.json` versions with each release; publishing to either registry is a manual user step.
+- `tests/` — Vitest: `decoder`, `encoder`, `truncate`, `mcp`, `data`, `cli`.
 - `scripts/sync-cli-package.sh` — copies shared sources, data, README, LICENSE into `cli-package/`.
 - `.github/workflows/ci.yml` — lint → typecheck → test → build on Node 22. `dependabot.yml` — one consolidated version-update PR per month (all npm deps in both manifests, patch through major) plus one monthly PR for GitHub Actions. Security advisories are the only exception: those arrive as individual, immediate PRs and should be merged promptly. Do not change this cadence without the user.
 
@@ -75,7 +76,7 @@ Files under `src/shared/` use `.js` extensions on relative imports and `with { t
 ## Branching and Releases
 
 - Feature branches off `dev`; PRs target `dev` (`gh pr create --base dev`). `dev → main` PRs deploy production.
-- Release checklist: bump `version` in `package.json`, `cli-package/package.json`, and `public/openapi.json`; update `MCP_SERVER_INFO.version`; add a `CHANGELOG.md` entry; sync `cli-package`; merge to `main`; tag `vX.Y.Z`; the user publishes `cli-package` under both npm names (agents cannot publish from this machine).
+- Release checklist: bump `version` in `package.json`, `cli-package/package.json`, `public/openapi.json`, and `server.json` (two places); update `MCP_SERVER_INFO.version`; add a `CHANGELOG.md` entry; sync `cli-package`; merge to `main`; tag `vX.Y.Z`; the user publishes `cli-package` under both npm names (agents cannot publish from this machine).
 - CI note: in this repo GitHub Actions has not been firing on `push`/`pull_request`. Until an org admin fixes it, trigger a run with `gh workflow run ci.yml --ref <branch>` and wait for it before calling a PR ready.
 
 ## PR Review Workflow

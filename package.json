@@ -1,7 +1,7 @@
 {
   "name": "fedspeak",
   "private": true,
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Federal Acronym Decoder — decode U.S. government acronyms from text or single lookups",
   "keywords": [
     "federal",

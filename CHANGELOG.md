@@ -2,7 +2,14 @@
 
 All notable changes to FedSpeak are documented here. Versions follow [Semantic Versioning](https://semver.org/).
 
-## [Unreleased]
+## [1.2.0] - 2026-10-02
+
+### Added
+- **`fedspeak` CLI** in the npm package, matching what the website documented: `fedspeak GSA`, `fedspeak DOW OMB CISA`, `--text`, `--encode`, `--json`, `--help`, `--version`. Exit code 1 when a term is not found, 2 on usage errors.
+- **MCP registry metadata**: `server.json` (official MCP Registry, schema 2025-12-11) and `smithery.yaml` for the hosted endpoint. Publishing is a manual step (`mcp-publisher`, Smithery account).
+- **Social Security Administration** as `SSA`. Source Selection Authority moved to `SSA (Acquisition)` with aliases `SSA-acq` and `Source Selection Authority`. Nothing deleted.
+- Official `url` on 61 more department/agency/bureau entries (combatant commands, service branches, national labs, DOI/DOC/DOT/Treasury bureaus, FLETC, OCC, USICH, WMATA).
+- Netlify `deploy-preview` and `branch-deploy` build contexts.
 
 ### Changed
 - Toolchain moved to Node 22 (`.nvmrc`, `engines`, Netlify `NODE_VERSION`, CI). The published npm package still supports Node 20.

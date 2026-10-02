@@ -58,6 +58,24 @@ CISA — Cybersecurity and Infrastructure Security Agency
   DHS agency responsible for protecting critical infrastructure and federal networks.`}</CodeBlock>
         </div>
 
+        {/* Text, Encode, JSON */}
+        <div className='mb-10'>
+          <h2 className='text-xl font-bold text-slate-900 mb-4'>Scan, Encode, JSON</h2>
+          <CodeBlock>{`# Find every known acronym in a passage
+$ fedspeak --text "The GSA and OMB released the RFP"
+
+# Reverse lookup: full name to acronym
+$ fedspeak --encode "General Services Administration"
+General Services Administration → GSA
+  Agency: GSA | Category: agency
+
+# Machine-readable output (same shape as the REST API)
+$ fedspeak GSA --json
+
+# Exit codes: 0 ok, 1 something not found, 2 usage error
+$ fedspeak --help`}</CodeBlock>
+        </div>
+
         {/* Programmatic Usage */}
         <div className='mb-10'>
           <h2 className='text-xl font-bold text-slate-900 mb-4'>Programmatic Usage</h2>
@@ -79,7 +97,7 @@ console.log(result?.full); // "Department of Defense"`}</CodeBlock>
 # or
 npm install -g @metaphase-tech/fedspeak`}</CodeBlock>
           <p className='text-sm text-slate-500 mt-4'>
-            Requires Node.js 18 or later.
+            Requires Node.js 20 or later.
           </p>
         </div>
       </div>

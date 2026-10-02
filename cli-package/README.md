@@ -9,7 +9,7 @@
 
 **Federal Acronym Decoder** — Decode and encode U.S. government acronyms from text or single lookups.
 
-FedSpeak is a REST API, interactive website, and npm package that expands **1,156 federal government acronyms** with full names, descriptions, agency context, and category classifications.
+FedSpeak is a REST API, interactive website, and npm package that expands **1,157 federal government acronyms** with full names, descriptions, agency context, and category classifications.
 
 **Website:** [fedspeak.dev](https://fedspeak.dev)
 
@@ -18,9 +18,9 @@ FedSpeak is a REST API, interactive website, and npm package that expands **1,15
 - **Decode** — Send any acronym, get the full expansion with description, agency, and category
 - **Encode** — Send a full name, get the acronym back
 - **Text Scanning** — Paste a block of text, FedSpeak finds and decodes every recognized acronym
-- **1,156 Acronyms** — Departments, agencies, cybersecurity, NIST, CMMC, procurement, contract vehicles, legislation, and more
+- **1,157 Acronyms** — Departments, agencies, cybersecurity, NIST, CMMC, procurement, contract vehicles, legislation, and more
 - **REST API** — GET and POST support, JSON responses, CORS enabled
-- **npm Package** — Use the decoder directly in your Node.js projects
+- **npm Package + CLI** — Use the decoder in Node.js, or run `npx fedspeak GSA` from a shell
 - **MCP Server** — Remote endpoint at `fedspeak.dev/mcp` plus a `fedspeak-mcp` stdio binary, so Claude, ChatGPT, Cursor, and other agents can call it
 - **Interactive Demo** — Try it live at [fedspeak.dev](https://fedspeak.dev)
 
@@ -93,6 +93,18 @@ npx -y -p @metaphase-tech/fedspeak fedspeak-mcp
 ```
 
 Agent-oriented overview at [fedspeak.dev/llms.txt](https://fedspeak.dev/llms.txt).
+
+### CLI
+
+```bash
+npx fedspeak GSA                                   # one acronym
+npx fedspeak DOW OMB CISA                          # several
+npx fedspeak --text "The GSA and OMB released the RFP"   # scan a passage
+npx fedspeak --encode "General Services Administration"  # name → acronym
+npx fedspeak GSA --json                            # machine-readable
+```
+
+Exit code is 1 when any requested acronym is not found, 2 for usage errors. `fedspeak --help` lists all options.
 
 ## API Reference
 
@@ -190,7 +202,7 @@ import type {
 
 ## Acronym Coverage
 
-1,156 entries across these categories:
+1,157 entries across these categories:
 
 | Category | Examples |
 |----------|----------|
@@ -209,7 +221,7 @@ import type {
 
 ### Prerequisites
 
-- Node.js 20+
+- Node.js 22+ (`.nvmrc`)
 - npm 10+
 
 ### Setup
@@ -252,7 +264,7 @@ fedspeak/
 │   │       └── acronyms.json
 │   ├── components/          React UI components
 │   └── pages/               React Router pages
-├── cli-package/             npm package for publishing
+├── cli-package/             npm package: library, `fedspeak` CLI, `fedspeak-mcp` server
 ├── tests/                   Vitest test suites
 ├── public/                  openapi.json, llms.txt, robots.txt, sitemap.xml
 └── .github/workflows/       CI/CD pipelines
@@ -262,10 +274,10 @@ fedspeak/
 
 | Layer | Choice |
 |-------|--------|
-| Runtime | Node.js 20, TypeScript 5.5 |
+| Runtime | Node.js 22, TypeScript 5.9 |
 | API | Netlify Functions v2 (serverless) |
 | Data | Static JSON (no database) |
-| Website | Vite + React 18 + Tailwind CSS + React Router |
+| Website | Vite 8 + React 19 + Tailwind CSS 4 + React Router 8 |
 | Testing | Vitest + @vitest/coverage-v8 |
 | CI/CD | GitHub Actions |
 | Deploy | Netlify |

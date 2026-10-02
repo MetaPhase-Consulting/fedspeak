@@ -81,7 +81,8 @@
     "full": "Air Combat Command",
     "description": "Air Force command providing combat-ready forces for air, space, and cyber operations.",
     "agency": "DOW",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.acc.af.mil"
   },
   "ACC-RI": {
     "full": "Army Contracting Command - Rock Island",
@@ -155,7 +156,8 @@
     "full": "Air Education and Training Command",
     "description": "Air Force command responsible for education and training of airmen.",
     "agency": "DOW",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.aetc.af.mil"
   },
   "AFARS": {
     "full": "Army Federal Acquisition Regulation Supplement",
@@ -173,31 +175,36 @@
     "full": "Air Force Life Cycle Management Center",
     "description": "Air Force center responsible for total lifecycle management of weapon systems including development, production, and sustainment.",
     "agency": "DOW",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.aflcmc.af.mil"
   },
   "AFMC": {
     "full": "Air Force Materiel Command",
     "description": "Air Force command responsible for research, development, testing, acquisition, and sustainment of weapon systems.",
     "agency": "DOW",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.afmc.af.mil"
   },
   "AFOSI": {
     "full": "Air Force Office of Special Investigations",
     "description": "Air Force agency conducting criminal and counterintelligence investigations.",
     "agency": "DOW",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.osi.af.mil"
   },
   "AFRICOM": {
     "full": "United States Africa Command",
     "description": "DOD unified combatant command responsible for military operations in Africa.",
     "agency": "DOW",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.africom.mil"
   },
   "AFRL": {
     "full": "Air Force Research Laboratory",
     "description": "Air Force organization conducting science and technology research.",
     "agency": "DOW",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.afrl.af.mil"
   },
   "AFSOC": {
     "full": "Air Force Special Operations Command",
@@ -247,13 +254,15 @@
     "full": "Air Mobility Command",
     "description": "Air Force command providing global airlift, air refueling, and aeromedical evacuation.",
     "agency": "DOW",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.amc.af.mil"
   },
   "AMC-army": {
     "full": "Army Materiel Command",
     "description": "Army command responsible for materiel development, acquisition, and sustainment of weapons and equipment.",
     "agency": "DOW",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.amc.army.mil"
   },
   "AMS": {
     "full": "Agricultural Marketing Service",
@@ -272,7 +281,8 @@
     "full": "Argonne National Laboratory",
     "description": "DOE national laboratory conducting multidisciplinary scientific research.",
     "agency": "DOE",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.anl.gov"
   },
   "ANPRM": {
     "full": "Advance Notice of Proposed Rulemaking",
@@ -327,7 +337,8 @@
     "full": "Army Research Laboratory",
     "description": "Army laboratory conducting fundamental and applied research for the Army.",
     "agency": "DOW",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://arl.devcom.army.mil"
   },
   "ARPA": {
     "full": "American Rescue Plan Act",
@@ -339,13 +350,15 @@
     "full": "Advanced Research Projects Agency - Energy",
     "description": "DOE agency funding high-potential, high-impact energy technologies.",
     "agency": "DOE",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://arpa-e.energy.gov"
   },
   "ASBCA": {
     "full": "Armed Services Board of Contract Appeals",
     "description": "Board adjudicating disputes between DOD contractors and the government.",
     "agency": "DOW",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.asbca.mil"
   },
   "ASPR": {
     "full": "Administration for Strategic Preparedness and Response",
@@ -511,7 +524,8 @@
     "full": "Bureau of Industry and Security",
     "description": "DOC bureau administering export controls on dual-use goods and technologies through the Export Administration Regulations.",
     "agency": "DOC",
-    "category": "bureau"
+    "category": "bureau",
+    "url": "https://www.bis.gov"
   },
   "BLM": {
     "full": "Bureau of Land Management",
@@ -531,7 +545,8 @@
     "full": "Brookhaven National Laboratory",
     "description": "DOE national laboratory conducting research in nuclear and high-energy physics.",
     "agency": "DOE",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.bnl.gov"
   },
   "BOA": {
     "full": "Basic Ordering Agreement",
@@ -549,7 +564,8 @@
     "full": "Bureau of Ocean Energy Management",
     "description": "DOI bureau managing development of offshore energy and mineral resources.",
     "agency": "DOI",
-    "category": "bureau"
+    "category": "bureau",
+    "url": "https://www.boem.gov"
   },
   "BOP": {
     "full": "Bureau of Prisons",
@@ -594,7 +610,8 @@
     "full": "Bureau of Safety and Environmental Enforcement",
     "description": "DOI bureau promoting safety and environmental protection in offshore operations.",
     "agency": "DOI",
-    "category": "bureau"
+    "category": "bureau",
+    "url": "https://www.bsee.gov"
   },
   "BVTO": {
     "full": "Best Value Tradeoff",
@@ -708,7 +725,8 @@
     "full": "Civilian Board of Contract Appeals",
     "description": "Board adjudicating contract disputes between civilian agency contractors and the government.",
     "agency": "General",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.cbca.gov"
   },
   "CBDA": {
     "full": "Community Development Block Grant",
@@ -825,7 +843,8 @@
     "full": "United States Central Command",
     "description": "DOD unified combatant command responsible for the Middle East and Central/South Asia.",
     "agency": "DOW",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.centcom.mil"
   },
   "CEQ": {
     "full": "Council on Environmental Quality",
@@ -862,7 +881,8 @@
     "full": "Committee on Foreign Investment in the United States",
     "description": "Interagency committee chaired by the Treasury Secretary that reviews foreign acquisitions of U.S. businesses for national security risks under the Defense Production Act and FIRRMA.",
     "agency": "TREAS",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://home.treasury.gov/policy-issues/international/the-committee-on-foreign-investment-in-the-united-states-cfius"
   },
   "CFO": {
     "full": "Chief Financial Officer",
@@ -944,7 +964,8 @@
     "full": "Criminal Investigation Division",
     "description": "Army criminal investigation organization, now the Army Criminal Investigation Division.",
     "agency": "DOW",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.cid.army.mil"
   },
   "CIGIE": {
     "full": "Council of the Inspectors General on Integrity and Efficiency",
@@ -1073,7 +1094,8 @@
     "full": "Corporation for National and Community Service",
     "description": "Federal agency managing AmeriCorps and other domestic volunteer programs.",
     "agency": "CNCS",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://americorps.gov"
   },
   "CNRA": {
     "full": "Consolidated Natural Resources Act",
@@ -1270,7 +1292,8 @@
     "full": "Congressional Research Service",
     "description": "Legislative branch agency providing nonpartisan policy analysis to Congress.",
     "agency": "CRS",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://crsreports.congress.gov"
   },
   "CSB": {
     "full": "Chemical Safety and Hazard Investigation Board",
@@ -1367,7 +1390,8 @@
     "full": "United States Cyber Command",
     "description": "DOD unified combatant command directing cyberspace operations.",
     "agency": "DOW",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.cybercom.mil"
   },
   "Category Mgmt": {
     "full": "Category Management",
@@ -1715,7 +1739,8 @@
     "full": "Defense Innovation Unit",
     "description": "DOD organization accelerating adoption of commercial technology through prototype projects using other transaction authority.",
     "agency": "DOW",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.diu.mil"
   },
   "DKIM": {
     "full": "DomainKeys Identified Mail",
@@ -2280,7 +2305,8 @@
     "full": "United States European Command",
     "description": "DOD unified combatant command responsible for Europe and parts of Asia and Africa.",
     "agency": "DOW",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.eucom.mil"
   },
   "EVM": {
     "full": "Earned Value Management",
@@ -2410,7 +2436,8 @@
     "full": "Federal Accounting Standards Advisory Board",
     "description": "Board establishing accounting standards for the federal government.",
     "agency": "General",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://fasab.gov"
   },
   "FBI": {
     "full": "Federal Bureau of Investigation",
@@ -2695,7 +2722,8 @@
     "full": "Federal Law Enforcement Training Centers",
     "description": "DHS agency providing law enforcement training for federal agencies.",
     "agency": "DHS",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.fletc.gov"
   },
   "FLOTUS": {
     "full": "First Lady of the United States",
@@ -3364,7 +3392,8 @@
     "full": "Intelligence Advanced Research Projects Activity",
     "description": "ODNI organization investing in high-risk, high-payoff research programs to overcome intelligence community challenges.",
     "agency": "ODNI",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.iarpa.gov"
   },
   "IATT": {
     "full": "Interim Authority to Test",
@@ -3578,13 +3607,15 @@
     "full": "United States Indo-Pacific Command",
     "description": "DOD unified combatant command responsible for the Indo-Pacific region.",
     "agency": "DOW",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.pacom.mil"
   },
   "INL": {
     "full": "Idaho National Laboratory",
     "description": "DOE national laboratory focused on nuclear energy research and national security.",
     "agency": "DOE",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://inl.gov"
   },
   "INSCOM": {
     "full": "Intelligence and Security Command",
@@ -3760,7 +3791,8 @@
     "full": "In-Q-Tel",
     "description": "CIA-founded nonprofit strategic investment firm identifying and adapting cutting-edge commercial technology for intelligence community use.",
     "agency": "CIA",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.iqt.org"
   },
   "J&A": {
     "full": "Justification and Approval",
@@ -3818,7 +3850,8 @@
     "full": "Jet Propulsion Laboratory",
     "description": "NASA research center conducting robotic space missions and Earth science.",
     "agency": "NASA",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.jpl.nasa.gov"
   },
   "JSOC": {
     "full": "Joint Special Operations Command",
@@ -3884,7 +3917,8 @@
     "full": "Los Alamos National Laboratory",
     "description": "DOE national laboratory focused on national security science and nuclear weapons.",
     "agency": "DOE",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.lanl.gov"
   },
   "LAUTENBERG": {
     "full": "Lautenberg Chemical Safety Act",
@@ -3914,7 +3948,8 @@
     "full": "Lawrence Livermore National Laboratory",
     "description": "DOE national laboratory focused on national security and scientific discovery.",
     "agency": "DOE",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.llnl.gov"
   },
   "LOA": {
     "full": "Letter of Offer and Acceptance",
@@ -4237,25 +4272,29 @@
     "full": "Naval Air Systems Command",
     "description": "Navy command providing acquisition, logistics, and sustainment support for naval aviation platforms and weapons systems.",
     "agency": "DOW",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.navair.navy.mil"
   },
   "NAVFAC": {
     "full": "Naval Facilities Engineering Systems Command",
     "description": "Navy command delivering facilities engineering, public works, and environmental services.",
     "agency": "DOW",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.navfac.navy.mil"
   },
   "NAVSEA": {
     "full": "Naval Sea Systems Command",
     "description": "Navy command responsible for engineering, building, buying, and maintaining ships, submarines, and combat systems.",
     "agency": "DOW",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.navsea.navy.mil"
   },
   "NAVSUP": {
     "full": "Naval Supply Systems Command",
     "description": "Navy command providing logistics, business, and support services including contracting for the Navy and Marine Corps.",
     "agency": "DOW",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.navsup.navy.mil"
   },
   "NCCIC": {
     "full": "National Cybersecurity and Communications Integration Center",
@@ -4273,7 +4312,8 @@
     "full": "Naval Criminal Investigative Service",
     "description": "Navy civilian law enforcement agency investigating crimes affecting the Navy and Marine Corps.",
     "agency": "DOW",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.ncis.navy.mil"
   },
   "NCPS": {
     "full": "National Cybersecurity Protection System",
@@ -4514,7 +4554,8 @@
     "full": "National Marine Fisheries Service",
     "description": "NOAA office responsible for the stewardship of marine resources through science-based conservation and management, also known as NOAA Fisheries.",
     "agency": "DOC",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.fisheries.noaa.gov"
   },
   "NOAA": {
     "full": "National Oceanic and Atmospheric Administration",
@@ -4533,7 +4574,8 @@
     "full": "United States Northern Command",
     "description": "DOD unified combatant command responsible for homeland defense of North America.",
     "agency": "DOW",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.northcom.mil"
   },
   "NPDES": {
     "full": "National Pollutant Discharge Elimination System",
@@ -4591,7 +4633,8 @@
     "full": "Naval Research Laboratory",
     "description": "Navy laboratory performing scientific research and advanced technology development.",
     "agency": "DOW",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.nrl.navy.mil"
   },
   "NRO": {
     "full": "National Reconnaissance Office",
@@ -4718,7 +4761,8 @@
     "full": "Office of the Comptroller of the Currency",
     "description": "Treasury bureau regulating and supervising national banks and federal savings associations.",
     "agency": "TREAS",
-    "category": "bureau"
+    "category": "bureau",
+    "url": "https://www.occ.gov"
   },
   "OCI": {
     "full": "Organizational Conflict of Interest",
@@ -4996,7 +5040,8 @@
     "full": "Oak Ridge National Laboratory",
     "description": "DOE national laboratory focused on energy, science, and national security.",
     "agency": "DOE",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.ornl.gov"
   },
   "OSC": {
     "full": "Office of Special Counsel",
@@ -5248,7 +5293,8 @@
     "full": "Pipeline and Hazardous Materials Safety Administration",
     "description": "DOT agency regulating the safe transportation of hazardous materials.",
     "agency": "DOT",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.phmsa.dot.gov"
   },
   "PIA": {
     "full": "Privacy Impact Assessment",
@@ -5332,7 +5378,8 @@
     "full": "Pacific Northwest National Laboratory",
     "description": "DOE national laboratory advancing science and technology for energy and security.",
     "agency": "DOE",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.pnnl.gov"
   },
   "PO": {
     "full": "Project Officer",
@@ -6074,7 +6121,8 @@
     "full": "Space and Missile Defense Command",
     "description": "Army command providing space and missile defense capabilities.",
     "agency": "DOW",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.smdc.army.mil"
   },
   "SME": {
     "full": "Subject Matter Expert",
@@ -6092,7 +6140,8 @@
     "full": "Sandia National Laboratories",
     "description": "DOE national laboratory developing science-based technologies for national security.",
     "agency": "DOE",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.sandia.gov"
   },
   "SOAR": {
     "full": "Security Orchestration, Automation, and Response",
@@ -6110,7 +6159,8 @@
     "full": "Special Operations Command",
     "description": "DOD unified combatant command overseeing special operations forces.",
     "agency": "DOW",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.socom.mil"
   },
   "SOFA": {
     "full": "Status of Forces Agreement",
@@ -6140,7 +6190,8 @@
     "full": "United States Southern Command",
     "description": "DOD unified combatant command responsible for Central and South America and the Caribbean.",
     "agency": "DOW",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.southcom.mil"
   },
   "SOW": {
     "full": "Statement of Work",
@@ -6194,7 +6245,8 @@
     "full": "United States Space Command",
     "description": "DOD unified combatant command responsible for space operations.",
     "agency": "DOW",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.spacecom.mil"
   },
   "SPARC": {
     "full": "Systems, Prototyping, Agile and Research for Commercial",
@@ -6243,12 +6295,20 @@
     "url": "https://www.secretservice.gov"
   },
   "SSA": {
+    "full": "Social Security Administration",
+    "description": "Independent agency administering Social Security retirement, disability, and survivors benefits and the Supplemental Security Income program.",
+    "agency": "SSA",
+    "category": "agency",
+    "url": "https://www.ssa.gov"
+  },
+  "SSA (Acquisition)": {
     "full": "Source Selection Authority",
     "description": "Official responsible for making the final contract award decision in a source selection.",
     "agency": "General",
     "category": "general",
     "aliases": [
-      "SSA-acq"
+      "SSA-acq",
+      "Source Selection Authority"
     ]
   },
   "SSAC": {
@@ -6335,7 +6395,8 @@
     "full": "United States Strategic Command",
     "description": "DOD unified combatant command responsible for strategic deterrence and nuclear operations.",
     "agency": "DOW",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.stratcom.mil"
   },
   "STTR": {
     "full": "Small Business Technology Transfer",
@@ -6713,7 +6774,8 @@
     "full": "United States Army",
     "description": "Military service branch responsible for land-based military operations.",
     "agency": "DOW",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.army.mil"
   },
   "USA FREEDOM Act": {
     "full": "Uniting and Strengthening America by Fulfilling Rights and Ensuring Effective Discipline Over Monitoring Act",
@@ -6748,7 +6810,8 @@
     "full": "United States Air Force",
     "description": "Military service branch responsible for air and space operations.",
     "agency": "DOW",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.af.mil"
   },
   "USAGM": {
     "full": "U.S. Agency for Global Media",
@@ -6795,7 +6858,8 @@
     "full": "United States Coast Guard",
     "description": "Military service branch responsible for maritime law enforcement and safety under DHS.",
     "agency": "DHS",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.uscg.mil"
   },
   "USCIS": {
     "full": "United States Citizenship and Immigration Services",
@@ -6857,7 +6921,8 @@
     "full": "United States Interagency Council on Homelessness",
     "description": "Federal agency coordinating the response to homelessness across government agencies.",
     "agency": "General",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.usich.gov"
   },
   "USIP": {
     "full": "United States Institute of Peace",
@@ -6877,7 +6942,8 @@
     "full": "United States Marine Corps",
     "description": "Military service branch providing expeditionary and amphibious capabilities.",
     "agency": "DOW",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.marines.mil"
   },
   "USMLE": {
     "full": "United States Medical Licensing Examination",
@@ -6896,7 +6962,8 @@
     "full": "United States Navy",
     "description": "Military service branch responsible for naval operations and maritime defense.",
     "agency": "DOW",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.navy.mil"
   },
   "USPS": {
     "full": "United States Postal Service",
@@ -6909,7 +6976,8 @@
     "full": "United States Space Force",
     "description": "Military service branch responsible for space operations, under the Department of the Air Force.",
     "agency": "DOW",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.spaceforce.mil"
   },
   "USSS": {
     "full": "United States Secret Service",
@@ -7116,7 +7184,8 @@
     "full": "Washington Metropolitan Area Transit Authority",
     "description": "Transit authority operating Metrorail and Metrobus in the DC metro area.",
     "agency": "General",
-    "category": "agency"
+    "category": "agency",
+    "url": "https://www.wmata.com"
   },
   "WMD": {
     "full": "Weapons of Mass Destruction",
