@@ -53,8 +53,8 @@ That's the practical reason this tool applies here even without a legal
 mandate.
 
 Against that, there is **no accessibility target declared anywhere** in this
-repository — not in `README.md`, not in `CLAUDE.md`, not in
-`.claude/agents.md` — and **no automated accessibility check runs at any
+repository — not in `README.md`, not in `README.md`, not in
+`CONTRIBUTING.md` — and **no automated accessibility check runs at any
 point**: `ci.yml` runs lint, typecheck, test, and build only; no axe-core,
 no Lighthouse, no `@axe-core/playwright` or equivalent appears in
 `package.json`'s devDependencies or in any workflow file. `profile.yml`

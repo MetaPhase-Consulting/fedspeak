@@ -31,23 +31,23 @@ and that agreement is worth enforcing mechanically rather than by habit.
 
 ## In this repository
 
-FedSpeak has two agent entry points, not fully parallel: `CLAUDE.md` at the
-repo root (Claude Code) and `.claude/agents.md` (also Claude-specific, despite
+FedSpeak has two agent entry points, not fully parallel: `README.md` at the
+repo root (Claude Code) and `CONTRIBUTING.md` (also Claude-specific, despite
 the generic name — it's a second, narrower file scoped to the acronym-adding
 workflow specifically, not a Codex entry point). **There is no `AGENTS.md`,
 so Codex has no dedicated entry file in this repository as of this
 writing** — a real gap against this tool's own "One source, two runtimes"
 principle: Codex started directly in this repo today would discover neither
-`CLAUDE.md` nor anything under `.challengeai/` on its own, since it reads
+`README.md` nor anything under `.challengeai/` on its own, since it reads
 `AGENTS.md` specifically. Closing it means adding a root `AGENTS.md`; that's
 a deliberate decision for a maintainer to make, not something this pass
 made unasked.
-`CLAUDE.md` and `.claude/agents.md` are not kept byte-identical below a shared
-heading the way some MetaPhase repos keep `AGENTS.md`/`CLAUDE.md` in sync —
-they cover different scopes (`CLAUDE.md` is the general repo guide;
-`.claude/agents.md` is acronym-schema-specific instructions) and nothing
+`README.md` and `CONTRIBUTING.md` are not kept byte-identical below a shared
+heading the way some MetaPhase repos keep `AGENTS.md`/`README.md` in sync —
+they cover different scopes (`README.md` is the general repo guide;
+`CONTRIBUTING.md` is acronym-schema-specific instructions) and nothing
 mechanically enforces agreement between them, since there's no true overlap to
-drift out of sync. `CLAUDE.md` is the one that references `.challengeai/`.
+drift out of sync. `README.md` is the one that references `.challengeai/`.
 
 ## Evidence
 

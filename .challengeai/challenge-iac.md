@@ -32,7 +32,7 @@ repository controls is `netlify.toml` (build command, publish directory,
 functions directory, and two redirect rules) plus whatever's configured
 directly in Netlify's own dashboard (the site's Netlify project, its custom
 domain, and its GitHub-App connection) and Cloudflare's dashboard (DNS
-records pointing `fedspeak.dev` at `fedspeak.netlify.app`, per `CLAUDE.md`).
+records pointing `fedspeak.dev` at `fedspeak.netlify.app`, per `README.md`).
 None of that dashboard-level configuration is declared as code anywhere in
 this repository — it's clicked, not committed, and there's no record here of
 what's actually configured beyond what `netlify.toml` covers.

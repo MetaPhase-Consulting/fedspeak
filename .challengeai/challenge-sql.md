@@ -43,7 +43,7 @@ a function on a column, or a mismatched type will each quietly defeat one.
 
 ## In this repository
 
-FedSpeak has no database at all — `CLAUDE.md` states this directly ("Data:
+FedSpeak has no database at all — `README.md` states this directly ("Data:
 Static JSON (no database)") and it's confirmed by the actual code: the entire
 data layer is `src/shared/data/acronyms.json`, a single committed file (1,119
 entries), read into an in-memory `Map` at module load in both
@@ -55,7 +55,7 @@ is a JSON object edited directly in a pull request.
 Most of this tool's requirements — access control roles, RLS, migration
 checksums — don't apply to a static, read-only, committed dataset with no
 runtime write path. What does carry over is data *correctness*: entries are
-added by hand (per `CONTRIBUTING.md`'s and `.claude/agents.md`'s documented
+added by hand (per `CONTRIBUTING.md`'s documented
 schema), kept in alphabetical order by convention rather than enforced
 ordering, and there's no automated check that a new entry conforms to the
 schema (required fields present, `category` one of the nine allowed values,
